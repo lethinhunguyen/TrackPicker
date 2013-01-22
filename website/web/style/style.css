@@ -1,0 +1,117 @@
+body, html {
+	height:100%;
+}
+
+body
+{
+	margin:0px;
+}
+
+#main_container {
+	width: 975px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	background-color:#C2CEFE;
+	width:975px;
+	height:115px;
+}
+
+.logo
+{
+	float: left;
+}
+
+.title
+{
+	/*float: left;*/
+	margin: auto;
+	padding-top: 20px;
+	text-align:center;
+	font-family: "Adobe Garamond Pro";
+	font-size:40px;
+	/*color:#4304AA;*/
+}
+
+.clear {
+	clear: both;
+}
+
+.middle
+{
+	/*width:975px;
+	height:20px;*/
+	margin-top:5px;
+	margin-bottom:0px;
+	position:relative;
+	background-image:url(../images/background2.png);
+}
+
+.side_left
+{
+	width:220px;
+	background-color:#CCDBFD;
+	float:left;
+	margin: 0px;
+	height:100%;
+	margin_right:5px;
+}
+
+.side_right
+{
+	width:220px;
+	background-color:#F0F0F0;
+	float:right;
+	margin: 0px;
+	height:100%;
+}
+
+.container
+{
+	width:525px;
+	float: left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.footer
+{
+	background-color:#2209B3;
+	margin-top:5px;
+	padding-left:10px;
+	color:white;
+	height:25px;
+	padding-top:5px;
+}
+
+.track_picker
+{
+	padding-left:10px;
+	background-color:#BAC1F5;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.paragraph_title
+{
+	padding-left:10px;
+	background-color:#BAC1F5;
+}
+
+.headline_space
+{
+	padding-left:10px;
+}
+
+.button_center
+{
+	text-align:center;
+}
+.margin_button
+{
+	margin:0px;
+}
