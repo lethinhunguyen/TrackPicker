@@ -56,6 +56,7 @@ public class ConvertToRDF {
 		Bag timeBag = modelTimeSession.createBag();
 		Bag roomBag = modelRoom.createBag();
 		Bag teacherBag = modelTeacher.createBag();
+		Bag cCreditFTBag = modelCCreditFT.createBag();
 		
 		OntModel modelAIISO = null;
 		OntModel modelLODE = null;
@@ -139,10 +140,10 @@ public class ConvertToRDF {
 		String roomURI = "http://data.eurecom.fr/room/";
 		String teacherURI ="http://data.eurecom.fr/teacher/";
 		
-		String trackFile = "F:\\Eclipse\\Data\\track_json.json";
-		String courseFile = "F:\\Eclipse\\Data\\course_json.json";		
-		String cSessionFile = "F:\\Eclipse\\Data\\coursesession_json.json";
-		String teacherFile = "F:\\Eclipse\\Data\\teacher_json.json";
+		String trackFile = "F:\\Eclipse\\Data\\track.json";
+		String courseFile = "F:\\Eclipse\\Data\\course.json";		
+		String cSessionFile = "F:\\Eclipse\\Data\\coursesession.json";
+		String teacherFile = "F:\\Eclipse\\Data\\teacher.json";
 		
 		JSONParser parser = new JSONParser();
 		
@@ -164,7 +165,7 @@ public class ConvertToRDF {
 			
 			//Reasoner r = PelletReasonerFac
 			//Graph 
-			JSONArray resp = (JSONArray) track.get("responsible");
+			JSONArray resp = (JSONArray) track.get("responsibleList");
 			for(int j=0;j<resp.size();j++)
 			{
 				JSONObject eachResp = (JSONObject)resp.get(j);
@@ -174,14 +175,16 @@ public class ConvertToRDF {
 				String eachPeopleURI = peopleURI + idPeople;
 				Resource eachPeople = modelPeople.createResource(eachPeopleURI);//dung cham khi khoi tao o cho khac
 				//eachPeople.addProperty(RDF.type, FOAF.Person);
-				eachPeople.addProperty(FOAF.firstName, modelPeople.createLiteral(peoObject.get("firstname").toString()));
-				eachPeople.addProperty(FOAF.family_name, modelPeople.createLiteral(peoObject.get("lastname").toString()));
+				if(peoObject.get("firstname")!=null)
+					eachPeople.addProperty(FOAF.firstName, modelPeople.createLiteral(peoObject.get("firstname").toString()));
+				if(peoObject.get("lastname")!=null)
+					eachPeople.addProperty(FOAF.family_name, modelPeople.createLiteral(peoObject.get("lastname").toString()));
 				eachTrack.addProperty(modelREVE.getProperty(REVE_URL+"hasCoordinator"), eachPeople);
 				eachPeople.addProperty(modelREVE.getProperty(REVE_URL+"isCoordinatorOf"), eachTrack);
 				peopleBag.add(eachPeople);
 			}
 			
-			JSONArray cat = (JSONArray) track.get("catalogs");
+			JSONArray cat = (JSONArray) track.get("catalogList");
 			for (int k =0; k<cat.size();k++)
 			{
 				JSONObject eachCat = (JSONObject)cat.get(k);
@@ -191,7 +194,7 @@ public class ConvertToRDF {
 				Resource eachSem = modelSemester.createResource(eachSemURI);//dung cham khi khoi tao o cho khac
 				eachSem.addProperty(RDF.type, REVE_URL+"Semester");
 				
-				JSONArray courseArray = (JSONArray)eachCat.get("courses");
+				JSONArray courseArray = (JSONArray)eachCat.get("courseList");
 				for(int l =0; l<courseArray.size();l++)
 				{
 					JSONObject courseObject = (JSONObject)courseArray.get(l);
@@ -222,6 +225,7 @@ public class ConvertToRDF {
 					//Literal creditLiteral = modelCourse.createTypedLiteral(courseObject.get("nbcredits"), XSDDatatype.XSDfloat);
 					Literal creditLiteral = modelCCreditFT.createTypedLiteral(courseObject.get("nbcredits"), XSDDatatype.XSDfloat);
 					cCreditFT.addProperty(modelREVE.getProperty(REVE_URL+"hasCredit"), creditLiteral);
+					cCreditFTBag.add(cCreditFT);
 					//courseBag.add(eachCourse);
 				}
 			}
@@ -235,7 +239,7 @@ public class ConvertToRDF {
 		for(int i =0; i<courseArray.size();i++)
 		{
 			JSONObject course = (JSONObject)courseArray.get(i);
-			JSONArray periodsArray = (JSONArray)course.get("periods");
+			JSONArray periodsArray = (JSONArray)course.get("periodList");
 			JSONObject firstPeriod = (JSONObject)periodsArray.get(0);
 			Long id = (Long) firstPeriod.get("id");
 			String eachCourseURI = courseURI + id;
@@ -243,8 +247,13 @@ public class ConvertToRDF {
 			eachCourse.addProperty(RDF.type, REVE_URL+"Course");
 			eachCourse.addProperty(RDFS.label,modelCourse.createLiteral(firstPeriod.get("display_value").toString(),"en"));
 			eachCourse.addProperty(modelAIISO.getProperty(AIISO_URL+"code"),modelCourse.createLiteral(course.get("code").toString()));
-			eachCourse.addProperty(modelDC.getProperty(DC_URL+"abstract"), modelCourse.createLiteral(firstPeriod.get("abstract_en").toString()));
-			eachCourse.addProperty(modelDC.getProperty(DC_URL+"description"), modelCourse.createLiteral(firstPeriod.get("description_en").toString()));
+			if(firstPeriod.get("abstract_en")!= null)
+				eachCourse.addProperty(modelDC.getProperty(DC_URL+"abstract"), modelCourse.createLiteral(firstPeriod.get("abstract_en").toString()));
+			if(firstPeriod.get("description_en")!= null)
+				eachCourse.addProperty(modelDC.getProperty(DC_URL+"description"), modelCourse.createLiteral(firstPeriod.get("description_en").toString()));
+			//else
+			//{}
+			
 			
 			JSONObject period = (JSONObject)firstPeriod.get("period");
 			String semesterName = period.get("name").toString();
@@ -261,7 +270,7 @@ public class ConvertToRDF {
 			if(firstPeriod.get("category").equals("Language Teaching"))
 				eachCourse.addProperty(RDF.type, REVE_URL+"LanguageCourse");
 			
-			JSONArray contriArray = (JSONArray)firstPeriod.get("contributors");
+			JSONArray contriArray = (JSONArray)firstPeriod.get("contributorList");
 			for(int j =0; j<contriArray.size();j++)
 			{
 				JSONObject contriObject = (JSONObject)contriArray.get(j);
@@ -271,8 +280,10 @@ public class ConvertToRDF {
 				String eachPeopleURI = peopleURI+peopleID;
 				Resource eachPeople = modelPeople.createResource(eachPeopleURI);//dung cham khi khoi tao o cho khac
 				eachPeople.addProperty(RDF.type, FOAF.Person);
-				eachPeople.addProperty(FOAF.firstName, modelPeople.createLiteral(peopleObject.get("firstname").toString()));
-				eachPeople.addProperty(FOAF.family_name, modelPeople.createLiteral(peopleObject.get("lastname").toString()));
+				if(peopleObject.get("firstname")!= null)
+					eachPeople.addProperty(FOAF.firstName, modelPeople.createLiteral(peopleObject.get("firstname").toString()));
+				if(peopleObject.get("lastname")!= null)
+					eachPeople.addProperty(FOAF.family_name, modelPeople.createLiteral(peopleObject.get("lastname").toString()));
 				eachPeople.addProperty(modelAIISO.getProperty(AIISO_URL+"responsibleFor"), eachCourse);
 				eachCourse.addProperty(modelAIISO.getProperty(AIISO_URL+"responsibilityOf"), eachPeople);
 				peopleBag.add(eachPeople);
@@ -392,8 +403,10 @@ public class ConvertToRDF {
 			
 			Resource eachPeople = modelPeople.createResource(eachPeopleURI);
 			//eachPeople.addProperty(RDF.type, FOAF.Person);
-			eachPeople.addProperty(FOAF.firstName, modelPeople.createLiteral(peopleObject.get("firstname").toString()));
-			eachPeople.addProperty(FOAF.family_name, modelPeople.createLiteral(peopleObject.get("lastname").toString()));
+			if(peopleObject.get("firstname")!= null)
+				eachPeople.addProperty(FOAF.firstName, modelPeople.createLiteral(peopleObject.get("firstname").toString()));
+			if(peopleObject.get("lastname")!= null)
+				eachPeople.addProperty(FOAF.family_name, modelPeople.createLiteral(peopleObject.get("lastname").toString()));
 			eachPeople.addProperty(RDF.type, REVE_URL+"Teacher");
 			
 			peopleBag.add(eachPeople);
@@ -409,8 +422,10 @@ public class ConvertToRDF {
 			modelCourse.write(foutCourse);
 			FileOutputStream foutSemester=new FileOutputStream("F:\\Eclipse\\OutputFile\\semester.rdf");
 			modelSemester.write(foutSemester);
-			FileOutputStream foutCourseSession=new FileOutputStream("F:\\Eclipse\\OutputFile\\CourseSession.rdf");
+			FileOutputStream foutCourseSession=new FileOutputStream("F:\\Eclipse\\OutputFile\\courseSession.rdf");
 			modelCSession.write(foutCourseSession);
+			FileOutputStream foutCCreditFT=new FileOutputStream("F:\\Eclipse\\OutputFile\\courseCreditForTrack.rdf");
+			modelCCreditFT.write(foutCCreditFT);
 			//FileOutputStream foutTeacher=new FileOutputStream("F:\\Eclipse\\OutputFile\\teacher.rdf");
 			//modelTeacher.write(foutTeacher);
 		}

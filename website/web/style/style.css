@@ -115,3 +115,42 @@ body
 {
 	margin:0px;
 }
+
+.border_table
+{
+	border-color:#FFF;
+	border-width:thin;
+	border-style:solid;
+	text-align:left;
+	font-weight:lighter;
+	margin-left: 8px;
+	border-spacing:0px;
+}
+.border_row
+{
+	border-bottom-color:#FFF;
+	border-top:none;
+	/*border-left:none;*/
+	border-left-color:#FFF;
+	border-left-width:thin;
+	border-left-style:solid;
+	border-right:none;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+	border-spacing:0px;
+}
+.border_column
+{
+	border-left-color:#FFF;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	border-left-width:thin;
+	border-left-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+}
