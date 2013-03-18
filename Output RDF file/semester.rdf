@@ -1,0 +1,106 @@
+<rdf:RDF
+    xmlns:REVE="http://data.eurecom.fr/ontology/reve#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:FOAF="http://xmlns.com/foaf/0.1/"
+    xmlns:DC="http://purl.org/dc/terms/"
+    xmlns:PART="http://purl.org/vocab/participation/schema#"
+    xmlns:TIME="http://www.w3.org/2006/time#"
+    xmlns:LODE="http://linkedevents.org/ontology/"
+    xmlns:AIISO="http://vocab.org/aiiso/schema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ROOMS="http://vocab.deri.ie/rooms#" > 
+  <rdf:Description rdf:about="http://data.eurecom.fr/semester/2013Spring">
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1315"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1321"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1323"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1354"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1367"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1320"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1359"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1322"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1311"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Semester</rdf:type>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1355"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1316"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1317"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1319"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1351"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1369"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1310"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1312"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1313"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1356"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1368"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1357"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1318"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1352"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1353"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1314"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1358"/>
+    <rdfs:label>2013Spring</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/44464">
+    <FOAF:family_name>SAHUGUET</FOAF:family_name>
+    <FOAF:firstName>Mathilde</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/semester/2012Spring">
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1148"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1187"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1184"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1140"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1143"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1130"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1182"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1177"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1203"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1109"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1185"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1139"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1188"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1183"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1141"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1178"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1204"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1186"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1095"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1149"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1202"/>
+    <rdfs:label>2012Spring</rdfs:label>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1132"/>
+    <REVE:hasAvailableCourse rdf:resource="http://data.eurecom.fr/course/1142"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Semester</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:_20 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_16 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_9 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_21 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_24 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_4 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_22 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdf:_25 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_17 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_5 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_23 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_6 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_10 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_26 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_13 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_1 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_18 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_7 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_11 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_14 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_2 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_19 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_12 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_15 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_3 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+    <rdf:_8 rdf:resource="http://data.eurecom.fr/semester/2012Spring"/>
+  </rdf:Description>
+</rdf:RDF>

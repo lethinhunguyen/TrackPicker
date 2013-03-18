@@ -1,0 +1,27 @@
+<rdf:RDF
+    xmlns:REVE="http://data.eurecom.fr/ontology/reve#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:FOAF="http://xmlns.com/foaf/0.1/"
+    xmlns:DC="http://purl.org/dc/terms/"
+    xmlns:PART="http://purl.org/vocab/participation/schema#"
+    xmlns:TIME="http://www.w3.org/2006/time#"
+    xmlns:LODE="http://linkedevents.org/ontology/"
+    xmlns:AIISO="http://vocab.org/aiiso/schema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ROOMS="http://vocab.deri.ie/rooms#" > 
+  <rdf:Description rdf:about="http://data.eurecom.fr/department/8">
+    <rdfs:label xml:lang="en">Mobile Communications</rdfs:label>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#ResearchUnit</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/department/7">
+    <rdfs:label xml:lang="en">Networking and Security</rdfs:label>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#ResearchUnit</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/department/6">
+    <rdfs:label xml:lang="en">Multimedia Communications</rdfs:label>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#ResearchUnit</rdf:type>
+  </rdf:Description>
+</rdf:RDF>

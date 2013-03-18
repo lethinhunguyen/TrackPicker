@@ -1,0 +1,613 @@
+<rdf:RDF
+    xmlns:REVE="http://data.eurecom.fr/ontology/reve#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:FOAF="http://xmlns.com/foaf/0.1/"
+    xmlns:DC="http://purl.org/dc/terms/"
+    xmlns:PART="http://purl.org/vocab/participation/schema#"
+    xmlns:TIME="http://www.w3.org/2006/time#"
+    xmlns:LODE="http://linkedevents.org/ontology/"
+    xmlns:AIISO="http://vocab.org/aiiso/schema#"
+    xmlns:ROOMS="http://vocab.deri.ie/rooms#" > 
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/337">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/3175">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44166"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2396">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43905"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2327">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43993"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/368">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43028"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/327">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42993"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2665">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2612">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/328">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42997"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/347">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43089"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2685">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43958"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2544">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43863"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2554">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44015"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/357">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43127"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2524">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42978"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/360">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43752"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/336">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43014"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2652">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42988"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2326">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43992"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/369">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43053"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2441">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/1424"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2474">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44034"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/326">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42992"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2469">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42969"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/346">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2412">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43120"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2625">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43901"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/361">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43823"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/356">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43126"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2501">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2325">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43991"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2561">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44046"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2644">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/351">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43114"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2398">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/325">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42988"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2430">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43029"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/331">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2542">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/3274">
+    <PART:role_at rdf:resource="http://data.eurecom.fr/department/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44339"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/372">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43821"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/345">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/362">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43824"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/359">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43708"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2389">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43902"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/3403">
+    <PART:role_at rdf:resource="http://data.eurecom.fr/department/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44343"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2324">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43990"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/338">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43029"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2380">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/350">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43109"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/324">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2664">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43861"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2595">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43998"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2633">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44207"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2510">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/1369"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/344">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43066"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2493">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/1069"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/363">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43846"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/339">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43034"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/311">
+    <PART:role_at rdf:resource="http://data.eurecom.fr/department/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-03-31</PART:endDate>
+    <PART:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-12</PART:startDate>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43960"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2404">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43066"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2581">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43903"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/330">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43006"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/358">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43128"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2319">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42999"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/323">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/329">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43003"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/353">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43123"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/343">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/371">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43820"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/333">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/319">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2323">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43989"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2622">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43855"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2486">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42992"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/364">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43936"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2466">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2518">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43021"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/218">
+    <PART:role_at rdf:resource="http://data.eurecom.fr/department/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-09-01</PART:endDate>
+    <PART:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-10-01</PART:startDate>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43612"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2387">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/1214"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/322">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42969"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2445">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43041"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2516">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43825"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/352">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43117"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2407">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42997"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/370">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43079"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/342">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43045"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2322">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43988"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/332">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43009"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2602">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43076"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2676">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2372">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/822"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/365">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/341">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43041"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2448">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43118"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/355">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43125"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2321">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43076"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/321">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/42968"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2648">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/335">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43013"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2546">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43099"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/186">
+    <PART:role_at rdf:resource="http://data.eurecom.fr/department/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-04-01</PART:endDate>
+    <PART:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-04-01</PART:startDate>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43038"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2506">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43791"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2375">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/1220"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/314">
+    <PART:role_at rdf:resource="http://data.eurecom.fr/department/8"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-01-18</PART:endDate>
+    <PART:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-01-18</PART:startDate>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44004"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2620">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2498">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/349">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43099"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2610">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43033"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2587">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43073"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/366">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43938"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2451">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44143"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2514">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43708"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/340">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2608">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43966"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/354">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43124"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/320">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44213"/>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/822"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2320">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43058"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2591">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2637">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43117"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/318">
+    <PART:role_at rdf:resource="http://data.eurecom.fr/department/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-09-30</PART:endDate>
+    <PART:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-11-01</PART:startDate>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44202"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2428">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43009"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/334">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/315">
+    <PART:role_at rdf:resource="http://data.eurecom.fr/department/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-03-14</PART:endDate>
+    <PART:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-15</PART:startDate>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44032"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2668">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43961"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/348">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/367">
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44036"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/role/2453">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Researcher</rdf:type>
+    <PART:holder rdf:resource="http://data.eurecom.fr/people/44043"/>
+    <rdf:type>http://purl.org/vocab/participation/schema#Role</rdf:type>
+  </rdf:Description>
+</rdf:RDF>

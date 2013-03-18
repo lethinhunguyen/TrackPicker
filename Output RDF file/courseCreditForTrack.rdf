@@ -1,0 +1,1449 @@
+<rdf:RDF
+    xmlns:REVE="http://data.eurecom.fr/ontology/reve#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:FOAF="http://xmlns.com/foaf/0.1/"
+    xmlns:DC="http://purl.org/dc/terms/"
+    xmlns:PART="http://purl.org/vocab/participation/schema#"
+    xmlns:TIME="http://www.w3.org/2006/time#"
+    xmlns:LODE="http://linkedevents.org/ontology/"
+    xmlns:AIISO="http://vocab.org/aiiso/schema#"
+    xmlns:ROOMS="http://vocab.deri.ie/rooms#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1149"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1143"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1140"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/9"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1130"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1177"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1095"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/11"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1178"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1132"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/9"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1140"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1186"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/11"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1187"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/11"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1187"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1184"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1186"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/11"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1130"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1109"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1132"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1132"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1178"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/9"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1141"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1149"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1183"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1109"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/8"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1095"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1132"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1130"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1143"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A34">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A35">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A36">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1182"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A37">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1143"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A38">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1149"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A39">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1142"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A40">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1178"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A41">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1142"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/9"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A42">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1187"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A43">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1177"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/8"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A44">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1140"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A45">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1143"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A46">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1130"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A47">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1142"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A48">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1130"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A49">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/9"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A50">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A51">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A52">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1149"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A53">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1141"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/9"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A54">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1142"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A55">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1142"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A56">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1141"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/8"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A57">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1183"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A58">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1148"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A59">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1148"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A60">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1143"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A61">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A62">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A63">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A64">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1185"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A65">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1142"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A66">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1149"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/9"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A67">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1178"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A68">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A69">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1188"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A70">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1141"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A71">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1141"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A72">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1143"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A73">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1187"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A74">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A75">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1130"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A76">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1142"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A77">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1132"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A78">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1182"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A79">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A80">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1184"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A81">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1186"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A82">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1184"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A83">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1188"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A84">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1178"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A85">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1143"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A86">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1148"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A87">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A88">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1177"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A89">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1148"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A90">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A91">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1188"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A92">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1132"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/9"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A93">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1183"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A94">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1186"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A95">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1178"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/8"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A96">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1183"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A97">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A98">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1130"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A99">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1109"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A100">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1132"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A101">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A102">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1184"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A103">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1130"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A104">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1109"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A105">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1177"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A106">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1185"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A107">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1149"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A108">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1149"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A109">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1141"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A110">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1141"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A111">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1188"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A112">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1182"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A113">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1186"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A114">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1143"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/9"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A115">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1188"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/11"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A116">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1177"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A117">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1178"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A118">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1132"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A119">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1149"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/8"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A120">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1182"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A121">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1148"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/9"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A122">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1187"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A123">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A124">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1140"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A125">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1177"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A126">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1188"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A127">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1188"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A128">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1185"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A129">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1141"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A130">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1142"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A131">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1095"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A132">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1109"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A133">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1184"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A134">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1182"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/8"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A135">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1183"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A136">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1182"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A137">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1185"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A138">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1132"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A139">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A140">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/8"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A141">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1148"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A142">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1148"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A143">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1095"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A144">
+    <rdf:_85 rdf:nodeID="A86"/>
+    <rdf:_180 rdf:nodeID="A48"/>
+    <rdf:_191 rdf:nodeID="A88"/>
+    <rdf:_111 rdf:nodeID="A90"/>
+    <rdf:_86 rdf:nodeID="A109"/>
+    <rdf:_44 rdf:nodeID="A67"/>
+    <rdf:_59 rdf:nodeID="A116"/>
+    <rdf:_174 rdf:nodeID="A145"/>
+    <rdf:_164 rdf:nodeID="A50"/>
+    <rdf:_8 rdf:nodeID="A49"/>
+    <rdf:_97 rdf:nodeID="A136"/>
+    <rdf:_35 rdf:nodeID="A102"/>
+    <rdf:_92 rdf:nodeID="A75"/>
+    <rdf:_12 rdf:nodeID="A146"/>
+    <rdf:_61 rdf:nodeID="A28"/>
+    <rdf:_157 rdf:nodeID="A123"/>
+    <rdf:_156 rdf:nodeID="A54"/>
+    <rdf:_84 rdf:nodeID="A147"/>
+    <rdf:_62 rdf:nodeID="A42"/>
+    <rdf:_71 rdf:nodeID="A33"/>
+    <rdf:_58 rdf:nodeID="A132"/>
+    <rdf:_105 rdf:nodeID="A148"/>
+    <rdf:_172 rdf:nodeID="A122"/>
+    <rdf:_143 rdf:nodeID="A149"/>
+    <rdf:_96 rdf:nodeID="A150"/>
+    <rdf:_30 rdf:nodeID="A151"/>
+    <rdf:_42 rdf:nodeID="A71"/>
+    <rdf:_120 rdf:nodeID="A63"/>
+    <rdf:_48 rdf:nodeID="A19"/>
+    <rdf:_14 rdf:nodeID="A152"/>
+    <rdf:_200 rdf:nodeID="A130"/>
+    <rdf:_125 rdf:nodeID="A105"/>
+    <rdf:_65 rdf:nodeID="A0"/>
+    <rdf:_79 rdf:nodeID="A17"/>
+    <rdf:_81 rdf:nodeID="A4"/>
+    <rdf:_139 rdf:nodeID="A153"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdf:_170 rdf:nodeID="A154"/>
+    <rdf:_137 rdf:nodeID="A45"/>
+    <rdf:_123 rdf:nodeID="A155"/>
+    <rdf:_135 rdf:nodeID="A79"/>
+    <rdf:_88 rdf:nodeID="A156"/>
+    <rdf:_126 rdf:nodeID="A81"/>
+    <rdf:_89 rdf:nodeID="A34"/>
+    <rdf:_82 rdf:nodeID="A12"/>
+    <rdf:_195 rdf:nodeID="A157"/>
+    <rdf:_40 rdf:nodeID="A16"/>
+    <rdf:_198 rdf:nodeID="A84"/>
+    <rdf:_17 rdf:nodeID="A13"/>
+    <rdf:_204 rdf:nodeID="A100"/>
+    <rdf:_20 rdf:nodeID="A134"/>
+    <rdf:_175 rdf:nodeID="A26"/>
+    <rdf:_132 rdf:nodeID="A158"/>
+    <rdf:_4 rdf:nodeID="A53"/>
+    <rdf:_68 rdf:nodeID="A76"/>
+    <rdf:_168 rdf:nodeID="A104"/>
+    <rdf:_83 rdf:nodeID="A135"/>
+    <rdf:_109 rdf:nodeID="A107"/>
+    <rdf:_186 rdf:nodeID="A159"/>
+    <rdf:_13 rdf:nodeID="A160"/>
+    <rdf:_154 rdf:nodeID="A23"/>
+    <rdf:_24 rdf:nodeID="A56"/>
+    <rdf:_150 rdf:nodeID="A161"/>
+    <rdf:_190 rdf:nodeID="A162"/>
+    <rdf:_22 rdf:nodeID="A29"/>
+    <rdf:_128 rdf:nodeID="A163"/>
+    <rdf:_45 rdf:nodeID="A27"/>
+    <rdf:_56 rdf:nodeID="A164"/>
+    <rdf:_165 rdf:nodeID="A124"/>
+    <rdf:_187 rdf:nodeID="A165"/>
+    <rdf:_106 rdf:nodeID="A166"/>
+    <rdf:_2 rdf:nodeID="A2"/>
+    <rdf:_87 rdf:nodeID="A167"/>
+    <rdf:_50 rdf:nodeID="A8"/>
+    <rdf:_192 rdf:nodeID="A113"/>
+    <rdf:_32 rdf:nodeID="A168"/>
+    <rdf:_100 rdf:nodeID="A30"/>
+    <rdf:_148 rdf:nodeID="A169"/>
+    <rdf:_130 rdf:nodeID="A25"/>
+    <rdf:_136 rdf:nodeID="A103"/>
+    <rdf:_124 rdf:nodeID="A170"/>
+    <rdf:_36 rdf:nodeID="A171"/>
+    <rdf:_152 rdf:nodeID="A110"/>
+    <rdf:_138 rdf:nodeID="A31"/>
+    <rdf:_145 rdf:nodeID="A172"/>
+    <rdf:_94 rdf:nodeID="A118"/>
+    <rdf:_133 rdf:nodeID="A139"/>
+    <rdf:_103 rdf:nodeID="A125"/>
+    <rdf:_185 rdf:nodeID="A173"/>
+    <rdf:_199 rdf:nodeID="A174"/>
+    <rdf:_146 rdf:nodeID="A175"/>
+    <rdf:_95 rdf:nodeID="A91"/>
+    <rdf:_67 rdf:nodeID="A101"/>
+    <rdf:_43 rdf:nodeID="A52"/>
+    <rdf:_63 rdf:nodeID="A59"/>
+    <rdf:_184 rdf:nodeID="A106"/>
+    <rdf:_131 rdf:nodeID="A176"/>
+    <rdf:_26 rdf:nodeID="A95"/>
+    <rdf:_76 rdf:nodeID="A97"/>
+    <rdf:_181 rdf:nodeID="A60"/>
+    <rdf:_173 rdf:nodeID="A142"/>
+    <rdf:_27 rdf:nodeID="A177"/>
+    <rdf:_57 rdf:nodeID="A178"/>
+    <rdf:_182 rdf:nodeID="A77"/>
+    <rdf:_129 rdf:nodeID="A141"/>
+    <rdf:_169 rdf:nodeID="A179"/>
+    <rdf:_166 rdf:nodeID="A143"/>
+    <rdf:_49 rdf:nodeID="A1"/>
+    <rdf:_98 rdf:nodeID="A180"/>
+    <rdf:_201 rdf:nodeID="A11"/>
+    <rdf:_162 rdf:nodeID="A181"/>
+    <rdf:_70 rdf:nodeID="A46"/>
+    <rdf:_39 rdf:nodeID="A182"/>
+    <rdf:_151 rdf:nodeID="A89"/>
+    <rdf:_66 rdf:nodeID="A7"/>
+    <rdf:_193 rdf:nodeID="A57"/>
+    <rdf:_107 rdf:nodeID="A183"/>
+    <rdf:_15 rdf:nodeID="A18"/>
+    <rdf:_202 rdf:nodeID="A3"/>
+    <rdf:_19 rdf:nodeID="A115"/>
+    <rdf:_21 rdf:nodeID="A184"/>
+    <rdf:_77 rdf:nodeID="A185"/>
+    <rdf:_33 rdf:nodeID="A10"/>
+    <rdf:_179 rdf:nodeID="A35"/>
+    <rdf:_93 rdf:nodeID="A72"/>
+    <rdf:_121 rdf:nodeID="A186"/>
+    <rdf:_118 rdf:nodeID="A64"/>
+    <rdf:_108 rdf:nodeID="A129"/>
+    <rdf:_16 rdf:nodeID="A14"/>
+    <rdf:_78 rdf:nodeID="A131"/>
+    <rdf:_160 rdf:nodeID="A138"/>
+    <rdf:_140 rdf:nodeID="A137"/>
+    <rdf:_113 rdf:nodeID="A74"/>
+    <rdf:_122 rdf:nodeID="A187"/>
+    <rdf:_134 rdf:nodeID="A188"/>
+    <rdf:_163 rdf:nodeID="A36"/>
+    <rdf:_69 rdf:nodeID="A62"/>
+    <rdf:_5 rdf:nodeID="A66"/>
+    <rdf:_64 rdf:nodeID="A70"/>
+    <rdf:_18 rdf:nodeID="A6"/>
+    <rdf:_116 rdf:nodeID="A22"/>
+    <rdf:_11 rdf:nodeID="A189"/>
+    <rdf:_155 rdf:nodeID="A68"/>
+    <rdf:_34 rdf:nodeID="A5"/>
+    <rdf:_51 rdf:nodeID="A111"/>
+    <rdf:_203 rdf:nodeID="A85"/>
+    <rdf:_178 rdf:nodeID="A65"/>
+    <rdf:_117 rdf:nodeID="A69"/>
+    <rdf:_38 rdf:nodeID="A190"/>
+    <rdf:_141 rdf:nodeID="A112"/>
+    <rdf:_176 rdf:nodeID="A40"/>
+    <rdf:_46 rdf:nodeID="A39"/>
+    <rdf:_102 rdf:nodeID="A99"/>
+    <rdf:_188 rdf:nodeID="A191"/>
+    <rdf:_28 rdf:nodeID="A140"/>
+    <rdf:_149 rdf:nodeID="A192"/>
+    <rdf:_153 rdf:nodeID="A38"/>
+    <rdf:_73 rdf:nodeID="A193"/>
+    <rdf:_171 rdf:nodeID="A93"/>
+    <rdf:_205 rdf:nodeID="A126"/>
+    <rdf:_41 rdf:nodeID="A58"/>
+    <rdf:_7 rdf:nodeID="A41"/>
+    <rdf:_196 rdf:nodeID="A194"/>
+    <rdf:_74 rdf:nodeID="A195"/>
+    <rdf:_177 rdf:nodeID="A51"/>
+    <rdf:_60 rdf:nodeID="A94"/>
+    <rdf:_1 rdf:nodeID="A9"/>
+    <rdf:_37 rdf:nodeID="A196"/>
+    <rdf:_194 rdf:nodeID="A73"/>
+    <rdf:_80 rdf:nodeID="A20"/>
+    <rdf:_110 rdf:nodeID="A117"/>
+    <rdf:_55 rdf:nodeID="A197"/>
+    <rdf:_104 rdf:nodeID="A198"/>
+    <rdf:_25 rdf:nodeID="A119"/>
+    <rdf:_31 rdf:nodeID="A199"/>
+    <rdf:_147 rdf:nodeID="A200"/>
+    <rdf:_91 rdf:nodeID="A61"/>
+    <rdf:_72 rdf:nodeID="A21"/>
+    <rdf:_9 rdf:nodeID="A114"/>
+    <rdf:_101 rdf:nodeID="A80"/>
+    <rdf:_197 rdf:nodeID="A108"/>
+    <rdf:_144 rdf:nodeID="A201"/>
+    <rdf:_23 rdf:nodeID="A43"/>
+    <rdf:_99 rdf:nodeID="A44"/>
+    <rdf:_114 rdf:nodeID="A32"/>
+    <rdf:_52 rdf:nodeID="A128"/>
+    <rdf:_3 rdf:nodeID="A121"/>
+    <rdf:_119 rdf:nodeID="A78"/>
+    <rdf:_183 rdf:nodeID="A83"/>
+    <rdf:_167 rdf:nodeID="A82"/>
+    <rdf:_142 rdf:nodeID="A87"/>
+    <rdf:_6 rdf:nodeID="A24"/>
+    <rdf:_158 rdf:nodeID="A98"/>
+    <rdf:_189 rdf:nodeID="A133"/>
+    <rdf:_53 rdf:nodeID="A202"/>
+    <rdf:_112 rdf:nodeID="A55"/>
+    <rdf:_90 rdf:nodeID="A47"/>
+    <rdf:_115 rdf:nodeID="A37"/>
+    <rdf:_10 rdf:nodeID="A92"/>
+    <rdf:_127 rdf:nodeID="A96"/>
+    <rdf:_75 rdf:nodeID="A120"/>
+    <rdf:_159 rdf:nodeID="A203"/>
+    <rdf:_161 rdf:nodeID="A127"/>
+    <rdf:_47 rdf:nodeID="A15"/>
+    <rdf:_54 rdf:nodeID="A204"/>
+    <rdf:_29 rdf:nodeID="A205"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A198">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1186"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A147">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1187"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A202">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1182"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A174">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A183">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1148"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A162">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1109"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A150">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1185"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A185">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1140"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A153">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1188"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A178">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1184"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A184">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/8"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A188">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1142"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A203">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1143"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A145">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1141"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A163">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1187"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A177">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/8"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A166">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1187"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A204">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A187">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1095"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A190">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1186"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A176">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1149"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A151">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1185"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A152">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1177"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/11"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A165">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1140"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A200">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1177"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A197">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1140"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A148">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1183"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A175">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1109"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A181">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1185"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A186">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1140"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A182">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1183"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A205">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1130"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/8"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A158">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1178"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A160">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/11"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A169">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1186"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A180">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A191">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1095"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A167">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1149"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A172">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1184"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A194">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1141"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A164">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1095"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A170">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1109"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A171">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1109"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A168">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A195">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1185"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A173">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1182"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A146">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1182"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/11"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A179">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1177"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A192">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1183"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A157">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1148"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A201">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1095"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A156">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1178"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A155">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1184"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A196">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1177"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A199">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1182"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A159">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/7"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A154">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1186"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A193">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1188"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A189">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1185"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/11"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A161">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1187"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A149">
+    <REVE:isCreditForCourse rdf:resource="http://data.eurecom.fr/course/1140"/>
+    <REVE:hasCredit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.00</REVE:hasCredit>
+    <REVE:hasTrack rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#CourseCreditForTrack</rdf:type>
+  </rdf:Description>
+</rdf:RDF>

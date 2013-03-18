@@ -1,0 +1,1559 @@
+<rdf:RDF
+    xmlns:REVE="http://data.eurecom.fr/ontology/reve#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:FOAF="http://xmlns.com/foaf/0.1/"
+    xmlns:DC="http://purl.org/dc/terms/"
+    xmlns:PART="http://purl.org/vocab/participation/schema#"
+    xmlns:TIME="http://www.w3.org/2006/time#"
+    xmlns:LODE="http://linkedevents.org/ontology/"
+    xmlns:AIISO="http://vocab.org/aiiso/schema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ROOMS="http://vocab.deri.ie/rooms#" > 
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1147">
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/9"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43089"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43006"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A0"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A1"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#GeneralCourse</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A3"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A4"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A5"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A6"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A7"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A8"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A9"/>
+    <DC:abstract>Contemporary works in the sociology of Technology &#xD;
+offer numerous critics of the classical divide between &#xD;
+technical and social  features. It has been shown that &#xD;
+the success or failure  of technical innovations rests on &#xD;
+their capacity to  integrate various organizational and &#xD;
+interactional features.&#xD;
+This course aims at providing students with a &#xD;
+general background in the sociology of ICTs. &#xD;
+The main goal is to gain a better  understanding of&#xD;
+ ICT's uses or resistance to change in firms.&#xD;
+ Various case studies of ICT's uses and innovations,&#xD;
+ either in professional or ordinary, mundane contexts, &#xD;
+will be discussed. &#xD;
+Drawing from those studies, the course presents an array of methods of methods for qualitative data collection and analysis.</DC:abstract>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <AIISO:code>SATT</AIISO:code>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/8"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A10"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <DC:description>&lt;p&gt;General Introduction (L.Draetta and M.Relieu) &lt;br /&gt;&#xD;
+Remote, mediated interaction analysis (M.Relieu) &lt;br /&gt;&#xD;
+&amp;bull; Each remote interactional device proposes an explicit or implicit model of how to interact with each other in a given context. &lt;br /&gt;&#xD;
+&amp;bull; Mobile communications : written and oral mobile phone conversations. Case studies based on natural data recordings. &lt;br /&gt;&#xD;
+&amp;bull; Videocommunication and telepresence. &lt;br /&gt;&#xD;
+&amp;bull; Case studies of various videocommunication uses, either in professional or in ordinary domestic settings. &lt;br /&gt;&#xD;
+Innovation Studies (L.Draetta) &lt;br /&gt;&#xD;
+Technical innovations involve many people, objects and symbols, but also organizations, habits and values. Each innovation can be studied not only for its one sake, but also through the process in which it is embedded. &lt;br /&gt;&#xD;
+&amp;bull; The firm as a socio-technical system &lt;br /&gt;&#xD;
+&amp;bull; Social networks and the logics of action &lt;br /&gt;&#xD;
+&amp;bull; Conditions of the production of innovations : cooperation and consensus &lt;br /&gt;&#xD;
+&amp;bull; A grid to study innovation &lt;br /&gt;&#xD;
+An initiation to the qualitative methods of ICTs' Sociology. &lt;br /&gt;&#xD;
+&amp;bull; Observing activities through audio and video recordings(M.Relieu) &lt;br /&gt;&#xD;
+Questioning individuals and groups (L.Draetta) &lt;br /&gt;&#xD;
+&amp;bull; Interviews and Focus Groups.&lt;/p&gt;</DC:description>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1312">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32589"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32588"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32587"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32586"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32585"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32584"/>
+    <AIISO:code>SecAppli</AIISO:code>
+    <rdfs:label xml:lang="en">Security applications in networking and distributed systems - 2013Spring</rdfs:label>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1184">
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A11"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A12"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li&gt;&#xD;
+		VHDL / Verilog: Hardware description languages, design methods and logic synthesis of hardware accelerators, simulation, formal verification by model checking, design of simple processing devices.&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Integrated circuits : design of hardware accelerators, estimation of silicon area and maximum reachable clock frequency.&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		FPGA : design and rapid prototyping of micro-processor based systems, design of embedded software applications, performance evaluation, design of hardware co-processors to speedup the software processing, system integration, performance evaluation&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <REVE:hasCreditForTrack rdf:nodeID="A13"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A14"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A15"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <AIISO:code>ElecDesign</AIISO:code>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A16"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A17"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A18"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This course provides and overview of different enabling hardware technologies for real-time processing applied to embedded systems.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		It is a companion course to &amp;quot;Signal Processing Technologies&amp;quot; and mandatory in the &amp;quot;Real-time and Embedded systems&amp;quot; track.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Software and hardware aspects, system integration, design and validation tools are studied.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The main goal is to reach a sufficient level of understanding to design alone a prototype system embedding one or several hardware operators for the processing and a micro-processor, plus its peripherals, for the control. A hands-on approach is taken, with the aid of state-of-the-art laboratory equipment.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		During the final project the students design an actual prototype on a FPGA-based prototyping board, design the embedded software, connect the board to a host PC and test their application. Examples of past projects: hardware accelerator for a cryptographic enciphering algorithm, or for an image processing one, ...&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1369">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32456"/>
+    <AIISO:code>Perf</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32452"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32444"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32450"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32453"/>
+    <rdfs:label xml:lang="en">Performance evaluation of computer systems  - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32447"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32451"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32443"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32445"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32448"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32455"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32446"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32454"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1322">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32684"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32683"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32682"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32681"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32680"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32679"/>
+    <AIISO:code>MobAdv</AIISO:code>
+    <rdfs:label xml:lang="en">Mobile Advanced Networks - 2013Spring</rdfs:label>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1203">
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/44207"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;Introduction&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;Datacenter Design and Architectures&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;Virtualization&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;Energy Efficiency&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;Distributed File Systems (part 1)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;Distributed File Systems (part 2)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;Replication&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;MapReduce: Motivations and Theory&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;MapReduce: Hadoop internals&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;MapReduce: Programming Model and Algorithms&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;Database Systems&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;Distributed Database Systems&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;Distributed Data Stores and NoSQL Systems&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The goal of this course is to provide a comprehensive view on recent topics and trends in distributed systems and cloud computing.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		We will discuss the software techniques employed to construct and program reliable, highly-scalable systems.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		We will also cover architecture design of modern datacenters and virtualization techniques that constitute a central topic of the cloud computing paradigm.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The course is complemented by a number of lab sessions to get hands-on experience with &lt;strong&gt;Hadoop&lt;/strong&gt; and the design of scalable algorithms with &lt;strong&gt;MapReduce&lt;/strong&gt;.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <AIISO:code>Clouds</AIISO:code>
+    <rdfs:label xml:lang="en">Distributed Systems and Cloud Computing  - 2012Spring</rdfs:label>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1355">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32516"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32514"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32517"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32515"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32512"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32506"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32510"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32509"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32519"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32507"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32513"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32508"/>
+    <rdfs:label xml:lang="en">Electronic design for Communications - 2013Spring</rdfs:label>
+    <AIISO:code>ElecDesign</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32511"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32505"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1359">
+    <rdfs:label xml:lang="en">Speech and audio processing - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32718"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32722"/>
+    <AIISO:code>Speech</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32719"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32720"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32723"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32717"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32721"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1143">
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A19"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This course provides an overview of different enabling technologies for real-time signal processing applied to communication systems.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The basic implementation technology behind areas such as, wireless communication devices, audiovisual devices, media players, PC-based multimedia, soft modems (software radio), video gaming will be covered.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		A hands-on approach is taken, with the aid of state-of-the-art laboratory equipment, to expose students to the real-time hardware and software aspects of modern signal processing architectures.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The topics covered span conversion technologies (A/D, D/A), bus architectures and data acquisition systems, embedded DSP processors, PC-based DSP architectures and implementations, real-time operating systems (RTOS) aspects and system-on-chip (SoC) architectures. Specially design laboratory sessions are supported by introductory lectures on the particular area under study.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <REVE:hasCreditForTrack rdf:nodeID="A20"/>
+    <DC:description>&lt;p&gt;&#xD;
+	&lt;br /&gt;&#xD;
+	&amp;bull; Conversion Technology and Acquisition Systems : A/D and D/A conversion devices, bus architectures (PCI, USB, IEEE 1384). Laboratory sessions : Bandpass sampling and synthesis using typical high-performance cellular base-station devices, signal acquisition and generation across the PCI bus.&lt;br /&gt;&#xD;
+	&amp;bull; Embedded DSP Processors : Modern embedded DSP architectures (Case study : Texas instruments C5x, C6x), applications. Laboratory sessions : Introduction to the programming the C5x family of Texas Instruments DSPs using Code Composer Studio. A real-time digital-modulation example on a C54 evaluation board.&lt;br /&gt;&#xD;
+	&amp;bull; PC-based DSP : SIMD architectures (Case study : Pentium MMX/SSE/SSE2), applications. Laboratory sessions : SIMD programming and code profiling in C. Real-ime Video Acquisition on the PCI-bus, Encoding/Decoding using MJPEG.&lt;br /&gt;&#xD;
+	&amp;bull; RTOS aspects and the System-on-a-chip (SoC) : Hard real-time operating systems supporting DSP (Case studies : eCOS, OMAP, RTLinus), hardware/software co-design for the system-on-a-chip. Laboratory sessions : a soft-Modem under RTLinux.&lt;/p&gt;&#xD;
+</DC:description>
+    <REVE:hasCreditForTrack rdf:nodeID="A21"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A22"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A23"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A24"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A25"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <AIISO:code>SigTech</AIISO:code>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A26"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/9"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1353">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32644"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32643"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32642"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32641"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32640"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32639"/>
+    <AIISO:code>AlgoDesign</AIISO:code>
+    <rdfs:label xml:lang="en">Applied Algorithm Design - 2013Spring</rdfs:label>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1177">
+    <REVE:hasCreditForTrack rdf:nodeID="A28"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A29"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A30"/>
+    <AIISO:code>ImSecu</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A31"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A32"/>
+    <DC:description>&lt;p&gt;&#xD;
+	&amp;nbsp;&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Brief history of information hiding&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Basic principles and techniques : still images, video and 3-D video objects&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Expected applications : owner authentication, content authentication, information embedding as communication with side information&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Evaluation and benchmarking&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Malicious attacks, bit rate limitation ; counterfeiting marks ; removal attacks, etc.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Overview of different attempts to formalize watermarking&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <REVE:hasCreditForTrack rdf:nodeID="A33"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A34"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A35"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Watermarking : Watermarking allows owners or providers to hide an invisible and robust message inside a digital Multimedia document, mainly for security purposes such as owner or content authentication. There is a complex trade-off between the different parameters : capacity, visibility and robutness.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Biometrics : The security fields uses three different types of authentication : something you know, something you have, ore something you are&amp;nbsp;: a biometric. Common physical biometrics includes fingerprints, hand geometry ; and retina, iris or facial characteristics. Behavioural characters include signature, voice. Ultimately, the technologies could find their strongest role as interwined and complementary pieces of a multifactor authentication system. In the future biometrics is seen playing a key role in enhancing security, residing in smart cards and supporting personalized Web e-commerce services. Personalization through person authentication is also very appealing in the consumer product area.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This course will focus on enabling technologies for Biometrics, with a particular emphasis on person verification and authentication based on or widely using image/video processing.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A36"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A37"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/11"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1132">
+    <REVE:hasCreditForTrack rdf:nodeID="A38"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A39"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A40"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A41"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A42"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <AIISO:code>SP4COM</AIISO:code>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A43"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The goal of this course is to cover a number of complements to the treatment of physical layer procedures in a wide variety of modem technologies.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The details of the adaptation of a number of basic digital communication techniques to some specific communication problems are elaborated. Such details involve for instance multi-rate echo cancellation for full duplex operation on twisted pair telephone lines, synchronization and equalization techniques in a variety of single and multi-carrier systems, fixed point implementation issues of a number of basic algorithms.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The extra systems to be covered include xDSL, gigabit Ethernet, powerline systems and DAB/DVB broadcasting.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Spatial filtering, spatiotemporal filtering, and multiuser detection for CDMA are all treated in a unified fashio.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Multi-carrier Systems : OFDM (Orthogonal Frequency Division Multiplexing) systems, DMT (Discrete MultiTone) systems, cyclic prefixes, guard intervals, equalization techniques (TEQ and FEQ)&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Synchronization : Basic techniques for single-carrier and multi-carrier systems timing recovery, phase locked loops (PLLs), analog and digital approaches (interpolation).&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Channel estimation : Multi-carrier systems and 2D channel interpolation. Channel prediction in wireless systems.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Fixed-Point Implementation and Round-Off Error Analysis : Examples from fixed and adaptative filtering.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Xdsl Systems and Gigabit Ethernet : An overview of single- and multi-carrier techniques. Equalization and synchronization approaches, echo cancellation for full duplex operation over twisted pairs, multirate filtering, Interference cancellation.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Powerline Communications : Channel and noise characterisation, communication approaches.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		DAB/DVB Broadcasting Systems : System scenario and the choice of design parameters.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <REVE:hasCreditForTrack rdf:nodeID="A44"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/9"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43099"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A45"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A46"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1316">
+    <rdfs:label xml:lang="en">Mobile Networking - 2013Spring</rdfs:label>
+    <AIISO:code>MobIP</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32630"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32629"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32631"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32625"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32626"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32627"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32628"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1188">
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/11"/>
+    <AIISO:code>Speech</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A47"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A48"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A49"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A50"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A51"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A52"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Give the students a general knowledge of the most important communication mode : speech.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Speech is used to communicate with machines this is speech recognition. Machine can generate artificial speech : this is speech synthesis. Speech must be compressed for two different reasons : reduce the memory required in storage systems and allow low bit rate transmission (f.i in GSM systems). Speech can also be used in biometrics : speaker identification and verification. In the media, speech and soundtracks as well as recorded work sessions can be automatically analyse and speech is a part of the indexing applications.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A53"/>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Speech analysis&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Automatic Speech recognition (ASR)&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Speech Synthesis&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Speaker recognition&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Speech coding&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Additional processing of speech signal&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Audio coding&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A54"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A55"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1148">
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A56"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A57"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A58"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A59"/>
+    <DC:description>&lt;p&gt;&#xD;
+	The content of this course is organized as follows:&lt;br /&gt;&#xD;
+	&amp;bull; Broaband WiMAX networks: overview, applications and architecture; QoS management, mobility management in 802.16e, etc.&lt;br /&gt;&#xD;
+	&amp;bull; Wireless sensor networks: overview, applications and architecture; auto-organization techniques; data gathering mechanisms; reliable transport protocols; etc.&lt;br /&gt;&#xD;
+	&amp;bull; Wireless mesh networks: overview, applications and architecture; load balancing methods; channel assignment mechanisms; etc.&lt;br /&gt;&#xD;
+	&amp;bull; Wireless Vehicular Networks: introduction, applications and architectures, broadcast protocols, Delay-Tolerant Networks solutions for inter-vehicles and vehicle - infrastructure communications; etc.&lt;br /&gt;&#xD;
+	&amp;nbsp;&lt;/p&gt;&#xD;
+</DC:description>
+    <REVE:hasCreditForTrack rdf:nodeID="A60"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A61"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43708"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A62"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A63"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <AIISO:code>MobAdv</AIISO:code>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/9"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A64"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This course would interest students who want to learn new standards of emerging and advanced wireless technologies used in future cellular, mesh, and adhoc networks as well as wireless sensor and actuators.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		It covers mainly the candidate applications and the network and transport layers by giving for each one of them the proposed protocols and techniques and standardisation and research efforts.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1311">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32672"/>
+    <AIISO:code>HWSec</AIISO:code>
+    <rdfs:label xml:lang="en">Security of Security hardware - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32675"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32674"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32678"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32677"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32673"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32676"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1183">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#GeneralCourse</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A65"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A66"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A67"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A68"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <DC:description>&lt;p&gt;&lt;br /&gt;&#xD;
+PART 1 : General Introduction to contract law &lt;br /&gt;&#xD;
+I- General introduction Overview of contract law Essential legal definitions &lt;br /&gt;&#xD;
+II- Types of contract Overview of various contracts Contract rules Primary clauses Frequent clauses and their consequences &lt;br /&gt;&#xD;
+&lt;br /&gt;&#xD;
+PART II : Setting up a business &lt;br /&gt;&#xD;
+I- Introduction to corporate law Overview of corporate law Overview of corporate structures &amp;ndash; advantages/disadvantages &lt;br /&gt;&#xD;
+II- Creating a business Legal aspects Financial aspects Fiscal aspects &lt;br /&gt;&#xD;
+III- Introduction to industrial property Protecting your brand Protecting your domain name Overview of patent and software law&lt;/p&gt;</DC:description>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A69"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A70"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43846"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <DC:abstract>To aquire basic legal knowledge&#xD;
+To have an overview about company set up&#xD;
+To learn about the majors pribciples of contract law&#xD;
+</DC:abstract>
+    <AIISO:code>Law</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A71"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A72"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1321">
+    <rdfs:label xml:lang="en">Sociological Approaches of Telecom Technologies - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32580"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32581"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32577"/>
+    <AIISO:code>SATT</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32578"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32582"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32583"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32579"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1095">
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <DC:description>&lt;p&gt;&#xD;
+	&lt;br /&gt;&#xD;
+	&amp;bull; Object-Oriented Software Development : Software life cycle, object-oriented design, unified modelling language notations and diagrams,&amp;nbsp;&amp;nbsp;software architecture and design patterns.&lt;br /&gt;&#xD;
+	&amp;bull; Client-Server Software : Socket based networking, Communication and client-server patterns reactor, active object, acceptor-connector. Multithreading and clientserver concurrency models.&lt;br /&gt;&#xD;
+	&amp;bull; Distributed Objects : CORBA : Interface Definition Language, Inter-ORB Protocol architecture, ORB and server implementation. Java RMI (remote Method Invocation) : registry, comparison and interoperability with CORBA. EJB (Enterprise Java Beans) : 3-tiered applications, transaction processing, component model and servers.&lt;br /&gt;&#xD;
+	&amp;bull; Mobile Objects : Mobile code, agent platforms.&lt;br /&gt;&#xD;
+	&amp;bull; Middleware Services and Interfaces : Naming and trading services : LDAP, JNDI. Security services and interfaces : CORBA, RMI. Communication models : event-driven communication, XML formats.&lt;/p&gt;&#xD;
+</DC:description>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Middleware consists of the software and services on which a network application programmer relies that are provided on top of the network layer. The knowledge of distributed software design and the appropriate use of middleware are recognized as part of the software engineering culture in the industry, especially for Internet applications.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The goal of this course is to provide a broad overview of engineering techniques for the development of distributed software based on classical bare socket programming and on today&amp;#39;s state-of-the-art middleware.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The course first describes how distributed software can be modularly designed using object-oriented techniques and design patterns. Object-oriented middleware platforms like CORBA, Java RMI, and EJB are then thoroughly described. Mobile code platforms, which provide a new form of middleware, are also introduced. Services and interfaces required for the deployment of these platforms are finally addressed.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The course will be accompanied by some significant design and programming labs.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <REVE:hasCreditForTrack rdf:nodeID="A73"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A74"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A75"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A76"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A77"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A78"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <AIISO:code>DSMWare</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A79"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A80"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1202">
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;This class builds upon the basic concepts presented in the &lt;/span&gt;&lt;span style="color: #222222"&gt;&amp;quot;system and network security&amp;quot; class to present students the &lt;/span&gt;&lt;span style="color: #222222"&gt;current situation (from both a technical and a research perspectives) &lt;/span&gt;&lt;span style="color: #222222"&gt;of the fight against cybercrime. &lt;/span&gt;&lt;span style="color: #222222"&gt;The &amp;quot;system and network security&amp;quot; class focused on vulnerabilities &lt;/span&gt;&lt;span style="color: #222222"&gt;and the way they can be exploited. &lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;span style="font-size: 11px"&gt;&lt;span style="color: #222222"&gt;This class present instead large &lt;/span&gt;&lt;span style="color: #222222"&gt;scale problems and the way security experts cope with them.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This course serves as a continuation of System and Network Security. The idea is to present different approaches to analyse and detect malware and to deal with compromised machines.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Because the class will feature a number of programming exercises, students are required to have programming experience.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <AIISO:code>Forensics</AIISO:code>
+    <rdfs:label xml:lang="en">Cyber-crime and Computer - 2012Spring</rdfs:label>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1356">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32618"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32617"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32615"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32623"/>
+    <rdfs:label xml:lang="en">3-D and virtual imaging (analysis and synthesis) - 2013Spring</rdfs:label>
+    <AIISO:code>3DGraph</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32616"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32621"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32619"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32611"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32614"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32622"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32612"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32620"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1140">
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Idealized channel models : the binary symetric channel (BSC), the binary erasure channel (BEC), the constrained-input Gaussian Channel. &amp;bull; Block coding for BSC Linear codes, cyclic codes, decoding algorithms, weight enumerators and bounds on codes&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Binary convolutional codes : the algebraic structure, the dynamic structure, Viterbi decoding, weight enumerating function.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Binary random-like codes : Low-Density Parity-Check codes and message-passing decoding, threshold behaviour of message passing decoding: density evolution analysis, other families of randomlike codes : Repeat- Accumulate codes, Turbo Codes&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Efficient decoding of Repeat-Accumulate and Turbo Codes : the forward-backward algorithm&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Coded Modulation : trellis coded modulation, multilevel coded modulation, bitinterleaved coded modulation&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <REVE:hasCreditForTrack rdf:nodeID="A81"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A82"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		In today&amp;#39;s communications world channel coding underlies the physical layer of all major communication systems. For example: algebraic block coding (Reed-Solomon codes) are used in the CD and DVD standards, convolutional codes are widely used in wireless systems such as GSM,IS-95 and LANs (IEEE 802.11), trellis coded modulation is used in line modems and low-density parity check codes (LDPC) will be used to combat packet losses in future internet content distribution networks.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This course provides an introductory but thorough background in modern coding theory and covers both classical coding theory (block and convolutional codes), coding for bandlimited channels (Coded Modulation) and the modern theory of randomlike codes with iterative decoding (LDPCs, Turbo Codes).&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A83"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A84"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A85"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A86"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/42992"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A87"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A88"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <AIISO:code>Coding</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A89"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/9"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1354">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32463"/>
+    <rdfs:label xml:lang="en">General introduction to law : contracts, setting up a business - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32462"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32459"/>
+    <AIISO:code>Law</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32460"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32461"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32457"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32458"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1178">
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A90"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A91"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A92"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A93"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/8"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A94"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A95"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A96"/>
+    <AIISO:code>Netw_II</AIISO:code>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A97"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <DC:abstract>&#xD;
+</DC:abstract>
+    <DC:description>&lt;p&gt;&#xD;
+	&lt;br /&gt;&#xD;
+	&amp;bull; Architectural trends : Layering and end-to-end principle&lt;br /&gt;&#xD;
+	&amp;bull; Internet routing : OSPF, Interdomain routing and BGP, Peering and PoPS? Routing in Mobile Environments, Multicast routing, interconnection Principles&lt;br /&gt;&#xD;
+	&amp;bull; End-to-end transport : Fundamentals of transport protocols (conn mgmt, error control, congestion and flow control), TCP congestion control algorithms, TCP throughput modelling and TPC-friendlyness, TCP over wireless links, Recent extensions and open issues in TCP, Reliable Multicast&lt;br /&gt;&#xD;
+	&amp;bull; Internet routers : HW architectures and packet processing Router hardware architectures, Longest-match prefix algorithms and IP lookups, Flow classifications algorithms, Active Queue Management (AQM) and RED, Traffic limiting/shaping algorithms.&lt;br /&gt;&#xD;
+	&amp;bull; Virtualization : VLANs, Intro to ATM first, IP over ATM, LAN Emulation, MPLS&lt;br /&gt;&#xD;
+	&amp;bull; Quality of Service : IntServ, Diffserv, Traffic Engineering&lt;br /&gt;&#xD;
+	&amp;bull; Signalling SS7, RSVP, Q.2931&lt;/p&gt;&#xD;
+</DC:description>
+    <REVE:hasCreditForTrack rdf:nodeID="A98"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1149">
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A99"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/8"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/822"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A100"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/9"/>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Introduction to Wireless Issues&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Wireless Access for Intelligent Transportation Systems (ITS)&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		IEEE 802.11 standard&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Wireless Vehicular Access : IEEE 802.11p&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		QoS Management : IEEE 802.11e&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Transmission policies, such as coding rate, transmit power or rate or packet size.&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Introduction to other wireless access technologies (WiMAX, ZigBee)&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <REVE:hasCreditForTrack rdf:nodeID="A101"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A102"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A103"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A104"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This module teaches the state-of-the art techniques for wireless access.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This module will address wireless access issues in the context of vehicular communication for Intelligent Transportation Systems (ITS).&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The interested students will learn the challenges of accessing a wireless network, how to address the impact of mobility, how to differentiate various types of message and deal with the QoS, understand the impact of distance, transmission policies or the environment on the communication quality, and finally how wireless access technologies could improve the future ITS.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This module puts experimentations to the center and will schedule 3 lab sessions for 4 lectures.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <AIISO:code>MobWat</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A105"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A106"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A107"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A108"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1139">
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/42968"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <DC:description>&lt;p&gt;&#xD;
+	GOALS :&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+	&lt;li&gt;&#xD;
+		The design of reliable (and safety-critical) systems, in particular, requires great care and precision, as errors in their development can lead to potentially awful consequences. It can greatly benefit from the use of formal methods, whose sound mathematical foundations permit to apply formal verification techniques to analyze the properties (e.g. correctness) of the system under development. The application of formal methods&amp;nbsp; requires&amp;nbsp; skills and know-how on the part of the developer.&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		This course aims to give students the fundamentals&amp;nbsp; of formal methods for specifying and verifying systems.&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Emphasis is placed on practical use of the notions encountered.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&#xD;
+	CONTENTS :&lt;br /&gt;&#xD;
+	This course consists of two parts:&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+	&lt;li&gt;&#xD;
+		A survey of formal methods for the specification and verification of systems&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		An example of formal methods used in industry, B method&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This course aims to give students the fundamentals of formal methods for specifying and verifying systems.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Emphasis is placed on practical use of the notions encountered.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <AIISO:code>FormalMet</AIISO:code>
+    <rdfs:label xml:lang="en">FormalMethods-Formal specification and verification of systems - 2012Spring</rdfs:label>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1187">
+    <REVE:hasCreditForTrack rdf:nodeID="A109"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A110"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/11"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A111"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A112"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A113"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A114"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The aim of this course is to provide an overview of the audio/video acquisition, storage and display systems, which are main components of multimedia systems.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <AIISO:code>MMTech</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A115"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A116"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A117"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <DC:description>&lt;p&gt;&#xD;
+	Teaching will include :&lt;br /&gt;&#xD;
+	&amp;bull; Pick-up equipment : video cameras and CCD technology&lt;br /&gt;&#xD;
+	&amp;bull; Analog video signal coding&lt;br /&gt;&#xD;
+	&amp;bull; Display of video images&lt;br /&gt;&#xD;
+	&amp;bull; Magnetic recording of video signals, camcorders and VCR&lt;br /&gt;&#xD;
+	&amp;bull; Digital recording tools on microcomputers and hard disks&lt;br /&gt;&#xD;
+	&amp;bull; Audio/video storage on CD and various CD formats&lt;br /&gt;&#xD;
+	&amp;bull; Case study&lt;/p&gt;&#xD;
+</DC:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1315">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32602"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32607"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32608"/>
+    <rdfs:label xml:lang="en">Chanel coding theory - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32606"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32609"/>
+    <AIISO:code>Coding</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32603"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32610"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32604"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32605"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32599"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32598"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32600"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32601"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1319">
+    <AIISO:code>Business</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32528"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32530"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32522"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32527"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32532"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32524"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32529"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32523"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32533"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32521"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32525"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32526"/>
+    <rdfs:label xml:lang="en">Business Simulation - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32531"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32520"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1367">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32439"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32442"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32440"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32437"/>
+    <AIISO:code>Forensics</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32432"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32435"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32438"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32441"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32433"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32436"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32431"/>
+    <rdfs:label xml:lang="en">Cyber-crime and Computer Forensics - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32434"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1145">
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A118"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A119"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A120"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43938"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A121"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/8"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A122"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A123"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A124"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A125"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/11"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43124"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#GeneralCourse</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <AIISO:code>Business</AIISO:code>
+    <DC:description>&lt;p&gt;&#xD;
+	&lt;br /&gt;&#xD;
+	&amp;bull; Practical application of management disciplines in an integrated and interactive environment&lt;br /&gt;&#xD;
+	&amp;bull; Further exposure to basic management techniques (strategy, accounting/finance, operations, etc) through the decision-making process&lt;br /&gt;&#xD;
+	&amp;bull; Interpretation of the economic environment and its impact on future company performance&lt;br /&gt;&#xD;
+	&amp;bull; Practical application of the Organizational Behavior course skills&lt;br /&gt;&#xD;
+	&amp;bull; Understanding of the importance of business processes especially as relates to decision-making&lt;br /&gt;&#xD;
+	&amp;bull; Experience of competition and &amp;lsquo;coopetition&amp;rsquo;&lt;/p&gt;&#xD;
+</DC:description>
+    <DC:abstract>&lt;p&gt;&#xD;
+	Through the use of a complex interactive business simulation in which teams manage virtual companies in a high-tech business arena, students will gain practical insights into the realities of running a business. Unlike single subject courses, this simulation requires to students to make decisions within the context of interacting disciplines. Student will also come to understand the interdependence of companies through buy/sell and risk-sharing negotiations within a changing supply chain model.&lt;/p&gt;&#xD;
+</DC:abstract>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A126"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A127"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/9"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A128"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1320">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32472"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32468"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32470"/>
+    <AIISO:code>ProjMan</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32469"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32475"/>
+    <rdfs:label xml:lang="en">Project management - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32465"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32473"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32466"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32471"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32474"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32464"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32467"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1314">
+    <rdfs:label xml:lang="en">FormalMethods-Formal specification and verification of systems - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32725"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32724"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32729"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32730"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32728"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32727"/>
+    <AIISO:code>FormalMet</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32726"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1182">
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A129"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A130"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <AIISO:code>AlgoDesign</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A131"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The goals of this course are 1) to survey the foundations of the design and analysis of algorithms; 2) to provide a practical understanding of complexity theory and algorithmics; 3) to provide an in-depth understanding of selected problems at theforefront of research explorations in the design and analysis of algorithms.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Most of the excercises and examples are drawn from problems related to networking and distributed systems, such as peer-to-peer systems. More traditional cases are also covered in the Lectures.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A132"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A133"/>
+    <DC:description></DC:description>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A134"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A135"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/535"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A136"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A137"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A138"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/11"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1310">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32663"/>
+    <rdfs:label xml:lang="en">Distributed software and middleware - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32659"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32666"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32664"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32669"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32661"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32662"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32667"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32665"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32671"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32660"/>
+    <AIISO:code>DSMWare</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32668"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32670"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1351">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32745"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32744"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32747"/>
+    <AIISO:code>ImSecu</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32746"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32743"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32748"/>
+    <rdfs:label xml:lang="en">Imaging for security applications watermarking &amp; biometrics - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32742"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1109">
+    <REVE:hasCreditForTrack rdf:nodeID="A139"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A140"/>
+    <AIISO:code>HWSec</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A141"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Embedded applications with strong security requirements use sophisticated cryptographic algorithms and protocols. These algorithms and protocols are usually considered resistant against cryptanalysis. Inside the complete system they are implemented either in software or hardware form. Unfortunately, at least for the designers of such systems, any computation is eventually performed by a piece of hardware (microprocessor or hardware dedicated accelerator) and every hardware device leaks symptoms of its activity (power consumption, electromagnetic emanations, computation time, etc.) An attacker can use such side channels to retrieve embedded secrets. She can also inject and exploit faults by modifying the power supply, the clock frequency, using a laser or even by modifying the structure of the device. Other attack classes target communication busses on electronic board and have already been successfully used against game consoles and other consumer equipments.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This course offers a survey of several known hardware attacks. For each of them the conditions of success are explained and some counter measures are proposed.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The main goal is to initiate the students into such threats, give them hints about the possible counter measures and prepare them to design more secure systems.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Lectures are complemented by two lab sessions dedicated to timing and power consumption attacks. During the labs the students will experiment the impressive efficiency of these attacks and will try to protect the security target with counter measures.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <REVE:hasCreditForTrack rdf:nodeID="A142"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A143"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A144"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/8"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A145"/>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Timing attack&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Simple power attack&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Differential power attack&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Electromagnetic attacks&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Fault injection&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Destructive attacks&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Active and passive bus probing&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <REVE:hasCreditForTrack rdf:nodeID="A146"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A147"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1130">
+    <AIISO:code>SecAppli</AIISO:code>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A148"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A149"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A150"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A151"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A152"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;p&gt;&#xD;
+			This course presents the main applications of secure communication mechanisms in the area of computer networks and distributed systems. The course covers network security approaches based on firewalls, cryptographic security protocol suites designed for the data exchange and network control components of Internet, wireless security protocols, and security solutions for cellular and mobile network architectures.&lt;/p&gt;&#xD;
+	&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A153"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A154"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A155"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Access Control:&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&#xD;
+	Access control models, role-based access control, attribute certificates, simple public key infrastructure, XACML&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Network Access Control and Firewalls:&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&#xD;
+	Packet filtering, application gateways, circuit gateways, NAT, firewall configurations&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Cryptographic Security for Internet:&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&#xD;
+	IPsec, Oakley/ISAKMP, TLS/SSL, VPN/SSL, cryptographic security in DNS, routing and SMTP&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Mobile Network Security:&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&#xD;
+	&amp;nbsp;EAP, Radius, Diameter, wireless security, security features in GSM, 3GPP, DECT and Mobile IP.&lt;/p&gt;&#xD;
+</DC:description>
+    <REVE:hasCreditForTrack rdf:nodeID="A156"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1357">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32654"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32649"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32647"/>
+    <rdfs:label xml:lang="en">Intelligent systems - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32648"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32652"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32657"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32646"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32650"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32653"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32655"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32658"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32651"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32656"/>
+    <AIISO:code>IS</AIISO:code>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1186">
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A157"/>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This course will cover some basic and advanced techniques for classification and optimisation : Neural Networks, Genetic Algorithms, Simulated Annealing, Decision Trees and Bayesian Networks. Applications such as Intelligent Agents and Data mining will illustrate the practical usage.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		A large part of the course will be devoted to the study of Neural Networks, which are one of the most popular methods, and as proved to be quite effective in many situations. We will study the basic perceptron, multi-layer perceptrons, the back-propagation algorithm.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		We will also take a look to other types of networks such as the Hopfield networks. We will explore advanced techniques for optimisation, such as Genetic Algorithms and Simulated Annealing.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		We will also study the construction of classification models such as Decision Trees and Bayesian Networks. Throughout the course, we will illustrate the usage of those techniques in applications such as Intelligent Agent, Knowledge Discovery and Data Mining&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/11"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The objective of this course is to give student a solid background on techniques for classification and learning. The relationship with intelligence is that those techniques are often useful to build effective models in situations where no optimal solution in known, for example fraud detection in credit card usage. The resulting systems can be considered as having some kind of intelligent behaviour.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <AIISO:code>IS</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A158"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A159"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A160"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A161"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43066"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A162"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A163"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A164"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1318">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32422"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32427"/>
+    <rdfs:label xml:lang="en">Signal processing technologies - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32428"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32417"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32429"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32418"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32423"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32419"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32424"/>
+    <AIISO:code>SigTech</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32425"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32426"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32420"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32421"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1141">
+    <REVE:hasCreditForTrack rdf:nodeID="A166"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/8"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Mobility management in IPv4 Networks&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Comparison of the historical proposals&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Basic IPv6 mechanisms&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Mobile IPv6&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Hierarchical Mobility (HMIP)&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		IPv6 based Handover mechanisms&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Global v.s. Local mobility management&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		NetLMM and ProxyMIP&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Network mobility (NEMO)&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		Mobility schemes above Network Layer&amp;nbsp;&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A167"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A168"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A169"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A170"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A171"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This module addresses the mobility management in IP Networks (Internet or private networks). In particular the various mobility schemes based on IPv6 are detailed.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/9"/>
+    <AIISO:code>MobIP</AIISO:code>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A172"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A173"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A174"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A175"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1368">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32701"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <AIISO:code>Clouds</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32708"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32706"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32699"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32709"/>
+    <rdfs:label xml:lang="en">Distributed Systems and Cloud Computing  - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32704"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32707"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32705"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32698"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32702"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32710"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32703"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32700"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1146">
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A176"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A177"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#GeneralCourse</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43128"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A178"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A179"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A180"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A181"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A182"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/8"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A183"/>
+    <DC:description>&lt;p&gt;&lt;br /&gt;&#xD;
+&amp;bull; Introduction: IT and Networking market trends &lt;br /&gt;&#xD;
+&amp;bull; Concept of Project &lt;br /&gt;&#xD;
+&amp;bull; Ingredients of Project Management &lt;br /&gt;&#xD;
+&amp;bull; Different types of Business Requests &lt;br /&gt;&#xD;
+&amp;bull; Communication in Business Environment &lt;br /&gt;&#xD;
+&amp;bull; Organisational models &lt;br /&gt;&#xD;
+&amp;bull; Project Scope &lt;br /&gt;&#xD;
+&amp;bull; Project Costs &lt;br /&gt;&#xD;
+&amp;bull; Project Schedules &lt;br /&gt;&#xD;
+&amp;bull; Quality Management &lt;br /&gt;&#xD;
+&amp;bull; Risk Management&lt;/p&gt;</DC:description>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/9"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A184"/>
+    <AIISO:code>ProjMan</AIISO:code>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/11"/>
+    <DC:abstract>In all areas, professional activities are often formalized into Projects. This trend in even stronger and more evident in today's environment, which is increasingly international with off-shoring and which develops new inter-enterprise dependencies with out-tasking and outsourcing. Communication within and outside the enterprise also becomes key. &#xD;
+In order to better manage and control those Projects, Enterprises often evolve from a Functional organization to a Matrix organization. The Project Management Profession becomes a key element of the new Enterprise Model. This course aims at introducing the different Project Management concepts and techniques. For the students, it is an opportunity to increase their efficiency when joining a Project Team. This course should also allow an improved understanding of the business aspects, and may trigger some thinking on future career choices.</DC:abstract>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43127"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A185"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A186"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1313">
+    <rdfs:label xml:lang="en">Signal Processing for Communications - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32503"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32499"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32498"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32502"/>
+    <AIISO:code>SP4COM</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32497"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32501"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32500"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32491"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32490"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32496"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32495"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32494"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32493"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32492"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1352">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32480"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32481"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32488"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32477"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32483"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32476"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32482"/>
+    <rdfs:label xml:lang="en">Internetworking architectures and protocols - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32489"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32478"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32484"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32485"/>
+    <AIISO:code>Netw_II</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32479"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32487"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32486"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1323">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32638"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32637"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32636"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32635"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32634"/>
+    <AIISO:code>MobWat</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32633"/>
+    <rdfs:label xml:lang="en">Wireless Access Technologies - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32632"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1142">
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A187"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A188"/>
+    <AIISO:code>Radio</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A189"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <DC:description>&lt;p&gt;&#xD;
+	&lt;br /&gt;&#xD;
+	&amp;bull; RF systems : RF architectures for base-stations and mobile terminals, amplifiers and noise figure, receiver sensitivity, emission masks non-linear characterization of RF components.&lt;br /&gt;&#xD;
+	&amp;bull; Propagation Modelling and Simulation : Models for path loss, shadowing, multipath propagation. Statistical characterizations. Time and frequency-selective properties of radio transmission, prediction tools.&lt;br /&gt;&#xD;
+	&amp;bull; Cellular Architectures : Link budget analysis, cellular coverage, duplexing strategies, multiple-access methods, network topologies, hand-over strategies.&lt;/p&gt;&#xD;
+</DC:description>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A190"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A191"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A192"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/9"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A193"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasCreditForTrack rdf:nodeID="A194"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		This course treats the subject of modern radio engineering and includes typical RF architectures and their characterizations, modeling, prediction and simulation of radio-wave propagation, cellular planning, systems-level aspects of modern radio network design.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Three practical lab sessions using typical RF equipment and measurement tools are offered.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43041"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A195"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1358">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32716"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32715"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32714"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32713"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32712"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32711"/>
+    <AIISO:code>MMTech</AIISO:code>
+    <rdfs:label xml:lang="en">Multimedia technology - 2013Spring</rdfs:label>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1185">
+    <REVE:hasCreditForTrack rdf:nodeID="A196"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A197"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A198"/>
+    <AIISO:code>3DGraph</AIISO:code>
+    <REVE:hasCreditForTrack rdf:nodeID="A199"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/1"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <DC:description>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Solid and surface modeling : CSG, B-rep, free form surfaces, Voxel&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Lightening models : Diffusion, specularity, refraction, reflection, radiosity&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Basics 3D visualization algorithms : Transformations, shading, clipping, rendering, antialiasing&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Advanced realistic 3D rendering algorithms : Cast shadowing, transparency, textures, ray tracing, radiosity&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Hardware implementations of algorithms : Processors, VLSI, parallelism, specialized architectures&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Virtual reality VRML, animation, input/output devices&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Image Analysis Shape/structure from Motion, Stereo, Zooming and Shading Stereoscopic Visualisation and Display Technologies&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:description>
+    <REVE:hasCreditForTrack rdf:nodeID="A200"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A201"/>
+    <REVE:isOptionalFor rdf:resource="http://data.eurecom.fr/track/4"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A202"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/10"/>
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/43029"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/6"/>
+    <REVE:hasCreditForTrack rdf:nodeID="A203"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:isMandatoryFor rdf:resource="http://data.eurecom.fr/track/2"/>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The goal of this course is to introduce the students to the main concepts and techniques used in computer graphics and image synthesis and analysis.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		3D object modelling and advanced visualization methods are studied.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Specialized hardware used to speed up these computations are described with focus on specialized systems used in virtual reality applications.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The application domains related to 3D and Virtual imaging are scientific and information visualization, CAD, flight simulation, games, advertising and movie special effects.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <REVE:hasCreditForTrack rdf:nodeID="A204"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:isFreeFor rdf:resource="http://data.eurecom.fr/track/11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1204">
+    <AIISO:responsibilityOf rdf:resource="http://data.eurecom.fr/people/44343"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#TechnicalCourse</rdf:type>
+    <DC:description>&lt;p&gt;&#xD;
+	&amp;bull; Systems analysis : Refresher in statistics and probability Performance metrics : response time, throughput, utilization Operational Laws Queuing Network Model Inputs and Outputs&lt;br /&gt;&#xD;
+	&amp;bull; Simulation techniques : Basic Concepts in Discrete Event Simulation Confidence intervals and stopping criteria Independent replication, batch means Random number generation&lt;br /&gt;&#xD;
+	&amp;bull; Availability and Reliability modeling tools : SHARP (markov models, reliability modeling) VITO (Capacity planning)&lt;/p&gt;&#xD;
+</DC:description>
+    <DC:abstract>&lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		In this course, students will be confronted with a number of different problems that can be evaluated using simple performance models.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The emphasis will be not so much on the underlying theory but on getting practical experience on how to model and solve a given problem.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		The objective is to provide students with simple and efficient analysis methods that can rapidly give insights on some problems they can be confronted to in their every-day engineer life.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		A number of tools available in the market that can be used to solve the problem modelled in the course will also be presented.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</DC:abstract>
+    <AIISO:code>Perf</AIISO:code>
+    <rdfs:label xml:lang="en">Practical computer system performance modeling - 2012Spring</rdfs:label>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/course/1317">
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32692"/>
+    <rdfs:label xml:lang="en">Radio engineering - 2013Spring</rdfs:label>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32693"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32697"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32694"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32685"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32695"/>
+    <rdf:type>http://data.eurecom.fr/ontology/reve#Course</rdf:type>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32686"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32696"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32687"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32690"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32688"/>
+    <AIISO:code>Radio</AIISO:code>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32691"/>
+    <REVE:hasConstituent rdf:resource="http://data.eurecom.fr/coursesession/32689"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A205">
+    <rdf:_7 rdf:resource="http://data.eurecom.fr/course/1319"/>
+    <rdf:_26 rdf:resource="http://data.eurecom.fr/course/1321"/>
+    <rdf:_13 rdf:resource="http://data.eurecom.fr/course/1314"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdf:_24 rdf:resource="http://data.eurecom.fr/course/1320"/>
+    <rdf:_16 rdf:resource="http://data.eurecom.fr/course/1357"/>
+    <rdf:_15 rdf:resource="http://data.eurecom.fr/course/1351"/>
+    <rdf:_4 rdf:resource="http://data.eurecom.fr/course/1204"/>
+    <rdf:_30 rdf:resource="http://data.eurecom.fr/course/1359"/>
+    <rdf:_20 rdf:resource="http://data.eurecom.fr/course/1316"/>
+    <rdf:_1 rdf:resource="http://data.eurecom.fr/course/1203"/>
+    <rdf:_22 rdf:resource="http://data.eurecom.fr/course/1352"/>
+    <rdf:_2 rdf:resource="http://data.eurecom.fr/course/1202"/>
+    <rdf:_6 rdf:resource="http://data.eurecom.fr/course/1353"/>
+    <rdf:_21 rdf:resource="http://data.eurecom.fr/course/1323"/>
+    <rdf:_19 rdf:resource="http://data.eurecom.fr/course/1322"/>
+    <rdf:_27 rdf:resource="http://data.eurecom.fr/course/1312"/>
+    <rdf:_12 rdf:resource="http://data.eurecom.fr/course/1367"/>
+    <rdf:_17 rdf:resource="http://data.eurecom.fr/course/1354"/>
+    <rdf:_5 rdf:resource="http://data.eurecom.fr/course/1356"/>
+    <rdf:_25 rdf:resource="http://data.eurecom.fr/course/1317"/>
+    <rdf:_23 rdf:resource="http://data.eurecom.fr/course/1369"/>
+    <rdf:_29 rdf:resource="http://data.eurecom.fr/course/1313"/>
+    <rdf:_11 rdf:resource="http://data.eurecom.fr/course/1355"/>
+    <rdf:_3 rdf:resource="http://data.eurecom.fr/course/1139"/>
+    <rdf:_10 rdf:resource="http://data.eurecom.fr/course/1310"/>
+    <rdf:_8 rdf:resource="http://data.eurecom.fr/course/1368"/>
+    <rdf:_14 rdf:resource="http://data.eurecom.fr/course/1311"/>
+    <rdf:_28 rdf:resource="http://data.eurecom.fr/course/1318"/>
+    <rdf:_18 rdf:resource="http://data.eurecom.fr/course/1358"/>
+    <rdf:_9 rdf:resource="http://data.eurecom.fr/course/1315"/>
+  </rdf:Description>
+</rdf:RDF>
