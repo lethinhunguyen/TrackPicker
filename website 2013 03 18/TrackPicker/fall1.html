@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style/style.css" type="text/css"/>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<div id="main_container">
+			<header class="header">
+				
+				<img class="logo" src="images/logo.gif" alt="Eurecom Track Picker"/>
+				
+				<div class="title">TRACK PICKER</div>
+				
+			</header>
+			<div class="clear"></div>
+			
+			<div class="middle">
+				<aside class="side_left">
+					<p class="headline_space">The courses in Fall Semester:</p>
+                    <p>
+                    	<div class="courseType">Technical courses:</div>
+                    	<div id="technicalCourseTeacher"></div>
+                    	<script>queryTechnicalCourseTeacher();
+                    		queryCourseDepartment();
+                    	</script>
+                    </p>
+                    <p>
+                    	<div class="courseType">Non-technical courses:</div>
+                    	<div id="nonTechnicalCourseTeacher"></div>
+                    	<script>queryNonTechnicalCourseTeacher();</script>
+                    </p>
+                    <p>
+                    	<div class="courseType">Language course:</div>
+                    	<div id="languageCourseTeacher"></div>
+                    	<!--<script>queryLanguageCourseTeacher();</script>-->
+                    </p>
+                    
+				</aside>
+				
+				<section id="content_container" class="container">
+					<section>
+						<p> 
+							<div id="courseDetails" class="courseDetails"></div>
+						</p>
+					</section>
+					<section>
+						<p class="paragraph_title">The curriculum regulations of Eurecom:</p>
+						<p>
+							In 3 semesters, you have to study at least <script>document.write(allCredits);</script> credits. Among them, there is at least <script>document.write(technicalCredits);</script> credits of technical courses (include at least <script>document.write(mandatoryCredits);</script> mandatory, <script>document.write(optionalCredits);</script> optional and some free course credits), <script>document.write(nonTechnicalCredits);</script> credits of non-technical courses, <script>document.write(languageCredits);</script> credits of languages courses, and 10 credits for project.
+						</p>
+					</section>
+					<section>
+						<p class="paragraph_title">You are choose courses for FALL 1 semester:</p>
+						<p class="button_center">
+							<button class="margin_button_bold">Fall 1</button>
+							<button class="margin_button">Spring</button>
+							<button class="margin_button">Fall 2</button>
+							<button class="margin_button">Iternship</button>						
+						</p>
+						<p class="headline_space_letter">After chossing enough courses, you can check which track is suitable with you.</p>
+						<p class="button_center"><button disabled="disabled">Check track</button></p>
+					</section>
+					<section>
+						<p class="paragraph_title">Credit counting:</p>
+						<p>
+							<!--<div id="container">
+								<div id="test"></div>
+							</div>
+							<div id="message"></div>-->
+							<div class="progress progress-info progress-striped">
+								<div id="creditCountProgress" class="bar" style="width: 0%"></div>
+							</div>
+							<div id="creditCountAnnouncement"></div>
+						</p>
+					</section>
+					<section>
+						
+						<p>
+							<div id="calendar" class="div-table">
+								<div class="div-row">
+									<div class="div-column"></div>
+									<div id="monday" class="div-column">Monday</div>
+									<div id="tuesday" class="div-column">Tuesday</div>
+									<div id="wednesday" class="div-column">Wednesday</div>
+									<div id="thursday" class="div-column">Thursday</div>
+									<div id="friday" class="div-column">Friday</div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">8:00</div>
+									<div id="monday" class="div-column"></div>
+									<div id="tuesday" class="div-column"></div>
+									<div id="wednesday" class="div-column"></div>
+									<div id="thursday" class="div-column"></div>
+									<div id="friday" class="div-column"></div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">9:00</div>
+									<div id="monday" class="div-column"></div>
+									<div id="tuesday" class="div-column"></div>
+									<div id="wednesday" class="div-column"></div>
+									<div id="thursday" class="div-column"></div>
+									<div id="friday" class="div-column"></div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">10:00</div>
+									<div id="monday" class="div-column"></div>
+									<div id="tuesday" class="div-column"></div>
+									<div id="wednesday" class="div-column"></div>
+									<div id="thursday" class="div-column"></div>
+									<div id="friday" class="div-column"></div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">11:00</div>
+									<div id="monday" class="div-column"></div>
+									<div id="tuesday" class="div-column"></div>
+									<div id="wednesday" class="div-column"></div>
+									<div id="thursday" class="div-column"></div>
+									<div id="friday" class="div-column"></div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">12:00</div>
+									<div id="monday" class="div-column"></div>
+									<div id="tuesday" class="div-column"></div>
+									<div id="wednesday" class="div-column"></div>
+									<div id="thursday" class="div-column"></div>
+									<div id="friday" class="div-column"></div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">13:00</div>
+									<div id="monday" class="div-column"></div>
+									<div id="tuesday" class="div-column"></div>
+									<div id="wednesday" class="div-column"></div>
+									<div id="thursday" class="div-column"></div>
+									<div id="friday" class="div-column"></div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">14:00</div>
+									<div id="monday" class="div-column"></div>
+									<div id="tuesday" class="div-column"></div>
+									<div id="wednesday" class="div-column"></div>
+									<div id="thursday" class="div-column"></div>
+									<div id="friday" class="div-column"></div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">15:00</div>
+									<div id="monday" class="div-column"></div>
+									<div id="tuesday" class="div-column"></div>
+									<div id="wednesday" class="div-column"></div>
+									<div id="thursday" class="div-column"></div>
+									<div id="friday" class="div-column"></div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">16:00</div>
+									<div id="monday" class="div-column"></div>
+									<div id="tuesday" class="div-column"></div>
+									<div id="wednesday" class="div-column"></div>
+									<div id="thursday" class="div-column"></div>
+									<div id="friday" class="div-column"></div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">17:00</div>
+									<div id="monday" class="div-column"></div>
+									<div id="tuesday" class="div-column"></div>
+									<div id="wednesday" class="div-column"></div>
+									<div id="thursday" class="div-column"></div>
+									<div id="friday" class="div-column"></div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">18:00</div>
+									<div id="monday" class="div-column"></div>
+									<div id="tuesday" class="div-column"></div>
+									<div id="wednesday" class="div-column"></div>
+									<div id="thursday" class="div-column"></div>
+									<div id="friday" class="div-column"></div>
+								</div>
+							</div>
+						</p>
+						
+						<p>
+							<div id="timeCourse"></div>
+							
+						</p>
+						<!--
+						<p>
+							<div id="layer1" style="position:absolute; left:20px; width:410px; height:10px; visibility:hidden;">
+							<table border="0" cellspacing="0" cellpadding="3">
+							 <tr>
+							  <td class="top">
+							       <a href="javascript:hideIt()" style="text-decoration: none"><font color="#ffffff"><b>X</b></font></a>
+							  </td>
+							 </tr>
+							 <tr>
+							
+							  <td class="bottom">
+							    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+							    ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+							    <br><br>
+							    [<em>You can close the layer by clicking the <strong>X</strong> at the top right of this layer.</em>]
+							  </td>
+							 </tr>
+							</table>
+							</font>
+							
+							</div>
+							
+							<form>
+							  <input type="button" value="Open popup" onClick="showIt()">
+							</form>
+
+						</p>					
+						
+						<p><form><input type="checkbox" onclick="queryCourseCredits('SATT',0); queryCourseTime('SATT',0);"></form></p>
+						-->						
+						<p><a href="../TrackPicker/home.html">Back</a></p>
+					</section>
+				</section>
+				
+				<aside class="side_right">
+					<div class="courseChosedBorder">
+					<p class="headline_space_coursechoosed">The list of courses you chose:</p>
+					<div id="ChosedCourse" class="div-table-ChosedCourse">
+						<div class="div-row">									
+							<div id="ChosedCourse-No" class="div-column-ChosedCourse-No-Header">No.</div>
+							<div id="ChosedCourse-Course" class="div-column-ChosedCourse-Course-Header">Course</div>
+							<div id="ChosedCourse-Credits" class="div-column-ChosedCourse-Credits-Header">Credits</div>									
+						</div>
+						<div id="CourseCreditTable" class="div-row">
+						<div id="CourseCredit" >									
+							<!--<div id="ChosedCourse-No-Value" class="div-column-ChosedCourse-No"></div>
+							<div id="ChosedCourse-Course-Value" class="div-column-ChosedCourse-Course"></div>
+							<div id="ChosedCourse-Credits-Value" class="div-column-ChosedCourse-Credits"></div>
+							-->									
+						</div>
+						</div>
+					</div>
+					</div>
+				</aside>
+				<div class="clear"></div>
+			</div>
+			
+			
+			<footer class="footer">
+				&copy; Eurecom - 2013
+				
+			</footer>
+		</div>
+	</body>
+</html>

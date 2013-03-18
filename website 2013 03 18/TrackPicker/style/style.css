@@ -1,0 +1,457 @@
+﻿body, html {
+	height:100%;
+}
+
+body
+{
+	margin:0px;
+}
+
+#main_container {
+	width: 1115px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	background-color:#111876;/*#010bdf; #C2CEFE;*/
+	width:1115px;
+	height:144px;
+}
+
+.logo
+{
+	float: left;
+	width:275px;
+}
+
+.title
+{
+	/*float: left;*/
+	margin: auto;
+	padding-top: 40px;
+	text-align:center;
+	font-family: Pristina;/*"Adobe Garamond Pro";*/
+	font-size:45px;
+	color:white;
+	font-weight:bolder;
+
+	/*color:#4304AA;*/
+}
+
+.clear {
+	clear: both;
+}
+
+.middle
+{
+	/*width:975px;
+	height:20px;*/
+	margin-top:5px;
+	margin-bottom:0px;
+	position:relative;
+	background-image:url(../images/background3.png);
+}
+
+.side_left
+{
+	width:275px;
+	background-color:#dfe8fb;
+	float:left;
+	margin: 0px;
+	height:100%;
+}
+
+.side_right
+{
+	width:275px;
+	background-color:#f3f2f2;
+	float:right;
+	margin: 0px;
+	height:100%;	
+}
+
+.container
+{
+	width:555px;
+	float: left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.footer
+{
+	background-color:#2209B3;
+	margin-top:5px;
+	padding-left:10px;
+	color:white;
+	height:25px;
+	padding-top:5px;
+}
+
+.track_picker
+{
+	padding-left:10px;
+	background-color:#BAC1F5;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.paragraph_title
+{
+	padding-left:10px;
+	background-color:#BAC1F5;
+	color:navy;
+	font-weight:bold;
+}
+
+.headline_space
+{
+	padding-left:10px;
+	font-weight:bold;
+	color:navy;
+}
+
+.headline_space_coursechoosed
+{
+	padding-left:10px;
+	font-weight:bold;
+	color:navy;
+	/*position:fixed;
+	top:150px;*/
+
+}
+
+.headline_space_letter
+{
+	padding-left:10px;
+}
+
+.button_center
+{
+	text-align:center;
+}
+
+.margin_button
+{
+	margin:0px;
+}
+
+.margin_button_bold
+{
+	margin:0px;
+	font-weight:bold;
+}
+
+.border_table
+{
+	border-color:#FFF;
+	border-width:thin;
+	border-style:solid;
+	text-align:left;
+	font-weight:lighter;
+	margin-left: 8px;
+	border-spacing:0px;
+}
+.border_row
+{
+	border-bottom-color:#FFF;
+	border-top:none;
+	/*border-left:none;*/
+	border-left-color:#FFF;
+	border-left-width:thin;
+	border-left-style:solid;
+	border-right:none;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+	border-spacing:0px;
+}
+.border_column
+{
+	border-left-color:#FFF;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	border-left-width:thin;
+	border-left-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+}
+.border_row_header
+{
+	border-bottom-color:#FFF;
+	border-top:none;
+	/*border-left:none;*/
+	border-left-color:#FFF;
+	border-left-width:thin;
+	border-left-style:solid;
+	border-right:none;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+	border-spacing:0px;
+	background-color:#6894FB;
+	color:#FFFFFF;
+}
+
+.div-table
+{
+	display:table;
+	width:auto;
+	height:auto;
+	border:1px;;
+	border-style:solid;
+	border-color:gray;
+}
+
+.div-row
+{
+	display:table-row;
+	width:auto;
+	height:20px;
+	/*position:relative;*/
+	
+}
+
+.div-column
+{
+	display:table-column;
+	width:85px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:gray;
+}
+
+.courseDetails
+{
+	position:absolute;
+	left:20px;
+	width:710px;
+	height:300px;
+	visibility:hidden;
+	background-color:#FFFF66;
+	margin:10px;
+	padding:10px;
+	border:thick;
+	border-color:black;
+}
+
+.div-table-ChosedCourse
+{
+	display:table;
+	width:256px;
+	height:auto;
+	border:1px;;
+	border-style:solid;
+	border-color:white;
+	margin-left:8px;
+	/*position:fixed;
+	top:200px;*/
+
+}
+
+.div-row-ChosedCourse
+{
+	display:table-row;
+	width:256px;
+	height:20px;
+	/*position:relative;*/
+
+}
+
+.div-column-ChosedCourse-No
+{
+	display:table-column;
+	width:40px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	/*position:relative;*/
+}
+.div-column-ChosedCourse-Course
+{
+	display:table-column;
+	width:125px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	/*position:relative;*/
+}
+.div-column-ChosedCourse-Credits
+{
+	display:table-column;
+	width:85px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	/*position:relative;*/
+}
+.div-column-ChosedCourse-No-Header
+{
+	display:table-column;
+	width:40px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	background-color:#6894FB;
+	color:#FFFFFF;
+}
+.div-column-ChosedCourse-Course-Header
+{
+	display:table-column;
+	width:125px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	background-color:#6894FB;
+	color:#FFFFFF;
+}
+.div-column-ChosedCourse-Credits-Header
+{
+	display:table-column;
+	width:85px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:white;
+	background-color:#6894FB;
+	color:#FFFFFF;
+}
+
+.courseType
+{
+	font-weight:bold;
+	padding-left:20px;
+	color:#336600;
+}
+
+.courseChosedBorder
+{
+	position:fixed;
+}
+/*chua dung toi*/
+/*
+#container {
+    width: 500px;
+    height: 50px;
+    background: silver;
+    overflow: hidden;
+    
+}
+
+
+#test {
+    
+    width: 0px;
+    height: 50px;
+    background: orange;
+}
+
+td.top {
+  background-color: #000080;
+  text-align: right;
+}
+
+td.bottom {
+  background-color: #ffe38c;
+  padding: 15px;
+}
+*/
+.progress {
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #f7f7f7;
+    background-repeat: repeat-x;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
+}
+.progress .bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #0e90d2;
+    background-repeat: repeat-x;
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: width 0.6s ease;
+	-moz-transition: width 0.6s ease;
+	-o-transition: width 0.6s ease;
+	transition: width 0.6s ease;
+	background-image: linear-gradient(to bottom, #149bdf, #0480be);
+}
+.progress .bar + .bar {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.progress-striped .bar {
+  background-color: #149bdf;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+     -moz-background-size: 40px 40px;
+       -o-background-size: 40px 40px;
+          background-size: 40px 40px;
+}
+.progress-info .bar,
+.progress .bar-info {
+  background-color: #4bb1cf;
+    background-repeat: repeat-x;
+	background-image: linear-gradient(to bottom, #5bc0de, #339bb9);
+}
+
+.progress-info.progress-striped .bar,
+.progress-striped .bar-info {
+  background-color: #5bc0de;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}

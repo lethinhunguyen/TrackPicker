@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style/style.css" type="text/css"/>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<div id="main_container">
+			<header class="header">
+				
+				<img class="logo" src="images/logo.gif" alt="Eurecom Track Picker"/>
+				
+				<div class="title">TRACK PICKER</div>
+				
+			</header>
+			<div class="clear"></div>
+			
+			<div class="middle">
+				<aside class="side_left">
+					<p class="headline_space">All of courses at Eurecom:</p>
+                    <div id="results"></div>
+                    <script>query();</script>
+				</aside>
+				
+				<section id="content_container" class="container">
+					<section>
+						<p class="track_picker">Track picker:</p>
+						<p class="headline_space">This web application of Eurecom helps you choose the suitable track for you. You use this Track Picker application by choosing all of courses that you want to study such that the list of courses you choose is satisfied the curriculum regulation of Eurecom. </p>
+					</section>
+					<section>
+						<p class="paragraph_title">The curriculum regulations of Eurecom:</p>
+						<p>
+							In 3 semesters, you have to study at least <script>document.write(allCredits);</script> credits. Among them, there is at least <script>document.write(technicalCredits);</script> credits of technical courses (include at least <script>document.write(mandatoryCredits);</script> mandatory, <script>document.write(optionalCredits);</script> optional and some free course credits), <script>document.write(nonTechnicalCredits);</script> credits of non-technical courses, <script>document.write(languageCredits);</script> credits of languages courses, and 10 credits for project.
+							
+						</p>
+					</section>
+					<section>
+						<p class="paragraph_title">You click on each semester to choose courses for each one:</p>
+						<p class="button_center">
+							<button class="margin_button"> <a href="fall1.html">Fall 1</a></button>
+							<button class="margin_button">Spring</button>
+							<button class="margin_button">Fall 2</button>
+							<button class="margin_button">Iternship</button>
+							
+						</p>
+						<p class="headline_space">After chossing enough courses, you can check which track is suitable with you.</p>
+						<!--<p class="button_center"><button disabled>Check track</button></p>-->
+					</section>
+				</section>
+				
+				<aside class="side_right">
+					<p style="padding-left:10px">Connect to tracks on Eurecom website:</p>
+					<p>
+						<ul>
+							<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/web-engineering-0http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/web-engineering-0">Web Engineering</a></li>
+							<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks/mobile-communicationshttp://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks/mobile-communications">Mobile Communications</a>	</li>
+							<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks-0http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks-0">Multimedia</a></li>
+							<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks-1http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks-1">Networking</a></li>
+							<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/trackshttp://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks">Real-time and embedded systems</a></li>
+							<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks/communication-system-securityhttp://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks/communication-system-security">Communication System Security</a></li>
+							<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks/transmission-technologieshttp://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks/transmission-technologies">Transmission technologies</a></li>
+						</ul>
+						
+					</p>
+				</aside>
+				<div class="clear"></div>
+			</div>
+			
+			
+			<footer class="footer">
+				&copy; Eurecom - 2013
+				
+			</footer>
+		</div>
+	</body>
+</html>
