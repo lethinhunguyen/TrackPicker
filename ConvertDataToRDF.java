@@ -180,9 +180,9 @@ public class ConvertDataToRDF {
 		String teacherURI ="http://data.eurecom.fr/teacher/";
 		String departmentURI = "http://data.eurecom.fr/department/";
 		
-		String trackFile = "E:\\Eclipse\\Data\\track_json.json";
-		String courseFile = "E:\\Eclipse\\Data\\course_json.json";		
-		String cSessionFile = "E:\\Eclipse\\Data\\coursesession_json.json";
+		String trackFile = "E:\\Eclipse\\Data\\track.json";
+		String courseFile = "E:\\Eclipse\\Data\\course.json";		
+		String cSessionFile = "E:\\Eclipse\\Data\\coursesession.json";
 		String teacherFile = "E:\\Eclipse\\Data\\teacher_json.json";
 		String researcherFile = "E:\\Eclipse\\Data\\researcher.json";
 		
@@ -197,14 +197,14 @@ public class ConvertDataToRDF {
 			Long id = (Long) track.get("id");
 			String eachTrackURI = trackURI + id;
 			Resource eachTrack= modelTrack.createResource(eachTrackURI);
-			eachTrack.addProperty(RDF.type, REVE_URL+"Track");
+			eachTrack.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"Track"));
 			//OntClass cl = modelREVE.getOntClass("Track");
 			//RDFNode trackNode = (RDFNode) modelREVE.getOntClass(REVE_URL+"Track");
 			eachTrack.addProperty(modelAIISO.getProperty(AIISO_URL+"code"), modelTrack.createLiteral(track.get("code").toString()));
 			Literal literTitle = modelTrack.createLiteral(track.get("title_en").toString(), "en");
 			eachTrack.addProperty(RDFS.label, literTitle);
 						
-			JSONArray resp = (JSONArray) track.get("responsible");
+			JSONArray resp = (JSONArray) track.get("responsibleList");
 			for(int j=0;j<resp.size();j++)
 			{
 				JSONObject eachResp = (JSONObject)resp.get(j);
@@ -223,7 +223,7 @@ public class ConvertDataToRDF {
 				peopleBag.add(eachPeople);
 			}
 			
-			JSONArray cat = (JSONArray) track.get("catalogs");
+			JSONArray cat = (JSONArray) track.get("catalogList");
 			for (int k =0; k<cat.size();k++)
 			{
 				JSONObject eachCat = (JSONObject)cat.get(k);
@@ -231,9 +231,9 @@ public class ConvertDataToRDF {
 				String semesterName = period.get("name").toString();
 				String eachSemURI = semesterURI +semesterName;
 				Resource eachSem = modelSemester.createResource(eachSemURI);//dung cham khi khoi tao o cho khac
-				eachSem.addProperty(RDF.type, REVE_URL+"Semester");
+				eachSem.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"Semester"));
 				
-				JSONArray courseArray = (JSONArray)eachCat.get("courses");
+				JSONArray courseArray = (JSONArray)eachCat.get("courseList");
 				for(int l =0; l<courseArray.size();l++)
 				{
 					JSONObject courseObject = (JSONObject)courseArray.get(l);
@@ -242,7 +242,7 @@ public class ConvertDataToRDF {
 					//Resource eachCourse = modelCourse.createResource(eachCourseURI);//dung cham khi khoi tao o cho khac
 					Resource eachCourse = modelCourse.getResource(eachCourseURI);
 					eachCourse.addProperty(modelAIISO.getProperty(AIISO_URL+"code"), modelCourse.createLiteral(courseObject.get("code").toString()));
-					eachCourse.addProperty(RDF.type, REVE_URL+"Course");					
+					eachCourse.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"Course"));					
 					if(courseObject.get("liberty").equals("optionnal"))
 					{
 						eachTrack.addProperty(modelREVE.getProperty(REVE_URL+"hasOptionalCourse"), eachCourse);
@@ -260,7 +260,7 @@ public class ConvertDataToRDF {
 					}
 					//Resource cCreditFT = modelCourse.createResource();
 					Resource cCreditFT = modelCCreditFT.createResource();
-					cCreditFT.addProperty(RDF.type, REVE_URL+"CourseCreditForTrack");
+					cCreditFT.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"CourseCreditForTrack"));
 					eachCourse.addProperty(modelREVE.getProperty(REVE_URL+"hasCreditForTrack"), cCreditFT);
 					cCreditFT.addProperty(modelREVE.getProperty(REVE_URL+"hasTrack"), eachTrack);
 					//Literal creditLiteral = modelCourse.createTypedLiteral(courseObject.get("nbcredits"), XSDDatatype.XSDfloat);
@@ -281,7 +281,7 @@ public class ConvertDataToRDF {
 		for(int i =0; i<courseArray.size();i++)
 		{
 			JSONObject course = (JSONObject)courseArray.get(i);
-			JSONArray periodsArray = (JSONArray)course.get("periods");
+			JSONArray periodsArray = (JSONArray)course.get("periodList");
 			JSONObject firstPeriod = (JSONObject)periodsArray.get(0);
 			Long id = (Long) firstPeriod.get("id");
 			String eachCourseURI = courseURI + id;
@@ -295,7 +295,7 @@ public class ConvertDataToRDF {
 			{
 				//if(!modelCourse.contains(eachCourse, modelAIISO.getProperty(AIISO_URL+"code"), modelCourse.createLiteral(course.get("code").toString())))
 				//{
-				eachCourse.addProperty(RDF.type, REVE_URL+"Course");
+				eachCourse.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"Course"));
 				eachCourse.addProperty(RDFS.label,modelCourse.createLiteral(firstPeriod.get("display_value").toString(),"en"));
 				eachCourse.addProperty(modelAIISO.getProperty(AIISO_URL+"code"),modelCourse.createLiteral(course.get("code").toString()));
 				courseBag.add(eachCourse);
@@ -314,18 +314,18 @@ public class ConvertDataToRDF {
 			Resource eachSem = modelSemester.getResource(eachSemURI);
 			
 			//eachSem = modelSemester.createResource(eachSemURI);//dung cham khi khoi tao o cho khac
-			eachSem.addProperty(RDF.type, REVE_URL+"Semester");
-			
+			eachSem.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"Semester"));			
 			eachSem.addProperty(modelREVE.getProperty(REVE_URL+"hasAvailableCourse"), eachCourse);
+			eachCourse.addProperty(modelREVE.getProperty(REVE_URL+"availableDuring"), eachSem);
 			eachSem.addProperty(RDFS.label, modelSemester.createLiteral(period.get("name").toString()));			
 			if(firstPeriod.get("category").equals("General Teaching"))
-				eachCourse.addProperty(RDF.type, REVE_URL+"GeneralCourse");
+				eachCourse.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"GeneralCourse"));
 			if(firstPeriod.get("category").equals("Technical Teaching"))
-				eachCourse.addProperty(RDF.type, REVE_URL+"TechnicalCourse");
+				eachCourse.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"TechnicalCourse"));
 			if(firstPeriod.get("category").equals("Language Teaching"))
-				eachCourse.addProperty(RDF.type, REVE_URL+"LanguageCourse");
+				eachCourse.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"LanguageCourse"));
 			
-			JSONArray contriArray = (JSONArray)firstPeriod.get("contributors");
+			JSONArray contriArray = (JSONArray)firstPeriod.get("contributorList");
 			for(int j =0; j<contriArray.size();j++)
 			{
 				JSONObject contriObject = (JSONObject)contriArray.get(j);
@@ -375,7 +375,7 @@ public class ConvertDataToRDF {
 				boolean c1 = !modelCourse.containsResource(eachCourse);
 				if(c1)
 				{	
-					eachCourse.addProperty(RDF.type, REVE_URL+"Course");
+					eachCourse.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"Course"));
 					eachCourse.addProperty(RDFS.label, modelCourse.createLiteral(periodObject.get("display_value").toString(),"en"));
 					eachCourse.addLiteral(modelAIISO.getProperty(AIISO_URL+"code"),modelCourse.createLiteral(periodObject.get("code").toString()));
 					courseBag.add(eachCourse);					
@@ -387,7 +387,7 @@ public class ConvertDataToRDF {
 				Resource eachSem = modelSemester.getResource(eachSemURI);
 				
 				//eachSem = modelSemester.createResource(eachSemURI);//dung cham khi khoi tao o cho khac
-				eachSem.addProperty(RDF.type, REVE_URL+"Semester");
+				eachSem.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"Semester"));
 				
 				eachSem.addProperty(modelREVE.getProperty(REVE_URL+"hasAvailableCourse"), eachCourse);
 				eachSem.addProperty(RDFS.label, modelSemester.createLiteral(sePeriodObject.get("name").toString()));
@@ -399,16 +399,16 @@ public class ConvertDataToRDF {
 					Long sessionID = (Long)sessionObject.get("id");
 					String eachSessionURI = courseSessionURI +sessionID;
 					Resource eachSession = modelCSession.createResource(eachSessionURI);//dung cham khi khoi tao o cho khac
-					eachSession.addProperty(RDF.type, REVE_URL +"CourseSession");
+					eachSession.addProperty(RDF.type, modelREVE.getResource(REVE_URL +"CourseSession"));
 					eachSession.addProperty(modelREVE.getProperty(REVE_URL+"isConstituentOf"), eachCourse);
 					eachCourse.addProperty(modelREVE.getProperty(REVE_URL+"hasConstituent"), eachSession);
 					
 					Resource interval = modelCSession.createResource();
 					Resource beginInstant = modelCSession.createResource();
 					Resource endInstant = modelCSession.createResource();
-					interval.addProperty(RDF.type, TIME_URL+"ProperInterval");
-					beginInstant.addProperty(RDF.type, TIME_URL+"Instant");
-					endInstant.addProperty(RDF.type, TIME_URL+"Instant");
+					interval.addProperty(RDF.type, modelTIME.getResource(TIME_URL+"ProperInterval"));
+					beginInstant.addProperty(RDF.type, modelTIME.getResource(TIME_URL+"Instant"));
+					endInstant.addProperty(RDF.type, modelTIME.getResource(TIME_URL+"Instant"));
 					interval.addProperty(modelTIME.getProperty(TIME_URL+"hasBeginning"), beginInstant);
 					interval.addProperty(modelTIME.getProperty(TIME_URL+"hasEnd"), endInstant);
 					beginInstant.addProperty(modelTIME.getProperty(TIME_URL+"inXSDDateTime"), modelCourse.createTypedLiteral(sessionObject.get("begindate"), XSDDatatype.XSDdateTime));
@@ -454,7 +454,7 @@ public class ConvertDataToRDF {
 								String roomID = respRoomObject.get("id").toString();
 								String eachRoomURI = roomURI+roomID;
 								Resource eachRoom = modelRoom.createResource(eachRoomURI);//model de tao la model nao
-								eachRoom.addProperty(RDF.type, ROOMS_URL +"Room");
+								eachRoom.addProperty(RDF.type, modelROOMS.getResource(ROOMS_URL +"Room"));
 								eachRoom.addProperty(RDFS.label, modelRoom.createLiteral(respRoomObject.get("label_en").toString()));
 								eachSession.addProperty(modelLODE.getProperty(LODE_URL+"atTime"), interval);
 								
@@ -495,8 +495,9 @@ public class ConvertDataToRDF {
 					eachPeople.addProperty(FOAF.family_name, modelPeople.createLiteral(peopleObject.get("lastname").toString()));
 				peopleBag.add(eachPeople);
 			}
-			eachPeople.addProperty(RDF.type, REVE_URL+"Teacher");
-			
+			eachPeople.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"Teacher"));
+			if(peopleObject.get("image")!=null)
+				eachPeople.addProperty(FOAF.img, modelPeople.createLiteral(peopleObject.get("image").toString()));
 			//peopleBag.add(eachPeople);
 			
 			//---
@@ -506,7 +507,7 @@ public class ConvertDataToRDF {
 						
 			if(!modelRole.containsResource(eachRole))
 			{
-				eachRole.addProperty(RDF.type, PART_URL+"Role");				
+				eachRole.addProperty(RDF.type, modelPART.getResource(PART_URL+"Role"));				
 			}
 			if(!modelRole.contains(eachRole, modelPART.getProperty(PART_URL+"holder"), eachPeople))
 				eachRole.addProperty(modelPART.getProperty(PART_URL+"holder"), eachPeople);
@@ -534,7 +535,7 @@ public class ConvertDataToRDF {
 			
 			if(!modelRole.containsResource(eachRole))
 			{
-				eachRole.addProperty(RDF.type, PART_URL+"Role");				
+				eachRole.addProperty(RDF.type, modelPART.getResource(PART_URL+"Role"));				
 			}
 			if(!modelRole.contains(eachRole, modelPART.getProperty(PART_URL+"holder"), eachPeople))
 				eachRole.addProperty(modelPART.getProperty(PART_URL+"holder"), eachPeople);
@@ -564,11 +565,11 @@ public class ConvertDataToRDF {
 				eachRole.addProperty(modelPART.getProperty(PART_URL+"endDate"), modelRole.createTypedLiteral(researcher.get("enddate"), XSDDatatype.XSDdate));
 			
 			if(researcher.get("type").toString().equals("teacher"))
-				eachRole.addProperty(RDF.type, REVE_URL+"Teacher");
+				eachRole.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"Teacher"));
 			if(researcher.get("type").toString().equals("researcher"))
-				eachRole.addProperty(RDF.type, REVE_URL+"Researcher");
+				eachRole.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"Researcher"));
 			if(researcher.get("type").toString().equals("phd"))
-				eachRole.addProperty(RDF.type, REVE_URL+"DoctoralStudent");
+				eachRole.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"DoctoralStudent"));
 			
 			if(researcher.get("department")!=null)
 			{
@@ -578,9 +579,9 @@ public class ConvertDataToRDF {
 				Resource eachDepartment = modelDepartment.createResource(eachDepartmentURI);
 				
 				if(departmentObject.get("type").equals("research"))
-					eachDepartment.addProperty(RDF.type, REVE_URL+"ResearchUnit");
+					eachDepartment.addProperty(RDF.type, modelREVE.getResource(REVE_URL+"ResearchUnit"));
 				else
-					eachDepartment.addProperty(RDF.type, AIISO_URL+"Department");
+					eachDepartment.addProperty(RDF.type, modelAIISO.getResource(AIISO_URL+"Department"));
 				eachDepartment.addProperty(RDFS.label, modelDepartment.createLiteral(departmentObject.get("label_en").toString(), "en"));
 				eachRole.addProperty(modelPART.getProperty(PART_URL+"role_at"), eachDepartment);
 			}

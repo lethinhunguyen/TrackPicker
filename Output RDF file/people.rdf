@@ -29,15 +29,31 @@ Experience: &lt;ul&gt;&#xD;
     <FOAF:firstName>Christelle</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43118">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Michelle Wetterwald graduated from the Ecole Nationale des Telecommunications de Bretagne, France, in 1982. She is currently a senior research engineer at EURECOM in Sophia Antipolis. Her domain of interest is the Radio Resource Control (RRC) layer of the UMTS radio protocols and its direct interconnection with the IPV6 protocol stack for the support of QoS and mobility. She has extended the UMTS experimental platform to support the UMTS MBMS (Multicast/Broadcast Multimedia Service) and the 802.21 framework. She was actively involved in the Moby Dick, Daidalos I and II and UNITE projects, acting as the project coordinator inside EURECOM.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		She is IEEE Senior Member and member of the Phi Theta Kappa International Honor Society.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		She first worked at Thomson-CSF where she designed payload systems for telecommunications and direct TV public satellites. Later, she developed some embedded software for a sonar system. She joined IBM Networking Systems in La Gaude, France in 1988 where she worked on several products such as an ISDN Terminal Adapter with the support of X.25 Packet Mode, Wireless LAN products in 1992 followed by Network management and a configuration tool for ATM products. She contributed to 6 patents for IBM on the WLAN project. As a developer, she had to learn and apply the complete IBM development methodology.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2448"/>
+    <FOAF:family_name>WETTERWALD</FOAF:family_name>
+    <FOAF:firstName>Michelle</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43066">
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2404"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/7"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/11"/>
     <FOAF:family_name>MERIALDO</FOAF:family_name>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/344"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1186"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1357"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		1975, he was admitted in the &lt;strong&gt;Ecole Normale Sup&amp;eacute;rieure&lt;/strong&gt;, Paris (S75)&lt;/li&gt;&#xD;
@@ -55,19 +71,46 @@ Experience: &lt;ul&gt;&#xD;
 		From 1988 to 1990, he was a Visiting Scientist in the &lt;strong&gt;IBM T.J Watson Research Center &lt;/strong&gt;in Yorktown Heights, N.Y. (USA)&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1425"/>
     <FOAF:firstName>Bernard</FOAF:firstName>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/347"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43038">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Jelena Isacenkova&amp;nbsp;started her&amp;nbsp;PhD&amp;nbsp;with EURECOM under the supervision of&amp;nbsp;Prof. Refik Molva in 2009.&amp;nbsp;She won a scolarship (bourse CIFRE) and she is currently working as a researcher&amp;nbsp;for&amp;nbsp;the French company, MailInBlack. Her research interests embrace logging and monitoring policy compliance with regulations and secure logging in multi-party environment with a particular emphasis on privacy.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Before starting her PhD, she completed an internship at EURECOM and continued her work as a research engineer in a European project (R4eGov). The focus of the R4eGov project was on inter-organizational interoperability of SOA (Service Oriented Architecture)-based systems and EURECOM team worked on distributed access control and on the security aspects of web services.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Jelena received a MSc degree in Computer Science from Vilnius University, Lithuania. She conducted her master&amp;#39;s thesis under the guidance of Adomas Svirskas while working at EURECOM. Her master&amp;#39;s thesis focused on the compliance of collaborative interactions with process regulations.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+&lt;p&gt;&#xD;
+	&lt;br /&gt;&#xD;
+	&amp;nbsp;&lt;/p&gt;&#xD;
+Experience: </rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/186"/>
+    <FOAF:family_name>ISACHENKOVA</FOAF:family_name>
+    <FOAF:firstName>Jelena</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43076">
+    <rdfs:comment>Education: Experience: </rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2602"/>
+    <FOAF:family_name>ÖNEN</FOAF:family_name>
+    <FOAF:firstName>Melek</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43114">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/351"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/354"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <FOAF:family_name>LOISEL</FOAF:family_name>
     <FOAF:firstName>Valerie</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43846">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/363"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1183"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/366"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1354"/>
     <FOAF:family_name>SERIO</FOAF:family_name>
     <FOAF:firstName>Dominique</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
@@ -85,24 +128,6 @@ Experience: </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2668"/>
     <FOAF:family_name>BENSAID</FOAF:family_name>
     <FOAF:firstName>Siouar</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43901">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Xueliang Liu was born in Hebei (China) in 1981.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In July 2005, he got his Bachelor degree in Mechanical engineering. From Sept 2005 to Jun 2008, he was studying as a graduate student at University of Science &amp;amp; Technology of China.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In June 2008, he got his Master degree and then worked as a software engineer until April 2009.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Now, he is a Ph.D student in the Department of Multimedia at EURECOM, under the guidance of Professor Benoit Huet.&lt;br /&gt;&#xD;
-		&amp;nbsp;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2625"/>
-    <FOAF:family_name>LIU</FOAF:family_name>
-    <FOAF:firstName>Xueliang</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42997">
@@ -126,17 +151,26 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2407"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/328"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/331"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1429"/>
     <FOAF:family_name>DACIER</FOAF:family_name>
     <FOAF:firstName>Marc</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43992">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2326"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>GOLDBERG</FOAF:family_name>
-    <FOAF:firstName>M.</FOAF:firstName>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/44036">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/370"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <FOAF:family_name>LABARTHE</FOAF:family_name>
+    <FOAF:firstName>Fabien</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43006">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/333"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1460"/>
+    <FOAF:family_name>DRAETTA</FOAF:family_name>
+    <FOAF:firstName>Maria-Laura</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44207">
@@ -154,33 +188,61 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2633"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1203"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2693"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1443"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1368"/>
     <FOAF:family_name>VUKOLIC</FOAF:family_name>
     <FOAF:firstName>Marko</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43034">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/339"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>HAYAR</FOAF:family_name>
-    <FOAF:firstName>Aawatif</FOAF:firstName>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/42993">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/330"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1397"/>
+    <FOAF:family_name>COUDERT</FOAF:family_name>
+    <FOAF:firstName>Sophie</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43029">
     <rdfs:comment>Education: Experience: </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2430"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/338"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1185"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/341"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1356"/>
     <FOAF:family_name>GROS</FOAF:family_name>
     <FOAF:firstName>Pascal</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43013">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/335"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>FILALI</FOAF:family_name>
-    <FOAF:firstName>Fethi</FOAF:firstName>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43708">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		In 2003, he obtained a PhD degree in communication systems from the Swiss Federal Institute of Technology Lausanne (EPFL)&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		In 2000, a M.Sc. degree in networking from Nice Sophia-Antipolis University&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Leading embedded system design and radio integration teams at 3Roam, an innovative startup in Sophia-Antipolis, France, developing an advanced backhaul platform for high speed all-IP wireless networking.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Involved/coordinated National and European collaborative research projects and promote technology transfer from academia towards industry.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2514"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/362"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1427"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1322"/>
+    <FOAF:family_name>NIKAEIN</FOAF:family_name>
+    <FOAF:firstName>Navid</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43128">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/361"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1320"/>
+    <FOAF:family_name>SOULARD</FOAF:family_name>
+    <FOAF:firstName>Jean-Francois</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44202">
@@ -220,11 +282,18 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2612"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/348"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1095"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/351"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1310"/>
     <FOAF:family_name>ROUDIER</FOAF:family_name>
     <FOAF:firstName>Yves</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43123">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/356"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <FOAF:family_name>WILSON</FOAF:family_name>
+    <FOAF:firstName>Barbara</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/1069">
@@ -235,8 +304,9 @@ Experience: &lt;ul&gt;&#xD;
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43003">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/329"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/332"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1460"/>
     <FOAF:family_name>DELANOE</FOAF:family_name>
     <FOAF:firstName>Alexandre</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
@@ -260,17 +330,18 @@ Experience: </rdfs:comment>
     <FOAF:firstName>Giancarlo</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43993">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2327"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>FELBER</FOAF:family_name>
-    <FOAF:firstName>Pascal</FOAF:firstName>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/44015">
+    <rdfs:comment>Education: Experience: </rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2554"/>
+    <FOAF:family_name>LANZI</FOAF:family_name>
+    <FOAF:firstName>Andrea</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43938">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/366"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/369"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1435"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1319"/>
     <FOAF:family_name>PRIOR</FOAF:family_name>
     <FOAF:firstName>Andrew</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
@@ -290,8 +361,9 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2428"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/332"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/335"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1426"/>
     <FOAF:family_name>ELIA</FOAF:family_name>
     <FOAF:firstName>Petros</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
@@ -310,681 +382,6 @@ Experience: </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/311"/>
     <FOAF:family_name>ABDURAMAN</FOAF:family_name>
     <FOAF:firstName>Alina Elma</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43079">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/370"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>PAPAKONSTANTINOU</FOAF:family_name>
-    <FOAF:firstName>Konstantinos</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43033">
-    <rdfs:comment>Education: Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2610"/>
-    <FOAF:family_name>HAFSAOUI</FOAF:family_name>
-    <FOAF:firstName>Aymen</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43014">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/336"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>FINGER</FOAF:family_name>
-    <FOAF:firstName>Ulrich</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43099">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Dirk T.M. Slock received an &lt;strong&gt;engineering degree &lt;/strong&gt;from the University of Gent, Belgium in &lt;strong&gt;1982&lt;/strong&gt;&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In &lt;strong&gt;1984&lt;/strong&gt; he was awarded a &lt;strong&gt;Fulbright scholarship &lt;/strong&gt;for Stanford University USA, where he received the &lt;strong&gt;MS in Electrical Engineering&lt;/strong&gt;, &lt;strong&gt;MS in Statistics&lt;/strong&gt;, and &lt;strong&gt;PhD in Electrical Engineering&lt;/strong&gt; in &lt;strong&gt;1986&lt;/strong&gt;, &lt;strong&gt;1989 &lt;/strong&gt;and &lt;strong&gt;1989 &lt;/strong&gt;respectively&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		While at Stanford, he developed new fast recursive least-squares (RLS) algorithms for adaptive filtering&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In 1989-91, he was a member of the research staff at the &lt;strong&gt;Philips Research Laboratory &lt;/strong&gt;Belgium&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In 2000, he cofounded &lt;strong&gt;SigTone&lt;/strong&gt;, a start-up developing music signal processing products&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He has been active as a consultant on &lt;strong&gt;xDSL, DVB-T and 3G wireless systems&lt;/strong&gt;&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In France, he has had direct research contracts with &lt;strong&gt;Orange Labs, Infineon, NXP, STEricsson&lt;/strong&gt;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2546"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/349"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1132"/>
-    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/6"/>
-    <FOAF:family_name>SLOCK</FOAF:family_name>
-    <FOAF:firstName>Dirk</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/44046">
-    <rdfs:comment>Education: Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2561"/>
-    <FOAF:family_name>BARBUZZI</FOAF:family_name>
-    <FOAF:firstName>Antonio</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43053">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/369"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>LELOUP</FOAF:family_name>
-    <FOAF:firstName>Benoit</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43825">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Yingbo Li was born in China in 1983.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He received the Bachelor degree from Xi&amp;#39;an Jiaotong University (XJTU), China in 2005.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He received the Master Diploma of Pohang University of Science and Technology (POSTECH) in February 2008.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In October 2008 he&amp;nbsp;started a Ph.D. thesis affilied to Telecom ParisTech in Video Summarization at EURECOM under the guidance of Prof. Bernard Merialdo.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-&lt;p&gt;&#xD;
-	&lt;br /&gt;&#xD;
-	&amp;nbsp;&lt;/p&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2516"/>
-    <FOAF:family_name>LI</FOAF:family_name>
-    <FOAF:firstName>Yingbo</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/1424">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Kaoutar Elkhiyaoui received her engineering diploma (Equivalent to M.S degree) in Telecommunications from TELECOM Bretagne at EURECOM (France) in 2009.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		She joined NEC C&amp;amp;C Innovation Laboratories as an intern in April 2008. Her work at CCIL focused on devising algorithms for peer-to-peer content-based publish/subscribe overlays.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		She joined EURECOM in February 2009 as a PhD student in the Networking and Security Department under the supervision of Prof. Refik MOLVA.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		She is currenly working on RFID security.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2441"/>
-    <FOAF:family_name>ELKHIYAOUI</FOAF:family_name>
-    <FOAF:firstName>Kaoutar</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdf:_40 rdf:resource="http://data.eurecom.fr/people/43014"/>
-    <rdf:_7 rdf:resource="http://data.eurecom.fr/people/43046"/>
-    <rdf:_33 rdf:resource="http://data.eurecom.fr/people/42969"/>
-    <rdf:_13 rdf:resource="http://data.eurecom.fr/people/535"/>
-    <rdf:_48 rdf:resource="http://data.eurecom.fr/people/43126"/>
-    <rdf:_3 rdf:resource="http://data.eurecom.fr/people/43067"/>
-    <rdf:_60 rdf:resource="http://data.eurecom.fr/people/42999"/>
-    <rdf:_59 rdf:resource="http://data.eurecom.fr/people/43821"/>
-    <rdf:_35 rdf:resource="http://data.eurecom.fr/people/42993"/>
-    <rdf:_19 rdf:resource="http://data.eurecom.fr/people/42971"/>
-    <rdf:_28 rdf:resource="http://data.eurecom.fr/people/43041"/>
-    <rdf:_52 rdf:resource="http://data.eurecom.fr/people/43936"/>
-    <rdf:_30 rdf:resource="http://data.eurecom.fr/people/43089"/>
-    <rdf:_39 rdf:resource="http://data.eurecom.fr/people/43013"/>
-    <rdf:_54 rdf:resource="http://data.eurecom.fr/people/44036"/>
-    <rdf:_50 rdf:resource="http://data.eurecom.fr/people/43823"/>
-    <rdf:_2 rdf:resource="http://data.eurecom.fr/people/43066"/>
-    <rdf:_27 rdf:resource="http://data.eurecom.fr/people/43128"/>
-    <rdf:_49 rdf:resource="http://data.eurecom.fr/people/43752"/>
-    <rdf:_45 rdf:resource="http://data.eurecom.fr/people/43117"/>
-    <rdf:_11 rdf:resource="http://data.eurecom.fr/people/43066"/>
-    <rdf:_15 rdf:resource="http://data.eurecom.fr/people/43938"/>
-    <rdf:_58 rdf:resource="http://data.eurecom.fr/people/43820"/>
-    <rdf:_66 rdf:resource="http://data.eurecom.fr/people/43991"/>
-    <rdf:_32 rdf:resource="http://data.eurecom.fr/people/44464"/>
-    <rdf:_42 rdf:resource="http://data.eurecom.fr/people/43045"/>
-    <rdf:_23 rdf:resource="http://data.eurecom.fr/people/43708"/>
-    <rdf:_55 rdf:resource="http://data.eurecom.fr/people/43028"/>
-    <rdf:_41 rdf:resource="http://data.eurecom.fr/people/43034"/>
-    <rdf:_29 rdf:resource="http://data.eurecom.fr/people/43006"/>
-    <rdf:_26 rdf:resource="http://data.eurecom.fr/people/43127"/>
-    <rdf:_53 rdf:resource="http://data.eurecom.fr/people/43937"/>
-    <rdf:_51 rdf:resource="http://data.eurecom.fr/people/43824"/>
-    <rdf:_34 rdf:resource="http://data.eurecom.fr/people/42988"/>
-    <rdf:_64 rdf:resource="http://data.eurecom.fr/people/43989"/>
-    <rdf:_43 rdf:resource="http://data.eurecom.fr/people/43109"/>
-    <rdf:_16 rdf:resource="http://data.eurecom.fr/people/44207"/>
-    <rdf:_5 rdf:resource="http://data.eurecom.fr/people/43007"/>
-    <rdf:_4 rdf:resource="http://data.eurecom.fr/people/43022"/>
-    <rdf:_65 rdf:resource="http://data.eurecom.fr/people/43990"/>
-    <rdf:_67 rdf:resource="http://data.eurecom.fr/people/43992"/>
-    <rdf:_36 rdf:resource="http://data.eurecom.fr/people/42997"/>
-    <rdf:_44 rdf:resource="http://data.eurecom.fr/people/43114"/>
-    <rdf:_17 rdf:resource="http://data.eurecom.fr/people/42992"/>
-    <rdf:_61 rdf:resource="http://data.eurecom.fr/people/43058"/>
-    <rdf:_12 rdf:resource="http://data.eurecom.fr/people/43029"/>
-    <rdf:_22 rdf:resource="http://data.eurecom.fr/people/43036"/>
-    <rdf:_20 rdf:resource="http://data.eurecom.fr/people/42968"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
-    <rdf:_63 rdf:resource="http://data.eurecom.fr/people/43988"/>
-    <rdf:_37 rdf:resource="http://data.eurecom.fr/people/43003"/>
-    <rdf:_8 rdf:resource="http://data.eurecom.fr/people/43077"/>
-    <rdf:_62 rdf:resource="http://data.eurecom.fr/people/43076"/>
-    <rdf:_38 rdf:resource="http://data.eurecom.fr/people/43009"/>
-    <rdf:_31 rdf:resource="http://data.eurecom.fr/people/43012"/>
-    <rdf:_57 rdf:resource="http://data.eurecom.fr/people/43079"/>
-    <rdf:_24 rdf:resource="http://data.eurecom.fr/people/822"/>
-    <rdf:_46 rdf:resource="http://data.eurecom.fr/people/43123"/>
-    <rdf:_9 rdf:resource="http://data.eurecom.fr/people/43067"/>
-    <rdf:_21 rdf:resource="http://data.eurecom.fr/people/43846"/>
-    <rdf:_14 rdf:resource="http://data.eurecom.fr/people/43124"/>
-    <rdf:_47 rdf:resource="http://data.eurecom.fr/people/43125"/>
-    <rdf:_6 rdf:resource="http://data.eurecom.fr/people/43011"/>
-    <rdf:_25 rdf:resource="http://data.eurecom.fr/people/44343"/>
-    <rdf:_10 rdf:resource="http://data.eurecom.fr/people/43099"/>
-    <rdf:_1 rdf:resource="http://data.eurecom.fr/people/42980"/>
-    <rdf:_18 rdf:resource="http://data.eurecom.fr/people/43091"/>
-    <rdf:_68 rdf:resource="http://data.eurecom.fr/people/43993"/>
-    <rdf:_56 rdf:resource="http://data.eurecom.fr/people/43053"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43022">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li&gt;&#xD;
-		He obtained a Ph.D degree from ENST&lt;span style="font-size: 11px"&gt; (Ecole Nationale Sup&amp;eacute;rieure des T&amp;eacute;l&amp;eacute;communications), Paris, France&lt;/span&gt;, in 1997.&lt;/li&gt;&#xD;
-	&lt;li&gt;&#xD;
-		From April 1997 to October 1998, he has been postdoctoral student at the Smart Antenna Research Group of the Information Systems Laboratory, Stanford University.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		From 1993 to 1997, he was with France Telecom Research, Paris, where he was involved in the development and study of receiver algorithms for digital radio communications systems.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		After a visit at Stanford University, he took part in end of 1998 in the founding team of Iospan Wireless Inc, San Jose, Ca (initially known as Gigabit Wireless), a startup company pioneering the first high-speed wireless internet access networks using MIMO and OFDM. The technology was acquired by Intel in 2002 and is now featured as part of the WiMax 802.16 standard.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2620"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/337"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/1"/>
-    <FOAF:family_name>GESBERT</FOAF:family_name>
-    <FOAF:firstName>David</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/1369">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Carina Schmidt-Knorreck was born in Stuttgart (Germany) in 1982. She started with her studies in electrical engineering at the University of Stuttgart in 2002 and received her German diploma (equivalent to a master degree) in 2008.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Being participant of a double diploma program she persued her studies at TELECOM ParisTech, EURECOM (Sophia Antipolis, France) in 2006 and she received her French diploma in 2008.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		During that period she did a 6 month internship at AMADEUS (Sophia Antipolis, France). Furthermore she worked on her Diplomarbeit at the System on Chip Laboratory of TELECOM ParisTech settled at EURECOM.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Since September 2008 she is working on her doctoral thesis at the Mobile Communications department at EURECOM under the supervision of Prof. Raymond Knopp.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2510"/>
-    <FOAF:family_name>SCHMIDT KNORRECK</FOAF:family_name>
-    <FOAF:firstName>Carina</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43990">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2324"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>LABETOULLE</FOAF:family_name>
-    <FOAF:firstName>Jacques</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43036">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Benoit Huet received his BSc degree in computer science and engineering from the Ecole Superieure de Technologie Electrique (Groupe ESIEE, France) in 1992.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In 1993, he was awarded the MSc degree in Artificial Intelligence from the University of Westminster (UK) with distinction, where he then spent two years working as a research and teaching assistant.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He received his DPhil degree in Computer Science from the University of York (UK) for his research on the topic of object recognition from large databases.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		B. Huet is actively involved in many collaborative research projects with industrial as well as academic institution&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2591"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/340"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1187"/>
-    <FOAF:family_name>HUET</FOAF:family_name>
-    <FOAF:firstName>Benoit</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43998">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Wael GUIBENE received his Engineering degree in Telecommunications from ENIT (Ecole Nationale d&amp;rsquo;Ing&amp;eacute;nieurs de Tunis) in June 2009 and his Master degree in co-diploma with his Computering &amp;amp; Mathematics Master from ENIT and Universit&amp;eacute; Paris Descartes in January 2010.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He worked on his graduation projects with the Mobile Communication department of EURECOM and the Signals&amp;nbsp;and Systems Unit of&amp;nbsp;ENIT. Theses projects dealt with&amp;nbsp;the development and simulation of a new sensing technique called Algebraic Detection Technique.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		From January 2009 to January 2010, he worked on Sensing Algorithms as a&amp;nbsp;research member of&amp;nbsp;Signals and&amp;nbsp;Systems Unit (U2S)&amp;nbsp;of ENIT. In the mean time, he gave courses in telecommunications for one semester at ISETCom (Institut Sup&amp;eacute;rieur des Etudes Technologiques en Communications de Tunis).&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In January 2010 he joined the Mobile Communications Department of EURECOM where he is currently pursuing a Ph.D. under the supervision&amp;nbsp;of Professor Dirk Slock. His research focuses on advances on cognitive radio networks in relation with SACRA european project.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2595"/>
-    <FOAF:family_name>GUIBENE</FOAF:family_name>
-    <FOAF:firstName>Wael</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/44143">
-    <rdfs:comment>Education: Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2451"/>
-    <FOAF:family_name>DATTA</FOAF:family_name>
-    <FOAF:firstName>Soumya Kanti</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43966">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Lorenzo Maggi was born in Pavia, Italy, in 1984.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He received his M.Sc. in Electronics Engineering with specialization in Telecommunications from the University of Pavia in 2008. His thesis, entitled &amp;quot;Characterization of data-dependent noise in magnetic channel&amp;quot;, was the result of an internship in STMicroelectronics - Computer Peripherals Group (Milano, Italy).&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In November 2009, he joined the Mobile Communications Department at EURECOM, where he is now pursuing his Ph.D. under the supervision of Prof. Laura Cottatellucci and Prof. Konstantin Avrachenkov (INRIA). His current research interests focus on the application of game theory to wireless communications and on the development of learning algorithms for resource allocation.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-&lt;p style="text-align: justify"&gt;&#xD;
-	&lt;br /&gt;&#xD;
-	&amp;nbsp;&lt;/p&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He spent one year developing software in the Synthetic Aperture Radar field in Aresys, a spin-off company of &amp;quot;Politecnico&amp;quot; of Milano (Italy).&lt;br /&gt;&#xD;
-		&amp;nbsp;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2608"/>
-    <FOAF:family_name>MAGGI</FOAF:family_name>
-    <FOAF:firstName>Lorenzo</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43988">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2322"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>CAIRE</FOAF:family_name>
-    <FOAF:firstName>Giuseppe</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43820">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/371"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>GIACCONE</FOAF:family_name>
-    <FOAF:firstName>Paolo</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/535">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		2000: M.S in Communication Systems, EURECOM (Double Degree program, EU Erasmus grant)&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		2001: M.S. in Electrical Engineering, Politecnico di Torino&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		2004: Ph.D. in Computer Science, TELECOM Paris Tech&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He was the co-founder of &lt;strong&gt;CertiMate&lt;/strong&gt;, a startup company in the secure communications business.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He is also the scientific advisor for &lt;strong&gt;PlayAdz.com&lt;/strong&gt;, a startup company in the Mobile Advertisement business.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2648"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/319"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1203"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1182"/>
-    <FOAF:family_name>MICHIARDI</FOAF:family_name>
-    <FOAF:firstName>Pietro</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43021">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Lionel Gauthier graduated in Computer Science in 1995 from Lannion ENSSAT.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He is now a research engineer working on protocols aspects related to the software radio platform.&lt;br /&gt;&#xD;
-		&amp;nbsp;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		From 1997 to 1999, he worked for several companies in the area of embedded software. He then worked on a JAVA GSM operating system at GEMPLUS. After that he worked as an intranet software architect on EJB technology for IS2 in Sophia Antipolis.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2518"/>
-    <FOAF:family_name>GAUTHIER</FOAF:family_name>
-    <FOAF:firstName>Lionel</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43067">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/345"/>
-    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/5"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1130"/>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2466"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/8"/>
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Refik Molva has a Ph.D. in Computer Science from the Paul Sabatier University in Toulouse (1986) and a B.Sc. in Computer Science (1981) from Joseph Fourier University, Grenoble, France.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Prior to joining EURECOM, he worked from 1987 till 1992 as a Research Staff Member in the Zurich Research Laboratory of IBM where, as part of the core team that thrusted network and system security research, he was one of the key designers of the KryptoKnight security system.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He also worked as a consultant in network security in the IBM Consulting Group in 1997.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <FOAF:family_name>MOLVA</FOAF:family_name>
-    <FOAF:firstName>Refik</FOAF:firstName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43855">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Arun Kumar Singh received his Bachelor of Engineering degree in 2001, and Master of Technology degree in Communication and Radar Engineering from Indian Institute of Technology Delhi, India in December 2002. From April 2003 to January 2009, he worked with the Space Applications Centre, Indian Space Research Organisation as Research Engineer for Geo Aided GPS Augmented Navigation (GAGAN) and Indian Regional Navigation Satellite System (IRNSS) Onboard Payload Development. Currently he is a doctoral student in the Mobile Communications Department of EURCOM.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		His doctoral thesis work is on &amp;quot;Opportunistic and cooperative wireless networks: modern techniques for analysis, cooperation, encoding, control and resource allocation.&amp;quot; This work is partly funded by Institute Telecom Scholarship. His other research interests are in satellite based navigation systems, wireless communications and communication signal processing including MIMO systems, OFDM, MC-CDMA and Space-Time Coding.&lt;br /&gt;&#xD;
-		&amp;nbsp;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2622"/>
-    <FOAF:family_name>SINGH</FOAF:family_name>
-    <FOAF:firstName>Arun Kumar</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43077">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    <rdfs:comment></rdfs:comment>
-    <FOAF:firstName>Renaud</FOAF:firstName>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>PACALET</FOAF:family_name>
-    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/4"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1109"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2665"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/346"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1184"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43991">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2325"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>HUMBLET</FOAF:family_name>
-    <FOAF:firstName>Pierre</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43117">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Christian Wellekens received the degree of Ing&amp;eacute;nieur Civil Electricien M&amp;eacute;canicien from the University of Louvain, Belgium in 1965 and the Ph.D. from the Ecole Polytechnique F&amp;eacute;d&amp;eacute;rale de Lausanne, Switzerland in 1974.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Since his retirement, he studies for a Master in Philosophy at the University of Louvain (graduation planned in 2011).&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He worked for &lt;strong&gt;MBLE Research Labs &lt;/strong&gt;(Philips development) from 1965-68 where he developed microwave power amplifiers.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In 1968, he joined the &lt;strong&gt;Philips Research Laboratory &lt;/strong&gt;(PRLB) where he stayed till March 1991. He worked successively on the mathematical approximation of specifications of analog and digital filters, on piezoelectric transducer modeling and on speech recognition.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He spent a sabbatical year (1989-1990) at &lt;strong&gt;Bellcore&lt;/strong&gt; (Bell Communications Research), Morristown, N.J USA. His main contributions were in circuit theory, signal processing, speech recognition, connectionist networks and applied mathematics.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		From March 1991 to September 1992, he was a Scientific Advisor for Speech Recognition at &lt;strong&gt;Lernout &amp;amp; Hauspie Speech Products &lt;/strong&gt;(Belgium) where he contributed to the development of industrial speech recognizers using stochastic models as well as neural networks.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2637"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/352"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>WELLEKENS</FOAF:family_name>
-    <FOAF:firstName>Christian</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43120">
-    <rdfs:comment>Education: Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2412"/>
-    <FOAF:family_name>YILMAZ</FOAF:family_name>
-    <FOAF:firstName>Erhan</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/44213">
-    <rdfs:comment>Education: Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/320"/>
-    <FOAF:family_name>TAVNER</FOAF:family_name>
-    <FOAF:firstName>Bastien</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43041">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In 2007 he obtained a Dr. techn. (Ph.D.) degree in Technical Mathematics from Vienna University of Technology, Austria&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In 2002 he obtained a Dipl.-Ing. (M.Sc.) degree in Technical Mathematics, Vienna University of Technology, Austria&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		From 2003 until 2007 Florian Kaltenberger has been working as a junior research engineer at the Austrian Research Centers (ARC) on the development of a real-time radio channel emulator.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He has also been a partner in several collaborative projects with industry on the topics of receiver design for UMTS HSDPA and LTE.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2445"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/341"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1142"/>
-    <FOAF:family_name>KALTENBERGER</FOAF:family_name>
-    <FOAF:firstName>Florian</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43752">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/360"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>ROONEY</FOAF:family_name>
-    <FOAF:firstName>Sean</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43989">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2323"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>ROSS</FOAF:family_name>
-    <FOAF:firstName>Keith</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43612">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Louis earned his engineering degree from Sup&amp;eacute;lec and his MSc in Communication Systems from the School of Computer and Communication Systems, EPFL in 2003.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		From August 2002 to March 2003, he carried out his Master thesis at the Mathematics Department, Indian Institute of Technology, Delhi (IITD) in India.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Since 2003, he is researcher at Orange Labs (formerly France T&amp;eacute;l&amp;eacute;com R&amp;amp;D), and is part-time PhD student under the supervision of Prof. Ernst Biersack since 2007.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		His PhD work is mainly focused on streaming performance (TCP or UDP) over fixed or wireless networks.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/218"/>
-    <FOAF:family_name>PLISSONNEAU</FOAF:family_name>
-    <FOAF:firstName>Louis</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43118">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Michelle Wetterwald graduated from the Ecole Nationale des Telecommunications de Bretagne, France, in 1982. She is currently a senior research engineer at EURECOM in Sophia Antipolis. Her domain of interest is the Radio Resource Control (RRC) layer of the UMTS radio protocols and its direct interconnection with the IPV6 protocol stack for the support of QoS and mobility. She has extended the UMTS experimental platform to support the UMTS MBMS (Multicast/Broadcast Multimedia Service) and the 802.21 framework. She was actively involved in the Moby Dick, Daidalos I and II and UNITE projects, acting as the project coordinator inside EURECOM.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		She is IEEE Senior Member and member of the Phi Theta Kappa International Honor Society.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		She first worked at Thomson-CSF where she designed payload systems for telecommunications and direct TV public satellites. Later, she developed some embedded software for a sonar system. She joined IBM Networking Systems in La Gaude, France in 1988 where she worked on several products such as an ISDN Terminal Adapter with the support of X.25 Packet Mode, Wireless LAN products in 1992 followed by Network management and a configuration tool for ATM products. She contributed to 6 patents for IBM on the WLAN project. As a developer, she had to learn and apply the complete IBM development methodology.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2448"/>
-    <FOAF:family_name>WETTERWALD</FOAF:family_name>
-    <FOAF:firstName>Michelle</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43038">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Jelena Isacenkova&amp;nbsp;started her&amp;nbsp;PhD&amp;nbsp;with EURECOM under the supervision of&amp;nbsp;Prof. Refik Molva in 2009.&amp;nbsp;She won a scolarship (bourse CIFRE) and she is currently working as a researcher&amp;nbsp;for&amp;nbsp;the French company, MailInBlack. Her research interests embrace logging and monitoring policy compliance with regulations and secure logging in multi-party environment with a particular emphasis on privacy.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Before starting her PhD, she completed an internship at EURECOM and continued her work as a research engineer in a European project (R4eGov). The focus of the R4eGov project was on inter-organizational interoperability of SOA (Service Oriented Architecture)-based systems and EURECOM team worked on distributed access control and on the security aspects of web services.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Jelena received a MSc degree in Computer Science from Vilnius University, Lithuania. She conducted her master&amp;#39;s thesis under the guidance of Adomas Svirskas while working at EURECOM. Her master&amp;#39;s thesis focused on the compliance of collaborative interactions with process regulations.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-&lt;p&gt;&#xD;
-	&lt;br /&gt;&#xD;
-	&amp;nbsp;&lt;/p&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/186"/>
-    <FOAF:family_name>ISACHENKOVA</FOAF:family_name>
-    <FOAF:firstName>Jelena</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43076">
-    <rdfs:comment>Education: Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2602"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2321"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>ONEN</FOAF:family_name>
-    <FOAF:firstName>Melek</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/44036">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/367"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>LABARTHE</FOAF:family_name>
-    <FOAF:firstName>Fabien </FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43006">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/330"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1147"/>
-    <FOAF:family_name>DRAETTA</FOAF:family_name>
-    <FOAF:firstName>Maria-Laura</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/42993">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/327"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>COUDERT</FOAF:family_name>
-    <FOAF:firstName>Sophie</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43028">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/368"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>GROLLIER</FOAF:family_name>
-    <FOAF:firstName>Amandine</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43708">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In 2003, he obtained a PhD degree in communication systems from the Swiss Federal Institute of Technology Lausanne (EPFL)&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In 2000, a M.Sc. degree in networking from Nice Sophia-Antipolis University&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Leading embedded system design and radio integration teams at 3Roam, an innovative startup in Sophia-Antipolis, France, developing an advanced backhaul platform for high speed all-IP wireless networking.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Involved/coordinated National and European collaborative research projects and promote technology transfer from academia towards industry.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2514"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/359"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1148"/>
-    <FOAF:family_name>NIKAEIN</FOAF:family_name>
-    <FOAF:firstName>Navid</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43128">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/358"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1146"/>
-    <FOAF:family_name>SOULARD</FOAF:family_name>
-    <FOAF:firstName>Jean-Francois</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43905">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		HENDRIK SCHWEPPE received the Dipl.-Ing. degree for computer engineering from Technische Universit&amp;auml;t Berlin, Germany, in 2008. During his studies, he covered electrical engineering as well as computer science. His diploma thesis was performed during a research stay at Mercedes-Benz RDNA, Palo Alto, CA, where he designed and prototyped a new in-vehicle stream processing system. He is currently working towards the Ph.D. degree at EURECOM, Sophia-Antipolis, France.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He joined EURECOM, Sophia-Antipolis, France, in June 2009. At EURECOM, he is member of the Networking and Security Department, where he works on in-vehicle security systems, with a focus on on-board communication under the supervision of Assistant Prof. Yves Roudier. He is involved in the EVITA EU project. His research interests include distributed systems, automotive and embedded systems as well as security.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Hendrik Schweppe is a member of Gesellschaft f&amp;uuml;r Informatik. Besides his activities in EVITA, he is also active in the security working group of the Car to Car Communication Consortium as well as ETSI ITS security working group.&lt;br /&gt;&#xD;
-		&amp;nbsp;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2396"/>
-    <FOAF:family_name>SCHWEPPE</FOAF:family_name>
-    <FOAF:firstName>Hendrik Conrad</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/1214">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Carmelo Velardo was born the 16th July 1983. He studied Computer Science Engineer at Politecnico di Torino (Turin, Italy) and he further specialized in Multimedia Communications at EURECOM (Sophia Antipolis, France).&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He received is Master of Science from Politecnico in 2008 and in parallel he attained a Master research from the Ecole Doctorale (STIC) (Sophia Antipolis, France) in Image and Geometry for Multimedia and Life modelling and a Master of Science from EURECOM.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In July 2008 he started a Ph.D. in the Image and video group for multimedia communications and applications of EURECOM under the guidance of Professor Jean-Luc Dugelay.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		His research focus around Video Surveillance topic. His work is partially funded by the French project Video-ID.&lt;br /&gt;&#xD;
-		&amp;nbsp;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		During the year 2007, he worked for six months at Panasonic SJL (San Jose, USA) within the Universal Design Group, on an novel person recognition algorithm using Smart sensors networks.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2387"/>
-    <FOAF:family_name>VELARDO</FOAF:family_name>
-    <FOAF:firstName>Carmelo</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43058">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2320"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>LISETTI</FOAF:family_name>
-    <FOAF:firstName>Christine</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43123">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/353"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>WILSON</FOAF:family_name>
-    <FOAF:firstName>Barbara</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/44015">
-    <rdfs:comment>Education: Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2554"/>
-    <FOAF:family_name>LANZI</FOAF:family_name>
-    <FOAF:firstName>Andrea</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43863">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Lei Xiao was born in Wuhan (China) in 1982.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He has received his Bachelor Degree (EE) from Zhejiang University (China) in July,2004.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In Oct 2008, he obtained a master degree in Communication Technology from Duisburg-Essen (Germany) University. As a part of his study, he finished his master thesis in the Institute for Experimental Mathematics Digital Communication Group in Essen.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		From Jan 2009, he has joined the Department of Mobile Communications of&amp;nbsp; EURECOM as a PhD student under the supervision of Laura Cottatellucci.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		His current research interests include multiuser information and communications theory for wireless networks.&lt;br /&gt;&#xD;
-		&amp;nbsp;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2544"/>
-    <FOAF:family_name>XIAO</FOAF:family_name>
-    <FOAF:firstName>Lei</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42992">
@@ -1010,39 +407,94 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2486"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/326"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1140"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/329"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1440"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1315"/>
     <FOAF:family_name>COTTATELLUCCI</FOAF:family_name>
     <FOAF:firstName>Laura</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43109">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/350"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>URVOY</FOAF:family_name>
-    <FOAF:firstName>Guillaume</FOAF:firstName>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43033">
+    <rdfs:comment>Education: Experience: </rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2610"/>
+    <FOAF:family_name>HAFSAOUI</FOAF:family_name>
+    <FOAF:firstName>Aymen</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43014">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/339"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <FOAF:family_name>FINGER</FOAF:family_name>
+    <FOAF:firstName>Ulrich</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43089">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/347"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1147"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/350"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1321"/>
     <FOAF:family_name>RELIEU</FOAF:family_name>
     <FOAF:firstName>Marc</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43821">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/372"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>MELLIA</FOAF:family_name>
-    <FOAF:firstName>Marco</FOAF:firstName>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43099">
+    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/6"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1313"/>
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Dirk T.M. Slock received an &lt;strong&gt;engineering degree &lt;/strong&gt;from the University of Gent, Belgium in &lt;strong&gt;1982&lt;/strong&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		In &lt;strong&gt;1984&lt;/strong&gt; he was awarded a &lt;strong&gt;Fulbright scholarship &lt;/strong&gt;for Stanford University USA, where he received the &lt;strong&gt;MS in Electrical Engineering&lt;/strong&gt;, &lt;strong&gt;MS in Statistics&lt;/strong&gt;, and &lt;strong&gt;PhD in Electrical Engineering&lt;/strong&gt; in &lt;strong&gt;1986&lt;/strong&gt;, &lt;strong&gt;1989 &lt;/strong&gt;and &lt;strong&gt;1989 &lt;/strong&gt;respectively&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		While at Stanford, he developed new fast recursive least-squares (RLS) algorithms for adaptive filtering&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		In 1989-91, he was a member of the research staff at the &lt;strong&gt;Philips Research Laboratory &lt;/strong&gt;Belgium&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		In 2000, he cofounded &lt;strong&gt;SigTone&lt;/strong&gt;, a start-up developing music signal processing products&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		He has been active as a consultant on &lt;strong&gt;xDSL, DVB-T and 3G wireless systems&lt;/strong&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		In France, he has had direct research contracts with &lt;strong&gt;Orange Labs, Infineon, NXP, STEricsson&lt;/strong&gt;&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</rdfs:comment>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2546"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/352"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1438"/>
+    <FOAF:firstName>Dirk</FOAF:firstName>
+    <FOAF:family_name>SLOCK</FOAF:family_name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/44046">
+    <rdfs:comment>Education: Experience: </rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2561"/>
+    <FOAF:family_name>BARBUZZI</FOAF:family_name>
+    <FOAF:firstName>Antonio</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/1424">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Kaoutar Elkhiyaoui received her engineering diploma (Equivalent to M.S degree) in Telecommunications from TELECOM Bretagne at EURECOM (France) in 2009.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		She joined NEC C&amp;amp;C Innovation Laboratories as an intern in April 2008. Her work at CCIL focused on devising algorithms for peer-to-peer content-based publish/subscribe overlays.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		She joined EURECOM in February 2009 as a PhD student in the Networking and Security Department under the supervision of Prof. Refik MOLVA.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		She is currenly working on RFID security.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: </rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2441"/>
+    <FOAF:family_name>ELKHIYAOUI</FOAF:family_name>
+    <FOAF:firstName>Kaoutar</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42968">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/321"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1139"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/324"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1314"/>
     <FOAF:family_name>AMEUR</FOAF:family_name>
     <FOAF:firstName>Rabea</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
@@ -1065,6 +517,30 @@ Experience: </rdfs:comment>
     <FOAF:firstName>Hajer</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43022">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li&gt;&#xD;
+		He obtained a Ph.D degree from ENST&lt;span style="font-size: 11px"&gt; (Ecole Nationale Sup&amp;eacute;rieure des T&amp;eacute;l&amp;eacute;communications), Paris, France&lt;/span&gt;, in 1997.&lt;/li&gt;&#xD;
+	&lt;li&gt;&#xD;
+		From April 1997 to October 1998, he has been postdoctoral student at the Smart Antenna Research Group of the Information Systems Laboratory, Stanford University.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		From 1993 to 1997, he was with France Telecom Research, Paris, where he was involved in the development and study of receiver algorithms for digital radio communications systems.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		After a visit at Stanford University, he took part in end of 1998 in the founding team of Iospan Wireless Inc, San Jose, Ca (initially known as Gigabit Wireless), a startup company pioneering the first high-speed wireless internet access networks using MIMO and OFDM. The technology was acquired by Intel in 2002 and is now featured as part of the WiMax 802.16 standard.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2620"/>
+    <FOAF:firstName>David</FOAF:firstName>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1396"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/340"/>
+    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/1"/>
+    <FOAF:family_name>GESBERT</FOAF:family_name>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1413"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44343">
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
@@ -1079,10 +555,37 @@ Experience: &lt;ul&gt;&#xD;
 		Patrick Loiseau is actively involved in collaborative research projects with industrial partners.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3403"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1204"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1386"/>
     <FOAF:family_name>LOISEAU</FOAF:family_name>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3160"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <FOAF:firstName>Patrick</FOAF:firstName>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3403"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1369"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1461"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43036">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Benoit Huet received his BSc degree in computer science and engineering from the Ecole Superieure de Technologie Electrique (Groupe ESIEE, France) in 1992.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		In 1993, he was awarded the MSc degree in Artificial Intelligence from the University of Westminster (UK) with distinction, where he then spent two years working as a research and teaching assistant.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		He received his DPhil degree in Computer Science from the University of York (UK) for his research on the topic of object recognition from large databases.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		B. Huet is actively involved in many collaborative research projects with industrial as well as academic institution&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2591"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/343"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1358"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1395"/>
+    <FOAF:family_name>HUET</FOAF:family_name>
+    <FOAF:firstName>Benoit</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44034">
@@ -1105,28 +608,42 @@ Experience: </rdfs:comment>
     <FOAF:firstName>Imran</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/42978">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Erik-Oliver Blass joined EURECOM&amp;#39;s Network Security team as Researcj Engineer. His current work focuses on security and privacy aspects in RFID systems, in particular communication protocols between &amp;#39;tags&amp;#39; and &amp;#39;readers&amp;#39;.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Before joining EURECOM, he received his Dipl.-Inform. and his Dr. rer. nat. (with distinction) from Universit&amp;auml;t Karlsruhe (TH) in ITM, Germany.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In his previous work, he investigated new security aspects of wireless sensor networks, where strong adversaries are able to compromise resource-limited nodes, and therefore only &amp;quot;better-than-nothing security&amp;quot; guarantees are possible.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		For his thesis on secure, aggregating data transport in wireless sensor networks, Erik received the GDD-Award for the best PhD thesis on research in security.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2524"/>
-    <FOAF:family_name>BLASS</FOAF:family_name>
-    <FOAF:firstName>Erik-Oliver</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44004">
     <rdfs:comment>Education: Experience: </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/314"/>
     <FOAF:family_name>ESMIOL</FOAF:family_name>
     <FOAF:firstName>Fabien</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43998">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Wael GUIBENE received his Engineering degree in Telecommunications from ENIT (Ecole Nationale d&amp;#39;Ing&amp;eacute;nieurs de Tunis) in June 2009 and his Master degree in co-diploma with his Computering &amp;amp; Mathematics Master from ENIT and Universit&amp;eacute; Paris Descartes in January 2010.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		He worked on his graduation projects with the Mobile Communication department of EURECOM and the Signals&amp;nbsp;and Systems Unit of&amp;nbsp;ENIT. Theses projects dealt with&amp;nbsp;the development and simulation of a new sensing technique called Algebraic Detection Technique.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		From January 2009 to January 2010, he worked on Sensing Algorithms as a&amp;nbsp;research member of&amp;nbsp;Signals and&amp;nbsp;Systems Unit (U2S)&amp;nbsp;of ENIT. In the mean time, he gave courses in telecommunications for one semester at ISETCom (Institut Sup&amp;eacute;rieur des Etudes Technologiques en Communications de Tunis).&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		In January 2010 he joined the Mobile Communications Department of EURECOM where he is currently pursuing a Ph.D. under the supervision&amp;nbsp;of Professor Dirk Slock. His research focuses on advances on cognitive radio networks in relation with SACRA european project.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: </rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2595"/>
+    <FOAF:family_name>GUIBENE</FOAF:family_name>
+    <FOAF:firstName>Wael</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43791">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Rui Min was born in Shandong (China) in 1986. He obtained a bachelor&amp;#39;s degree in software engineering from Xiamen University in 2008. During his undergraduate study he spent one year in Inha University (South Korea) as an exchange student. Then he pursued his Master&amp;#39;s degree in France thanks to the Thales Academia scholarship (2008-2009), and in January 2010 he received his M.Sc. in &amp;quot;Communications and Computer Security&amp;quot; from Telecom ParisTech. During his Ms thesis internship he worked on face occlusion detection which aims to reinforce the stadium security.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Since March 2010 he is a PhD candidate at EURECOM in the Multimedia Imaging group (MIG) headed by Prof. Jean-Luc Dugelay. His current research focuses on the Security aspect of Facial Biometric Systems. His work is part of the French national project BIORAFALE.&lt;br /&gt;&#xD;
+		&amp;nbsp;&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: </rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2506"/>
+    <FOAF:family_name>MIN</FOAF:family_name>
+    <FOAF:firstName>Rui</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43903">
@@ -1147,25 +664,12 @@ Experience: </rdfs:comment>
     <FOAF:firstName>Matteo</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43791">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Rui Min was born in Shandong (China) in 1986. He obtained a bachelor&amp;#39;s degree in software engineering from Xiamen University in 2008. During his undergraduate study he spent one year in Inha University (South Korea) as an exchange student. Then he pursued his Master&amp;#39;s degree in France thanks to the Thales Academia scholarship (2008-2009), and in January 2010 he received his M.Sc. in &amp;quot;Communications and Computer Security&amp;quot; from Telecom ParisTech. During his Ms thesis internship he worked on face occlusion detection which aims to reinforce the stadium security.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Since March 2010 he is a PhD candidate at EURECOM in the Multimedia Imaging group (MIG) headed by Prof. Jean-Luc Dugelay. His current research focuses on the Security aspect of Facial Biometric Systems. His work is part of the French national project BIORAFALE.&lt;br /&gt;&#xD;
-		&amp;nbsp;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2506"/>
-    <FOAF:family_name>MIN</FOAF:family_name>
-    <FOAF:firstName>Rui</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43824">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/362"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/365"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1431"/>
     <FOAF:family_name>ETORRE</FOAF:family_name>
-    <FOAF:firstName>Yves nicolas</FOAF:firstName>
+    <FOAF:firstName>Yves Nicolas</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42971">
@@ -1183,11 +687,19 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2676"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/323"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1202"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/326"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1432"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1367"/>
     <FOAF:family_name>BALZAROTTI</FOAF:family_name>
     <FOAF:firstName>Davide</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/44143">
+    <rdfs:comment>Education: Experience: </rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2451"/>
+    <FOAF:family_name>DATTA</FOAF:family_name>
+    <FOAF:firstName>Soumya Kanti</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43937">
@@ -1205,13 +717,16 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2498"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/365"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/368"/>
+    <FOAF:img>../TrackPicker/images/Person/RaphaelTRONCY.jpg</FOAF:img>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1434"/>
     <FOAF:family_name>TRONCY</FOAF:family_name>
     <FOAF:firstName>Raphaël</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43046">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2380"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		He received a B.Eng. (Honours) and a M.Eng. degrees in electrical engineering from McGill University ( http://www.ece.mcgill.ca ), Montreal, Canada, in 1992 and 1993, respectively.&lt;/li&gt;&#xD;
@@ -1223,16 +738,17 @@ Experience: &lt;ul&gt;&#xD;
 		R. Knopp is very actively involved in many collaborative research projects with industry in the area of wireless communication systems.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2380"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/343"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1143"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/4"/>
     <FOAF:family_name>KNOPP</FOAF:family_name>
     <FOAF:firstName>Raymond</FOAF:firstName>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/346"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1398"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1318"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43011">
+    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/3"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		Master of Science&amp;nbsp;and Ph.D. degrees in Computer Science from the Technische Universit&amp;auml;t M&amp;uuml;nchen, Munich, Germany and an &amp;laquo;Habilitation &amp;agrave; Diriger des Recherches&amp;raquo; from University of Nice.&lt;/li&gt;&#xD;
@@ -1244,45 +760,79 @@ Experience: &lt;ul&gt;&#xD;
 		From March 1989 to February 1992 he was a Member of Technical Staff with the Computer Communications Research District of &amp;quot;Bell Communications Research&amp;quot;, Morristown, US.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2644"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/333"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1178"/>
-    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/3"/>
     <FOAF:family_name>BIERSACK</FOAF:family_name>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/336"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1415"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1352"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2644"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <FOAF:firstName>Ernst</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43126">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/356"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>INGHAM</FOAF:family_name>
-    <FOAF:firstName>Marc</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42988">
     <rdfs:comment>Education: Experience: </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2652"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/325"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/328"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <FOAF:family_name>CASTAING</FOAF:family_name>
     <FOAF:firstName>Pascale</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43126">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/359"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <FOAF:family_name>INGHAM</FOAF:family_name>
+    <FOAF:firstName>Marc</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43125">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/355"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/358"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <FOAF:family_name>LUMBERS</FOAF:family_name>
     <FOAF:firstName>Charles</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/535">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		2000: M.S in Communication Systems, EURECOM (Double Degree program, EU Erasmus grant)&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		2001: M.S. in Electrical Engineering, Politecnico di Torino&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		2004: Ph.D. in Computer Science, TELECOM Paris Tech&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		He was the co-founder of &lt;strong&gt;CertiMate&lt;/strong&gt;, a startup company in the secure communications business.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		He is also the scientific advisor for &lt;strong&gt;PlayAdz.com&lt;/strong&gt;, a startup company in the Mobile Advertisement business.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2648"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/322"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1368"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1353"/>
+    <FOAF:family_name>MICHIARDI</FOAF:family_name>
+    <FOAF:firstName>Pietro</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/42969">
+    <rdfs:comment></rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2469"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/325"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1433"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1430"/>
+    <FOAF:family_name>APVRILLE</FOAF:family_name>
+    <FOAF:firstName>Ludovic</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42980">
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1316"/>
     <FOAF:firstName>Christian</FOAF:firstName>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1141"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2398"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1149"/>
     <FOAF:family_name>BONNET</FOAF:family_name>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/324"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li&gt;&#xD;
 		MSc degree from Ecole Nationale des Mines de Nancy in 1978, France&lt;/li&gt;&#xD;
@@ -1300,20 +850,16 @@ Experience: &lt;ul&gt;&#xD;
 		In 1987 he was appointed Director of the Real Time Department of GSI Tecsi, and Responsible for the R&amp;amp;D European IST projects (DESCARTES, DRAGON, REX.)&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/327"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/9"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1428"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/42969">
-    <rdfs:comment></rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2469"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/322"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>APVRILLE</FOAF:family_name>
-    <FOAF:firstName>Ludovic</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1323"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43007">
+    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/2"/>
+    <FOAF:family_name>DUGELAY</FOAF:family_name>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li&gt;&#xD;
 		He received a Ph.D.degree in Computer Science in 1992 from Rennes University.&lt;/li&gt;&#xD;
@@ -1323,13 +869,45 @@ Experience: &lt;ul&gt;&#xD;
 		From 1989 to 1992, he worked for France Telecom Research, Rennes (formerly CCETT) on 3-D Motion Estimation &amp;amp; Stereoscopic Television.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
+    <FOAF:img>../TrackPicker/images/Person/Jean-LucDUGELAY.jpg</FOAF:img>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2542"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/331"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1177"/>
-    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/2"/>
-    <FOAF:family_name>DUGELAY</FOAF:family_name>
     <FOAF:firstName>Jean-Luc</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/334"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1351"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1412"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43021">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Lionel Gauthier graduated in Computer Science in 1995 from Lannion ENSSAT.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		He is now a research engineer working on protocols aspects related to the software radio platform.&lt;br /&gt;&#xD;
+		&amp;nbsp;&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		From 1997 to 1999, he worked for several companies in the area of embedded software. He then worked on a JAVA GSM operating system at GEMPLUS. After that he worked as an intranet software architect on EJB technology for IS2 in Sophia Antipolis.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2518"/>
+    <FOAF:family_name>GAUTHIER</FOAF:family_name>
+    <FOAF:firstName>Lionel</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43855">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Arun Kumar Singh received his Bachelor of Engineering degree in 2001, and Master of Technology degree in Communication and Radar Engineering from Indian Institute of Technology Delhi, India in December 2002. From April 2003 to January 2009, he worked with the Space Applications Centre, Indian Space Research Organisation as Research Engineer for Geo Aided GPS Augmented Navigation (GAGAN) and Indian Regional Navigation Satellite System (IRNSS) Onboard Payload Development. Currently he is a doctoral student in the Mobile Communications Department of EURCOM.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		His doctoral thesis work is on &amp;quot;Opportunistic and cooperative wireless networks: modern techniques for analysis, cooperation, encoding, control and resource allocation.&amp;quot; This work is partly funded by Institute Telecom Scholarship. His other research interests are in satellite based navigation systems, wireless communications and communication signal processing including MIMO systems, OFDM, MC-CDMA and Space-Time Coding.&lt;br /&gt;&#xD;
+		&amp;nbsp;&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: </rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2622"/>
+    <FOAF:family_name>SINGH</FOAF:family_name>
+    <FOAF:firstName>Arun Kumar</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44166">
@@ -1345,57 +923,173 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3175"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3127"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1442"/>
+    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/12"/>
     <FOAF:family_name>SPYROPOULOS</FOAF:family_name>
     <FOAF:firstName>Thrasyvoulos</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43861">
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43067">
+    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/5"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2466"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/348"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
-		Nesli Erdogmus received her degree in Electrical and Electronics Engineering from METU (Ankara, Turkey) in 2005. She continued her education in the same department for M.Sc. Until the completion of her thesis, titled as &amp;quot;2D/3D Imaging Simulator&amp;quot; in 2008, she also worked as a research assistant on a TUBITAK project, titled as &amp;quot;3D head model construction by soft/hard tissue modeling via various imaging techniques&amp;quot;.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Since December 2008, she is a PhD student in the Multimedia Communications Department of EURECOM (Sophia Antipolis, France) under the supervision of Prof. Jean-Luc Dugelay. Her area of interest mainly includes recognition of faces, using their corresponding 3D models. Her research is part of the FR ANR FAR3D.&lt;br /&gt;&#xD;
-		&amp;nbsp;&lt;/li&gt;&#xD;
+		Refik Molva has a Ph.D. in Computer Science from the Paul Sabatier University in Toulouse (1986) and a B.Sc. in Computer Science (1981) from Joseph Fourier University, Grenoble, France.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2664"/>
-    <FOAF:family_name>ERDOGMUS</FOAF:family_name>
-    <FOAF:firstName>Nesli</FOAF:firstName>
+Experience: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Prior to joining EURECOM, he worked from 1987 till 1992 as a Research Staff Member in the Zurich Research Laboratory of IBM where, as part of the core team that thrusted network and system security research, he was one of the key designers of the KryptoKnight security system.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		He also worked as a consultant in network security in the IBM Consulting Group in 1997.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</rdfs:comment>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/8"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1439"/>
+    <FOAF:family_name>MOLVA</FOAF:family_name>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1312"/>
+    <FOAF:firstName>Refik</FOAF:firstName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43077">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1355"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1311"/>
+    <rdfs:comment></rdfs:comment>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <FOAF:firstName>Renaud</FOAF:firstName>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/349"/>
+    <FOAF:family_name>PACALET</FOAF:family_name>
+    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/4"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2665"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43117">
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Christian Wellekens received the degree of Ing&amp;eacute;nieur Civil Electricien M&amp;eacute;canicien from the University of Louvain, Belgium in 1965 and the Ph.D. from the Ecole Polytechnique F&amp;eacute;d&amp;eacute;rale de Lausanne, Switzerland in 1974.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		Since his retirement, he studies for a Master in Philosophy at the University of Louvain (graduation planned in 2011).&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		He worked for &lt;strong&gt;MBLE Research Labs &lt;/strong&gt;(Philips development) from 1965-68 where he developed microwave power amplifiers.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		In 1968, he joined the &lt;strong&gt;Philips Research Laboratory &lt;/strong&gt;(PRLB) where he stayed till March 1991. He worked successively on the mathematical approximation of specifications of analog and digital filters, on piezoelectric transducer modeling and on speech recognition.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		He spent a sabbatical year (1989-1990) at &lt;strong&gt;Bellcore&lt;/strong&gt; (Bell Communications Research), Morristown, N.J USA. His main contributions were in circuit theory, signal processing, speech recognition, connectionist networks and applied mathematics.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		From March 1991 to September 1992, he was a Scientific Advisor for Speech Recognition at &lt;strong&gt;Lernout &amp;amp; Hauspie Speech Products &lt;/strong&gt;(Belgium) where he contributed to the development of industrial speech recognizers using stochastic models as well as neural networks.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2637"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/355"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <FOAF:family_name>WELLEKENS</FOAF:family_name>
+    <FOAF:firstName>Christian</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43823">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/361"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/364"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <FOAF:family_name>MANARA</FOAF:family_name>
     <FOAF:firstName>Cédric</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/42999">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2319"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>DEBBAH</FOAF:family_name>
-    <FOAF:firstName>Merouane</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:_22 rdf:resource="http://data.eurecom.fr/people/42993"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdf:_31 rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:_24 rdf:resource="http://data.eurecom.fr/people/43936"/>
+    <rdf:_23 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_37 rdf:resource="http://data.eurecom.fr/people/43128"/>
+    <rdf:_40 rdf:resource="http://data.eurecom.fr/people/43089"/>
+    <rdf:_25 rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:_49 rdf:resource="http://data.eurecom.fr/people/43752"/>
+    <rdf:_50 rdf:resource="http://data.eurecom.fr/people/43117"/>
+    <rdf:_48 rdf:resource="http://data.eurecom.fr/people/43823"/>
+    <rdf:_16 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_2 rdf:resource="http://data.eurecom.fr/people/44166"/>
+    <rdf:_34 rdf:resource="http://data.eurecom.fr/people/42997"/>
+    <rdf:_4 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_46 rdf:resource="http://data.eurecom.fr/people/43114"/>
+    <rdf:_38 rdf:resource="http://data.eurecom.fr/people/43824"/>
+    <rdf:_43 rdf:resource="http://data.eurecom.fr/people/43014"/>
+    <rdf:_30 rdf:resource="http://data.eurecom.fr/people/43846"/>
+    <rdf:_41 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_42 rdf:resource="http://data.eurecom.fr/people/42988"/>
+    <rdf:_17 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_15 rdf:resource="http://data.eurecom.fr/people/43029"/>
+    <rdf:_51 rdf:resource="http://data.eurecom.fr/people/43123"/>
+    <rdf:_5 rdf:resource="http://data.eurecom.fr/people/43066"/>
+    <rdf:_7 rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:_44 rdf:resource="http://data.eurecom.fr/people/43126"/>
+    <rdf:_18 rdf:resource="http://data.eurecom.fr/people/43124"/>
+    <rdf:_28 rdf:resource="http://data.eurecom.fr/people/43006"/>
+    <rdf:_13 rdf:resource="http://data.eurecom.fr/people/43099"/>
+    <rdf:_10 rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:_14 rdf:resource="http://data.eurecom.fr/people/43066"/>
+    <rdf:_20 rdf:resource="http://data.eurecom.fr/people/44207"/>
+    <rdf:_19 rdf:resource="http://data.eurecom.fr/people/43938"/>
+    <rdf:_6 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_3 rdf:resource="http://data.eurecom.fr/people/44339"/>
+    <rdf:_35 rdf:resource="http://data.eurecom.fr/people/42969"/>
+    <rdf:_11 rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <rdf:_9 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_1 rdf:resource="http://data.eurecom.fr/people/822"/>
+    <rdf:_26 rdf:resource="http://data.eurecom.fr/people/42968"/>
+    <rdf:_33 rdf:resource="http://data.eurecom.fr/people/43009"/>
+    <rdf:_21 rdf:resource="http://data.eurecom.fr/people/42992"/>
+    <rdf:_32 rdf:resource="http://data.eurecom.fr/people/43708"/>
+    <rdf:_39 rdf:resource="http://data.eurecom.fr/people/43041"/>
+    <rdf:_12 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_27 rdf:resource="http://data.eurecom.fr/people/44343"/>
+    <rdf:_8 rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <rdf:_45 rdf:resource="http://data.eurecom.fr/people/44036"/>
+    <rdf:_47 rdf:resource="http://data.eurecom.fr/people/43125"/>
+    <rdf:_29 rdf:resource="http://data.eurecom.fr/people/43003"/>
+    <rdf:_36 rdf:resource="http://data.eurecom.fr/people/43127"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43902">
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43041">
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
-		Francesco Negro received his Bachelor Degree form University of Lecce (Italy) in October 2006.&lt;/li&gt;&#xD;
+		In 2007 he obtained a Dr. techn. (Ph.D.) degree in Technical Mathematics from Vienna University of Technology, Austria&lt;/li&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
-		Subsequently, in November 2008, he received his Master of Science (M.Sc) in Telecommunication Engineering from Politecnico di Torino (Italy).&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		In May 2009 he joined the Department of Mobile Communications, EURECOM, as a PhD student under the supervision of Professor Dirk SLOCK .&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		His current research focuses on Signal Processing for Cognitive Radio.&lt;br /&gt;&#xD;
-		&amp;nbsp;&lt;/li&gt;&#xD;
+		In 2002 he obtained a Dipl.-Ing. (M.Sc.) degree in Technical Mathematics, Vienna University of Technology, Austria&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2389"/>
-    <FOAF:family_name>NEGRO</FOAF:family_name>
-    <FOAF:firstName>Francesco</FOAF:firstName>
+Experience: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		From 2003 until 2007 Florian Kaltenberger has been working as a junior research engineer at the Austrian Research Centers (ARC) on the development of a real-time radio channel emulator.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		He has also been a partner in several collaborative projects with industry on the topics of receiver design for UMTS HSDPA and LTE.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2445"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/344"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1317"/>
+    <FOAF:family_name>KALTENBERGER</FOAF:family_name>
+    <FOAF:firstName>Florian</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/44213">
+    <rdfs:comment>Education: Experience: </rdfs:comment>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/320"/>
+    <FOAF:family_name>TAVNER</FOAF:family_name>
+    <FOAF:firstName>Bastien</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/822">
+    <FOAF:firstName>Jérôme</FOAF:firstName>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/323"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1466"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1467"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1323"/>
+    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/12"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li&gt;&#xD;
 		He received a M.Sc. degree and a Dr. &amp;egrave;s sc. degree in telecommunication from the Swiss Institute of Technology (EPFL), Lausanne, Switzerland in 2002 and 2007 respectively.&lt;/li&gt;&#xD;
@@ -1411,65 +1105,23 @@ Experience: &lt;ul&gt;&#xD;
 		He is also active in collaborative research projects with industry in the field of Wireless Vehicular Networks and ITS.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2372"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/320"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1149"/>
     <FOAF:family_name>HÄRRI</FOAF:family_name>
-    <FOAF:firstName>Jérôme</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2372"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43936">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/364"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/367"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1414"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1399"/>
     <FOAF:family_name>CHAIX</FOAF:family_name>
     <FOAF:firstName>Pierre</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43045">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/342"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <FOAF:family_name>KIRDA</FOAF:family_name>
-    <FOAF:firstName>Engin</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/1220">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		Leucio Antonio Cutillo received his Master of Science in Computer Engineering from the Polytechnico di Torino in July 2008 after having received, in September 2007, his Communication Systems Engineering Diploma from EURECOM and his Master Research in Image and Geometry for Multimedia and Life Modelization from TELECOM ParisTech.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		During his MS and MR thesis he leaded The Automatic Cameraman Project at IDIAP Research Centre in Martingy, Switzerland, dealing with artificial intelligence in computer vision.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		He is currently taking his Ph.D. at EURECOM in the Networking and Security department with the european Socialnets project under the supervision of Prof. Refik Molva.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		During this time he will deal with problems related to security and privacy in these new generation networks.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2375"/>
-    <FOAF:family_name>CUTILLO</FOAF:family_name>
-    <FOAF:firstName>Leucio Antonio</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43012">
-    <rdfs:comment>Education: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		&lt;strong&gt;MEng&lt;/strong&gt; (Honors) &lt;strong&gt;in Electronics and Computing Science&lt;/strong&gt;, University of Wales Swansea, &lt;strong&gt;1999&lt;/strong&gt;&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		&lt;strong&gt;PhD in Electrical and Electronic Engineering&lt;/strong&gt;, University of Wales Swansea, &lt;strong&gt;2003&lt;/strong&gt;&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-Experience: &lt;ul&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		His PhD studies were sponsored by one the world&amp;rsquo;s leading mobile telecommunications providers and he has been actively involved in a number of collaborative research projects at local, national, European and international levels with SMEs, multinationals and government agencies.&lt;/li&gt;&#xD;
-	&lt;li style="text-align: justify"&gt;&#xD;
-		His current activities in acoustic echo cancellation and speech enhancement are supported by one of the world&amp;rsquo;s leading industrials in embedded mobile solutions.&lt;/li&gt;&#xD;
-&lt;/ul&gt;&#xD;
-</rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2501"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/334"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1188"/>
-    <FOAF:family_name>EVANS</FOAF:family_name>
-    <FOAF:firstName>Nicholas</FOAF:firstName>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43752">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/363"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <FOAF:family_name>ROONEY</FOAF:family_name>
+    <FOAF:firstName>Sean</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44339">
@@ -1487,7 +1139,36 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3274"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3158"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1441"/>
+    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/13"/>
     <FOAF:family_name>FRANCILLON</FOAF:family_name>
+    <FOAF:firstName>Aurélien</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43012">
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1359"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2501"/>
+    <FOAF:firstName>Nicholas</FOAF:firstName>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1424"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/337"/>
+    <rdfs:comment>Education: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;strong&gt;MEng&lt;/strong&gt; (Honors) &lt;strong&gt;in Electronics and Computing Science&lt;/strong&gt;, University of Wales Swansea, &lt;strong&gt;1999&lt;/strong&gt;&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		&lt;strong&gt;PhD in Electrical and Electronic Engineering&lt;/strong&gt;, University of Wales Swansea, &lt;strong&gt;2003&lt;/strong&gt;&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+Experience: &lt;ul&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		His PhD studies were sponsored by one the world&amp;rsquo;s leading mobile telecommunications providers and he has been actively involved in a number of collaborative research projects at local, national, European and international levels with SMEs, multinationals and government agencies.&lt;/li&gt;&#xD;
+	&lt;li style="text-align: justify"&gt;&#xD;
+		His current activities in acoustic echo cancellation and speech enhancement are supported by one of the world&amp;rsquo;s leading industrials in embedded mobile solutions.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</rdfs:comment>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <FOAF:img>../TrackPicker/images/Person/NicholasEVANS.jpg</FOAF:img>
+    <FOAF:family_name>EVANS</FOAF:family_name>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43073">
@@ -1504,17 +1185,19 @@ Experience: </rdfs:comment>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43124">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/354"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1145"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/357"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1435"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1423"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1319"/>
     <FOAF:family_name>POPE</FOAF:family_name>
     <FOAF:firstName>Kenneth</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43127">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/357"/>
-    <rdf:type>http://data.eurecom.fr/ontology/reve#Teacher</rdf:type>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1146"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/360"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1320"/>
     <FOAF:family_name>AUREGLIA</FOAF:family_name>
     <FOAF:firstName>Jean Jacques</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>

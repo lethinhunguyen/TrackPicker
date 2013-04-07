@@ -225,7 +225,7 @@ body
 {
 	display:table-column;
 	width:85px;
-	height:25px;
+	height:46px;
 	float:left;
 	text-align:center;
 	border:1px;
@@ -233,18 +233,48 @@ body
 	border-color:gray;
 }
 
+.div-column-quarter
+{
+	display:table-column;
+	width:85px;
+	height:10px;
+	float:left;
+	text-align:center;
+	border-top:thin;
+	border-bottom:thin;
+	border-left:0;
+	border-right:0;
+	border-style:solid;
+	border-color:#FFFF99;
+}
+
 .courseDetails
 {
-	position:absolute;
-	left:20px;
-	width:710px;
-	height:300px;
+	position:fixed;
+	/*left:20px;*/
+	width:300px;
+	height:120px;
 	visibility:hidden;
-	background-color:#FFFF66;
+	background-color:#FFFFCC;
 	margin:10px;
 	padding:10px;
-	border:thick;
-	border-color:black;
+	border:thin;
+	border-color:green;
+	border-style:solid;
+}
+.courseDes
+{
+	position:fixed;
+	/*left:20px;*/
+	width:240px;
+	height:auto;
+	visibility:hidden;
+	background-color:#FFFFCC;
+	margin:5px;
+	padding:10px;
+	border:thin;
+	border-color:green;
+	border-style:solid;
 }
 
 .div-table-ChosedCourse
@@ -258,7 +288,6 @@ body
 	margin-left:8px;
 	/*position:fixed;
 	top:200px;*/
-
 }
 
 .div-row-ChosedCourse
@@ -267,7 +296,6 @@ body
 	width:256px;
 	height:20px;
 	/*position:relative;*/
-
 }
 
 .div-column-ChosedCourse-No
@@ -285,7 +313,7 @@ body
 .div-column-ChosedCourse-Course
 {
 	display:table-column;
-	width:125px;
+	width:115px;
 	height:25px;
 	float:left;
 	text-align:center;
@@ -297,7 +325,7 @@ body
 .div-column-ChosedCourse-Credits
 {
 	display:table-column;
-	width:85px;
+	width:75px;
 	height:25px;
 	float:left;
 	text-align:center;
@@ -322,7 +350,7 @@ body
 .div-column-ChosedCourse-Course-Header
 {
 	display:table-column;
-	width:125px;
+	width:115px;
 	height:25px;
 	float:left;
 	text-align:center;
@@ -335,7 +363,7 @@ body
 .div-column-ChosedCourse-Credits-Header
 {
 	display:table-column;
-	width:85px;
+	width:75px;
 	height:25px;
 	float:left;
 	text-align:center;
@@ -356,7 +384,151 @@ body
 .courseChosedBorder
 {
 	position:fixed;
+	top:0px;
 }
+
+.div-row-courseDetails
+{
+	display:table-row;
+	width:auto;
+	height:100px;
+	/*position:relative;*/
+	
+}
+.div-column-img-courseDetails
+{
+	display:table-column;
+	width:80px;
+	height:100px;
+	float:left;
+	text-align:center;
+}
+.div-column-courseDetails
+{
+	display:table-column;
+	width:200px;
+	height:100px;
+	float:left;
+	text-align:left;
+}
+.italictext
+{
+	font-style:italic;
+}
+.boldtext
+{
+	font-weight:bold;
+}
+
+.div-column-resultTrack
+{
+	display:table-column;
+	width:85px;
+	height:46px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:gray;
+	font-size:10px;
+}
+
+.italictext_trackCourseChose
+{
+	font-style:italic;
+	max-width:265px;
+	margin:10px;
+}
+
+.mandatoryCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#FF3300;
+	float:left;
+	margin-left:20px;
+}
+.optionalCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#CC9900;
+	float:left;
+	margin-left:20px;
+}
+
+.freeCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#CCFF66;
+	float:left;
+	margin-left:20px;
+}
+
+.mulDepartmentCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#99FF33;
+	float:left;
+	margin-left:20px;
+}
+
+.netSecuDepartmentCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#FFCCFF;
+	float:left;
+	margin-left:20px;
+}
+
+.mobDepartmentCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#FFFF99;
+	float:left;
+	margin-left:20px;
+}
+
+.otherDepartmentCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#dfe8fb;
+	float:left;
+	margin-left:20px;
+	border-color:black;
+	border-style:solid;
+	border-width:thin;
+}
+
+.scrollCourseChoseResultTrack
+{
+	height:450px;
+	overflow:scroll;
+}
+.scrollCourseChose
+{
+	height:600px;
+	overflow:scroll;
+}
+
+/*.courseChosedBigBorder
+{
+	position:fixed;
+	top:200px;
+	background-color:fuchsia;
+}*/
 /*chua dung toi*/
 /*
 #container {
