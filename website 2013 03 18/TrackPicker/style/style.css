@@ -415,6 +415,12 @@ body
 {
 	font-style:italic;
 }
+.italicRedText
+{
+	font-style:italic;
+	color:red;
+}
+
 .boldtext
 {
 	font-weight:bold;
@@ -430,7 +436,7 @@ body
 	border:1px;
 	border-style:solid;
 	border-color:gray;
-	font-size:10px;
+	font-size:9px;
 }
 
 .italictext_trackCourseChose
@@ -519,7 +525,7 @@ body
 }
 .scrollCourseChose
 {
-	height:600px;
+	height:500px;
 	overflow:scroll;
 }
 

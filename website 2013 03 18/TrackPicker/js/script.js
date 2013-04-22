@@ -7,8 +7,11 @@ var languageCredits = 6;
 var creditCount =0;
 var defaultColor = "#FFFFFF";
 
+//-----Variable to store information of each course (name, semester, description, teacher name, teacher department)-----
 var courseInformationArray = new Array();
+//-----Variable to store information about type of course (mandatory, optional or free) and the amount of credits of each course depend on each track-----
 var courseTrackArray = new Array();
+//-----Variable to store the list of course that the user choose-----
 var courseChose = new Array();
 var courseTechnicalFallArray = new Array();
 
@@ -93,6 +96,7 @@ function sparqlQueryJson(queryStr, endpoint, callback, isDebug)
 	// Done; now just wait for the callback to be called.
 };
 
+//-----read data and store in courseTrack Array include information about mandatory or option or free course of each course according to each track, and credits of each courses according to each track-----
 function initCourseTrackArray()
 {
 		courseTrackArray[0] = new Array();
@@ -135,11 +139,7 @@ function initCourseTrackArray()
 		courseTrackArray[12][0] = "NETWORKING";
 		courseTrackArray[13][0] = "REAL-TIME AND EMBEDDED SYSTEMS";
 		courseTrackArray[14][0] = "REAL-TIME AND EMBEDDED SYSTEMS";
-
-
-
-
-		
+	
 		for(var i = 0; i < courseTrackArray[0].length; i++)
 		{
 			courseTrackArray[15][i] = 0;
@@ -201,8 +201,7 @@ function sparqlQueryJsonCourseTrackArray(queryStr, endpoint, callback, index, is
 	// Done; now just wait for the callback to be called.
 };
 
-
-
+//-----Query type of course and amount of credits of each course according to each track-----
 function queryCourseTrackAddArray(trackName, index)
 //function queryCourseTrackAddArray(trackName)
 {
@@ -215,7 +214,7 @@ function queryCourseTrackAddArray(trackName, index)
 
 }
 
-// Define a callback function to receive the SPARQL JSON result.
+//----- Callback function to add type of course and amount of credits to courseTrackArray ------
 function callbackCourseTrackAddArray(str, index)
 //function callbackCourseTrackAddArray(str)
 {
@@ -292,9 +291,9 @@ function callbackCourseTrackAddArray(str, index)
 		}	
 	}
 	//checkSessionStorage();
-
 }
 
+//-----Query all of course's name to add to courseTrackArray -----
 function queryCourseName()
 {
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
@@ -304,7 +303,7 @@ function queryCourseName()
 	sparqlQueryJson(query, endpoint, callbackCourseName, true);
 }
 
-// Define a callback function to receive the SPARQL JSON result.
+//-----Callback function to add all of courses' name to courseTrackArray-----
 function callbackCourseName(str)
 {
 	// Convert result to JSON
@@ -320,11 +319,9 @@ function callbackCourseName(str)
 	}
 }
 
-
+//-----Query information of each course (course's name, semester, description, teacher's name, teacher's image, teacher's department) to add into the courseInformationArray-----
 function queryCourseInformationAddArray()
 {
-	//var endpoint = "http://dbpedia.org/sparql";
-	//var query = "select * {?s ?p ?o} limit 5" ;
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
 	var query = "PREFIX REVE:<http://data.eurecom.fr/ontology/reve#> PREFIX PART:<http://purl.org/vocab/participation/schema#> PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX FOAF:<http://xmlns.com/foaf/0.1/> PREFIX AIISO:<http://vocab.org/aiiso/schema#> PREFIX DC:<http://purl.org/dc/terms/> SELECT ?code (SAMPLE (?semester) AS ?semester) (SAMPLE (?des) AS ?des) (SAMPLE (?teacherFirstName) AS ?teacherFirstName) (SAMPLE (?teacherLastName) AS ?teacherLastName) (SAMPLE (?teacherImage) AS ?teacherImage) (SAMPLE (?department) AS ?department) WHERE {{ ?course AIISO:code ?code. ?course rdf:type REVE:Course} OPTIONAL {{?course REVE:availableDuring ?semesterID} {?semesterID rdfs:label ?semester}} {?course AIISO:responsibilityOf ?teacherID} {?teacherID FOAF:firstName ?teacherFirstName} {?teacherID FOAF:family_name ?teacherLastName} OPTIONAL {?teacherID FOAF:img ?teacherImage} OPTIONAL {?teacherID PART:holder_of ?role. ?role PART:role_at ?departmentID. ?departmentID rdfs:label ?department} OPTIONAL {?course DC:description ?des}} GROUP BY ?code ORDER BY ?code";
 	
@@ -332,17 +329,11 @@ function queryCourseInformationAddArray()
 	sparqlQueryJson(query, endpoint, callbackCourseInformationAddArray, true);
 }
 
-// Define a callback function to receive the SPARQL JSON result.
+//-----Callback function to add information of each course into the courseInformationArray-----
 function callbackCourseInformationAddArray(str)
 {
 	// Convert result to JSON
 	var jsonObj = eval('(' + str + ')');
-	
-	// Build up a table of results.
-	/*var result = " <table class="+ "border_table"+ ">" + "<tr class="+ "border_column"+ "><td class="+ "border_row_header"+ ">Course</td> <td class="+ "border_row_header"+ ">Teacher</td> <td class="+ "border_row_header"+ ">Choose</td></tr>";*/
-	//alert(result);
-	//alert(jsonObj.results.bindings.length);
-	//alert(jsonObj.results.bindings[1].course.value);
 	
 	for(var i = 0; i<  jsonObj.results.bindings.length; i++)
 	{
@@ -395,8 +386,6 @@ function callbackCourseInformationAddArray(str)
 		}
 		else
 			courseInformationArray [i][6] = "";
-
-
 	}
 	courseInformationLoad= true;
 }
@@ -404,8 +393,6 @@ function callbackCourseInformationAddArray(str)
 //----------Query technical list for home page-----------
 function queryTechnicalCourseTeacher()
 {
-	//var endpoint = "http://dbpedia.org/sparql";
-	//var query = "select * {?s ?p ?o} limit 5" ;
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
 	var query = "PREFIX REVE:<http://data.eurecom.fr/ontology/reve#> PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX FOAF:<http://xmlns.com/foaf/0.1/> PREFIX AIISO:<http://vocab.org/aiiso/schema#> SELECT ?code (SAMPLE (?teacher) AS ?teacher) WHERE {{ ?course AIISO:code ?code. ?course rdf:type REVE:Course. ?course rdf:type REVE:TechnicalCourse}{?course AIISO:responsibilityOf ?teacherID}{?teacherID FOAF:firstName ?teacher}} GROUP BY ?code ORDER BY ?code";
 	
@@ -441,14 +428,11 @@ function callbackTechnicalCourseTeacher(str)
 	document.getElementById("technicalCourseTeacher").innerHTML = result;
 	//initCourseTrackArray();
 	techniqueList= true;
-
 }
 
 //----------Query technical list for Fall page---------
 function queryTechnicalCourseTeacherFall()
 {
-	//var endpoint = "http://dbpedia.org/sparql";
-	//var query = "select * {?s ?p ?o} limit 5" ;
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
 	var query = "PREFIX REVE:<http://data.eurecom.fr/ontology/reve#> PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX FOAF:<http://xmlns.com/foaf/0.1/> PREFIX AIISO:<http://vocab.org/aiiso/schema#> SELECT ?code (SAMPLE (?teacher) AS ?teacher) (SAMPLE (?semester) AS ?semester)  WHERE {{ ?course AIISO:code ?code. ?course rdf:type REVE:Course. ?course rdf:type REVE:TechnicalCourse}{?course AIISO:responsibilityOf ?teacherID}{?teacherID FOAF:firstName ?teacher} {{?course REVE:availableDuring ?semesterID} {?semesterID rdfs:label ?semester}}. FILTER regex (?semester, \"fall\", \"i\")} GROUP BY ?code ORDER BY ?code";
 	
@@ -459,8 +443,6 @@ function queryTechnicalCourseTeacherFall()
 //----------Query technical list for Spring page---------
 function queryTechnicalCourseTeacherSpring()
 {
-	//var endpoint = "http://dbpedia.org/sparql";
-	//var query = "select * {?s ?p ?o} limit 5" ;
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
 	var query = "PREFIX REVE:<http://data.eurecom.fr/ontology/reve#> PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX FOAF:<http://xmlns.com/foaf/0.1/> PREFIX AIISO:<http://vocab.org/aiiso/schema#> SELECT ?code (SAMPLE (?teacher) AS ?teacher) (SAMPLE (?semester) AS ?semester)  WHERE {{ ?course AIISO:code ?code. ?course rdf:type REVE:Course. ?course rdf:type REVE:TechnicalCourse}{?course AIISO:responsibilityOf ?teacherID}{?teacherID FOAF:firstName ?teacher} {{?course REVE:availableDuring ?semesterID} {?semesterID rdfs:label ?semester}}. FILTER regex (?semester, \"spring\", \"i\")} GROUP BY ?code ORDER BY ?code";
 	
@@ -494,7 +476,6 @@ function callbackTechnicalCourseTeacherFallSpring(str)
 	  result += " </td><td class="+ "border_row"+ ">"+ "<form><input type="+ "checkbox"+ " id=\""+ checkBoxName+"\"";
 	  //result +=" onclick= \"queryCourseCredits(\'"+co+"\', \'"+checkBoxName+"\');" + " \"";
 	  result +=" onclick= \"queryCourseCredits_queryCourseTime(\'"+co+"\', \'"+checkBoxName+"\'); \"";
-
 	  result += "></form>";
 	  result += " </td></tr>"; 
 //colorizeCourse(co);
@@ -512,8 +493,6 @@ function callbackTechnicalCourseTeacherFallSpring(str)
 //----------Query non technical list for home page-----------
 function queryNonTechnicalCourseTeacher()
 {
-	//var endpoint = "http://dbpedia.org/sparql";
-	//var query = "select * {?s ?p ?o} limit 5" ;
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
 	var query = "PREFIX REVE:<http://data.eurecom.fr/ontology/reve#> PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX FOAF:<http://xmlns.com/foaf/0.1/> PREFIX AIISO:<http://vocab.org/aiiso/schema#> SELECT ?code (SAMPLE (?teacher) AS ?teacher) WHERE {{ ?course AIISO:code ?code. ?course rdf:type REVE:Course. ?course rdf:type REVE:GeneralCourse}{?course AIISO:responsibilityOf ?teacherID}{?teacherID FOAF:firstName ?teacher}} GROUP BY ?code ORDER BY ?code";
 	
@@ -556,8 +535,6 @@ function callbackNonTechnicalCourseTeacher(str)
 //----------Query non technical list for Fall page-----------
 function queryNonTechnicalCourseTeacherFall()
 {
-	//var endpoint = "http://dbpedia.org/sparql";
-	//var query = "select * {?s ?p ?o} limit 5" ;
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
 	var query = "PREFIX REVE:<http://data.eurecom.fr/ontology/reve#> PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX FOAF:<http://xmlns.com/foaf/0.1/> PREFIX AIISO:<http://vocab.org/aiiso/schema#> SELECT ?code (SAMPLE (?teacher) AS ?teacher) (SAMPLE (?semester) AS ?semester)  WHERE {{ ?course AIISO:code ?code. ?course rdf:type REVE:Course. ?course rdf:type REVE:GeneralCourse}{?course AIISO:responsibilityOf ?teacherID}{?teacherID FOAF:firstName ?teacher} {{?course REVE:availableDuring ?semesterID} {?semesterID rdfs:label ?semester}}. FILTER regex (?semester, \"fall\", \"i\")} GROUP BY ?code ORDER BY ?code";
 	
@@ -568,8 +545,6 @@ function queryNonTechnicalCourseTeacherFall()
 //----------Query non technical list for Spring page-----------
 function queryNonTechnicalCourseTeacherSpring()
 {
-	//var endpoint = "http://dbpedia.org/sparql";
-	//var query = "select * {?s ?p ?o} limit 5" ;
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
 	var query = "PREFIX REVE:<http://data.eurecom.fr/ontology/reve#> PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX FOAF:<http://xmlns.com/foaf/0.1/> PREFIX AIISO:<http://vocab.org/aiiso/schema#> SELECT ?code (SAMPLE (?teacher) AS ?teacher) (SAMPLE (?semester) AS ?semester)  WHERE {{ ?course AIISO:code ?code. ?course rdf:type REVE:Course. ?course rdf:type REVE:GeneralCourse}{?course AIISO:responsibilityOf ?teacherID}{?teacherID FOAF:firstName ?teacher} {{?course REVE:availableDuring ?semesterID} {?semesterID rdfs:label ?semester}}. FILTER regex (?semester, \"spring\", \"i\")} GROUP BY ?code ORDER BY ?code";
 	
@@ -603,7 +578,6 @@ function callbackNonTechnicalCourseTeacherFallSpring(str)
 	  result += " </td><td class="+ "border_row"+ ">"+ "<form><input type="+ "checkbox"+ " id=\""+ checkBoxName+"\"";
 	  //result +=" onclick= \"queryCourseCredits(\'"+co+"\', \'"+checkBoxName+"\');" + " \"";
 	   result +=" onclick= \"queryCourseCredits_queryCourseTime(\'"+co+"\', \'"+checkBoxName+"\'); \"";
-
 	  result += "></form>";
 	  result += " </td></tr>"; 
 	}
@@ -616,10 +590,9 @@ function callbackNonTechnicalCourseTeacherFallSpring(str)
 	nonTechniqueList = true;
 }
 
+//----------Query language course list-----------
 function queryLanguageCourseTeacher()
 {
-	//var endpoint = "http://dbpedia.org/sparql";
-	//var query = "select * {?s ?p ?o} limit 5" ;
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
 	var query = "PREFIX REVE:<http://data.eurecom.fr/ontology/reve#> PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> PREFIX FOAF:<http://xmlns.com/foaf/0.1/> PREFIX AIISO:<http://vocab.org/aiiso/schema#> SELECT ?code (SAMPLE (?teacher) AS ?teacher) WHERE {{ ?course AIISO:code ?code. ?course rdf:type REVE:Course. ?course rdf:type REVE:LanguageCourse}{?course AIISO:responsibilityOf ?teacherID}{?teacherID FOAF:firstName ?teacher}} GROUP BY ?code ORDER BY ?code";
 	
@@ -627,7 +600,7 @@ function queryLanguageCourseTeacher()
 	sparqlQueryJson(query, endpoint, callbackLanguageCourseTeacher, true);
 }
 
-// Define a callback function to receive the SPARQL JSON result.
+//----------Callback function to to display language course list----------
 function callbackLanguageCourseTeacher(str)
 {
 	// Convert result to JSON
@@ -668,6 +641,7 @@ function queryCourseCredits_queryCourseTime(co, checkBoxName)
 	queryCourseTime(co,checkBoxName);
 }
 
+//-----------Query teacher's department of each course to colorize list of courses----- After, change this colorizing method to get data from courseInformationArray----------
 function queryCourseDepartment()
 {
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
@@ -678,6 +652,7 @@ function queryCourseDepartment()
 	//checkSessionStorage();
 }
 
+//-----------Colorize the list of course according to teacher department -----------
 function callbackCourseDepartment(str)
 {
 	// Convert result to JSON
@@ -695,11 +670,11 @@ function callbackCourseDepartment(str)
 				document.getElementById(courseName).style.backgroundColor= "#FFFF99";//"#FCD88B";//"#FF66FF";
 			if(dep == "Multimedia Communications" && document.getElementById(courseName) != null)
 				document.getElementById(courseName).style.backgroundColor= "#99FF33";//"#CCFF33";
-
 		}
 	}
 }
 
+//-----------Query the schedule of course ----------
 function queryCourseTimeMouseMove(courseName)
 {
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
@@ -708,6 +683,7 @@ function queryCourseTimeMouseMove(courseName)
 	sparqlQueryJson(query, endpoint, callbackCourseTime, true);
 }
 
+//-----------Query the schedule of course ----------
 function queryCourseTime(courseName,checkBoxName)
 {
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
@@ -717,6 +693,7 @@ function queryCourseTime(courseName,checkBoxName)
 		sparqlQueryJson(query, endpoint, callbackCourseTime,true);
 }
 
+//-----------Sign on the calendar by color according to the schedule of course that is chose or mouse over----------
 function callbackCourseTime(str)
 {
 	// Convert result to JSON
@@ -785,9 +762,9 @@ function callbackCourseTime(str)
 	//var d = new Date('2013','02','28');
 	//var n = d.getDay();
 	//document.getElementById("test").innerHTML = n;
-
 }
 
+//-----------Query the schedule of course ----------
 function queryCourseTimeDeselect(courseName, checkBoxName)
 {
 	var endpoint = "http://localhost:8080/openrdf-sesame/repositories/REVE2.2";
@@ -797,6 +774,7 @@ function queryCourseTimeDeselect(courseName, checkBoxName)
 		sparqlQueryJson(query, endpoint, callbackCourseTimeDeselect, true);
 }
 
+//------------Give up the color sign on the calendar when the course is deselected-----------
 function callbackCourseTimeDeselect(str)
 {
 	// Convert result to JSON
@@ -854,14 +832,75 @@ function callbackCourseTimeDeselect(str)
 		}
 	}
 	result += "</div>";
-	document.getElementById("timeCourse").innerHTML = result;
-
-	var d = new Date('2013','02','28');
-	var n = d.getDay();
-	document.getElementById("test").innerHTML = n;
+	//document.getElementById("timeCourse").innerHTML = result;
+	checkTheCalendar();
+	//var d = new Date('2013','02','28');
+	//var n = d.getDay();
+	//document.getElementById("test").innerHTML = n;
 
 }
 
+//----------Check again after mouse move out of one course on the list, in order to guarantee the schedule on the calendar is exact----------
+function checkTheCalendar()
+{
+	for(var i = 1; i < courseChose.length; i++)
+	{
+		var courseName = courseChose[i];
+		var checkBoxName = courseName + "-Checkbox";
+		if(document.getElementById(checkBoxName) != null)
+			queryCourseTime(courseName,checkBoxName);
+	}
+}
+
+//----------Variable to store the chose track and the number of credits lacked------------
+var trackInformationStorage= "";
+//----------Set session storage for the edit choices page--------
+function setTrackInformationSessionStorage()
+{
+	sessionStorage.setItem("trackInformation", trackInformationStorage);
+}
+
+//---------- After page of edit choices is loaded, call checkSessionStorage function to get list of course chose and display----------
+function getSessionStorageEditChoice()
+{
+	if(/*techniqueList == false || */nonTechniqueList == false || courseInformationLoad == false || courseTrackArrayLoad == false)
+		myTime = setInterval(getSessionStorageEditChoice, 1000);
+	else
+	{
+	listTechnicalCourse();
+		checkSessionStorage();
+		checkTrackInformationSessionStorage();
+		colorizeChoseListEditChoice(trackChoseStoreGetArray[0]);
+		clearTimeout(myTime);
+	}
+}
+var trackChoseStoreGet;
+var trackChoseStoreGetArray;
+//----------Get information of chose track to show for user on the edit choice page ----------
+function checkTrackInformationSessionStorage()
+{
+	trackChoseStoreGet = sessionStorage.getItem("trackInformation");
+	trackChoseStoreGetArray = trackChoseStoreGet.split(",");
+
+	//var lackMan = mandatoryCredits - trackResultArray[i][1];
+	//var lackOpt = optionalCredits - trackResultArray[i][2];
+	var lackOpt = trackChoseStoreGetArray[2];
+	var comment = "";//"<br/><Span class=\"italicRedText\">Comments: </Span>";
+	comment += "<Span class=\"italicRedText\"> You are choosing "+ trackChoseStoreGetArray[0] + " track, you lack of "+ trackChoseStoreGetArray[1] + " credits of mandatory courses and ";
+	if(lackOpt > 0)
+		comment += lackOpt + " credits of optional courses!";
+	else if(lackOpt == 0)
+		comment += " enough credits of optional courses!";
+	else
+		comment += " enough credits (with " + Math.abs(lackOpt) +" credits of surplus) of optional courses!</Span>";
+
+	document.getElementById("comment").innerHTML = comment;
+	
+	//-----Colorize the list of chose course (on the right hand side)------
+	colorizeChoseList(trackChoseStoreGetArray[0]);
+	
+}
+//---------- After page is loaded, call checkSessionStorage function to get list of course chose and display----------
 function getSessionStorage()
 {
 	if(techniqueList == false || nonTechniqueList == false || courseInformationLoad == false || courseTrackArrayLoad == false)
@@ -873,7 +912,9 @@ function getSessionStorage()
 	}
 }
 
+//----------Variable to store the list of course that the user choose----------
 var courseChoseStore = "";
+//----------Browse in courseChose array to store into courseChoseStore to use in webstorage----------
 function setSessionStorage()
 {
 	for(var i = 1; i < courseChose.length; i++)
@@ -883,8 +924,10 @@ function setSessionStorage()
 	sessionStorage.setItem("courseChoseKey", courseChoseStore);
 }
 
+//----------Variable to get list of course chose form web storage----------
 var courseChoseStoreGet = "";
 var courseChoseStoreGetArray = new Array();
+//----------Function to get list of course chose form web storage and display on list of course chose----------
 function checkSessionStorage()
 {
 	//setSessionStorage();//phai gan lai cho nay ben cho unload moi page
@@ -940,7 +983,10 @@ function checkSessionStorage()
 		}
 	}
 }
+
+//-----------Variable to store the amount of credits that the users chose----------
 var courseChoseCount = 0;
+//-----------Every time the checkbox of each course in the list is checked, the course will be add to the list of chose course (at the right hand of the web page) and count the amount of credits. On the contrary, the checkbox is deselected, the course will be moved out of the list of chose course and minus from the amount of credits----------
 function courseChoseCheck(checkBoxName)
 {
 	var checkBoxNameSplit = checkBoxName.split("-");
@@ -966,9 +1012,11 @@ function courseChoseCheck(checkBoxName)
 				creditCount += parseInt(credit);
 				document.getElementById("creditCountProgress").style.width = creditCount + "%";
 				document.getElementById("creditCountAnnouncement").innerHTML = "Amount of credits: "+ creditCount;
-	
 			}
 		}
+		//------Sign the color on the calendar with the chose courses-----
+		queryCourseTime(courseName,checkBoxName);
+
 	}
 	if(document.getElementById(checkBoxName).checked==false)
 	{
@@ -1010,9 +1058,34 @@ function courseChoseCheck(checkBoxName)
 	}
 }
 
+//----------Array variable to store the result of calculating about mandatory credits, optional credits, the amount of mandatory courses, optional courses that the user chose---------
 var trackResultArray = new Array();
-function checkTrack()
+function initTrackResultArray()
 {
+	for(var i = 0; i<=7; i++)
+		trackResultArray[i]= new Array();
+	trackResultArray[1][0] = "MULTIMEDIA";
+	trackResultArray[2][0] = "COMMUNICATION SYSTEM SECURITY";
+	trackResultArray[3][0] = "TRANSMISSION TECHNOLOGIES";
+	trackResultArray[4][0] = "WEB ENGINEERING";
+	trackResultArray[5][0] = "MOBILE COMMUNICATIONS";
+	trackResultArray[6][0] = "NETWORKING";
+	trackResultArray[7][0] = "REAL-TIME AND EMBEDDED SYSTEMS";
+	trackResultArray[0][1] = "Mandatory credits";
+	trackResultArray[0][2] = "Optional credits";
+	trackResultArray[0][3] = "Free credits";
+	trackResultArray[0][4] = "Mandatory courses";
+	trackResultArray[0][5] = "Optional courses";
+	trackResultArray[0][6] = "Free courses";
+	trackResultArray[0][7] = "Summary of amount of mandatory and optional courses";
+	trackResultArray[0][8] = "The lack amount of mandatory credits";
+	trackResultArray[0][9] = "The lack amount of optional credits";
+}
+
+//-----------This function is called to calculate the recommended track for user. Calculate all of values of the trackResultArray, display these information on the webpage and call the chooseTrack function to calculate the recommended track. ------------
+function checkTrack(cTrack)
+{
+	initTrackResultArray();
 	for(var i = 0; i < courseTrackArray[0].length; i++)
 		{
 			courseTrackArray[15][i] = 0;
@@ -1032,8 +1105,10 @@ function checkTrack()
 	{
 		var MCredits = 0;
 		var OCredits = 0;
+		var FCredits = 0;
 		var MCourses = 0;
 		var OCourses = 0;
+		var FCourses = 0;
 		for(var l = 1; l<courseTrackArray[k].length; l++)
 		{
 			if(courseTrackArray[15][l]==1)
@@ -1042,6 +1117,8 @@ function checkTrack()
 					MCourses ++;
 				else if(courseTrackArray[k][l] == 2)
 					OCourses ++;
+				else if(courseTrackArray[k][l] == 3)
+					FCourses ++;
 				if(courseTrackArray[k][l] ==1)
 				{
 					var no = k +1;
@@ -1052,52 +1129,205 @@ function checkTrack()
 					var no = k +1;
 					OCredits += parseInt(courseTrackArray[no][l]);
 				}
+				else if(courseTrackArray[k][l] ==3)
+				{
+					var no = k +1;
+					FCredits += parseInt(courseTrackArray[no][l]);
+				}
 			}
 		}
-		trackResultArray[(k-1)/2]= new Array();
-		trackResultArray [(k-1)/2][0] = MCredits;
-		trackResultArray [(k-1)/2][1] = OCredits;
-		trackResultArray [(k-1)/2][2] = MCourses;
-		trackResultArray [(k-1)/2][3] = OCourses;
+		//trackResultArray[(k+1)/2]= new Array();
+		trackResultArray [(k+1)/2][1] = MCredits;
+		trackResultArray [(k+1)/2][2] = OCredits;
+		trackResultArray [(k+1)/2][3] = FCredits;
+		trackResultArray [(k+1)/2][4] = MCourses;
+		trackResultArray [(k+1)/2][5] = OCourses;
+		trackResultArray [(k+1)/2][6] = FCourses;
 	}
-	document.getElementById("MUL_MCredits").innerHTML=trackResultArray[0][0];
-	document.getElementById("MUL_OCredits").innerHTML=trackResultArray[0][1];
-	document.getElementById("MUL_MCourses").innerHTML=trackResultArray[0][2];
-	document.getElementById("MUL_OCourses").innerHTML=trackResultArray[0][3];
-	
-	document.getElementById("COM_MCredits").innerHTML=trackResultArray[1][0];
-	document.getElementById("COM_OCredits").innerHTML=trackResultArray[1][1];
-	document.getElementById("COM_MCourses").innerHTML=trackResultArray[1][2];
-	document.getElementById("COM_OCourses").innerHTML=trackResultArray[1][3];
-	
-	document.getElementById("TRAN_MCredits").innerHTML=trackResultArray[2][0];
-	document.getElementById("TRAN_OCredits").innerHTML=trackResultArray[2][1];
-	document.getElementById("TRAN_MCourses").innerHTML=trackResultArray[2][2];
-	document.getElementById("TRAN_OCourses").innerHTML=trackResultArray[2][3];
 
-	document.getElementById("WEB_MCredits").innerHTML=trackResultArray[3][0];
-	document.getElementById("WEB_OCredits").innerHTML=trackResultArray[3][1];
-	document.getElementById("WEB_MCourses").innerHTML=trackResultArray[3][2];
-	document.getElementById("WEB_OCourses").innerHTML=trackResultArray[3][3];
+	displayTableTrackResult("MUL", 1);
+	displayTableTrackResult("COM", 2);
+	displayTableTrackResult("TRAN", 3);
+	displayTableTrackResult("WEB", 4);
+	displayTableTrackResult("MOB", 5);
+	displayTableTrackResult("NET", 6);
+	displayTableTrackResult("REAL", 7);
+	cTrack();
+	colorizeResultTrack();
+}
 
-	document.getElementById("MOB_MCredits").innerHTML=trackResultArray[4][0];
-	document.getElementById("MOB_OCredits").innerHTML=trackResultArray[4][1];
-	document.getElementById("MOB_MCourses").innerHTML=trackResultArray[4][2];
-	document.getElementById("MOB_OCourses").innerHTML=trackResultArray[4][3];
+//-----------Display the calculate results for users according to each track ------------
+function displayTableTrackResult(trackName, trackOrder)
+{
+		document.getElementById(trackName + "_MCredits").innerHTML=trackResultArray[trackOrder][1];
+		document.getElementById(trackName + "_OCredits").innerHTML=trackResultArray[trackOrder][2];
+		document.getElementById(trackName + "_MCourses").innerHTML=trackResultArray[trackOrder][4];
+		document.getElementById(trackName + "_OCourses").innerHTML=trackResultArray[trackOrder][5];
+}
 
-	document.getElementById("NET_MCredits").innerHTML=trackResultArray[5][0];
-	document.getElementById("NET_OCredits").innerHTML=trackResultArray[5][1];
-	document.getElementById("NET_MCourses").innerHTML=trackResultArray[5][2];
-	document.getElementById("NET_OCourses").innerHTML=trackResultArray[5][3];
+//-----------Array variable to store the recommended tracks after calculate, store the index of track according to the index of trackResultArray----------
+var trackChoseArray = new Array();
+function chooseTrack()
+{
+	trackChoseArray = new Array();
 
-	document.getElementById("REAL_MCredits").innerHTML=trackResultArray[6][0];
-	document.getElementById("REAL_OCredits").innerHTML=trackResultArray[6][1];
-	document.getElementById("REAL_MCourses").innerHTML=trackResultArray[6][2];
-	document.getElementById("REAL_OCourses").innerHTML=trackResultArray[6][3];
-
+	var largestSumCourse = 0;
+	for (var i = 1; i<=7; i++)
+	{
+		trackResultArray[i][7] = trackResultArray[i][4] + trackResultArray[i][5];		
+	}
+	largestSumCourse = 1;
+	var count = 0;
+	trackChoseArray[count] = largestSumCourse;
+	for (var j = 2; j<=7; j++)
+	{
+		if(trackResultArray[j][7] > trackResultArray[largestSumCourse][7])
+		{
+			largestSumCourse = j;
+			trackChoseArray[count] = largestSumCourse;
+		}
+		else if(trackResultArray[j][7] == trackResultArray[largestSumCourse ][7])
+		{
+			if(trackResultArray[j][1]>trackResultArray[largestSumCourse][1])
+			{
+				largestSumCourse = j;
+				trackChoseArray[count] = largestSumCourse;
+			}
+			else if(trackResultArray[j][1]==trackResultArray[largestSumCourse][1])
+			{
+				count++;
+				largestSumCourse = trackResultArray[j][0];
+				trackChoseArray[count] = largestSumCourse;
+			}
+		}
+	}
+	//-----Check and add all of track that has more the number of mandatory credits------
+	for(var l=1; l<=7; l++)
+	{
+		if(trackResultArray[l][1] > trackResultArray[trackChoseArray[0]][1])
+		{
+			count++;
+			trackChoseArray[count] = l;
+		}
+	}
+	//-----Colorize the list of course the user chose (on the right hand of the web page) according to the recommended track-------
+	colorizeChoseList(trackResultArray[trackChoseArray[0]][0]);
+	//-----Add notes-----
+	for(var m = 0; m<trackChoseArray.length; m++)
+	{
+		document.getElementById(trackResultArray[trackChoseArray[m]][0]+ " Notes").innerHTML = "You can chose!";
+	}
+	//***-----Add comments-----
+	addComments(trackResultArray[trackChoseArray[0]][0]);
 
 }
 
+//-----Chose track by calculate the lack number of mandatory and optional credits------
+function chooseTrack_CreditLack()
+{
+	trackChoseArray = new Array();
+
+	var largestSumCourse = 0;
+	for (var i = 1; i<=7; i++)
+	{
+		trackResultArray[i][7] = trackResultArray[i][4] +trackResultArray[i][5];
+		//Storing mandatory credits is lacked and optional credits is lacked
+		trackResultArray[i][8] = mandatoryCredits - trackResultArray[i][1];
+		trackResultArray[i][9] = optionalCredits - trackResultArray[i][2];
+	}
+	largestSumCourse = 1;
+	var count = 0;
+	trackChoseArray[count] = largestSumCourse;
+	for (var j = 2; j<=7; j++)
+	{
+		var lackCredits = trackResultArray[j][8] + trackResultArray[j][9];
+		if( trackResultArray[j][9] <0)
+			lackCredits = trackResultArray[j][8] + 0;
+		var oplastlackC = trackResultArray[largestSumCourse][9];
+		if(trackResultArray[largestSumCourse][9]<0)
+			oplastlackC = 0;
+		if(lackCredits <= trackResultArray[largestSumCourse][8] + oplastlackC)
+		{
+			largestSumCourse = j;
+			trackChoseArray[count] = largestSumCourse;
+		}
+		/*else if(lackCredits == trackResultArray[largestSumCourse][8] + oplastlackC)
+		{
+			count++;
+			largestSumCourse = j;
+			trackChoseArray[count] = largestSumCourse;
+
+		}*/		
+	}
+	//------Add the other track with the result is equal with the track has just chosen-------
+	for (var j = 2; j<=7; j++)
+	{
+		var lackCredits = trackResultArray[j][8] + trackResultArray[j][9];
+		if( trackResultArray[j][9] <0)
+			lackCredits = trackResultArray[j][8] + 0;
+		var oplastlackC = trackResultArray[largestSumCourse][9];
+		if(trackResultArray[largestSumCourse][9]<0)
+			oplastlackC = 0;
+		if(lackCredits == trackResultArray[largestSumCourse][8] + oplastlackC)
+		{
+			count++;
+			largestSumCourse = j;
+			trackChoseArray[count] = largestSumCourse;
+		}
+	
+	}
+
+	//-----Colorize the list of course the user chose (on the right hand of the web page) according to the recommended track-------
+	colorizeChoseList(trackResultArray[trackChoseArray[0]][0]);
+	//-----Add notes-----
+	for(var m = 0; m<trackChoseArray.length; m++)
+	{
+		document.getElementById(trackResultArray[trackChoseArray[m]][0]+ " Notes").innerHTML = "You can chose!";
+	}
+	//****
+	addComments(trackResultArray[trackChoseArray[0]][0]);
+}
+
+//----------Show the comments under the information table of each track in order for the user know which is needed to change from their choice.------------
+function addComments(trackName)
+{
+	var index = 0;
+	for(var i = 1; i<=7; i++)
+		if(trackResultArray[i][0] == trackName)
+		{
+			index = i;
+			break;
+		}
+	var lackMan = mandatoryCredits - trackResultArray[i][1];
+	var lackOpt = optionalCredits - trackResultArray[i][2];
+	var comment = "<br/><Span class=\"italicRedText\">Comments: </Span>";
+	comment += "<br/> If you chose "+ trackName + " track, you lack of "+ lackMan + " credits of mandatory courses and ";
+	if(lackOpt > 0)
+		comment += lackOpt + " credits of optional courses!";
+	else if(lackOpt == 0)
+		comment += " enough credits of optional courses!";
+	else
+		comment += " enough credits (with " + Math.abs(lackOpt) +" credits of surplus) of optional courses!";
+	
+	comment += "<br/> You chose " + trackResultArray[i][3] + " credits of free and other courses";
+	
+	document.getElementById("comment").innerHTML = comment;
+	//-----Set the variable for webstorage for the edit choice page-----
+	trackInformationStorage ="";
+	trackInformationStorage += trackName + "," + lackMan + "," + lackOpt;
+}
+
+//-----------Browse all recommended tracks on the trackChoseArray to colorize in order to the user can see----------
+function colorizeResultTrack()
+{
+	for(var i = 0; i < trackChoseArray.length; i++)
+	{
+		var trackName = trackResultArray[trackChoseArray[i]][0];
+		document.getElementById(trackName).style.backgroundColor = "#CC99FF";
+	}
+}
+
+//------------Pop-up window contains information of each course (name, teacher name, teacher department, teacher image), is called when mouve over on the name of course in the list------------
 function openWin(courseName, event)
 {  
   //newWin= open(str, "displayWindow", "width=400,height=200,status=yes,toolbar=yes,menubar=yes,screenX=50,screenY=50");  
@@ -1154,7 +1384,9 @@ function openWin(courseName, event)
 	document.getElementById("courseDes").innerHTML = "Course: <div class=\"boldtext\">"+ courseName +"</div>"+ des;
 	if(des !="")	
 		document.getElementById("courseDes").style.visibility="visible";
-}  
+} 
+
+//----------The pop-up window about information of each course will be hidden when mouse out of the course name------------
 function closeWin()
 {
 	document.getElementById("courseDetails").style.visibility="hidden";
@@ -1162,6 +1394,8 @@ function closeWin()
 	document.getElementById("courseDes").style.visibility="hidden";
 }
 
+//------------This function is called when mouse over on the web page in order to update the position for the list of course on the right hand of the webpage ----------
+//------Need to edit to call this function automatically according to time-------
 function courseChoseScroll(event)
 {
 	//document.body.scrollTop = 40;
@@ -1177,9 +1411,11 @@ function courseChoseScroll(event)
 
 }
 
+//-----Colorize the list of course the user chose (on the right hand of the web page) according to the recommended track-------
 function colorizeChoseList(trackName)
 {
 	document.getElementById("trackNameCourseChose").innerHTML = trackName;
+	//-----Set all of course background to the default color (background)-----
 	for( var k = 0; k<courseChoseStoreGetArray.length-1; k++)
 	{		
 		document.getElementById("no"+courseChoseStoreGetArray[k]).style.backgroundColor ="#f3f2f2";
@@ -1187,6 +1423,7 @@ function colorizeChoseList(trackName)
 		document.getElementById("credit"+courseChoseStoreGetArray[k]).style.backgroundColor ="#f3f2f2";
 
 	}
+	//------Get the index of track in the courseTrackArray ------
 	var n;
 	for (var m = 0; m < courseTrackArray.length; m++)
 	{
@@ -1220,8 +1457,90 @@ function colorizeChoseList(trackName)
 				document.getElementById("credit"+courseName).style.backgroundColor ="#CCFF66";
 			}
 		}
-	}	
+	}
+	//-----Add comments-----
+	//addComments(trackName);
 }
+
+/*function callListTechnicalCourse()
+{
+	if(nonTechniqueList == false || courseInformationLoad == false || courseTrackArrayLoad == false)
+		myTime = setInterval(listTechnicalCourse, 1000);
+	else
+	{
+		listTechnicalCourse();
+		clearTimeout(myTime);
+	}
+}*/
+
+//----------Make the list of course (on the left hand) of edit choice page----------
+function listTechnicalCourse()
+{
+
+	techniqueList= true;
+
+	var result = " <table class="+ "border_table" + ">" + "<tr class="+ "border_column"+ "><td class="+ "border_row_header"+ ">Course</td> <td class="+ "border_row_header"+ ">Semester</td> <td class="+ "border_row_header"+ ">Credits</td> <td class="+ "border_row_header"+ "></td></tr>";
+
+	for(var i =0; i<courseInformationArray.length; i++)
+	{
+		var courseName = courseInformationArray[i][0];
+		var semester = courseInformationArray[i][1];
+		var semesterDisplay = semester;
+		var checkBoxName = courseName + "-Checkbox";
+		if(semester.search("Fall") != -1)
+			semesterDisplay = "Fall";
+		else if(semester.search("Spring") != -1)
+			semesterDisplay = "Spring";
+		 result += " <tr id =\""+courseName+"\" class="+ "border_column"+ ">"+"<td class="+ "\"" + "border_row"+ "\"" + " onmousemove="+"\"openWin(\'"+courseName+"\', event);  \"" + " onmouseout="+"\"closeWin(); \">" + courseName;
+
+	  result += "</td><td class="+ "border_row"+ ">" + semesterDisplay;
+	  result += "</td><td class="+ "border_row"+ ">";
+	  result += " </td><td class="+ "border_row"+ ">"+ "<form><input type="+ "checkbox"+ " id=\""+ checkBoxName+"\"";
+	  result +=" onclick= \"queryCourseCredits_queryCourseTime(\'"+courseName +"\', \'"+checkBoxName+"\'); \"";
+	  result += "></form>";
+
+	  result += " </td></tr>"; 
+	}
+	document.getElementById("technicalCourseSemester").innerHTML = result;
+}
+
+//-----Colorize the list of course the user chose (on the right hand of the web page) according to the recommended track-------
+function colorizeChoseListEditChoice(trackName)
+{
+	//------Get the index of track in the courseTrackArray ------
+	var n;
+	for (var m = 0; m < courseTrackArray.length; m++)
+	{
+		if (courseTrackArray[m][0] == trackName)
+		{
+			n = m;
+			break;
+		}
+	}
+	for(var i = 0; i<courseTrackArray[0].length; i++)
+	{
+		var courseName = courseTrackArray[0][i];
+		if(document.getElementById("course"+courseName) != null)
+		{			
+			if(courseTrackArray[n][i] == 1)
+			{
+				document.getElementById(courseName).style.backgroundColor ="#FF3300";
+			}
+			else if(courseTrackArray[n][i] == 2)
+			{
+				document.getElementById(courseName).style.backgroundColor ="#CC9900";
+			
+			}
+			else if(courseTrackArray[n][i] == 3)
+			{
+				document.getElementById(courseName).style.backgroundColor ="#CCFF66";
+			}
+		}
+	}
+	//-----Add comments-----
+	//addComments(trackName);
+}
+
 //-----------Colorize course by teacher department---------
 /*function colorizeCourse(courseNameArray)
 {	

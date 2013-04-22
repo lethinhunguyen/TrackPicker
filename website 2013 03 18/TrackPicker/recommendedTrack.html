@@ -72,8 +72,9 @@
 						
 						<p class="paragraph_title">The below table display the order of suitable track according to your choice of courses:</p>
 						<div class="italictext"> You can click to the name of each track to see the analysis according to track.</div>
-						<button class="margin_button" onclick="checkTrack();">Click here</button>
-						
+						<!--<button class="margin_button" onclick="checkTrack(chooseTrack);">Chose track by method 1</button>-->
+						<button class="margin_button" onclick="checkTrack(chooseTrack_CreditLack);">Chose track by method 2</button>
+
 							<div id="calendar" class="div-table">
 								<div class="div-row">
 									<div class="div-column">The ordered track</div>
@@ -81,10 +82,10 @@
 									<div id="optionalCredits" class="div-column">Optional credits</div>
 									<div id="mandatoryCourses" class="div-column">Mandatory courses</div>
 									<div id="optionalCourses" class="div-column">Optional courses</div>
-									<div id="lackOf" class="div-column">Lack of (credits)</div>
+									<div id="lackOf" class="div-column">Notes</div>
 								</div>
-								<div class="div-row">
-									<div id="MULTIMEDIA" class="div-column-resultTrack" onclick="colorizeChoseList('MULTIMEDIA');">MULTIMEDIA</div>
+								<div id="MULTIMEDIA" class="div-row">
+									<div class="div-column-resultTrack" onclick="colorizeChoseList('MULTIMEDIA'); addComments('MULTIMEDIA');">MULTIMEDIA</div>
 									<div id="MUL_MCredits" class="div-column">
 										
 									</div>
@@ -97,12 +98,12 @@
 									<div id="MUL_OCourses" class="div-column">
 										
 									</div>
-									<div id="friday" class="div-column">
+									<div id="MULTIMEDIA Notes" class="div-column">
 										
 									</div>
 								</div>
-								<div class="div-row">
-									<div id="COMMUNICATION SYSTEM SECURITY" class="div-column-resultTrack" onclick="colorizeChoseList('COMMUNICATION SYSTEM SECURITY');">COMMUNICATION SYSTEM SECURITY</div>
+								<div id="COMMUNICATION SYSTEM SECURITY" class="div-row">
+									<div class="div-column-resultTrack" onclick="colorizeChoseList('COMMUNICATION SYSTEM SECURITY'); addComments('COMMUNICATION SYSTEM SECURITY');">COMMUNICATION SYSTEM SECURITY</div>
 									<div id="COM_MCredits" class="div-column">
 										
 									</div>
@@ -115,12 +116,12 @@
 									<div id="COM_OCourses" class="div-column">
 										
 									</div>
-									<div id="friday" class="div-column">
+									<div id="COMMUNICATION SYSTEM SECURITY Notes" class="div-column">
 										
 									</div>
 								</div>							
-								<div class="div-row">
-									<div id="TRANSMISSION TECHNOLOGIES" class="div-column-resultTrack" onclick="colorizeChoseList('TRANSMISSION TECHNOLOGIES');">TRANSMISSION TECHNOLOGIES</div>
+								<div id="TRANSMISSION TECHNOLOGIES" class="div-row">
+									<div class="div-column-resultTrack" onclick="colorizeChoseList('TRANSMISSION TECHNOLOGIES'); addComments('TRANSMISSION TECHNOLOGIES');">TRANSMISSION TECHNOLOGIES</div>
 									<div id="TRAN_MCredits" class="div-column">
 										
 									</div>
@@ -133,12 +134,12 @@
 									<div id="TRAN_OCourses" class="div-column">
 										
 									</div>
-									<div id="friday" class="div-column">
+									<div id="TRANSMISSION TECHNOLOGIES Notes" class="div-column">
 										
 									</div>	
 								</div>							
-								<div class="div-row">
-									<div id="WEB ENGINEERING" class="div-column-resultTrack" onclick="colorizeChoseList('WEB ENGINEERING');">WEB ENGINEERING</div>
+								<div id="WEB ENGINEERING" class="div-row">
+									<div class="div-column-resultTrack" onclick="colorizeChoseList('WEB ENGINEERING'); addComments('WEB ENGINEERING');">WEB ENGINEERING</div>
 									<div id="WEB_MCredits" class="div-column">
 										
 									</div>
@@ -151,12 +152,12 @@
 									<div id="WEB_OCourses" class="div-column">
 										
 									</div>
-									<div id="friday" class="div-column">
+									<div id="WEB ENGINEERING Notes" class="div-column">
 										
 									</div>	
 								</div>	
-								<div class="div-row">
-									<div id="MOBILE COMMUNICATIONS" class="div-column-resultTrack" onclick="colorizeChoseList('MOBILE COMMUNICATIONS');">MOBILE COMMUNICATIONS</div>
+								<div id="MOBILE COMMUNICATIONS" class="div-row">
+									<div class="div-column-resultTrack" onclick="colorizeChoseList('MOBILE COMMUNICATIONS'); addComments('MOBILE COMMUNICATIONS');">MOBILE COMMUNICATIONS</div>
 									<div id="MOB_MCredits" class="div-column">
 										
 									</div>
@@ -169,12 +170,12 @@
 									<div id="MOB_OCourses" class="div-column">
 										
 									</div>
-									<div id="friday" class="div-column">
+									<div id="MOBILE COMMUNICATIONS Notes" class="div-column">
 										
 									</div>	
 								</div>
-								<div class="div-row">
-									<div id="NETWORKING" class="div-column-resultTrack" onclick="colorizeChoseList('NETWORKING');">NETWORKING</div>
+								<div id="NETWORKING" class="div-row">
+									<div class="div-column-resultTrack" onclick="colorizeChoseList('NETWORKING'); addComments('NETWORKING');">NETWORKING</div>
 									<div id="NET_MCredits" class="div-column">
 										
 									</div>
@@ -187,12 +188,12 @@
 									<div id="NET_OCourses" class="div-column">
 										
 									</div>
-									<div id="friday" class="div-column">
+									<div id="NETWORKING Notes" class="div-column">
 										
 									</div>	
 								</div>
-								<div class="div-row">
-									<div id="REAL-TIME AND EMBEDDED SYSTEMS" class="div-column-resultTrack" onclick="colorizeChoseList('REAL-TIME AND EMBEDDED SYSTEMS');">REAL-TIME AND EMBEDDED SYSTEMS</div>
+								<div id="REAL-TIME AND EMBEDDED SYSTEMS" class="div-row">
+									<div class="div-column-resultTrack" onclick="colorizeChoseList('REAL-TIME AND EMBEDDED SYSTEMS'); addComments('REAL-TIME AND EMBEDDED SYSTEMS');">REAL-TIME AND EMBEDDED SYSTEMS</div>
 									<div id="REAL_MCredits" class="div-column">
 										
 									</div>
@@ -205,13 +206,14 @@
 									<div id="REAL_OCourses" class="div-column">
 										
 									</div>
-									<div id="friday" class="div-column">
+									<div id="REAL-TIME AND EMBEDDED SYSTEMS Notes" class="div-column">
 										
 									</div>
 								</div>	
 							</div>
-					
-						
+							<div id="comment"></div>
+							<div><button class="margin_button" onclick="setTrackInformationSessionStorage();"><a href="editChoices.html">Edit your choices</a></button></div>
+							
 						<p>
 							<div id="timeCourse"></div>
 							<div id="test"></div>

@@ -1,0 +1,1256 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style/style.css" type="text/css"/>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body onmouseover="courseChoseScroll(event);" onload="queryCourseInformationAddArray(); initCourseTrackArray(); queryCourseDepartment(); getSessionStorageEditChoice();">
+		<div id="main_container">
+			<header class="header">
+				
+				<img class="logo" src="images/logo.gif" alt="Eurecom Track Picker"/>
+				
+				<div class="title">TRACK PICKER</div>
+				
+			</header>
+			<div class="clear"></div>
+			
+			<div class="middle">
+				<aside class="side_left">
+					<p class="headline_space">All of courses of your track:</p>
+						<span class="mandatoryCellColor"> </span><span class="italictext">&nbsp; Mandatory</span><br/>
+						<span class="optionalCellColor"> </span><span class="italictext">&nbsp; Optinal</span><br/>
+						<span class="freeCellColor"> </span><span class="italictext">&nbsp; Free</span><br/>					
+                    <p>
+                    	<div class="courseType">Technical courses:</div>
+                    	<div id="technicalCourseSemester"></div>
+                    	<script>
+                    	</script>
+                    </p>
+                    <p>
+                    	<div class="courseType">Non-technical courses:</div>
+                    	<div id="nonTechnicalCourseTeacher"></div>
+                    	<script>queryNonTechnicalCourseTeacherFall();</script>
+                    </p>
+                    <p>
+                    	<div class="courseType">Language course:</div>
+                    	<div id="languageCourseTeacher"></div>
+                    	<!--<script>queryLanguageCourseTeacher();</script>-->
+                    </p>
+                    
+				</aside>
+				
+				<section id="content_container" class="container">
+					<section>
+						
+							<div id="courseDetails" class="courseDetails">
+								<div class="div-row-courseDetails">
+									<div id="teacherInformation" class="div-column-courseDetails"></div>
+									<div id="teacherImage" class="div-column-img-courseDetails"><div id="cha"><canvas id="myCanvas" width="78" height="100"></canvas></div></div>								</div>
+							</div>
+						
+					</section>
+					<section>
+						<p class="paragraph_title">The curriculum regulations of Eurecom:</p>
+						<p>
+							In 3 semesters, you have to study at least <script>document.write(allCredits);</script> credits. Among them, there is at least <script>document.write(technicalCredits);</script> credits of technical courses (include at least <script>document.write(mandatoryCredits);</script> mandatory, <script>document.write(optionalCredits);</script> optional and some free course credits), <script>document.write(nonTechnicalCredits);</script> credits of non-technical courses, <script>document.write(languageCredits);</script> credits of languages courses, and 10 credits for project.
+						</p>
+					</section>
+					<section>
+						<p class="paragraph_title">You choice:
+						</p><div id="comment"></div>
+						
+						<p class="headline_space_letter">You need to edit your choice such that it is suitable with the rule of Eurecom, you can check again whether it is correct.</p>
+						<p  class="button_center"><button id="checkTrackButton" disabled="disabled" value="Click Me" onclick="location.href='recommendedTrack.html'; setSessionStorage();">Check again</button></p>
+					</section>
+					<section>
+						<p class="paragraph_title">Credit counting:</p>
+						<p>
+							<!--<div id="container">
+								<div id="test"></div>
+							</div>
+							<div id="message"></div>-->
+							<div class="progress progress-info progress-striped">
+								<div id="creditCountProgress" class="bar" style="width: 0%"></div>
+							</div>
+							<div id="creditCountAnnouncement"></div>
+						</p>
+					</section>
+					<section>
+						
+						<p class="paragraph_title">SPRING</p>
+
+							<div id="calendar" class="div-table">
+								<div class="div-row">
+									<div class="div-column"></div>
+									<div id="monday" class="div-column">Monday</div>
+									<div id="tuesday" class="div-column">Tuesday</div>
+									<div id="wednesday" class="div-column">Wednesday</div>
+									<div id="thursday" class="div-column">Thursday</div>
+									<div id="friday" class="div-column">Friday</div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">8:00</div>
+									<div id="monday" class="div-column">
+										<div id="10800" class="div-column-quarter"></div>
+										<div id="10815" class="div-column-quarter"></div>
+										<div id="10830" class="div-column-quarter"></div>
+										<div id="10845" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="20800" class="div-column-quarter"></div>
+										<div id="20815" class="div-column-quarter"></div>
+										<div id="20830" class="div-column-quarter"></div>
+										<div id="20845" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="30800" class="div-column-quarter"></div>
+										<div id="30815" class="div-column-quarter"></div>
+										<div id="30830" class="div-column-quarter"></div>
+										<div id="30845" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="40800" class="div-column-quarter"></div>
+										<div id="40815" class="div-column-quarter"></div>
+										<div id="40830" class="div-column-quarter"></div>
+										<div id="40845" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="50800" class="div-column-quarter"></div>
+										<div id="50815" class="div-column-quarter"></div>
+										<div id="50830" class="div-column-quarter"></div>
+										<div id="50845" class="div-column-quarter"></div>
+									</div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">9:00</div>
+									<div id="monday" class="div-column">
+										<div id="10900" class="div-column-quarter"></div>
+										<div id="10915" class="div-column-quarter"></div>
+										<div id="10930" class="div-column-quarter"></div>
+										<div id="10945" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="20900" class="div-column-quarter"></div>
+										<div id="20915" class="div-column-quarter"></div>
+										<div id="20930" class="div-column-quarter"></div>
+										<div id="20945" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="30900" class="div-column-quarter"></div>
+										<div id="30915" class="div-column-quarter"></div>
+										<div id="30930" class="div-column-quarter"></div>
+										<div id="30945" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="40900" class="div-column-quarter"></div>
+										<div id="40915" class="div-column-quarter"></div>
+										<div id="40930" class="div-column-quarter"></div>
+										<div id="40945" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="50900" class="div-column-quarter"></div>
+										<div id="50915" class="div-column-quarter"></div>
+										<div id="50930" class="div-column-quarter"></div>
+										<div id="50945" class="div-column-quarter"></div>
+									</div>
+								</div>							
+								<div class="div-row">
+									<div class="div-column">10:00</div>
+									<div id="monday" class="div-column">
+										<div id="11000" class="div-column-quarter"></div>
+										<div id="11015" class="div-column-quarter"></div>
+										<div id="11030" class="div-column-quarter"></div>
+										<div id="11045" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21000" class="div-column-quarter"></div>
+										<div id="21015" class="div-column-quarter"></div>
+										<div id="21030" class="div-column-quarter"></div>
+										<div id="21045" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31000" class="div-column-quarter"></div>
+										<div id="31015" class="div-column-quarter"></div>
+										<div id="31030" class="div-column-quarter"></div>
+										<div id="31045" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41000" class="div-column-quarter"></div>
+										<div id="41015" class="div-column-quarter"></div>
+										<div id="41030" class="div-column-quarter"></div>
+										<div id="41045" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51000" class="div-column-quarter"></div>
+										<div id="51015" class="div-column-quarter"></div>
+										<div id="51030" class="div-column-quarter"></div>
+										<div id="51045" class="div-column-quarter"></div>
+									</div>	
+								</div>							
+								<div class="div-row">
+									<div class="div-column">11:00</div>
+									<div id="monday" class="div-column">
+										<div id="11100" class="div-column-quarter"></div>
+										<div id="11115" class="div-column-quarter"></div>
+										<div id="11130" class="div-column-quarter"></div>
+										<div id="11145" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21100" class="div-column-quarter"></div>
+										<div id="21115" class="div-column-quarter"></div>
+										<div id="21130" class="div-column-quarter"></div>
+										<div id="21145" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31100" class="div-column-quarter"></div>
+										<div id="31115" class="div-column-quarter"></div>
+										<div id="31130" class="div-column-quarter"></div>
+										<div id="31145" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41100" class="div-column-quarter"></div>
+										<div id="41115" class="div-column-quarter"></div>
+										<div id="41130" class="div-column-quarter"></div>
+										<div id="41145" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51100" class="div-column-quarter"></div>
+										<div id="51115" class="div-column-quarter"></div>
+										<div id="51130" class="div-column-quarter"></div>
+										<div id="51145" class="div-column-quarter"></div>
+									</div>	
+								</div>	
+								<div class="div-row">
+									<div class="div-column">12:00</div>
+									<div id="monday" class="div-column">
+										<div id="11200" class="div-column-quarter"></div>
+										<div id="11215" class="div-column-quarter"></div>
+										<div id="11230" class="div-column-quarter"></div>
+										<div id="11245" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21200" class="div-column-quarter"></div>
+										<div id="21215" class="div-column-quarter"></div>
+										<div id="21230" class="div-column-quarter"></div>
+										<div id="21245" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31200" class="div-column-quarter"></div>
+										<div id="31215" class="div-column-quarter"></div>
+										<div id="31230" class="div-column-quarter"></div>
+										<div id="31245" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41200" class="div-column-quarter"></div>
+										<div id="41215" class="div-column-quarter"></div>
+										<div id="41230" class="div-column-quarter"></div>
+										<div id="41245" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51200" class="div-column-quarter"></div>
+										<div id="51215" class="div-column-quarter"></div>
+										<div id="51230" class="div-column-quarter"></div>
+										<div id="51245" class="div-column-quarter"></div>
+									</div>	
+								</div>
+								<div class="div-row">
+									<div class="div-column">13:00</div>
+									<div id="monday" class="div-column">
+										<div id="11300" class="div-column-quarter"></div>
+										<div id="11315" class="div-column-quarter"></div>
+										<div id="11330" class="div-column-quarter"></div>
+										<div id="11345" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21300" class="div-column-quarter"></div>
+										<div id="21315" class="div-column-quarter"></div>
+										<div id="21330" class="div-column-quarter"></div>
+										<div id="21345" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31300" class="div-column-quarter"></div>
+										<div id="31315" class="div-column-quarter"></div>
+										<div id="31330" class="div-column-quarter"></div>
+										<div id="31345" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41300" class="div-column-quarter"></div>
+										<div id="41315" class="div-column-quarter"></div>
+										<div id="41330" class="div-column-quarter"></div>
+										<div id="41345" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51300" class="div-column-quarter"></div>
+										<div id="51315" class="div-column-quarter"></div>
+										<div id="51330" class="div-column-quarter"></div>
+										<div id="51345" class="div-column-quarter"></div>
+									</div>	
+								</div>
+								<div class="div-row">
+									<div class="div-column">14:00</div>
+									<div id="monday" class="div-column">
+										<div id="11400" class="div-column-quarter"></div>
+										<div id="11415" class="div-column-quarter"></div>
+										<div id="11430" class="div-column-quarter"></div>
+										<div id="11445" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21400" class="div-column-quarter"></div>
+										<div id="21415" class="div-column-quarter"></div>
+										<div id="21430" class="div-column-quarter"></div>
+										<div id="21445" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31400" class="div-column-quarter"></div>
+										<div id="31415" class="div-column-quarter"></div>
+										<div id="31430" class="div-column-quarter"></div>
+										<div id="31445" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41400" class="div-column-quarter"></div>
+										<div id="41415" class="div-column-quarter"></div>
+										<div id="41430" class="div-column-quarter"></div>
+										<div id="41445" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51400" class="div-column-quarter"></div>
+										<div id="51415" class="div-column-quarter"></div>
+										<div id="51430" class="div-column-quarter"></div>
+										<div id="51445" class="div-column-quarter"></div>
+									</div>
+								</div>	
+								<div class="div-row">
+									<div class="div-column">15:00</div>
+									<div id="monday" class="div-column">
+										<div id="11500" class="div-column-quarter"></div>
+										<div id="11515" class="div-column-quarter"></div>
+										<div id="11530" class="div-column-quarter"></div>
+										<div id="11545" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21500" class="div-column-quarter"></div>
+										<div id="21515" class="div-column-quarter"></div>
+										<div id="21530" class="div-column-quarter"></div>
+										<div id="21545" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31500" class="div-column-quarter"></div>
+										<div id="31515" class="div-column-quarter"></div>
+										<div id="31530" class="div-column-quarter"></div>
+										<div id="31545" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41500" class="div-column-quarter"></div>
+										<div id="41515" class="div-column-quarter"></div>
+										<div id="41530" class="div-column-quarter"></div>
+										<div id="41545" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51500" class="div-column-quarter"></div>
+										<div id="51515" class="div-column-quarter"></div>
+										<div id="51530" class="div-column-quarter"></div>
+										<div id="51545" class="div-column-quarter"></div>
+									</div>
+								</div>	
+								<div class="div-row">
+									<div class="div-column">16:00</div>
+									<div id="monday" class="div-column">
+										<div id="11600" class="div-column-quarter"></div>
+										<div id="11615" class="div-column-quarter"></div>
+										<div id="11630" class="div-column-quarter"></div>
+										<div id="11645" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21600" class="div-column-quarter"></div>
+										<div id="21615" class="div-column-quarter"></div>
+										<div id="21630" class="div-column-quarter"></div>
+										<div id="21645" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31600" class="div-column-quarter"></div>
+										<div id="31615" class="div-column-quarter"></div>
+										<div id="31630" class="div-column-quarter"></div>
+										<div id="31645" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41600" class="div-column-quarter"></div>
+										<div id="41615" class="div-column-quarter"></div>
+										<div id="41630" class="div-column-quarter"></div>
+										<div id="41645" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51600" class="div-column-quarter"></div>
+										<div id="51615" class="div-column-quarter"></div>
+										<div id="51630" class="div-column-quarter"></div>
+										<div id="51645" class="div-column-quarter"></div>
+									</div>	
+								</div>
+								<div class="div-row">
+									<div class="div-column">17:00</div>
+									<div id="monday" class="div-column">
+										<div id="11700" class="div-column-quarter"></div>
+										<div id="11715" class="div-column-quarter"></div>
+										<div id="11730" class="div-column-quarter"></div>
+										<div id="11745" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21700" class="div-column-quarter"></div>
+										<div id="21715" class="div-column-quarter"></div>
+										<div id="21730" class="div-column-quarter"></div>
+										<div id="21745" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31700" class="div-column-quarter"></div>
+										<div id="31715" class="div-column-quarter"></div>
+										<div id="31730" class="div-column-quarter"></div>
+										<div id="31745" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41700" class="div-column-quarter"></div>
+										<div id="41715" class="div-column-quarter"></div>
+										<div id="41730" class="div-column-quarter"></div>
+										<div id="41745" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51700" class="div-column-quarter"></div>
+										<div id="51715" class="div-column-quarter"></div>
+										<div id="51730" class="div-column-quarter"></div>
+										<div id="51745" class="div-column-quarter"></div>
+									</div>
+								</div>	
+								<div class="div-row">
+									<div class="div-column">18:00</div>
+									<div id="monday" class="div-column">
+										<div id="11800" class="div-column-quarter"></div>
+										<div id="11815" class="div-column-quarter"></div>
+										<div id="11830" class="div-column-quarter"></div>
+										<div id="11845" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21800" class="div-column-quarter"></div>
+										<div id="21815" class="div-column-quarter"></div>
+										<div id="21830" class="div-column-quarter"></div>
+										<div id="21845" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31800" class="div-column-quarter"></div>
+										<div id="31815" class="div-column-quarter"></div>
+										<div id="31830" class="div-column-quarter"></div>
+										<div id="31845" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41800" class="div-column-quarter"></div>
+										<div id="41815" class="div-column-quarter"></div>
+										<div id="41830" class="div-column-quarter"></div>
+										<div id="41845" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51800" class="div-column-quarter"></div>
+										<div id="51815" class="div-column-quarter"></div>
+										<div id="51830" class="div-column-quarter"></div>
+										<div id="51845" class="div-column-quarter"></div>
+									</div>
+								</div>
+							</div>
+					
+						<p class="paragraph_title">FALL 1</p>
+
+							<div id="calendar" class="div-table">
+								<div class="div-row">
+									<div class="div-column"></div>
+									<div id="monday" class="div-column">Monday</div>
+									<div id="tuesday" class="div-column">Tuesday</div>
+									<div id="wednesday" class="div-column">Wednesday</div>
+									<div id="thursday" class="div-column">Thursday</div>
+									<div id="friday" class="div-column">Friday</div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">8:00</div>
+									<div id="monday" class="div-column">
+										<div id="10800" class="div-column-quarter"></div>
+										<div id="10815" class="div-column-quarter"></div>
+										<div id="10830" class="div-column-quarter"></div>
+										<div id="10845" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="20800" class="div-column-quarter"></div>
+										<div id="20815" class="div-column-quarter"></div>
+										<div id="20830" class="div-column-quarter"></div>
+										<div id="20845" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="30800" class="div-column-quarter"></div>
+										<div id="30815" class="div-column-quarter"></div>
+										<div id="30830" class="div-column-quarter"></div>
+										<div id="30845" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="40800" class="div-column-quarter"></div>
+										<div id="40815" class="div-column-quarter"></div>
+										<div id="40830" class="div-column-quarter"></div>
+										<div id="40845" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="50800" class="div-column-quarter"></div>
+										<div id="50815" class="div-column-quarter"></div>
+										<div id="50830" class="div-column-quarter"></div>
+										<div id="50845" class="div-column-quarter"></div>
+									</div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">9:00</div>
+									<div id="monday" class="div-column">
+										<div id="10900" class="div-column-quarter"></div>
+										<div id="10915" class="div-column-quarter"></div>
+										<div id="10930" class="div-column-quarter"></div>
+										<div id="10945" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="20900" class="div-column-quarter"></div>
+										<div id="20915" class="div-column-quarter"></div>
+										<div id="20930" class="div-column-quarter"></div>
+										<div id="20945" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="30900" class="div-column-quarter"></div>
+										<div id="30915" class="div-column-quarter"></div>
+										<div id="30930" class="div-column-quarter"></div>
+										<div id="30945" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="40900" class="div-column-quarter"></div>
+										<div id="40915" class="div-column-quarter"></div>
+										<div id="40930" class="div-column-quarter"></div>
+										<div id="40945" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="50900" class="div-column-quarter"></div>
+										<div id="50915" class="div-column-quarter"></div>
+										<div id="50930" class="div-column-quarter"></div>
+										<div id="50945" class="div-column-quarter"></div>
+									</div>
+								</div>							
+								<div class="div-row">
+									<div class="div-column">10:00</div>
+									<div id="monday" class="div-column">
+										<div id="11000" class="div-column-quarter"></div>
+										<div id="11015" class="div-column-quarter"></div>
+										<div id="11030" class="div-column-quarter"></div>
+										<div id="11045" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21000" class="div-column-quarter"></div>
+										<div id="21015" class="div-column-quarter"></div>
+										<div id="21030" class="div-column-quarter"></div>
+										<div id="21045" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31000" class="div-column-quarter"></div>
+										<div id="31015" class="div-column-quarter"></div>
+										<div id="31030" class="div-column-quarter"></div>
+										<div id="31045" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41000" class="div-column-quarter"></div>
+										<div id="41015" class="div-column-quarter"></div>
+										<div id="41030" class="div-column-quarter"></div>
+										<div id="41045" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51000" class="div-column-quarter"></div>
+										<div id="51015" class="div-column-quarter"></div>
+										<div id="51030" class="div-column-quarter"></div>
+										<div id="51045" class="div-column-quarter"></div>
+									</div>	
+								</div>							
+								<div class="div-row">
+									<div class="div-column">11:00</div>
+									<div id="monday" class="div-column">
+										<div id="11100" class="div-column-quarter"></div>
+										<div id="11115" class="div-column-quarter"></div>
+										<div id="11130" class="div-column-quarter"></div>
+										<div id="11145" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21100" class="div-column-quarter"></div>
+										<div id="21115" class="div-column-quarter"></div>
+										<div id="21130" class="div-column-quarter"></div>
+										<div id="21145" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31100" class="div-column-quarter"></div>
+										<div id="31115" class="div-column-quarter"></div>
+										<div id="31130" class="div-column-quarter"></div>
+										<div id="31145" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41100" class="div-column-quarter"></div>
+										<div id="41115" class="div-column-quarter"></div>
+										<div id="41130" class="div-column-quarter"></div>
+										<div id="41145" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51100" class="div-column-quarter"></div>
+										<div id="51115" class="div-column-quarter"></div>
+										<div id="51130" class="div-column-quarter"></div>
+										<div id="51145" class="div-column-quarter"></div>
+									</div>	
+								</div>	
+								<div class="div-row">
+									<div class="div-column">12:00</div>
+									<div id="monday" class="div-column">
+										<div id="11200" class="div-column-quarter"></div>
+										<div id="11215" class="div-column-quarter"></div>
+										<div id="11230" class="div-column-quarter"></div>
+										<div id="11245" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21200" class="div-column-quarter"></div>
+										<div id="21215" class="div-column-quarter"></div>
+										<div id="21230" class="div-column-quarter"></div>
+										<div id="21245" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31200" class="div-column-quarter"></div>
+										<div id="31215" class="div-column-quarter"></div>
+										<div id="31230" class="div-column-quarter"></div>
+										<div id="31245" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41200" class="div-column-quarter"></div>
+										<div id="41215" class="div-column-quarter"></div>
+										<div id="41230" class="div-column-quarter"></div>
+										<div id="41245" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51200" class="div-column-quarter"></div>
+										<div id="51215" class="div-column-quarter"></div>
+										<div id="51230" class="div-column-quarter"></div>
+										<div id="51245" class="div-column-quarter"></div>
+									</div>	
+								</div>
+								<div class="div-row">
+									<div class="div-column">13:00</div>
+									<div id="monday" class="div-column">
+										<div id="11300" class="div-column-quarter"></div>
+										<div id="11315" class="div-column-quarter"></div>
+										<div id="11330" class="div-column-quarter"></div>
+										<div id="11345" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21300" class="div-column-quarter"></div>
+										<div id="21315" class="div-column-quarter"></div>
+										<div id="21330" class="div-column-quarter"></div>
+										<div id="21345" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31300" class="div-column-quarter"></div>
+										<div id="31315" class="div-column-quarter"></div>
+										<div id="31330" class="div-column-quarter"></div>
+										<div id="31345" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41300" class="div-column-quarter"></div>
+										<div id="41315" class="div-column-quarter"></div>
+										<div id="41330" class="div-column-quarter"></div>
+										<div id="41345" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51300" class="div-column-quarter"></div>
+										<div id="51315" class="div-column-quarter"></div>
+										<div id="51330" class="div-column-quarter"></div>
+										<div id="51345" class="div-column-quarter"></div>
+									</div>	
+								</div>
+								<div class="div-row">
+									<div class="div-column">14:00</div>
+									<div id="monday" class="div-column">
+										<div id="11400" class="div-column-quarter"></div>
+										<div id="11415" class="div-column-quarter"></div>
+										<div id="11430" class="div-column-quarter"></div>
+										<div id="11445" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21400" class="div-column-quarter"></div>
+										<div id="21415" class="div-column-quarter"></div>
+										<div id="21430" class="div-column-quarter"></div>
+										<div id="21445" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31400" class="div-column-quarter"></div>
+										<div id="31415" class="div-column-quarter"></div>
+										<div id="31430" class="div-column-quarter"></div>
+										<div id="31445" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41400" class="div-column-quarter"></div>
+										<div id="41415" class="div-column-quarter"></div>
+										<div id="41430" class="div-column-quarter"></div>
+										<div id="41445" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51400" class="div-column-quarter"></div>
+										<div id="51415" class="div-column-quarter"></div>
+										<div id="51430" class="div-column-quarter"></div>
+										<div id="51445" class="div-column-quarter"></div>
+									</div>
+								</div>	
+								<div class="div-row">
+									<div class="div-column">15:00</div>
+									<div id="monday" class="div-column">
+										<div id="11500" class="div-column-quarter"></div>
+										<div id="11515" class="div-column-quarter"></div>
+										<div id="11530" class="div-column-quarter"></div>
+										<div id="11545" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21500" class="div-column-quarter"></div>
+										<div id="21515" class="div-column-quarter"></div>
+										<div id="21530" class="div-column-quarter"></div>
+										<div id="21545" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31500" class="div-column-quarter"></div>
+										<div id="31515" class="div-column-quarter"></div>
+										<div id="31530" class="div-column-quarter"></div>
+										<div id="31545" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41500" class="div-column-quarter"></div>
+										<div id="41515" class="div-column-quarter"></div>
+										<div id="41530" class="div-column-quarter"></div>
+										<div id="41545" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51500" class="div-column-quarter"></div>
+										<div id="51515" class="div-column-quarter"></div>
+										<div id="51530" class="div-column-quarter"></div>
+										<div id="51545" class="div-column-quarter"></div>
+									</div>
+								</div>	
+								<div class="div-row">
+									<div class="div-column">16:00</div>
+									<div id="monday" class="div-column">
+										<div id="11600" class="div-column-quarter"></div>
+										<div id="11615" class="div-column-quarter"></div>
+										<div id="11630" class="div-column-quarter"></div>
+										<div id="11645" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21600" class="div-column-quarter"></div>
+										<div id="21615" class="div-column-quarter"></div>
+										<div id="21630" class="div-column-quarter"></div>
+										<div id="21645" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31600" class="div-column-quarter"></div>
+										<div id="31615" class="div-column-quarter"></div>
+										<div id="31630" class="div-column-quarter"></div>
+										<div id="31645" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41600" class="div-column-quarter"></div>
+										<div id="41615" class="div-column-quarter"></div>
+										<div id="41630" class="div-column-quarter"></div>
+										<div id="41645" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51600" class="div-column-quarter"></div>
+										<div id="51615" class="div-column-quarter"></div>
+										<div id="51630" class="div-column-quarter"></div>
+										<div id="51645" class="div-column-quarter"></div>
+									</div>	
+								</div>
+								<div class="div-row">
+									<div class="div-column">17:00</div>
+									<div id="monday" class="div-column">
+										<div id="11700" class="div-column-quarter"></div>
+										<div id="11715" class="div-column-quarter"></div>
+										<div id="11730" class="div-column-quarter"></div>
+										<div id="11745" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21700" class="div-column-quarter"></div>
+										<div id="21715" class="div-column-quarter"></div>
+										<div id="21730" class="div-column-quarter"></div>
+										<div id="21745" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31700" class="div-column-quarter"></div>
+										<div id="31715" class="div-column-quarter"></div>
+										<div id="31730" class="div-column-quarter"></div>
+										<div id="31745" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41700" class="div-column-quarter"></div>
+										<div id="41715" class="div-column-quarter"></div>
+										<div id="41730" class="div-column-quarter"></div>
+										<div id="41745" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51700" class="div-column-quarter"></div>
+										<div id="51715" class="div-column-quarter"></div>
+										<div id="51730" class="div-column-quarter"></div>
+										<div id="51745" class="div-column-quarter"></div>
+									</div>
+								</div>	
+								<div class="div-row">
+									<div class="div-column">18:00</div>
+									<div id="monday" class="div-column">
+										<div id="11800" class="div-column-quarter"></div>
+										<div id="11815" class="div-column-quarter"></div>
+										<div id="11830" class="div-column-quarter"></div>
+										<div id="11845" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21800" class="div-column-quarter"></div>
+										<div id="21815" class="div-column-quarter"></div>
+										<div id="21830" class="div-column-quarter"></div>
+										<div id="21845" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31800" class="div-column-quarter"></div>
+										<div id="31815" class="div-column-quarter"></div>
+										<div id="31830" class="div-column-quarter"></div>
+										<div id="31845" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41800" class="div-column-quarter"></div>
+										<div id="41815" class="div-column-quarter"></div>
+										<div id="41830" class="div-column-quarter"></div>
+										<div id="41845" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51800" class="div-column-quarter"></div>
+										<div id="51815" class="div-column-quarter"></div>
+										<div id="51830" class="div-column-quarter"></div>
+										<div id="51845" class="div-column-quarter"></div>
+									</div>
+								</div>
+							</div>
+							
+							<p class="paragraph_title">FALL 2</p>
+
+							<div id="calendar" class="div-table">
+								<div class="div-row">
+									<div class="div-column"></div>
+									<div id="monday" class="div-column">Monday</div>
+									<div id="tuesday" class="div-column">Tuesday</div>
+									<div id="wednesday" class="div-column">Wednesday</div>
+									<div id="thursday" class="div-column">Thursday</div>
+									<div id="friday" class="div-column">Friday</div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">8:00</div>
+									<div id="monday" class="div-column">
+										<div id="10800" class="div-column-quarter"></div>
+										<div id="10815" class="div-column-quarter"></div>
+										<div id="10830" class="div-column-quarter"></div>
+										<div id="10845" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="20800" class="div-column-quarter"></div>
+										<div id="20815" class="div-column-quarter"></div>
+										<div id="20830" class="div-column-quarter"></div>
+										<div id="20845" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="30800" class="div-column-quarter"></div>
+										<div id="30815" class="div-column-quarter"></div>
+										<div id="30830" class="div-column-quarter"></div>
+										<div id="30845" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="40800" class="div-column-quarter"></div>
+										<div id="40815" class="div-column-quarter"></div>
+										<div id="40830" class="div-column-quarter"></div>
+										<div id="40845" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="50800" class="div-column-quarter"></div>
+										<div id="50815" class="div-column-quarter"></div>
+										<div id="50830" class="div-column-quarter"></div>
+										<div id="50845" class="div-column-quarter"></div>
+									</div>
+								</div>
+								<div class="div-row">
+									<div class="div-column">9:00</div>
+									<div id="monday" class="div-column">
+										<div id="10900" class="div-column-quarter"></div>
+										<div id="10915" class="div-column-quarter"></div>
+										<div id="10930" class="div-column-quarter"></div>
+										<div id="10945" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="20900" class="div-column-quarter"></div>
+										<div id="20915" class="div-column-quarter"></div>
+										<div id="20930" class="div-column-quarter"></div>
+										<div id="20945" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="30900" class="div-column-quarter"></div>
+										<div id="30915" class="div-column-quarter"></div>
+										<div id="30930" class="div-column-quarter"></div>
+										<div id="30945" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="40900" class="div-column-quarter"></div>
+										<div id="40915" class="div-column-quarter"></div>
+										<div id="40930" class="div-column-quarter"></div>
+										<div id="40945" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="50900" class="div-column-quarter"></div>
+										<div id="50915" class="div-column-quarter"></div>
+										<div id="50930" class="div-column-quarter"></div>
+										<div id="50945" class="div-column-quarter"></div>
+									</div>
+								</div>							
+								<div class="div-row">
+									<div class="div-column">10:00</div>
+									<div id="monday" class="div-column">
+										<div id="11000" class="div-column-quarter"></div>
+										<div id="11015" class="div-column-quarter"></div>
+										<div id="11030" class="div-column-quarter"></div>
+										<div id="11045" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21000" class="div-column-quarter"></div>
+										<div id="21015" class="div-column-quarter"></div>
+										<div id="21030" class="div-column-quarter"></div>
+										<div id="21045" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31000" class="div-column-quarter"></div>
+										<div id="31015" class="div-column-quarter"></div>
+										<div id="31030" class="div-column-quarter"></div>
+										<div id="31045" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41000" class="div-column-quarter"></div>
+										<div id="41015" class="div-column-quarter"></div>
+										<div id="41030" class="div-column-quarter"></div>
+										<div id="41045" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51000" class="div-column-quarter"></div>
+										<div id="51015" class="div-column-quarter"></div>
+										<div id="51030" class="div-column-quarter"></div>
+										<div id="51045" class="div-column-quarter"></div>
+									</div>	
+								</div>							
+								<div class="div-row">
+									<div class="div-column">11:00</div>
+									<div id="monday" class="div-column">
+										<div id="11100" class="div-column-quarter"></div>
+										<div id="11115" class="div-column-quarter"></div>
+										<div id="11130" class="div-column-quarter"></div>
+										<div id="11145" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21100" class="div-column-quarter"></div>
+										<div id="21115" class="div-column-quarter"></div>
+										<div id="21130" class="div-column-quarter"></div>
+										<div id="21145" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31100" class="div-column-quarter"></div>
+										<div id="31115" class="div-column-quarter"></div>
+										<div id="31130" class="div-column-quarter"></div>
+										<div id="31145" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41100" class="div-column-quarter"></div>
+										<div id="41115" class="div-column-quarter"></div>
+										<div id="41130" class="div-column-quarter"></div>
+										<div id="41145" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51100" class="div-column-quarter"></div>
+										<div id="51115" class="div-column-quarter"></div>
+										<div id="51130" class="div-column-quarter"></div>
+										<div id="51145" class="div-column-quarter"></div>
+									</div>	
+								</div>	
+								<div class="div-row">
+									<div class="div-column">12:00</div>
+									<div id="monday" class="div-column">
+										<div id="11200" class="div-column-quarter"></div>
+										<div id="11215" class="div-column-quarter"></div>
+										<div id="11230" class="div-column-quarter"></div>
+										<div id="11245" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21200" class="div-column-quarter"></div>
+										<div id="21215" class="div-column-quarter"></div>
+										<div id="21230" class="div-column-quarter"></div>
+										<div id="21245" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31200" class="div-column-quarter"></div>
+										<div id="31215" class="div-column-quarter"></div>
+										<div id="31230" class="div-column-quarter"></div>
+										<div id="31245" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41200" class="div-column-quarter"></div>
+										<div id="41215" class="div-column-quarter"></div>
+										<div id="41230" class="div-column-quarter"></div>
+										<div id="41245" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51200" class="div-column-quarter"></div>
+										<div id="51215" class="div-column-quarter"></div>
+										<div id="51230" class="div-column-quarter"></div>
+										<div id="51245" class="div-column-quarter"></div>
+									</div>	
+								</div>
+								<div class="div-row">
+									<div class="div-column">13:00</div>
+									<div id="monday" class="div-column">
+										<div id="11300" class="div-column-quarter"></div>
+										<div id="11315" class="div-column-quarter"></div>
+										<div id="11330" class="div-column-quarter"></div>
+										<div id="11345" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21300" class="div-column-quarter"></div>
+										<div id="21315" class="div-column-quarter"></div>
+										<div id="21330" class="div-column-quarter"></div>
+										<div id="21345" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31300" class="div-column-quarter"></div>
+										<div id="31315" class="div-column-quarter"></div>
+										<div id="31330" class="div-column-quarter"></div>
+										<div id="31345" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41300" class="div-column-quarter"></div>
+										<div id="41315" class="div-column-quarter"></div>
+										<div id="41330" class="div-column-quarter"></div>
+										<div id="41345" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51300" class="div-column-quarter"></div>
+										<div id="51315" class="div-column-quarter"></div>
+										<div id="51330" class="div-column-quarter"></div>
+										<div id="51345" class="div-column-quarter"></div>
+									</div>	
+								</div>
+								<div class="div-row">
+									<div class="div-column">14:00</div>
+									<div id="monday" class="div-column">
+										<div id="11400" class="div-column-quarter"></div>
+										<div id="11415" class="div-column-quarter"></div>
+										<div id="11430" class="div-column-quarter"></div>
+										<div id="11445" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21400" class="div-column-quarter"></div>
+										<div id="21415" class="div-column-quarter"></div>
+										<div id="21430" class="div-column-quarter"></div>
+										<div id="21445" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31400" class="div-column-quarter"></div>
+										<div id="31415" class="div-column-quarter"></div>
+										<div id="31430" class="div-column-quarter"></div>
+										<div id="31445" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41400" class="div-column-quarter"></div>
+										<div id="41415" class="div-column-quarter"></div>
+										<div id="41430" class="div-column-quarter"></div>
+										<div id="41445" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51400" class="div-column-quarter"></div>
+										<div id="51415" class="div-column-quarter"></div>
+										<div id="51430" class="div-column-quarter"></div>
+										<div id="51445" class="div-column-quarter"></div>
+									</div>
+								</div>	
+								<div class="div-row">
+									<div class="div-column">15:00</div>
+									<div id="monday" class="div-column">
+										<div id="11500" class="div-column-quarter"></div>
+										<div id="11515" class="div-column-quarter"></div>
+										<div id="11530" class="div-column-quarter"></div>
+										<div id="11545" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21500" class="div-column-quarter"></div>
+										<div id="21515" class="div-column-quarter"></div>
+										<div id="21530" class="div-column-quarter"></div>
+										<div id="21545" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31500" class="div-column-quarter"></div>
+										<div id="31515" class="div-column-quarter"></div>
+										<div id="31530" class="div-column-quarter"></div>
+										<div id="31545" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41500" class="div-column-quarter"></div>
+										<div id="41515" class="div-column-quarter"></div>
+										<div id="41530" class="div-column-quarter"></div>
+										<div id="41545" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51500" class="div-column-quarter"></div>
+										<div id="51515" class="div-column-quarter"></div>
+										<div id="51530" class="div-column-quarter"></div>
+										<div id="51545" class="div-column-quarter"></div>
+									</div>
+								</div>	
+								<div class="div-row">
+									<div class="div-column">16:00</div>
+									<div id="monday" class="div-column">
+										<div id="11600" class="div-column-quarter"></div>
+										<div id="11615" class="div-column-quarter"></div>
+										<div id="11630" class="div-column-quarter"></div>
+										<div id="11645" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21600" class="div-column-quarter"></div>
+										<div id="21615" class="div-column-quarter"></div>
+										<div id="21630" class="div-column-quarter"></div>
+										<div id="21645" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31600" class="div-column-quarter"></div>
+										<div id="31615" class="div-column-quarter"></div>
+										<div id="31630" class="div-column-quarter"></div>
+										<div id="31645" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41600" class="div-column-quarter"></div>
+										<div id="41615" class="div-column-quarter"></div>
+										<div id="41630" class="div-column-quarter"></div>
+										<div id="41645" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51600" class="div-column-quarter"></div>
+										<div id="51615" class="div-column-quarter"></div>
+										<div id="51630" class="div-column-quarter"></div>
+										<div id="51645" class="div-column-quarter"></div>
+									</div>	
+								</div>
+								<div class="div-row">
+									<div class="div-column">17:00</div>
+									<div id="monday" class="div-column">
+										<div id="11700" class="div-column-quarter"></div>
+										<div id="11715" class="div-column-quarter"></div>
+										<div id="11730" class="div-column-quarter"></div>
+										<div id="11745" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21700" class="div-column-quarter"></div>
+										<div id="21715" class="div-column-quarter"></div>
+										<div id="21730" class="div-column-quarter"></div>
+										<div id="21745" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31700" class="div-column-quarter"></div>
+										<div id="31715" class="div-column-quarter"></div>
+										<div id="31730" class="div-column-quarter"></div>
+										<div id="31745" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41700" class="div-column-quarter"></div>
+										<div id="41715" class="div-column-quarter"></div>
+										<div id="41730" class="div-column-quarter"></div>
+										<div id="41745" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51700" class="div-column-quarter"></div>
+										<div id="51715" class="div-column-quarter"></div>
+										<div id="51730" class="div-column-quarter"></div>
+										<div id="51745" class="div-column-quarter"></div>
+									</div>
+								</div>	
+								<div class="div-row">
+									<div class="div-column">18:00</div>
+									<div id="monday" class="div-column">
+										<div id="11800" class="div-column-quarter"></div>
+										<div id="11815" class="div-column-quarter"></div>
+										<div id="11830" class="div-column-quarter"></div>
+										<div id="11845" class="div-column-quarter"></div>
+									</div>
+									<div id="tuesday" class="div-column">
+										<div id="21800" class="div-column-quarter"></div>
+										<div id="21815" class="div-column-quarter"></div>
+										<div id="21830" class="div-column-quarter"></div>
+										<div id="21845" class="div-column-quarter"></div>
+									</div>
+									<div id="wednesday" class="div-column">
+										<div id="31800" class="div-column-quarter"></div>
+										<div id="31815" class="div-column-quarter"></div>
+										<div id="31830" class="div-column-quarter"></div>
+										<div id="31845" class="div-column-quarter"></div>
+									</div>
+									<div id="thursday" class="div-column">
+										<div id="41800" class="div-column-quarter"></div>
+										<div id="41815" class="div-column-quarter"></div>
+										<div id="41830" class="div-column-quarter"></div>
+										<div id="41845" class="div-column-quarter"></div>
+									</div>
+									<div id="friday" class="div-column">
+										<div id="51800" class="div-column-quarter"></div>
+										<div id="51815" class="div-column-quarter"></div>
+										<div id="51830" class="div-column-quarter"></div>
+										<div id="51845" class="div-column-quarter"></div>
+									</div>
+								</div>
+							</div>
+
+						
+						<p>
+							<div id="timeCourse"></div>
+							<div id="test"></div>
+						</p>
+						
+										
+						<div><a href="../TrackPicker/home.html">Back</a></div>
+						
+					</section>
+				</section>
+				
+				<aside class="side_right">
+					<div class="courseChosedBigBorder">
+						<div id="courseChosedBorder" class="courseChosedBorder">
+							<div id="courseDes" class="courseDes"></div>
+							<p class="headline_space_coursechoosed">The list of courses you chose:</p>
+							<div class="italictext_trackCourseChose">Colorizing according to course's type in <span id="trackNameCourseChose"></span> track.</div>
+								<span class="mandatoryCellColor"> </span><span class="italictext">&nbsp; Mandatory</span><br/>
+								<span class="optionalCellColor"> </span><span class="italictext">&nbsp; Optinal</span><br/>
+								<span class="freeCellColor"> </span><span class="italictext">&nbsp; Free</span><br/>
+
+							<div id="ChosedCourse" class="div-table-ChosedCourse">
+								<div class="div-row">									
+									<div id="ChosedCourse-No" class="div-column-ChosedCourse-No-Header">No.</div>
+									<div id="ChosedCourse-Course" class="div-column-ChosedCourse-Course-Header">Course</div>
+									<div id="ChosedCourse-Credits" class="div-column-ChosedCourse-Credits-Header">Credits</div>									
+								</div>
+								<div class="scrollCourseChose">								
+									<div id="CourseCreditTable" class="div-row">
+										<div id="CourseCredit"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</aside>				
+				<div class="clear"></div>
+			</div>
+			
+			
+			<footer class="footer">
+				&copy; Eurecom - 2013
+				
+			</footer>
+		</div>
+	</body>
+</html>
