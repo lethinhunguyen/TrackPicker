@@ -1,0 +1,1047 @@
+<rdf:RDF
+    xmlns:REVE="http://data.eurecom.fr/ontology/reve#"
+    xmlns:SKOS="http://www.w3.org/2004/02/skos/core.html#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:FOAF="http://xmlns.com/foaf/0.1/"
+    xmlns:ORG="http://www.w3.org/TR/vocab-org/#"
+    xmlns:DC="http://purl.org/dc/terms/"
+    xmlns:PART="http://purl.org/vocab/participation/schema#"
+    xmlns:TIME="http://www.w3.org/2006/time#"
+    xmlns:LODE="http://linkedevents.org/ontology/"
+    xmlns:AIISO="http://vocab.org/aiiso/schema#"
+    xmlns:ROOMS="http://vocab.deri.ie/rooms#" > 
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Institut Eurecom">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/359"/>
+    <SKOS:prefLabel>Institut Eurecom</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/LOGICA MANAGEMENT CONSULTING">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/13"/>
+    <SKOS:prefLabel>LOGICA MANAGEMENT CONSULTING</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SAP">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/773"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/759"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/756"/>
+    <SKOS:prefLabel>SAP</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Banque de France ">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/641"/>
+    <SKOS:prefLabel>Banque de France </SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/BULL">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/752"/>
+    <SKOS:prefLabel>BULL</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/HP">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/777"/>
+    <SKOS:prefLabel>HP</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Solucom">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/292"/>
+    <SKOS:prefLabel>Solucom</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/UNIVERSITY OF SOUTHERN CALIFORNIA">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/832"/>
+    <SKOS:prefLabel>UNIVERSITY OF SOUTHERN CALIFORNIA</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/CANAL +">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/340"/>
+    <SKOS:prefLabel>CANAL +</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Logica">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/342"/>
+    <SKOS:prefLabel>Logica</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/CVDM">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/633"/>
+    <SKOS:prefLabel>CVDM</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ORANGE FRANCE">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/15"/>
+    <SKOS:prefLabel>ORANGE FRANCE</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Eurecom">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/257"/>
+    <SKOS:prefLabel>Eurecom</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Alcatel Lucent Bell Labs ">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/645"/>
+    <SKOS:prefLabel>Alcatel Lucent Bell Labs </SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/EURECOM">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/818"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/616"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/797"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/829"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/658"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/660"/>
+    <SKOS:prefLabel>EURECOM</SKOS:prefLabel>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/729"/>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/804"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/685"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/600"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/723"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Thales Services">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/449"/>
+    <SKOS:prefLabel>Thales Services</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Agence France-Presse ">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/678"/>
+    <SKOS:prefLabel>Agence France-Presse </SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Wipro - Newlogic">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/81"/>
+    <SKOS:prefLabel>Wipro - Newlogic</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SOLUCOM">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/857"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/871"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/298"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/295"/>
+    <SKOS:prefLabel>SOLUCOM</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Inmarsat Ltd">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/197"/>
+    <SKOS:prefLabel>Inmarsat Ltd</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/LEAR Corporation GmbH">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/724"/>
+    <SKOS:prefLabel>LEAR Corporation GmbH</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Johns Hopkins University">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/626"/>
+    <SKOS:prefLabel>Johns Hopkins University</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ARM France SAS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/337"/>
+    <SKOS:prefLabel>ARM France SAS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Société Générale Corporate and Investment Banking (SGCIB) - Paris">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/266"/>
+    <SKOS:prefLabel>Société Générale Corporate and Investment Banking (SGCIB) - Paris</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/TU Darmstadt">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/775"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/767"/>
+    <SKOS:prefLabel>TU Darmstadt</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/AALTO UNIVERSITY">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/845"/>
+    <SKOS:prefLabel>AALTO UNIVERSITY</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/BMW Forschung und Technik">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/403"/>
+    <SKOS:prefLabel>BMW Forschung und Technik</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/TECHNICOLOR">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/751"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/719"/>
+    <SKOS:prefLabel>TECHNICOLOR</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/CNRS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/855"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/667"/>
+    <SKOS:prefLabel>CNRS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SAP Labs FRANCE SAS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/155"/>
+    <SKOS:prefLabel>SAP Labs FRANCE SAS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ALCATEL-LUCENT">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/745"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/733"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/689"/>
+    <SKOS:prefLabel>ALCATEL-LUCENT</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ibm">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/439"/>
+    <SKOS:prefLabel>ibm</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SAP BusinesObjects">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/650"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/635"/>
+    <SKOS:prefLabel>SAP BusinesObjects</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Aubay">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/782"/>
+    <SKOS:prefLabel>Aubay</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Amadeus">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/44"/>
+    <SKOS:prefLabel>Amadeus</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/THALES">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/807"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/588"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/248"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/78"/>
+    <SKOS:prefLabel>THALES</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ORANGE LABS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/194"/>
+    <SKOS:prefLabel>ORANGE LABS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/BP2S">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/221"/>
+    <SKOS:prefLabel>BP2S</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SNCF">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/841"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/634"/>
+    <SKOS:prefLabel>SNCF</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Hervé Schauer Consultants (HSC)">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/351"/>
+    <SKOS:prefLabel>Hervé Schauer Consultants (HSC)</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/AFD Technologies">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/395"/>
+    <SKOS:prefLabel>AFD Technologies</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/MA-RESIDENCE.FR">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/654"/>
+    <SKOS:prefLabel>MA-RESIDENCE.FR</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/THOMSON">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/630"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/597"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/587"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/142"/>
+    <SKOS:prefLabel>THOMSON</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SWISSCOM">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/274"/>
+    <SKOS:prefLabel>SWISSCOM</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ST Ericsson">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/649"/>
+    <SKOS:prefLabel>ST Ericsson</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/INFINEON">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/651"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/636"/>
+    <SKOS:prefLabel>INFINEON</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SOFIALYS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/718"/>
+    <SKOS:prefLabel>SOFIALYS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Accenture">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/571"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/570"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/21"/>
+    <SKOS:prefLabel>Accenture</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Amadeus SAS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/493"/>
+    <SKOS:prefLabel>Amadeus SAS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/sap">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/847"/>
+    <SKOS:prefLabel>sap</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/CEA">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/864"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/863"/>
+    <SKOS:prefLabel>CEA</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Sofialys">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/670"/>
+    <SKOS:prefLabel>Sofialys</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SOPHIS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/709"/>
+    <SKOS:prefLabel>SOPHIS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Sigmedia">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/473"/>
+    <SKOS:prefLabel>Sigmedia</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/EADS Astrium">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/103"/>
+    <SKOS:prefLabel>EADS Astrium</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/MASA Group">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/183"/>
+    <SKOS:prefLabel>MASA Group</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Ingéniance">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/54"/>
+    <SKOS:prefLabel>Ingéniance</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Capgemini">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/12"/>
+    <SKOS:prefLabel>Capgemini</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/TELECOM ParisTech">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/629"/>
+    <SKOS:prefLabel>TELECOM ParisTech</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/AFD Technpology">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/528"/>
+    <SKOS:prefLabel>AFD Technpology</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/astek">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/683"/>
+    <SKOS:prefLabel>astek</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/THALES ALENIA SPACE">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/517"/>
+    <SKOS:prefLabel>THALES ALENIA SPACE</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/TELEFÓNICA INVESTIGACIÓN Y DESARROLLO, S.A. UNIPERSONAL ">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/642"/>
+    <SKOS:prefLabel>TELEFÓNICA INVESTIGACIÓN Y DESARROLLO, S.A. UNIPERSONAL </SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ACCENTURE">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/856"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/867"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/702"/>
+    <SKOS:prefLabel>ACCENTURE</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/NEC CORPORATION">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/352"/>
+    <SKOS:prefLabel>NEC CORPORATION</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Total">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/363"/>
+    <SKOS:prefLabel>Total</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Illumination/Mac Guff ">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/814"/>
+    <SKOS:prefLabel>Illumination/Mac Guff </SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/AMESYS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/686"/>
+    <SKOS:prefLabel>AMESYS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Digital Keystone">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/608"/>
+    <SKOS:prefLabel>Digital Keystone</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Ventech">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/695"/>
+    <SKOS:prefLabel>Ventech</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Sigmedia (Signal Processing and Media Applications Group) - Trinity College Dublin">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/206"/>
+    <SKOS:prefLabel>Sigmedia (Signal Processing and Media Applications Group) - Trinity College Dublin</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ATOS ORIGIN">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/589"/>
+    <SKOS:prefLabel>ATOS ORIGIN</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Sigma Designs">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/592"/>
+    <SKOS:prefLabel>Sigma Designs</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ministère de la défense ">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/652"/>
+    <SKOS:prefLabel>ministère de la défense </SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/FRANCE TELECOM">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/400"/>
+    <SKOS:prefLabel>FRANCE TELECOM</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Parrot">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/383"/>
+    <SKOS:prefLabel>Parrot</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/CSC">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/787"/>
+    <SKOS:prefLabel>CSC</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Swisscom Innovations">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/454"/>
+    <SKOS:prefLabel>Swisscom Innovations</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/CAP GEMINI">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/763"/>
+    <SKOS:prefLabel>CAP GEMINI</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Texas Instruments">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/255"/>
+    <SKOS:prefLabel>Texas Instruments</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Aalto University">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/866"/>
+    <SKOS:prefLabel>Aalto University</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ORANGE LABS (FRANCE TELECOM R&amp;D)">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/520"/>
+    <SKOS:prefLabel>ORANGE LABS (FRANCE TELECOM R&amp;D)</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/BMW">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/823"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/321"/>
+    <SKOS:prefLabel>BMW</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Sophis">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/63"/>
+    <SKOS:prefLabel>Sophis</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/orange">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/774"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/828"/>
+    <SKOS:prefLabel>orange</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ST-NXP Wireless">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/584"/>
+    <SKOS:prefLabel>ST-NXP Wireless</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/INTEL">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/870"/>
+    <SKOS:prefLabel>INTEL</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Atos Origin">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/332"/>
+    <SKOS:prefLabel>Atos Origin</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/IBM">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/177"/>
+    <SKOS:prefLabel>IBM</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ViaMichelin">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/728"/>
+    <SKOS:prefLabel>ViaMichelin</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/France Telecom">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/604"/>
+    <SKOS:prefLabel>France Telecom</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/bnpparibas">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/161"/>
+    <SKOS:prefLabel>bnpparibas</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SILICON CARNE">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/447"/>
+    <SKOS:prefLabel>SILICON CARNE</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/DEVOTEAM">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/308"/>
+    <SKOS:prefLabel>DEVOTEAM</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Stonesoft Corporation">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/781"/>
+    <SKOS:prefLabel>Stonesoft Corporation</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Maxicours.com ">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/820"/>
+    <SKOS:prefLabel>Maxicours.com </SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/CEA-LETI">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/210"/>
+    <SKOS:prefLabel>CEA-LETI</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/INFINEON TECHNOLOGIES">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/591"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/590"/>
+    <SKOS:prefLabel>INFINEON TECHNOLOGIES</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SIEMENS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/848"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/762"/>
+    <SKOS:prefLabel>SIEMENS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/UNILOG">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/232"/>
+    <SKOS:prefLabel>UNILOG</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ALCATEL LUCENT">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/817"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/812"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/765"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/179"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/326"/>
+    <SKOS:prefLabel>ALCATEL LUCENT</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/EDF / GDF">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/58"/>
+    <SKOS:prefLabel>EDF / GDF</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SOCIETE GENERALE">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/4"/>
+    <SKOS:prefLabel>SOCIETE GENERALE</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/EUREVA">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/679"/>
+    <SKOS:prefLabel>EUREVA</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Swisscom (Schweiz) AG">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/320"/>
+    <SKOS:prefLabel>Swisscom (Schweiz) AG</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ARIA SPA">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/808"/>
+    <SKOS:prefLabel>ARIA SPA</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/MAXICOURS.COM">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/827"/>
+    <SKOS:prefLabel>MAXICOURS.COM</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/MONACO TELECOM">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/793"/>
+    <SKOS:prefLabel>MONACO TELECOM</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Producteev LLC">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/737"/>
+    <SKOS:prefLabel>Producteev LLC</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/BNP PARISBAS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/329"/>
+    <SKOS:prefLabel>BNP PARISBAS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Accenture Labs">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/234"/>
+    <SKOS:prefLabel>Accenture Labs</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/HITACHI">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/632"/>
+    <SKOS:prefLabel>HITACHI</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:_56 rdf:resource="http://data.eurecom.fr/company/Solucom"/>
+    <rdf:_36 rdf:resource="http://data.eurecom.fr/company/Société Générale Corporate and Investment Banking (SGCIB) - Paris"/>
+    <rdf:_28 rdf:resource="http://data.eurecom.fr/company/Nokia"/>
+    <rdf:_6 rdf:resource="http://data.eurecom.fr/company/ARM France SAS"/>
+    <rdf:_165 rdf:resource="http://data.eurecom.fr/company/TECHNICOLOR"/>
+    <rdf:_143 rdf:resource="http://data.eurecom.fr/company/SOPHIS"/>
+    <rdf:_144 rdf:resource="http://data.eurecom.fr/company/TECHNICOLOR"/>
+    <rdf:_136 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_1 rdf:resource="http://data.eurecom.fr/company/Accenture"/>
+    <rdf:_107 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_75 rdf:resource="http://data.eurecom.fr/company/Digital Keystone"/>
+    <rdf:_91 rdf:resource="http://data.eurecom.fr/company/SOLUCOM"/>
+    <rdf:_180 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_24 rdf:resource="http://data.eurecom.fr/company/Institut Eurecom"/>
+    <rdf:_51 rdf:resource="http://data.eurecom.fr/company/EADS Astrium"/>
+    <rdf:_186 rdf:resource="http://data.eurecom.fr/company/I2R"/>
+    <rdf:_147 rdf:resource="http://data.eurecom.fr/company/ViaMichelin"/>
+    <rdf:_53 rdf:resource="http://data.eurecom.fr/company/Icera Semiconductors"/>
+    <rdf:_173 rdf:resource="http://data.eurecom.fr/company/ATOS"/>
+    <rdf:_130 rdf:resource="http://data.eurecom.fr/company/ALCATEL-LUCENT"/>
+    <rdf:_85 rdf:resource="http://data.eurecom.fr/company/NEURELEC"/>
+    <rdf:_223 rdf:resource="http://data.eurecom.fr/company/SOLUCOM"/>
+    <rdf:_3 rdf:resource="http://data.eurecom.fr/company/Accenture"/>
+    <rdf:_118 rdf:resource="http://data.eurecom.fr/company/SAP BusinesObjects"/>
+    <rdf:_213 rdf:resource="http://data.eurecom.fr/company/ACCENTURE"/>
+    <rdf:_101 rdf:resource="http://data.eurecom.fr/company/Alcatel Lucent Bell Labs "/>
+    <rdf:_7 rdf:resource="http://data.eurecom.fr/company/BMW"/>
+    <rdf:_199 rdf:resource="http://data.eurecom.fr/company/SAP"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdf:_89 rdf:resource="http://data.eurecom.fr/company/SOCIETE GENERALE"/>
+    <rdf:_119 rdf:resource="http://data.eurecom.fr/company/SAP BusinesObjects"/>
+    <rdf:_139 rdf:resource="http://data.eurecom.fr/company/monaco telecom"/>
+    <rdf:_127 rdf:resource="http://data.eurecom.fr/company/ACCENTURE"/>
+    <rdf:_98 rdf:resource="http://data.eurecom.fr/company/THOMSON"/>
+    <rdf:_125 rdf:resource="http://data.eurecom.fr/company/TELEFÓNICA INVESTIGACIÓN Y DESARROLLO, S.A. UNIPERSONAL "/>
+    <rdf:_161 rdf:resource="http://data.eurecom.fr/company/NEC"/>
+    <rdf:_23 rdf:resource="http://data.eurecom.fr/company/INNO"/>
+    <rdf:_113 rdf:resource="http://data.eurecom.fr/company/Johns Hopkins University"/>
+    <rdf:_111 rdf:resource="http://data.eurecom.fr/company/INFINEON"/>
+    <rdf:_14 rdf:resource="http://data.eurecom.fr/company/Ericsson"/>
+    <rdf:_198 rdf:resource="http://data.eurecom.fr/company/Renault Finance SA"/>
+    <rdf:_188 rdf:resource="http://data.eurecom.fr/company/MAXICOURS.COM"/>
+    <rdf:_195 rdf:resource="http://data.eurecom.fr/company/orange"/>
+    <rdf:_63 rdf:resource="http://data.eurecom.fr/company/Thales"/>
+    <rdf:_181 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_123 rdf:resource="http://data.eurecom.fr/company/Swisscom"/>
+    <rdf:_31 rdf:resource="http://data.eurecom.fr/company/Parrot"/>
+    <rdf:_179 rdf:resource="http://data.eurecom.fr/company/CSC"/>
+    <rdf:_212 rdf:resource="http://data.eurecom.fr/company/Aalto University"/>
+    <rdf:_88 rdf:resource="http://data.eurecom.fr/company/SILICON CARNE"/>
+    <rdf:_108 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_189 rdf:resource="http://data.eurecom.fr/company/Maxicours.com "/>
+    <rdf:_12 rdf:resource="http://data.eurecom.fr/company/Cisco Systems Inc."/>
+    <rdf:_35 rdf:resource="http://data.eurecom.fr/company/Société Générale"/>
+    <rdf:_25 rdf:resource="http://data.eurecom.fr/company/JPMorgan"/>
+    <rdf:_164 rdf:resource="http://data.eurecom.fr/company/SOPHIS"/>
+    <rdf:_68 rdf:resource="http://data.eurecom.fr/company/ALCATEL LUCENT"/>
+    <rdf:_109 rdf:resource="http://data.eurecom.fr/company/EUREVA"/>
+    <rdf:_159 rdf:resource="http://data.eurecom.fr/company/LTU TECHNOLOGIES"/>
+    <rdf:_83 rdf:resource="http://data.eurecom.fr/company/NEC"/>
+    <rdf:_9 rdf:resource="http://data.eurecom.fr/company/bnpparibas"/>
+    <rdf:_77 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_15 rdf:resource="http://data.eurecom.fr/company/Eurecom"/>
+    <rdf:_210 rdf:resource="http://data.eurecom.fr/company/UNIVERSITY OF SOUTHERN CALIFORNIA"/>
+    <rdf:_137 rdf:resource="http://data.eurecom.fr/company/GOOGLE"/>
+    <rdf:_202 rdf:resource="http://data.eurecom.fr/company/SAP FRANCE"/>
+    <rdf:_220 rdf:resource="http://data.eurecom.fr/company/sap"/>
+    <rdf:_138 rdf:resource="http://data.eurecom.fr/company/LTU TECHNOLOGIES"/>
+    <rdf:_132 rdf:resource="http://data.eurecom.fr/company/Apple"/>
+    <rdf:_175 rdf:resource="http://data.eurecom.fr/company/BMW"/>
+    <rdf:_191 rdf:resource="http://data.eurecom.fr/company/NDS"/>
+    <rdf:_217 rdf:resource="http://data.eurecom.fr/company/CNRS"/>
+    <rdf:_141 rdf:resource="http://data.eurecom.fr/company/Producteev LLC"/>
+    <rdf:_219 rdf:resource="http://data.eurecom.fr/company/ORANGE"/>
+    <rdf:_17 rdf:resource="http://data.eurecom.fr/company/ibm"/>
+    <rdf:_99 rdf:resource="http://data.eurecom.fr/company/THOMSON"/>
+    <rdf:_80 rdf:resource="http://data.eurecom.fr/company/INFINEON TECHNOLOGIES"/>
+    <rdf:_76 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_26 rdf:resource="http://data.eurecom.fr/company/MASA Group"/>
+    <rdf:_218 rdf:resource="http://data.eurecom.fr/company/INTEL"/>
+    <rdf:_163 rdf:resource="http://data.eurecom.fr/company/SOFIALYS"/>
+    <rdf:_196 rdf:resource="http://data.eurecom.fr/company/orange"/>
+    <rdf:_65 rdf:resource="http://data.eurecom.fr/company/THALES ALENIA SPACE"/>
+    <rdf:_182 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_153 rdf:resource="http://data.eurecom.fr/company/Apple"/>
+    <rdf:_30 rdf:resource="http://data.eurecom.fr/company/ORANGE LABS (FRANCE TELECOM R&amp;D)"/>
+    <rdf:_168 rdf:resource="http://data.eurecom.fr/company/ViaMichelin"/>
+    <rdf:_197 rdf:resource="http://data.eurecom.fr/company/PANASONIC"/>
+    <rdf:_158 rdf:resource="http://data.eurecom.fr/company/GOOGLE"/>
+    <rdf:_54 rdf:resource="http://data.eurecom.fr/company/Logica"/>
+    <rdf:_131 rdf:resource="http://data.eurecom.fr/company/AMESYS"/>
+    <rdf:_203 rdf:resource="http://data.eurecom.fr/company/SETELIA"/>
+    <rdf:_192 rdf:resource="http://data.eurecom.fr/company/NEURELEC"/>
+    <rdf:_105 rdf:resource="http://data.eurecom.fr/company/CVDM"/>
+    <rdf:_216 rdf:resource="http://data.eurecom.fr/company/CEA"/>
+    <rdf:_209 rdf:resource="http://data.eurecom.fr/company/TU Darmstadt"/>
+    <rdf:_207 rdf:resource="http://data.eurecom.fr/company/TECHNICOLOR"/>
+    <rdf:_21 rdf:resource="http://data.eurecom.fr/company/Ingéniance"/>
+    <rdf:_66 rdf:resource="http://data.eurecom.fr/company/Total"/>
+    <rdf:_152 rdf:resource="http://data.eurecom.fr/company/AMESYS"/>
+    <rdf:_33 rdf:resource="http://data.eurecom.fr/company/SHARP Corporation"/>
+    <rdf:_52 rdf:resource="http://data.eurecom.fr/company/FRANCE TELECOM"/>
+    <rdf:_176 rdf:resource="http://data.eurecom.fr/company/BULL"/>
+    <rdf:_166 rdf:resource="http://data.eurecom.fr/company/TU Darmstadt"/>
+    <rdf:_50 rdf:resource="http://data.eurecom.fr/company/Capgemini"/>
+    <rdf:_146 rdf:resource="http://data.eurecom.fr/company/Ventech"/>
+    <rdf:_13 rdf:resource="http://data.eurecom.fr/company/EDF / GDF"/>
+    <rdf:_48 rdf:resource="http://data.eurecom.fr/company/BNP PARIBAS"/>
+    <rdf:_16 rdf:resource="http://data.eurecom.fr/company/Hervé Schauer Consultants (HSC)"/>
+    <rdf:_121 rdf:resource="http://data.eurecom.fr/company/Sofialys"/>
+    <rdf:_4 rdf:resource="http://data.eurecom.fr/company/AFD Technologies"/>
+    <rdf:_115 rdf:resource="http://data.eurecom.fr/company/MA-RESIDENCE.FR"/>
+    <rdf:_114 rdf:resource="http://data.eurecom.fr/company/LEAR Corporation GmbH"/>
+    <rdf:_69 rdf:resource="http://data.eurecom.fr/company/AMADEUS"/>
+    <rdf:_169 rdf:resource="http://data.eurecom.fr/company/ALCATEL LUCENT"/>
+    <rdf:_116 rdf:resource="http://data.eurecom.fr/company/ministère de la défense "/>
+    <rdf:_172 rdf:resource="http://data.eurecom.fr/company/ARIA SPA"/>
+    <rdf:_206 rdf:resource="http://data.eurecom.fr/company/Stonesoft Corporation"/>
+    <rdf:_32 rdf:resource="http://data.eurecom.fr/company/SAP Labs FRANCE SAS"/>
+    <rdf:_45 rdf:resource="http://data.eurecom.fr/company/Amadeus"/>
+    <rdf:_19 rdf:resource="http://data.eurecom.fr/company/Icera Semiconductors"/>
+    <rdf:_106 rdf:resource="http://data.eurecom.fr/company/Ecole Normale"/>
+    <rdf:_112 rdf:resource="http://data.eurecom.fr/company/INFINEON"/>
+    <rdf:_72 rdf:resource="http://data.eurecom.fr/company/CANAL +"/>
+    <rdf:_194 rdf:resource="http://data.eurecom.fr/company/NICTA"/>
+    <rdf:_92 rdf:resource="http://data.eurecom.fr/company/ST-NXP Wireless"/>
+    <rdf:_18 rdf:resource="http://data.eurecom.fr/company/IBM"/>
+    <rdf:_11 rdf:resource="http://data.eurecom.fr/company/CEA-LETI"/>
+    <rdf:_145 rdf:resource="http://data.eurecom.fr/company/TU Darmstadt"/>
+    <rdf:_103 rdf:resource="http://data.eurecom.fr/company/Banque de France "/>
+    <rdf:_58 rdf:resource="http://data.eurecom.fr/company/Swisscom"/>
+    <rdf:_221 rdf:resource="http://data.eurecom.fr/company/SIEMENS"/>
+    <rdf:_96 rdf:resource="http://data.eurecom.fr/company/THALES COMMUNICATION"/>
+    <rdf:_67 rdf:resource="http://data.eurecom.fr/company/AFD TECHNOLOGIES"/>
+    <rdf:_78 rdf:resource="http://data.eurecom.fr/company/France Telecom"/>
+    <rdf:_150 rdf:resource="http://data.eurecom.fr/company/ALCATEL-LUCENT"/>
+    <rdf:_160 rdf:resource="http://data.eurecom.fr/company/monaco telecom"/>
+    <rdf:_44 rdf:resource="http://data.eurecom.fr/company/ALCATEL LUCENT"/>
+    <rdf:_34 rdf:resource="http://data.eurecom.fr/company/Sigmedia (Signal Processing and Media Applications Group) - Trinity College Dublin"/>
+    <rdf:_183 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_174 rdf:resource="http://data.eurecom.fr/company/Aubay"/>
+    <rdf:_134 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_42 rdf:resource="http://data.eurecom.fr/company/Accenture Labs"/>
+    <rdf:_87 rdf:resource="http://data.eurecom.fr/company/Sigma Designs"/>
+    <rdf:_47 rdf:resource="http://data.eurecom.fr/company/BearingPoint"/>
+    <rdf:_93 rdf:resource="http://data.eurecom.fr/company/SWISSCOM"/>
+    <rdf:_167 rdf:resource="http://data.eurecom.fr/company/Ventech"/>
+    <rdf:_102 rdf:resource="http://data.eurecom.fr/company/ATOS"/>
+    <rdf:_162 rdf:resource="http://data.eurecom.fr/company/Producteev LLC"/>
+    <rdf:_126 rdf:resource="http://data.eurecom.fr/company/THOMSON"/>
+    <rdf:_39 rdf:resource="http://data.eurecom.fr/company/Thales Services"/>
+    <rdf:_200 rdf:resource="http://data.eurecom.fr/company/SAP"/>
+    <rdf:_110 rdf:resource="http://data.eurecom.fr/company/HITACHI"/>
+    <rdf:_104 rdf:resource="http://data.eurecom.fr/company/CNRS"/>
+    <rdf:_185 rdf:resource="http://data.eurecom.fr/company/I2R"/>
+    <rdf:_117 rdf:resource="http://data.eurecom.fr/company/PHILIPS HEALTHCARE"/>
+    <rdf:_41 rdf:resource="http://data.eurecom.fr/company/Wipro - Newlogic"/>
+    <rdf:_155 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_184 rdf:resource="http://data.eurecom.fr/company/HP"/>
+    <rdf:_82 rdf:resource="http://data.eurecom.fr/company/MEDIATVCOM"/>
+    <rdf:_10 rdf:resource="http://data.eurecom.fr/company/Business Objects - SAP"/>
+    <rdf:_29 rdf:resource="http://data.eurecom.fr/company/ORANGE FRANCE"/>
+    <rdf:_142 rdf:resource="http://data.eurecom.fr/company/SOFIALYS"/>
+    <rdf:_95 rdf:resource="http://data.eurecom.fr/company/THALES"/>
+    <rdf:_8 rdf:resource="http://data.eurecom.fr/company/BMW Forschung und Technik"/>
+    <rdf:_100 rdf:resource="http://data.eurecom.fr/company/Agence France-Presse "/>
+    <rdf:_55 rdf:resource="http://data.eurecom.fr/company/Sigmedia"/>
+    <rdf:_204 rdf:resource="http://data.eurecom.fr/company/SIEMENS"/>
+    <rdf:_211 rdf:resource="http://data.eurecom.fr/company/AALTO UNIVERSITY"/>
+    <rdf:_208 rdf:resource="http://data.eurecom.fr/company/THALES"/>
+    <rdf:_129 rdf:resource="http://data.eurecom.fr/company/ALCATEL-LUCENT"/>
+    <rdf:_205 rdf:resource="http://data.eurecom.fr/company/SNCF"/>
+    <rdf:_170 rdf:resource="http://data.eurecom.fr/company/ALCATEL LUCENT"/>
+    <rdf:_61 rdf:resource="http://data.eurecom.fr/company/THALES"/>
+    <rdf:_40 rdf:resource="http://data.eurecom.fr/company/UNILOG"/>
+    <rdf:_59 rdf:resource="http://data.eurecom.fr/company/Swisscom"/>
+    <rdf:_38 rdf:resource="http://data.eurecom.fr/company/Texas Instruments"/>
+    <rdf:_190 rdf:resource="http://data.eurecom.fr/company/MONACO TELECOM"/>
+    <rdf:_128 rdf:resource="http://data.eurecom.fr/company/ALCATEL-LUCENT"/>
+    <rdf:_62 rdf:resource="http://data.eurecom.fr/company/Thales"/>
+    <rdf:_171 rdf:resource="http://data.eurecom.fr/company/ALCATEL LUCENT"/>
+    <rdf:_37 rdf:resource="http://data.eurecom.fr/company/Swisscom Innovations"/>
+    <rdf:_222 rdf:resource="http://data.eurecom.fr/company/SITA"/>
+    <rdf:_22 rdf:resource="http://data.eurecom.fr/company/Inmarsat Ltd"/>
+    <rdf:_81 rdf:resource="http://data.eurecom.fr/company/LOGICA MANAGEMENT CONSULTING"/>
+    <rdf:_135 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_20 rdf:resource="http://data.eurecom.fr/company/IDIAP"/>
+    <rdf:_60 rdf:resource="http://data.eurecom.fr/company/Swisscom (Schweiz) AG"/>
+    <rdf:_157 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_177 rdf:resource="http://data.eurecom.fr/company/cadence"/>
+    <rdf:_154 rdf:resource="http://data.eurecom.fr/company/astek"/>
+    <rdf:_120 rdf:resource="http://data.eurecom.fr/company/SNCF"/>
+    <rdf:_27 rdf:resource="http://data.eurecom.fr/company/NEC"/>
+    <rdf:_133 rdf:resource="http://data.eurecom.fr/company/astek"/>
+    <rdf:_90 rdf:resource="http://data.eurecom.fr/company/SOLUCOM"/>
+    <rdf:_74 rdf:resource="http://data.eurecom.fr/company/DEVOTEAM"/>
+    <rdf:_70 rdf:resource="http://data.eurecom.fr/company/ATOS ORIGIN"/>
+    <rdf:_86 rdf:resource="http://data.eurecom.fr/company/ORANGE LABS"/>
+    <rdf:_201 rdf:resource="http://data.eurecom.fr/company/SAP"/>
+    <rdf:_79 rdf:resource="http://data.eurecom.fr/company/INFINEON TECHNOLOGIES"/>
+    <rdf:_64 rdf:resource="http://data.eurecom.fr/company/Thales Alenia Space"/>
+    <rdf:_57 rdf:resource="http://data.eurecom.fr/company/Sophis"/>
+    <rdf:_73 rdf:resource="http://data.eurecom.fr/company/CAPGEMINI CONSULTING"/>
+    <rdf:_94 rdf:resource="http://data.eurecom.fr/company/THALES"/>
+    <rdf:_2 rdf:resource="http://data.eurecom.fr/company/Accenture"/>
+    <rdf:_215 rdf:resource="http://data.eurecom.fr/company/CEA"/>
+    <rdf:_187 rdf:resource="http://data.eurecom.fr/company/Illumination/Mac Guff "/>
+    <rdf:_178 rdf:resource="http://data.eurecom.fr/company/CAP GEMINI"/>
+    <rdf:_122 rdf:resource="http://data.eurecom.fr/company/ST Ericsson"/>
+    <rdf:_43 rdf:resource="http://data.eurecom.fr/company/AFD Technpology"/>
+    <rdf:_46 rdf:resource="http://data.eurecom.fr/company/Atos Origin"/>
+    <rdf:_193 rdf:resource="http://data.eurecom.fr/company/NEURELEC"/>
+    <rdf:_140 rdf:resource="http://data.eurecom.fr/company/NEC"/>
+    <rdf:_49 rdf:resource="http://data.eurecom.fr/company/BP2S"/>
+    <rdf:_156 rdf:resource="http://data.eurecom.fr/company/EURECOM"/>
+    <rdf:_224 rdf:resource="http://data.eurecom.fr/company/SOLUCOM"/>
+    <rdf:_5 rdf:resource="http://data.eurecom.fr/company/Amadeus SAS"/>
+    <rdf:_97 rdf:resource="http://data.eurecom.fr/company/THOMSON"/>
+    <rdf:_214 rdf:resource="http://data.eurecom.fr/company/ACCENTURE"/>
+    <rdf:_151 rdf:resource="http://data.eurecom.fr/company/ALCATEL-LUCENT"/>
+    <rdf:_149 rdf:resource="http://data.eurecom.fr/company/ALCATEL-LUCENT"/>
+    <rdf:_71 rdf:resource="http://data.eurecom.fr/company/BNP PARISBAS"/>
+    <rdf:_84 rdf:resource="http://data.eurecom.fr/company/NEC CORPORATION"/>
+    <rdf:_148 rdf:resource="http://data.eurecom.fr/company/ACCENTURE"/>
+    <rdf:_124 rdf:resource="http://data.eurecom.fr/company/TELECOM ParisTech"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Nokia">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/286"/>
+    <SKOS:prefLabel>Nokia</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/NICTA">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/802"/>
+    <SKOS:prefLabel>NICTA</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/CAPGEMINI CONSULTING">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/307"/>
+    <SKOS:prefLabel>CAPGEMINI CONSULTING</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/MEDIATVCOM">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/265"/>
+    <SKOS:prefLabel>MEDIATVCOM</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/NEC">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/687"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/610"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/423"/>
+    <SKOS:prefLabel>NEC</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/NDS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/810"/>
+    <SKOS:prefLabel>NDS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/GOOGLE">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/708"/>
+    <SKOS:prefLabel>GOOGLE</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Icera Semiconductors">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/117"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/475"/>
+    <SKOS:prefLabel>Icera Semiconductors</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/AFD TECHNOLOGIES">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/201"/>
+    <SKOS:prefLabel>AFD TECHNOLOGIES</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Ericsson">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/258"/>
+    <SKOS:prefLabel>Ericsson</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Cisco Systems Inc.">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/522"/>
+    <SKOS:prefLabel>Cisco Systems Inc.</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/cadence">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/792"/>
+    <SKOS:prefLabel>cadence</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/AMADEUS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/279"/>
+    <SKOS:prefLabel>AMADEUS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SETELIA">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/819"/>
+    <SKOS:prefLabel>SETELIA</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/IDIAP">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/116"/>
+    <SKOS:prefLabel>IDIAP</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Ecole Normale">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/675"/>
+    <SKOS:prefLabel>Ecole Normale</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/INNO">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/67"/>
+    <SKOS:prefLabel>INNO</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SAP FRANCE">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/757"/>
+    <SKOS:prefLabel>SAP FRANCE</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Thales">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/228"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/136"/>
+    <SKOS:prefLabel>Thales</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/BearingPoint">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/102"/>
+    <SKOS:prefLabel>BearingPoint</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/THALES COMMUNICATION">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/222"/>
+    <SKOS:prefLabel>THALES COMMUNICATION</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/LTU TECHNOLOGIES">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/722"/>
+    <SKOS:prefLabel>LTU TECHNOLOGIES</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Apple">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/705"/>
+    <SKOS:prefLabel>Apple</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Thales Alenia Space">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/237"/>
+    <SKOS:prefLabel>Thales Alenia Space</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/JPMorgan">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/302"/>
+    <SKOS:prefLabel>JPMorgan</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/PANASONIC">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/770"/>
+    <SKOS:prefLabel>PANASONIC</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/monaco telecom">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/698"/>
+    <SKOS:prefLabel>monaco telecom</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/I2R">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/843"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/772"/>
+    <SKOS:prefLabel>I2R</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Business Objects - SAP">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/333"/>
+    <SKOS:prefLabel>Business Objects - SAP</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Swisscom">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/659"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/538"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/10"/>
+    <SKOS:prefLabel>Swisscom</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/NEURELEC">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/833"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/830"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/598"/>
+    <SKOS:prefLabel>NEURELEC</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SHARP Corporation">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/70"/>
+    <SKOS:prefLabel>SHARP Corporation</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/SITA">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/859"/>
+    <SKOS:prefLabel>SITA</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Société Générale">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/200"/>
+    <SKOS:prefLabel>Société Générale</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/BNP PARIBAS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/88"/>
+    <SKOS:prefLabel>BNP PARIBAS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ATOS">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/816"/>
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/661"/>
+    <SKOS:prefLabel>ATOS</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/Renault Finance SA">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/760"/>
+    <SKOS:prefLabel>Renault Finance SA</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/PHILIPS HEALTHCARE">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/627"/>
+    <SKOS:prefLabel>PHILIPS HEALTHCARE</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/company/ORANGE">
+    <REVE:hasEmployment rdf:resource="http://data.eurecom.fr/internship/849"/>
+    <SKOS:prefLabel>ORANGE</SKOS:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/TR/vocab-org/#Organization"/>
+  </rdf:Description>
+</rdf:RDF>

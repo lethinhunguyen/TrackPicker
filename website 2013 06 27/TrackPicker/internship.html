@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style/style.css" type="text/css"><link>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+     <!--<script>drawColumnChart();</script>-->
+     <script>	google.load("visualization", "1", {packages:["corechart"]}); //google.setOnLoadCallback(queryCompanyInternship);
+     
+</script>
+<!--<script> queryCompanyInternship();</script>-->
+
+	</head>
+	<!--editAfterDeploy-->
+	<body onload="queryYearInternship(); queryCompanyInternship(); checkSessionStorageInternship();">
+		<div id="main_container">
+			<header class="header">
+				
+				<img class="logo" src="images/logo.gif" alt="Eurecom Track Picker">
+				
+				<div class="title">TRACK PICKER</div>
+				
+			</header>
+			<div class="clear"></div>
+			<div id="nav" class="navInternship">
+							<span><a href="../TrackPicker/semester.html"> Begin to choose courses  </a></span>&nbsp &nbsp; &nbsp;&nbsp &nbsp; &nbsp &nbsp; &nbsp;&nbsp &nbsp;
+							&nbsp &nbsp; &nbsp &nbsp;&nbsp;|&nbsp &nbsp; &nbsp;&nbsp &nbsp;
+							<span><a href="../TrackPicker/internship.html">Internship</a></span>
+			</div>			
+			<div class="middleInternship">
+				
+				
+				<section id="content_container" class="containerInternship">
+					<!--<section>
+						
+							<div id="courseDetails" class="courseDetails">
+								<div class="div-row-courseDetails">
+									<div id="teacherInformation" class="div-column-courseDetails"></div>
+									<div id="teacherImage" class="div-column-img-courseDetails"><div id="cha"><canvas id="myCanvas" width="78" height="100"></canvas></div></div>								</div>
+							</div>
+						
+					</section>-->
+					
+					<section>
+						<!--<p class="paragraph_titleInternship">These are internship offers in 2013:</p>-->
+						<div class="side_leftInternship" id="internshipInformation"><script>callInternshipInformation();</script></div>
+						<div class="clear"></div>
+
+						<!--editAfterDeploy-->
+						<div class="backButton">
+							<span><a href="../TrackPicker/semester.html"> Begin to choose courses  </a></span>&nbsp &nbsp; &nbsp;&nbsp &nbsp; &nbsp &nbsp; &nbsp;&nbsp &nbsp;
+							&nbsp &nbsp; &nbsp &nbsp;&nbsp;|&nbsp &nbsp; &nbsp;&nbsp &nbsp;
+							<span><a href="../TrackPicker/internship.html">Internship</a></span>
+						</div>
+						
+						
+					</section>
+					
+					
+				</section>
+				
+					
+				<div class="chartPartInternship">
+				<div class="paragraph_titleChartInternship">These are some internship offer statistic charts:</div>
+				<div> <span class="comboboxYearInternship">Choose year to see chart in year:</span>
+					<select onchange="callCompanyInternshipInYear();" id="yearSelectForCompanyInternshipChart"> <script>callsetDataYearInternshipCombobox();</script>
+						<!--<option>Apple</option>
+						<option>Orange</option>
+						<option>Pineapple</option>
+						<option>Banana</option>-->
+					</select>
+	
+				</div>
+				<div id="companyChart_div" class="companyInternshipChart"></div>
+				<div id="chart_div" class="internshipDepartmentChart"></div>
+				
+
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			
+			<footer class="footer">
+				&copy; Eurecom - 2013
+				
+			</footer>
+		</div>
+	</body>
+</html>

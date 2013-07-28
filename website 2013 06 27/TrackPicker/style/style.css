@@ -1,0 +1,1245 @@
+﻿/*editAfterDeploy*/
+body, html {
+	height:100%;
+	font-family:Arial, Helmet, Freesans, sans-serif;
+	font-size:13px;
+}
+
+body
+{
+	margin:0px;
+}
+
+#main_container {
+	width: 1115px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.header {
+	background-color:#111876;/*#010bdf; #C2CEFE;*/
+	width:1115px;
+	height:144px;
+	margin-bottom:0px;
+}
+
+.logo
+{
+	float: left;
+	width:275px;
+}
+
+.title
+{
+	/*float: left;*/
+	margin: auto;
+	padding-top: 40px;
+	text-align:center;
+	font-family: Pristina;/*"Adobe Garamond Pro";*/
+	font-size:45px;
+	color:white;
+	font-weight:bolder;
+
+	/*color:#4304AA;*/
+}
+
+.clear {
+	clear: both;
+}
+
+.middle
+{
+	/*width:975px;
+	height:20px;*/
+	margin-top:0px;
+	margin-bottom:0px;
+	position:relative;
+	background-image:url(../images/background3.png);
+}
+
+.side_left
+{
+	width:275px;
+	background-color:#dfe8fb;
+	float:left;
+	margin: 0px;
+	height:100%;
+}
+
+.side_right
+{
+	width:275px;
+	background-color:#f3f2f2;
+	float:right;
+	margin: 0px;
+	height:100%;	
+}
+
+.container
+{
+	width:555px;
+	float: left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.footer
+{
+	background-color:#2209B3;
+	margin-top:0px;
+	padding-left:10px;
+	color:white;
+	height:25px;
+	padding-top:5px;
+}
+
+.track_picker
+{
+	padding-left:10px;
+	background-color:#BAC1F5;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.paragraph_title
+{
+	padding-left:10px;
+	background-color:#BAC1F5;
+	color:navy;
+	font-weight:bold;
+}
+
+.headline_space
+{
+	padding-left:10px;
+	font-weight:bold;
+	color:navy;
+}
+
+.headline_space_coursechoosed
+{
+	padding-left:10px;
+	font-weight:bold;
+	color:navy;
+	/*position:fixed;
+	top:150px;*/
+
+}
+
+.headline_space_letter
+{
+	padding-left:10px;
+}
+
+.button_center
+{
+	text-align:center;
+}
+
+.margin_button
+{
+	margin:0px;
+}
+
+.margin_button_bold
+{
+	margin:0px;
+	font-weight:bold;
+}
+
+.border_table
+{
+	border-color:#FFF;
+	border-width:thin;
+	border-style:solid;
+	text-align:left;
+	font-weight:lighter;
+	margin-left: 8px;
+	border-spacing:0px;
+}
+.border_row
+{
+	border-bottom-color:#FFF;
+	border-top:none;
+	/*border-left:none;*/
+	border-left-color:#FFF;
+	border-left-width:thin;
+	border-left-style:solid;
+	border-right:none;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+	border-spacing:0px;
+}
+.border_column
+{
+	border-left-color:#FFF;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	border-left-width:thin;
+	border-left-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+}
+.border_row_header
+{
+	border-bottom-color:#FFF;
+	border-top:none;
+	/*border-left:none;*/
+	border-left-color:#FFF;
+	border-left-width:thin;
+	border-left-style:solid;
+	border-right:none;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+	border-spacing:0px;
+	background-color:#6894FB;
+	color:#FFFFFF;
+}
+.border_row_header_homepage
+{
+	border-bottom-color:#FFF;
+	border-top:none;
+	/*border-left:none;*/
+	border-left-color:#FFF;
+	border-left-width:thin;
+	border-left-style:solid;
+	border-right:none;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+	border-spacing:0px;
+	background-color:#6894FB;
+	color:#FFFFFF;
+	width:115px;
+}
+
+.border_row_homepage
+{
+	border-bottom-color:#FFF;
+	border-top:none;
+	/*border-left:none;*/
+	border-left-color:#FFF;
+	border-left-width:thin;
+	border-left-style:solid;
+	border-right:none;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+	border-spacing:0px;
+	width:115px;
+}
+
+.border_row_header_editChoice
+{
+	border-bottom-color:#FFF;
+	border-top:none;
+	/*border-left:none;*/
+	border-left-color:#FFF;
+	border-left-width:thin;
+	border-left-style:solid;
+	border-right:none;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+	border-spacing:0px;
+	background-color:#6894FB;
+	color:#FFFFFF;
+	width:73px;
+}
+
+.border_row_editChoice
+{
+	border-bottom-color:#FFF;
+	border-top:none;
+	/*border-left:none;*/
+	border-left-color:#FFF;
+	border-left-width:thin;
+	border-left-style:solid;
+	border-right:none;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+	border-spacing:0px;
+	width:73px;
+}
+
+.border_row_semester
+{
+	border-bottom-color:#FFF;
+	border-top:none;
+	/*border-left:none;*/
+	border-left-color:#FFF;
+	border-left-width:thin;
+	border-left-style:solid;
+	border-right:none;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+	border-spacing:0px;
+	width:74px;
+}
+.border_row_header_semester
+{
+	border-bottom-color:#FFF;
+	border-top:none;
+	/*border-left:none;*/
+	border-left-color:#FFF;
+	border-left-width:thin;
+	border-left-style:solid;
+	border-right:none;
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	font-weight:lighter;
+	margin:0px;
+	padding:5px;
+	border-spacing:0px;
+	background-color:#6894FB;
+	color:#FFFFFF;
+	width:74px;
+}
+
+.div-table
+{
+	display:table;
+	width:auto;
+	height:auto;
+	border:1px;;
+	border-style:solid;
+	border-color:gray;
+	background-color:white;
+
+}
+
+.div-row
+{
+	display:table-row;
+	width:auto;
+	height:21px;
+	/*position:relative;*/
+	
+}
+
+.div-column
+{
+	display:table-column;
+	width:85px;
+	height:59px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:gray;	
+}
+
+.div-column-quarter
+{
+	display:table-column;
+	width:85px;
+	height:13px;
+	float:left;
+	text-align:center;
+	border-top:thin;
+	border-bottom:thin;
+	border-left:0;
+	border-right:0;
+	border-style:solid;
+	border-color:#FFFF99;
+	font-size:11px;
+}
+
+.courseDetails
+{
+	position:fixed;
+	/*left:20px;*/
+	width:300px;
+	height:120px;
+	visibility:hidden;
+	background-color:#FFFFCC;
+	margin:10px;
+	padding:10px;
+	border:thin;
+	border-color:green;
+	border-style:solid;
+}
+.courseDes
+{
+	position:fixed;
+	/*left:20px;*/
+	width:240px;
+	height:auto;
+	visibility:hidden;
+	background-color:#FFFFCC;
+	margin:5px;
+	padding:10px;
+	border:thin;
+	border-color:green;
+	border-style:solid;
+}
+
+.div-table-ChosedCourse
+{
+
+	width:256px;
+	height: auto;
+	border:thin;
+	border-style:solid;
+	border-color:white;
+	margin-left:8px;
+	/*position:fixed;
+	top:200px;*/
+	padding:0px;
+}
+
+.div-row-ChosedCourse
+{
+	display:table-row;
+	width:256px;
+	height:20px;
+	/*position:relative;*/
+}
+
+.div-column-ChosedCourse-No
+{
+	display:table-column;
+	width:40px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:thin;
+	border-style:solid;
+	border-color:white;
+	/*position:relative;*/
+}
+.div-column-ChosedCourse-Course
+{
+	display:table-column;
+	width:115px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:thin;
+	border-style:solid;
+	border-color:white;
+	/*position:relative;*/
+}
+.div-column-ChosedCourse-Credits
+{
+	display:table-column;
+	width:75px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:thin;
+	border-style:solid;
+	border-color:white;
+	/*position:relative;*/
+}
+.div-column-ChosedCourse-No-Header
+{
+	display:table-column;
+	width:40px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:thin;
+	border-style:solid;
+	border-color:white;
+	background-color:#6894FB;
+	color:#FFFFFF;
+}
+.div-column-ChosedCourse-Course-Header
+{
+	display:table-column;
+	width:115px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:thin;
+	border-style:solid;
+	border-color:white;
+	background-color:/*#a6651f;*/#6894FB;
+	color:#FFFFFF;
+}
+.div-column-ChosedCourse-Credits-Header
+{
+	display:table-column;
+	width:75px;
+	height:25px;
+	float:left;
+	text-align:center;
+	border:thin;
+	border-style:solid;
+	border-color:white;
+	background-color:#6894FB;
+	color:#FFFFFF;
+}
+
+.courseType
+{
+	font-weight:bold;
+	padding-left:20px;
+	color:#336600;
+}
+
+.courseChosedBorder
+{
+	position:fixed;
+	top:0px;
+}
+
+.div-row-courseDetails
+{
+	display:table-row;
+	width:auto;
+	height:100px;
+	/*position:relative;*/
+	
+}
+.div-column-img-courseDetails
+{
+	display:table-column;
+	width:80px;
+	height:100px;
+	float:left;
+	text-align:center;
+}
+.div-column-courseDetails
+{
+	display:table-column;
+	width:200px;
+	height:100px;
+	float:left;
+	text-align:left;
+}
+.italictext
+{
+	font-style:italic;
+}
+.italicRedText
+{
+	font-style:italic;
+	color:red;
+	padding-left:10px;
+	padding-right:10px;
+	display:block;
+}
+
+.italicRedTextSmall
+{
+	font-style:italic;
+	color:red;
+	padding-left:0px;
+	padding-right:10px;
+	display:block;
+	font-size:11px;
+}
+
+.boldtext
+{
+	font-weight:bold;
+}
+
+
+.italictext_trackCourseChose
+{
+	font-style:italic;
+	max-width:265px;
+	margin:10px;
+}
+
+.mandatoryCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:/*#462d12;/*151963;*/#FF3300;
+	float:left;
+	margin-left:20px;
+}
+.optionalCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:/*be8a51;/*6165bb;*/#CC9900;
+	float:left;
+	margin-left:20px;
+}
+
+.freeCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#E7FD9B;/*F2FF99;/*#e3ccb3;/*b5b8ff;#CCFF66;*/
+	float:left;
+	margin-left:20px;
+}
+
+.mulDepartmentCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#99FF33;
+	float:left;
+	margin-left:20px;
+}
+
+.netSecuDepartmentCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#FFCCFF;
+	float:left;
+	margin-left:20px;
+}
+
+.mobDepartmentCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#FFFF99;
+	float:left;
+	margin-left:20px;
+}
+
+.otherDepartmentCellColor
+{
+	display:block;
+	width:15px;
+	height:15px;
+	background-color:#dfe8fb;
+	float:left;
+	margin-left:20px;
+	border-color:black;
+	border-style:solid;
+	border-width:thin;
+}
+
+.scrollCourseChoseResultTrack
+{
+	height:450px;
+	overflow:scroll;
+	margin:0px;
+	padding:0px;
+}
+.scrollCourseChose
+{
+	height:450px;
+	overflow:scroll;
+}
+
+.ruleOfEurecomText
+{
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.ruleOfEurecom
+{
+	display:none;
+	font-style:italic;
+	border:thin;
+	border-style:dotted;
+	border-color:green;
+	padding:7px;
+}
+
+.backButton
+{
+	display:block;
+	border:thin;
+	border-color:black;
+	border-style:dotted;
+	padding-left:20px;
+	padding-right:10px;
+	background-color:#D5DEFD;
+	width:520px;
+	cursor:pointer;
+}
+
+.trackTable
+{
+	display:none;
+}
+
+.showDetails
+{
+	text-decoration:underline;
+	text-align:right;
+	cursor:pointer;
+	width:500px;
+}
+
+.tableTitle
+{
+	display:block;
+	background-color:#DADADA;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+/*editAfterDeploy*/
+.italicSmall
+{
+	font-style:italic;
+	font-size:11px;
+	padding-left:10px;
+	padding-bottom:3px;
+	padding-top:3px;
+}
+
+.semesterTabFall1
+{
+	display:block;
+	background-color:#B8FE72;/*#FFEBD7;/*#E6FFB0;*/
+	padding:10px;
+	float:left;
+	cursor:pointer;
+	width:60px;
+	margin:0px;
+	font-weight:bold;
+	height:auto;
+	
+	/*border-left:thin;
+	border-left-style:solid;
+	border-left-color:#99FF66;
+	border-top:thin;
+	border-top-style:solid;
+	border-top-color:#99FF66;
+	border-right:thin;
+	border-right-style:solid;
+	border-right-color:#99FF66;*/
+}
+.semesterTabFall2
+{
+	display:block;
+	background-color:#FFE7B3;/*#FDE7FE;*/
+	padding:10px;
+	cursor:pointer;
+	width:60px;
+	float:left;
+	margin:0px;
+	height:auto;
+	
+	/*border-left:thin;
+	border-left-style:solid;
+	border-left-color:#CC99FF;
+	border-top:thin;
+	border-top-style:solid;
+	border-top-color:#CC99FF;
+	border-right:thin;
+	border-right-style:solid;
+	border-right-color:#CC99FF;*/
+}
+.semesterTabSpring
+{
+	display:block;
+	background-color:#FAF25A;/*FFFFB3;*/
+	padding:10px;
+	float:left;
+	cursor:pointer;
+	width:60px;
+	margin:0px;
+	height:auto;
+	/*border-left:thin;
+	border-left-style:solid;
+	border-left-color:#FFFF66;
+	border-top:thin;
+	border-top-style:solid;
+	border-top-color:#FFFF66;
+	border-right:thin;
+	border-right-style:solid;
+	border-right-color:#FFFF66;*/
+	
+
+}
+.semesterTab
+{
+	background-color:#FFFFDD;
+	width:555px;
+	display:block;
+}
+.scheduleFall1
+{
+	background-color:#B8FE72;/*FFEBD7;/*#E6FFB0;*/
+	display:block;
+	clear:both;
+	height:710px;
+	margin-top:0px;
+	padding-top:15px;
+
+}
+
+.scheduleFall2
+{
+	background-color:#FFE7B3;/*#FDE7FE;*/
+	display:none;
+	clear:both;
+	height:710px;
+	margin-top:0px;
+	padding-top:15px;
+	padding-left:15px;
+
+}
+
+.scheduleSpring
+{
+	background-color:#FAF25A;/*FFFFB3;*/
+	display:none;
+	clear:both;
+	height:710px;
+	margin-top:0px;
+	padding-top:15px;
+
+}
+.paddingTop
+{
+	margin-top:0px;
+	margin-left:15px;
+	padding-top:0px;
+}
+
+.listCourseSemesterTabFall
+{
+	display:block;
+	background-color:#B8FE72;/*#FFEBD7;/*#E6FFB0;*/
+	padding:10px;
+	float:left;
+	cursor:pointer;
+	width:60px;
+	margin:0px;
+	font-weight:bold;
+	height:auto;
+	margin-left:7px;
+}
+
+.listCourseSemesterTabSpring
+{
+	display:block;
+	background-color:#FAF25A;/*FFFFB3;*/
+	padding:10px;
+	float:left;
+	cursor:pointer;
+	width:60px;
+	margin:0px;
+	height:auto;
+}
+
+.listCourseFall
+{
+	background-color:#B8FE72;/*FFEBD7;/*#E6FFB0;*/
+	display:block;
+	clear:both;
+	height:auto;
+	margin-top:0px;
+	padding-top:15px;
+	width:275px;
+	margin-left:0px;
+	padding-bottom:13px;
+}
+
+.listCourseSpring
+{
+	background-color:#FAF25A;/*FFFFB3;*/
+	display:none;
+	clear:both;
+	height:auto;
+	margin-top:0px;
+	padding-top:15px;
+	width:275px;
+	margin-left:0px;
+	padding-bottom:13px;
+}
+
+.div-column-table-recommendedTrack-header
+{
+	display:table-column;
+	width:75px;
+	height:29px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:gray;
+	background-color:#FFFFCC;
+	font-size:11px;
+}
+
+.div-column-table-recommendedTrack
+{
+	display:table-column;
+	width:75px;
+	height:30px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:gray;
+	line-height:30px;
+	vertical-align:middle;
+}
+
+.div-column-resultTrack
+{
+	display:table-column;
+	width:75px;
+	height:30px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:gray;
+	font-size:8px;
+	cursor:pointer;
+}
+
+.div-row_schedule
+{
+	display:table-row;
+	width:auto;
+	height:20px;
+
+	/*position:relative;*/
+	
+}
+
+.div-column_schedule_header
+{
+	display:table-column;
+	width:90px;
+	height:20px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:gray;
+	background-color:#FFFFCC;
+}
+
+
+.div-column_schedule
+{
+	display:table-column;
+	width:90px;
+	height:59px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:gray;
+}
+
+.div-table_schedule
+{
+	display:table;
+	width:auto;
+	height:auto;
+	border:1px;;
+	border-style:solid;
+	border-color:gray;
+	background-color:white;
+
+}
+
+.div-row_schedule
+{
+	display:table-row;
+	width:auto;
+	height:21px;
+	/*position:relative;*/
+	
+}
+
+.div-column-quarter_schedule
+{
+	display:table-column;
+	width:90px;
+	height:13px;
+	float:left;
+	text-align:center;
+	border-top:thin;
+	border-bottom:thin;
+	border-left:0;
+	border-right:0;
+	border-style:solid;
+	border-color:#FFFF99;
+	font-size:11px;
+}
+
+.div-column_schedule_header_editchoice
+{
+	display:table-column;
+	width:85px;
+	height:20px;
+	float:left;
+	text-align:center;
+	border:1px;
+	border-style:solid;
+	border-color:gray;
+	background-color:#FFFFCC;
+}
+
+/*internship*/
+.middleInternship
+{
+	/*width:975px;
+	height:20px;*/
+	margin-top:0px;
+	margin-bottom:0px;
+	position:relative;
+	background-image:url(../images/background5.png);
+}
+.side_leftInternship
+{
+	width:557px;
+	float:left;
+	margin: 0px;
+	height:100%;
+	padding-left:0px;
+}
+.paragraph_titleInternship
+{
+	padding-left:10px;
+	color:navy;
+	font-weight:bold;
+	width:547px;
+	background-color:#BAC1F5;
+	margin-top:0px;
+}
+.paragraph_titleChartInternship
+{
+	padding-left:10px;
+	color:navy;
+	font-weight:bold;
+	width:540px;
+	background-color:#BAC1F5;
+	margin-top:0px;
+}
+
+
+.internshipNamePlus
+{
+	background-image:url(../images/add1.png);
+	background-repeat:no-repeat;
+	padding-left:20px;
+	padding-bottom:5px;
+	padding-top:5px;
+	width:500px;
+	margin-left:10px;
+	background-position:left;
+	cursor:pointer;
+	font-weight:bold;
+}
+.internshipNameMinus
+{
+	background-image:url(../images/minus2.png);
+	background-repeat:no-repeat;
+	padding-left:20px;
+	padding-bottom:5px;
+	padding-top:5px;
+	width:500px;
+	margin-left:10px;
+	background-position:left;
+	cursor:pointer;
+	font-weight:bold;
+}
+.detailsInternshipOffer
+{
+	padding-left:20px;
+	margin-left:10px;
+}
+.internshipBlock
+{
+	display:none;
+}
+.chartPartInternship
+{
+	width:550px;
+	float:right;
+	margin: 0px;
+	height:100%;
+	padding-left:0px;
+}
+.comboboxYearInternship
+{
+	padding-left:100px;
+}
+.companyInternshipChart
+{
+	width: 550px;
+	height: 300px;
+}
+.internshipDepartmentChart
+{
+	width: 590px;
+	height: 300px;
+	padding-left:0px;
+	margin-left:0px;
+}
+
+.navInternship
+{
+	display:block;
+	border:thin;
+	/*border-color:black;
+	border-style:dotted;*/
+	padding-left:20px;
+	padding-right:10px;
+	background-color:#D5DEFD;
+	width:1085px;
+	height:25px;
+	line-height:25px;
+	vertical-align:middle;
+}
+
+.containerInternship
+{
+	width:555px;
+	float: left;
+	margin-left:0px;
+	margin-right:5px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.progress {
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #f7f7f7;
+    background-repeat: repeat-x;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+	background-image: linear-gradient(to bottom, #f5f5f5, #f9f9f9);
+}
+.progress .bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  padding-top:3px;
+  color:black; /*#ffffff;*/
+  text-align:center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #B8FE72;/*0e90d2;*/
+    background-repeat: repeat-x;
+	-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: width 0.6s ease;
+	-moz-transition: width 0.6s ease;
+	-o-transition: width 0.6s ease;
+	transition: width 0.6s ease;
+	background-image: linear-gradient(to bottom, #B8FE72/*149bdf*/, #0480be);
+}
+
+.progress .bar + .bar {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.progress-striped .bar {
+  background-color: #B8FE72/*149bdf*/;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+     -moz-background-size: 40px 40px;
+       -o-background-size: 40px 40px;
+          background-size: 40px 40px;
+}
+
+
+.progress-info .bar,
+.progress .bar-info {
+  background-color: #4bb1cf;
+    background-repeat: repeat-x;
+	background-image: linear-gradient(to bottom, #5bc0de, #339bb9);
+}
+
+
+.progress-info.progress-striped .bar,
+.progress-striped .bar-info {
+  background-color: #B8FE72;/*5bc0de;*/
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.progress-spring.bar,
+.progress .bar-spring{
+  background-color: #FAF25A;
+    background-repeat: repeat-x;
+	background-image: linear-gradient(to bottom, #62c462, #57a957);
+}
+.progress-striped .bar-spring {
+  background-color: #FAF25A;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+     -moz-background-size: 40px 40px;
+       -o-background-size: 40px 40px;
+          background-size: 40px 40px;
+}
+
+.progress-fall2 .bar,
+.progress .bar-fall2 {
+  background-color: #FFE7B3;
+    background-repeat: repeat-x;
+	background-image: linear-gradient(to bottom, #62c462, #57a957);
+}
+.progress-striped .bar-fall2 {
+  background-color: #FFE7B3;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+     -moz-background-size: 40px 40px;
+       -o-background-size: 40px 40px;
+          background-size: 40px 40px;
+}
+

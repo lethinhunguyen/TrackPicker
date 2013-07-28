@@ -1,0 +1,516 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style/style.css" type="text/css"/>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body onload="queryCourseInformationAddArray(); initCourseTrackArray(); queryCourseDepartment(); getSessionStorage(); springPageMark(); callCourseChoseScroll(event); callMakeScheduleOverlappedArray();">
+
+		<div id="main_container">
+			<header class="header">
+				
+				<img class="logo" src="images/logo.gif" alt="Eurecom Track Picker"/>
+				
+				<div class="title">TRACK PICKER</div>
+				
+			</header>
+			<div class="clear"></div>
+			
+			<div class="middle">
+				<aside class="side_left">
+					<p class="headline_space" >The courses in Spring Semester:</p>
+						<span class="italictext_trackCourseChose">Department of teachers: <br/></span>
+						<span class="mulDepartmentCellColor"> </span><span class="italictext">&nbsp; Multimedia Communications</span><br/>
+						<span class="netSecuDepartmentCellColor"> </span><span class="italictext">&nbsp; Network and Security</span><br/>
+						<span class="mobDepartmentCellColor"> </span><span class="italictext">&nbsp; Mobile Communications</span><br/>
+						<span class="otherDepartmentCellColor"> </span><span class="italictext">&nbsp; Other departments</span><br/>					
+                    <p>
+                    	<div class="courseType">Technical courses:</div>
+                    	<div id="technicalCourseTeacher"></div>
+                    	<script>queryTechnicalCourseTeacherSpring();
+                    	</script>
+                    </p>
+                    <p>
+                    	<div class="courseType">Non-technical courses:</div>
+                    	<div id="nonTechnicalCourseTeacher"></div>
+                    	<script>queryNonTechnicalCourseTeacherSpring();</script>
+                    </p>
+                    <!--<p>
+                    	<div class="courseType">Language course:</div>
+                    	<div id="languageCourseTeacher"></div>
+                    	<!--<script>queryLanguageCourseTeacher();</script>
+                    </p>-->
+                    
+				</aside>
+				
+				<section id="content_container" class="container">
+					<section>
+						<p> 
+							<div id="courseDetails" class="courseDetails">
+								<div class="div-row-courseDetails">
+									<div id="teacherInformation" class="div-column-courseDetails"></div>
+									<div id="teacherImage" class="div-column-img-courseDetails"><canvas id="myCanvas" width="78" height="100"></canvas></div>		
+								</div>
+
+							</div>
+						</p>
+					</section>
+					<section>
+						<p class="paragraph_title">The curriculum regulations of Eurecom:</p>
+						<p>
+							In 3 semesters, you have to study at least <script>document.write(allCredits);</script> credits. Among them, there is at least <script>document.write(technicalCredits);</script> credits of technical courses (include at least <script>document.write(mandatoryCredits);</script> mandatory, <script>document.write(optionalCredits);</script> optional and some free course credits), <script>document.write(nonTechnicalCredits);</script> credits of non-technical courses, <script>document.write(languageCredits);</script> credits of languages courses, and 10 credits for project.
+						</p>
+					</section>
+					<section>
+						<p class="paragraph_title">You are choose courses for SPRING semester:</p>
+						<!--editAfterDeploy-->
+						<div class="backButton">
+							<span onclick="setSessionStorage();"><a href="../TrackPicker/fall1.html">Fall 1   </a></span>&nbsp &nbsp; &nbsp;&nbsp &nbsp;|&nbsp &nbsp; &nbsp;&nbsp &nbsp;
+							<span onclick="setSessionStorage();"><a href="../TrackPicker/spring.html"> Spring</a></span>&nbsp &nbsp; &nbsp &nbsp;&nbsp;|&nbsp &nbsp &nbsp;&nbsp; &nbsp;
+							<span onclick="setSessionStorage();"><a href="../TrackPicker/fall2.html">Fall 2</a></span>&nbsp &nbsp; &nbsp &nbsp;&nbsp;|&nbsp &nbsp; &nbsp;&nbsp &nbsp;
+							<span onclick="setSessionStorage();"><a href="../TrackPicker/internship.html">Internship</a></span>
+						</div>
+						<p class="headline_space_letter">After chossing enough courses, you can check which track is suitable with you.</p>
+						<p class="button_center"><button id="checkTrackButton" disabled="disabled" value="Click Me" onclick="location.href='recommendedTrack.html'; setSessionStorage();">Check track</button></p>
+					</section>
+					<section>
+						<p class="paragraph_title">Credit counting:</p>
+						<p>
+							<!--<div id="container">
+								<div id="test"></div>
+							</div>
+							<div id="message"></div>-->
+							<div class="progress progress-striped">
+								<!--<div id="creditCountProgress" class="bar" style="width: 0%"></div>--><div id="creditFall1CountProgress" class="bar" style="width: 0%;"></div>
+  <div id="creditSpringCountProgress" class="bar bar-spring" style="width: 0%;"></div>
+  <div id="creditFall2CountProgress" class="bar bar-fall2" style="width: 0%;"></div>
+							</div>
+							<div id="creditCountAnnouncement"></div>
+							<!--editAfterDeploy-->
+							<div class="italicRedTextSmall" id="commentRuleEurecom"></div>
+							<div class="italicRedTextSmall" id="commentScheduleOverlappedCheck"></div>
+						</p>
+					</section>
+					<!--editAfterDeploy-->
+					<section ondrop="drop(event);" ondragover="allowDrop(event);">
+						
+						<p>
+						<div>
+							<div id="calendar" class="div-table_schedule">
+								<div class="div-row_schedule">
+									<div class="div-column_schedule_header"></div>
+									<div id="monday" class="div-column_schedule_header">Monday</div>
+									<div id="tuesday" class="div-column_schedule_header">Tuesday</div>
+									<div id="wednesday" class="div-column_schedule_header">Wednesday</div>
+									<div id="thursday" class="div-column_schedule_header">Thursday</div>
+									<div id="friday" class="div-column_schedule_header">Friday</div>
+								</div>
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">8:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="spring_10800" class="div-column-quarter_schedule"></div>
+										<div id="spring_10815" class="div-column-quarter_schedule"></div>
+										<div id="spring_10830" class="div-column-quarter_schedule"></div>
+										<div id="spring_10845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="spring_20800" class="div-column-quarter_schedule"></div>
+										<div id="spring_20815" class="div-column-quarter_schedule"></div>
+										<div id="spring_20830" class="div-column-quarter_schedule"></div>
+										<div id="spring_20845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="spring_30800" class="div-column-quarter_schedule"></div>
+										<div id="spring_30815" class="div-column-quarter_schedule"></div>
+										<div id="spring_30830" class="div-column-quarter_schedule"></div>
+										<div id="spring_30845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="spring_40800" class="div-column-quarter_schedule"></div>
+										<div id="spring_40815" class="div-column-quarter_schedule"></div>
+										<div id="spring_40830" class="div-column-quarter_schedule"></div>
+										<div id="spring_40845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="spring_50800" class="div-column-quarter_schedule"></div>
+										<div id="spring_50815" class="div-column-quarter_schedule"></div>
+										<div id="spring_50830" class="div-column-quarter_schedule"></div>
+										<div id="spring_50845" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">9:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="spring_10900" class="div-column-quarter_schedule"></div>
+										<div id="spring_10915" class="div-column-quarter_schedule"></div>
+										<div id="spring_10930" class="div-column-quarter_schedule"></div>
+										<div id="spring_10945" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="spring_20900" class="div-column-quarter_schedule"></div>
+										<div id="spring_20915" class="div-column-quarter_schedule"></div>
+										<div id="spring_20930" class="div-column-quarter_schedule"></div>
+										<div id="spring_20945" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="spring_30900" class="div-column-quarter_schedule"></div>
+										<div id="spring_30915" class="div-column-quarter_schedule"></div>
+										<div id="spring_30930" class="div-column-quarter_schedule"></div>
+										<div id="spring_30945" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="spring_40900" class="div-column-quarter_schedule"></div>
+										<div id="spring_40915" class="div-column-quarter_schedule"></div>
+										<div id="spring_40930" class="div-column-quarter_schedule"></div>
+										<div id="spring_40945" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="spring_50900" class="div-column-quarter_schedule"></div>
+										<div id="spring_50915" class="div-column-quarter_schedule"></div>
+										<div id="spring_50930" class="div-column-quarter_schedule"></div>
+										<div id="spring_50945" class="div-column-quarter_schedule"></div>
+									</div>	
+								</div>							
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">10:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="spring_11000" class="div-column-quarter_schedule"></div>
+										<div id="spring_11015" class="div-column-quarter_schedule"></div>
+										<div id="spring_11030" class="div-column-quarter_schedule"></div>
+										<div id="spring_11045" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="spring_21000" class="div-column-quarter_schedule"></div>
+										<div id="spring_21015" class="div-column-quarter_schedule"></div>
+										<div id="spring_21030" class="div-column-quarter_schedule"></div>
+										<div id="spring_21045" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="spring_31000" class="div-column-quarter_schedule"></div>
+										<div id="spring_31015" class="div-column-quarter_schedule"></div>
+										<div id="spring_31030" class="div-column-quarter_schedule"></div>
+										<div id="spring_31045" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="spring_41000" class="div-column-quarter_schedule"></div>
+										<div id="spring_41015" class="div-column-quarter_schedule"></div>
+										<div id="spring_41030" class="div-column-quarter_schedule"></div>
+										<div id="spring_41045" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="spring_51000" class="div-column-quarter_schedule"></div>
+										<div id="spring_51015" class="div-column-quarter_schedule"></div>
+										<div id="spring_51030" class="div-column-quarter_schedule"></div>
+										<div id="spring_51045" class="div-column-quarter_schedule"></div>
+									</div>	
+								</div>							
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">11:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="spring_11100" class="div-column-quarter_schedule"></div>
+										<div id="spring_11115" class="div-column-quarter_schedule"></div>
+										<div id="spring_11130" class="div-column-quarter_schedule"></div>
+										<div id="spring_11145" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="spring_21100" class="div-column-quarter_schedule"></div>
+										<div id="spring_21115" class="div-column-quarter_schedule"></div>
+										<div id="spring_21130" class="div-column-quarter_schedule"></div>
+										<div id="spring_21145" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="spring_31100" class="div-column-quarter_schedule"></div>
+										<div id="spring_31115" class="div-column-quarter_schedule"></div>
+										<div id="spring_31130" class="div-column-quarter_schedule"></div>
+										<div id="spring_31145" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="spring_41100" class="div-column-quarter_schedule"></div>
+										<div id="spring_41115" class="div-column-quarter_schedule"></div>
+										<div id="spring_41130" class="div-column-quarter_schedule"></div>
+										<div id="spring_41145" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="spring_51100" class="div-column-quarter_schedule"></div>
+										<div id="spring_51115" class="div-column-quarter_schedule"></div>
+										<div id="spring_51130" class="div-column-quarter_schedule"></div>
+										<div id="spring_51145" class="div-column-quarter_schedule"></div>
+									</div>	
+								</div>	
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">12:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="spring_11200" class="div-column-quarter_schedule"></div>
+										<div id="spring_11215" class="div-column-quarter_schedule"></div>
+										<div id="spring_11230" class="div-column-quarter_schedule"></div>
+										<div id="spring_11245" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="spring_21200" class="div-column-quarter_schedule"></div>
+										<div id="spring_21215" class="div-column-quarter_schedule"></div>
+										<div id="spring_21230" class="div-column-quarter_schedule"></div>
+										<div id="spring_21245" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="spring_31200" class="div-column-quarte_scheduler"></div>
+										<div id="spring_31215" class="div-column-quarter_schedule"></div>
+										<div id="spring_31230" class="div-column-quarter_schedule"></div>
+										<div id="spring_31245" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="spring_41200" class="div-column-quarter_schedule"></div>
+										<div id="spring_41215" class="div-column-quarter_schedule"></div>
+										<div id="spring_41230" class="div-column-quarter_schedule"></div>
+										<div id="spring_41245" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="spring_51200" class="div-column-quarter_schedule"></div>
+										<div id="spring_51215" class="div-column-quarter_schedule"></div>
+										<div id="spring_51230" class="div-column-quarter_schedule"></div>
+										<div id="spring_51245" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>	
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">13:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="spring_11300" class="div-column-quarter_schedule"></div>
+										<div id="spring_11315" class="div-column-quarter_schedule"></div>
+										<div id="spring_11330" class="div-column-quarter_schedule"></div>
+										<div id="spring_11345" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="spring_21300" class="div-column-quarter_schedule"></div>
+										<div id="spring_21315" class="div-column-quarter_schedule"></div>
+										<div id="spring_21330" class="div-column-quarter_schedule"></div>
+										<div id="spring_21345" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="spring_31300" class="div-column-quarter_schedule"></div>
+										<div id="spring_31315" class="div-column-quarter_schedule"></div>
+										<div id="spring_31330" class="div-column-quarter_schedule"></div>
+										<div id="spring_31345" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="spring_41300" class="div-column-quarter_schedule"></div>
+										<div id="spring_41315" class="div-column-quarter_schedule"></div>
+										<div id="spring_41330" class="div-column-quarter_schedule"></div>
+										<div id="spring_41345" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="spring_51300" class="div-column-quarter_schedule"></div>
+										<div id="spring_51315" class="div-column-quarter_schedule"></div>
+										<div id="spring_51330" class="div-column-quarter_schedule"></div>
+										<div id="spring_51345" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>	
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">14:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="spring_11400" class="div-column-quarter_schedule"></div>
+										<div id="spring_11415" class="div-column-quarter_schedule"></div>
+										<div id="spring_11430" class="div-column-quarter_schedule"></div>
+										<div id="spring_11445" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="spring_21400" class="div-column-quarter_schedule"></div>
+										<div id="spring_21415" class="div-column-quarter_schedule"></div>
+										<div id="spring_21430" class="div-column-quarter_schedule"></div>
+										<div id="spring_21445" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="spring_31400" class="div-column-quarter_schedule"></div>
+										<div id="spring_31415" class="div-column-quarter_schedule"></div>
+										<div id="spring_31430" class="div-column-quarter_schedule"></div>
+										<div id="spring_31445" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="spring_41400" class="div-column-quarter_schedule"></div>
+										<div id="spring_41415" class="div-column-quarter_schedule"></div>
+										<div id="spring_41430" class="div-column-quarter_schedule"></div>
+										<div id="spring_41445" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="spring_51400" class="div-column-quarter_schedule"></div>
+										<div id="spring_51415" class="div-column-quarter_schedule"></div>
+										<div id="spring_51430" class="div-column-quarter_schedule"></div>
+										<div id="spring_51445" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>	
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">15:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="spring_11500" class="div-column-quarter_schedule"></div>
+										<div id="spring_11515" class="div-column-quarter_schedule"></div>
+										<div id="spring_11530" class="div-column-quarter_schedule"></div>
+										<div id="spring_11545" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="spring_21500" class="div-column-quarter_schedule"></div>
+										<div id="spring_21515" class="div-column-quarter_schedule"></div>
+										<div id="spring_21530" class="div-column-quarter_schedule"></div>
+										<div id="spring_21545" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="spring_31500" class="div-column-quarter_schedule"></div>
+										<div id="spring_31515" class="div-column-quarter_schedule"></div>
+										<div id="spring_31530" class="div-column-quarter_schedule"></div>
+										<div id="spring_31545" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="spring_41500" class="div-column-quarter_schedule"></div>
+										<div id="spring_41515" class="div-column-quarter_schedule"></div>
+										<div id="spring_41530" class="div-column-quarter_schedule"></div>
+										<div id="spring_41545" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="spring_51500" class="div-column-quarter_schedule"></div>
+										<div id="spring_51515" class="div-column-quarter_schedule"></div>
+										<div id="spring_51530" class="div-column-quarter_schedule"></div>
+										<div id="spring_51545" class="div-column-quarter_schedule"></div>
+									</div>	
+								</div>
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">16:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="spring_11600" class="div-column-quarter_schedule"></div>
+										<div id="spring_11615" class="div-column-quarter_schedule"></div>
+										<div id="spring_11630" class="div-column-quarter_schedule"></div>
+										<div id="spring_11645" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="spring_21600" class="div-column-quarter_schedule"></div>
+										<div id="spring_21615" class="div-column-quarter_schedule"></div>
+										<div id="spring_21630" class="div-column-quarter_schedule"></div>
+										<div id="spring_21645" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="spring_31600" class="div-column-quarter_schedule"></div>
+										<div id="spring_31615" class="div-column-quarter_schedule"></div>
+										<div id="spring_31630" class="div-column-quarter_schedule"></div>
+										<div id="spring_31645" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="spring_41600" class="div-column-quarter_schedule"></div>
+										<div id="spring_41615" class="div-column-quarter_schedule"></div>
+										<div id="spring_41630" class="div-column-quarter_schedule"></div>
+										<div id="spring_41645" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="spring_51600" class="div-column-quarter_schedule"></div>
+										<div id="spring_51615" class="div-column-quarter_schedule"></div>
+										<div id="spring_51630" class="div-column-quarter_schedule"></div>
+										<div id="spring_51645" class="div-column-quarter_schedule"></div>
+									</div>	
+								</div>
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">17:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="spring_11700" class="div-column-quarter_schedule"></div>
+										<div id="spring_11715" class="div-column-quarter_schedule"></div>
+										<div id="spring_11730" class="div-column-quarter_schedule"></div>
+										<div id="spring_11745" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="spring_21700" class="div-column-quarter_schedule"></div>
+										<div id="spring_21715" class="div-column-quarter_schedule"></div>
+										<div id="spring_21730" class="div-column-quarter_schedule"></div>
+										<div id="spring_21745" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="spring_31700" class="div-column-quarter_schedule"></div>
+										<div id="spring_31715" class="div-column-quarter_schedule"></div>
+										<div id="spring_31730" class="div-column-quarter_schedule"></div>
+										<div id="spring_31745" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="spring_41700" class="div-column-quarter_schedule"></div>
+										<div id="spring_41715" class="div-column-quarter_schedule"></div>
+										<div id="spring_41730" class="div-column-quarter_schedule"></div>
+										<div id="spring_41745" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="spring_51700" class="div-column-quarter_schedule"></div>
+										<div id="spring_51715" class="div-column-quarter_schedule"></div>
+										<div id="spring_51730" class="div-column-quarter_schedule"></div>
+										<div id="spring_51745" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>	
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">18:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="spring_11800" class="div-column-quarter_schedule"></div>
+										<div id="spring_11815" class="div-column-quarter_schedule"></div>
+										<div id="spring_11830" class="div-column-quarter_schedule"></div>
+										<div id="spring_11845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="spring_21800" class="div-column-quarter_schedule"></div>
+										<div id="spring_21815" class="div-column-quarter_schedule"></div>
+										<div id="spring_21830" class="div-column-quarter_schedule"></div>
+										<div id="spring_21845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="spring_31800" class="div-column-quarter_schedule"></div>
+										<div id="spring_31815" class="div-column-quarter_schedule"></div>
+										<div id="spring_31830" class="div-column-quarter_schedule"></div>
+										<div id="spring_31845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="spring_41800" class="div-column-quarter_schedule"></div>
+										<div id="spring_41815" class="div-column-quarter_schedule"></div>
+										<div id="spring_41830" class="div-column-quarter_schedule"></div>
+										<div id="spring_41845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="spring_51800" class="div-column-quarter_schedule"></div>
+										<div id="spring_51815" class="div-column-quarter_schedule"></div>
+										<div id="spring_51830" class="div-column-quarter_schedule"></div>
+										<div id="spring_51845" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</p>
+						
+						<p>
+							<div id="timeCourse"></div>
+							<div id="test"></div>
+						</p>
+														
+						<p><a href="../TrackPicker/home.html">Back to home</a></p>
+					</section>
+				</section>
+				
+				<aside class="side_right">
+					<div class="courseChosedBigBorder">
+						<div id="courseChosedBorder" class="courseChosedBorder">
+							<div id="courseDes" class="courseDes"></div>
+							<p class="headline_space_coursechoosed">The list of courses you chose:</p>
+							<div id="ChosedCourse" class="div-table-ChosedCourse">
+								<div class="div-row">									
+									<div id="ChosedCourse-No" class="div-column-ChosedCourse-No-Header">No.</div>
+									<div id="ChosedCourse-Course" class="div-column-ChosedCourse-Course-Header">Course</div>
+									<div id="ChosedCourse-Credits" class="div-column-ChosedCourse-Credits-Header">Credits</div>									
+								</div>
+								<div class="scrollCourseChose">
+									<div id="CourseCreditTable" class="div-row">
+										<div id="CourseCredit">	</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</aside>
+				
+				<div class="clear"></div>
+			</div>
+			
+			
+			<footer class="footer">
+				&copy; Eurecom - 2013
+				
+			</footer>
+		</div>
+	</body>
+</html>

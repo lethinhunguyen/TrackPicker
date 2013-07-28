@@ -1,7 +1,9 @@
 <rdf:RDF
     xmlns:REVE="http://data.eurecom.fr/ontology/reve#"
+    xmlns:SKOS="http://www.w3.org/2004/02/skos/core.html#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:FOAF="http://xmlns.com/foaf/0.1/"
+    xmlns:ORG="http://www.w3.org/TR/vocab-org/#"
     xmlns:DC="http://purl.org/dc/terms/"
     xmlns:PART="http://purl.org/vocab/participation/schema#"
     xmlns:TIME="http://www.w3.org/2006/time#"
@@ -47,13 +49,16 @@ Experience: &lt;ul&gt;&#xD;
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43066">
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2404"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/7"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/633"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/11"/>
     <FOAF:family_name>MERIALDO</FOAF:family_name>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/626"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1357"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/44"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		1975, he was admitted in the &lt;strong&gt;Ecole Normale Sup&amp;eacute;rieure&lt;/strong&gt;, Paris (S75)&lt;/li&gt;&#xD;
@@ -71,6 +76,8 @@ Experience: &lt;ul&gt;&#xD;
 		From 1988 to 1990, he was a Visiting Scientist in the &lt;strong&gt;IBM T.J Watson Research Center &lt;/strong&gt;in Yorktown Heights, N.Y. (USA)&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
+    <FOAF:img>__item_slug__20.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/363"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1425"/>
     <FOAF:firstName>Bernard</FOAF:firstName>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/347"/>
@@ -102,6 +109,7 @@ Experience: </rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43114">
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/354"/>
+    <FOAF:img>web/vloisel.jpg</FOAF:img>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <FOAF:family_name>LOISEL</FOAF:family_name>
     <FOAF:firstName>Valerie</FOAF:firstName>
@@ -131,6 +139,11 @@ Experience: </rdfs:comment>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42997">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/351"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/200"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1429"/>
+    <FOAF:family_name>DACIER</FOAF:family_name>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/331"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li&gt;&#xD;
 		Ph.D, 1994, Institut National Polytechnique, Toulouse, France&lt;/li&gt;&#xD;
@@ -150,16 +163,18 @@ Experience: &lt;ul&gt;&#xD;
 		Since September 2009, he is a senior director in charge of the Collaborative Advanced Research Department (CARD) within Symantec Research Labs.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2407"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/331"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1429"/>
-    <FOAF:family_name>DACIER</FOAF:family_name>
     <FOAF:firstName>Marc</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2407"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/257"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/522"/>
+    <FOAF:img>__item_slug__16.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/266"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44036">
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/370"/>
+    <FOAF:img></FOAF:img>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <FOAF:family_name>LABARTHE</FOAF:family_name>
     <FOAF:firstName>Fabien</FOAF:firstName>
@@ -167,6 +182,7 @@ Experience: &lt;ul&gt;&#xD;
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43006">
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/333"/>
+    <FOAF:img></FOAF:img>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1460"/>
     <FOAF:family_name>DRAETTA</FOAF:family_name>
@@ -174,6 +190,12 @@ Experience: &lt;ul&gt;&#xD;
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44207">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2693"/>
+    <FOAF:family_name>VUKOLIC</FOAF:family_name>
+    <FOAF:img>vukolic-marko.jpg</FOAF:img>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/760"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2633"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		In 2008, he obtained a Doctor of Science degree in Communication Systems from the Swiss Federal Institute of Technology Lausanne (EPFL).&lt;/li&gt;&#xD;
@@ -187,16 +209,21 @@ Experience: &lt;ul&gt;&#xD;
 		He was involved in R&amp;amp;D on IBM&amp;rsquo;s flagship products for key management for encrypted storage, OASIS Key Management Interoperability Protocol standardization, and design of next-generation reliable cloud-storage solutions.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2633"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2693"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1443"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1368"/>
-    <FOAF:family_name>VUKOLIC</FOAF:family_name>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1443"/>
     <FOAF:firstName>Marko</FOAF:firstName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43034">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/248"/>
+    <FOAF:family_name>HAYAR</FOAF:family_name>
+    <FOAF:firstName>Aawatif</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42993">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/810"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/718"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/103"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/330"/>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1397"/>
@@ -208,6 +235,7 @@ Experience: &lt;ul&gt;&#xD;
     <rdfs:comment>Education: Experience: </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2430"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/341"/>
+    <FOAF:img>__item_slug__25.jpg</FOAF:img>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1356"/>
     <FOAF:family_name>GROS</FOAF:family_name>
@@ -215,6 +243,15 @@ Experience: &lt;ul&gt;&#xD;
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43708">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/847"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2514"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1427"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/702"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/362"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/660"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/812"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		In 2003, he obtained a PhD degree in communication systems from the Swiss Federal Institute of Technology Lausanne (EPFL)&lt;/li&gt;&#xD;
@@ -228,13 +265,18 @@ Experience: &lt;ul&gt;&#xD;
 		Involved/coordinated National and European collaborative research projects and promote technology transfer from academia towards industry.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2514"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/362"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1427"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1322"/>
+    <FOAF:img>nikaein-navid.jpg</FOAF:img>
     <FOAF:family_name>NIKAEIN</FOAF:family_name>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1322"/>
     <FOAF:firstName>Navid</FOAF:firstName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43013">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/13"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/332"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/15"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/67"/>
+    <FOAF:family_name>FILALI</FOAF:family_name>
+    <FOAF:firstName>Fethi</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43128">
@@ -265,7 +307,38 @@ Experience: &lt;ul&gt;&#xD;
     <FOAF:firstName>Olivier</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43058">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/321"/>
+    <FOAF:family_name>LISETTI</FOAF:family_name>
+    <FOAF:firstName>Christine</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43091">
+    <FOAF:firstName>Yves</FOAF:firstName>
+    <FOAF:img>__item_slug__15.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/632"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/298"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1310"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/792"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/652"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/258"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/528"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/351"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/88"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/155"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/709"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/759"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/675"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/58"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/571"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/859"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/21"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/570"/>
+    <FOAF:family_name>ROUDIER</FOAF:family_name>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/723"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2612"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		PhD in Computer Science, 1996, University of Nice - Sophia Antipolis, France&lt;/li&gt;&#xD;
@@ -281,13 +354,7 @@ Experience: &lt;ul&gt;&#xD;
 		From 1997 to 1998, he worked as a Japan Science and Technology Agency fellow at the &amp;quot;Electrotechnical Laboratory&amp;quot; (ETL) research institute in Tsukuba, Japan.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2612"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/351"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1310"/>
-    <FOAF:family_name>ROUDIER</FOAF:family_name>
-    <FOAF:firstName>Yves</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/136"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43123">
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/356"/>
@@ -305,6 +372,7 @@ Experience: &lt;ul&gt;&#xD;
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43003">
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/332"/>
+    <FOAF:img></FOAF:img>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1460"/>
     <FOAF:family_name>DELANOE</FOAF:family_name>
@@ -339,6 +407,7 @@ Experience: </rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43938">
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/369"/>
+    <FOAF:img></FOAF:img>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1435"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1319"/>
@@ -347,6 +416,13 @@ Experience: </rdfs:comment>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43009">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/335"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <FOAF:img>__item_slug__24.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/650"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/292"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/179"/>
+    <FOAF:firstName>Petros</FOAF:firstName>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		Petros Elia received his B.Sc. degree in Electrical Engineering from the Illinois Institute of Technology, Chicago, USA in 1997&lt;/li&gt;&#xD;
@@ -360,13 +436,13 @@ Experience: &lt;ul&gt;&#xD;
 		In 2006-2007 he was a post-doctoral scholar at the University of California, San Diego (UCSD), and a senior researcher at FTW Vienna&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2428"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/335"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/819"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/856"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1426"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2428"/>
     <FOAF:family_name>ELIA</FOAF:family_name>
-    <FOAF:firstName>Petros</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/237"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43960">
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
@@ -385,6 +461,15 @@ Experience: </rdfs:comment>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42992">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/636"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2486"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1440"/>
+    <FOAF:family_name>COTTATELLUCCI</FOAF:family_name>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/359"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/400"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1315"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/210"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li&gt;&#xD;
 		Post-Doctoral Fellowship in Information Theory for Networks with Uncertain Topology, January-November 2006, University of South Australia, Adelaide, Australia&lt;/li&gt;&#xD;
@@ -406,13 +491,19 @@ Experience: &lt;ul&gt;&#xD;
 		Guest researcher at University of Erlangen-N&amp;uuml;rnberg (July 2010).&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2486"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/329"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1440"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1315"/>
-    <FOAF:family_name>COTTATELLUCCI</FOAF:family_name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <FOAF:firstName>Laura</FOAF:firstName>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/329"/>
+    <FOAF:img>__item_slug__13.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/763"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43109">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/587"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/584"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/454"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/197"/>
+    <FOAF:family_name>URVOY</FOAF:family_name>
+    <FOAF:firstName>Guillaume</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43033">
@@ -424,13 +515,16 @@ Experience: &lt;ul&gt;&#xD;
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43014">
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/339"/>
+    <FOAF:img>__item_slug__44.jpg</FOAF:img>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <FOAF:family_name>FINGER</FOAF:family_name>
     <FOAF:firstName>Ulrich</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43089">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/295"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/350"/>
+    <FOAF:img></FOAF:img>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1321"/>
     <FOAF:family_name>RELIEU</FOAF:family_name>
@@ -460,7 +554,12 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/222"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/383"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2546"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/591"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/228"/>
+    <FOAF:img>slock-dirk.jpg</FOAF:img>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/352"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1438"/>
@@ -492,6 +591,8 @@ Experience: </rdfs:comment>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42968">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/232"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/337"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/324"/>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1314"/>
@@ -532,6 +633,9 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2620"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/729"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/610"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/849"/>
     <FOAF:firstName>David</FOAF:firstName>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1396"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/340"/>
@@ -539,6 +643,11 @@ Experience: &lt;ul&gt;&#xD;
     <FOAF:family_name>GESBERT</FOAF:family_name>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/78"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/608"/>
+    <FOAF:img>__item_slug__23.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/841"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/265"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1413"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44343">
@@ -558,14 +667,33 @@ Experience: &lt;ul&gt;&#xD;
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1386"/>
     <FOAF:family_name>LOISEAU</FOAF:family_name>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3160"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/751"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/867"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <FOAF:firstName>Patrick</FOAF:firstName>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3403"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1369"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/816"/>
+    <FOAF:img>loiseau-patrick.jpg</FOAF:img>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1461"/>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/762"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1469"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43036">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/722"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/343"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/206"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2591"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/855"/>
+    <FOAF:img>__item_slug__14.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/473"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/70"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/116"/>
+    <FOAF:family_name>HUET</FOAF:family_name>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1395"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		Benoit Huet received his BSc degree in computer science and engineering from the Ecole Superieure de Technologie Electrique (Groupe ESIEE, France) in 1992.&lt;/li&gt;&#xD;
@@ -579,14 +707,12 @@ Experience: &lt;ul&gt;&#xD;
 		B. Huet is actively involved in many collaborative research projects with industrial as well as academic institution&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2591"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/343"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1358"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1395"/>
-    <FOAF:family_name>HUET</FOAF:family_name>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/627"/>
     <FOAF:firstName>Benoit</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/447"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/814"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1358"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/679"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44034">
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
@@ -664,15 +790,11 @@ Experience: </rdfs:comment>
     <FOAF:firstName>Matteo</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://data.eurecom.fr/people/43824">
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/365"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1431"/>
-    <FOAF:family_name>ETORRE</FOAF:family_name>
-    <FOAF:firstName>Yves Nicolas</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42971">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2676"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/659"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/307"/>
+    <FOAF:firstName>Davide</FOAF:firstName>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li&gt;&#xD;
 		PhD in Computer Engineering from Politecnico di Milano in 2006&lt;/li&gt;&#xD;
@@ -686,13 +808,26 @@ Experience: &lt;ul&gt;&#xD;
 		In 2007 he participated in the red team involved in testing the capability and security of the voting machines certified for use in the State of Ohio (Project Everest) and he was also a member of the red team in the top-to-bottom review of the electronic voting machines certified for use in California.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2676"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/326"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1432"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1367"/>
     <FOAF:family_name>BALZAROTTI</FOAF:family_name>
-    <FOAF:firstName>Davide</FOAF:firstName>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/683"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1367"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/279"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/728"/>
+    <FOAF:img>balzarotti-davide.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/604"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1432"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/752"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/326"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43824">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/365"/>
+    <FOAF:img></FOAF:img>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1431"/>
+    <FOAF:family_name>ETORRE</FOAF:family_name>
+    <FOAF:firstName>Yves Nicolas</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44143">
@@ -703,6 +838,18 @@ Experience: &lt;ul&gt;&#xD;
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43937">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/866"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/368"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/708"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/654"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/678"/>
+    <FOAF:family_name>TRONCY</FOAF:family_name>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/737"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/820"/>
+    <FOAF:firstName>Raphaël</FOAF:firstName>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/827"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		Research Fellow in the &lt;strong&gt;National Research Institute for Mathematics and Computer Science &lt;/strong&gt;(CWI), 2006-2009, Amsterdam (The Netherlands)&lt;/li&gt;&#xD;
@@ -716,17 +863,19 @@ Experience: &lt;ul&gt;&#xD;
 		From 2000 till 2004, he worked for the &lt;strong&gt;National Institute of Audio-visual &lt;/strong&gt;(INA) in Paris where he did his PhD with INRIA funded by a CIFRE fellowship&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2498"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/368"/>
-    <FOAF:img>../TrackPicker/images/Person/RaphaelTRONCY.jpg</FOAF:img>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1434"/>
-    <FOAF:family_name>TRONCY</FOAF:family_name>
-    <FOAF:firstName>Raphaël</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2498"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/705"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/635"/>
+    <FOAF:img>__item_slug__64.jpg</FOAF:img>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43046">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/807"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2380"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/863"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/661"/>
+    <FOAF:img>__item_slug__18.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/685"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		He received a B.Eng. (Honours) and a M.Eng. degrees in electrical engineering from McGill University ( http://www.ece.mcgill.ca ), Montreal, Canada, in 1992 and 1993, respectively.&lt;/li&gt;&#xD;
@@ -741,14 +890,25 @@ Experience: &lt;ul&gt;&#xD;
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/4"/>
     <FOAF:family_name>KNOPP</FOAF:family_name>
     <FOAF:firstName>Raymond</FOAF:firstName>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/590"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/829"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/346"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/54"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1398"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/340"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1318"/>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43011">
+    <FOAF:img>web/erbi.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/793"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/719"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/3"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/777"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/774"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/142"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/320"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		Master of Science&amp;nbsp;and Ph.D. degrees in Computer Science from the Technische Universit&amp;auml;t M&amp;uuml;nchen, Munich, Germany and an &amp;laquo;Habilitation &amp;agrave; Diriger des Recherches&amp;raquo; from University of Nice.&lt;/li&gt;&#xD;
@@ -762,17 +922,28 @@ Experience: &lt;ul&gt;&#xD;
 </rdfs:comment>
     <FOAF:family_name>BIERSACK</FOAF:family_name>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/336"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/757"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1415"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/286"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1352"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/520"/>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/767"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/689"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2644"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/630"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/642"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/329"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/194"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/538"/>
     <FOAF:firstName>Ernst</FOAF:firstName>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42988">
     <rdfs:comment>Education: Experience: </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2652"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/328"/>
+    <FOAF:img>__item_slug__41.jpg</FOAF:img>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <FOAF:family_name>CASTAING</FOAF:family_name>
     <FOAF:firstName>Pascale</FOAF:firstName>
@@ -793,6 +964,14 @@ Experience: &lt;ul&gt;&#xD;
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/535">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/352"/>
+    <FOAF:img>__item_slug__12.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/439"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/871"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/645"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1353"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/423"/>
+    <FOAF:family_name>MICHIARDI</FOAF:family_name>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		2000: M.S in Communication Systems, EURECOM (Double Degree program, EU Erasmus grant)&lt;/li&gt;&#xD;
@@ -808,31 +987,46 @@ Experience: &lt;ul&gt;&#xD;
 		He is also the scientific advisor for &lt;strong&gt;PlayAdz.com&lt;/strong&gt;, a startup company in the Mobile Advertisement business.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2648"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/322"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1368"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1353"/>
-    <FOAF:family_name>MICHIARDI</FOAF:family_name>
-    <FOAF:firstName>Pietro</FOAF:firstName>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2648"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/686"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/4"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/804"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/201"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/845"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/773"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1368"/>
+    <FOAF:firstName>Pietro</FOAF:firstName>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42969">
-    <rdfs:comment></rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2469"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/325"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1433"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1430"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/775"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2469"/>
     <FOAF:family_name>APVRILLE</FOAF:family_name>
-    <FOAF:firstName>Ludovic</FOAF:firstName>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/325"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/255"/>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <FOAF:firstName>Ludovic</FOAF:firstName>
+    <rdfs:comment></rdfs:comment>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1433"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/42980">
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1316"/>
     <FOAF:firstName>Christian</FOAF:firstName>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/395"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2398"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/475"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/598"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/326"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/493"/>
+    <FOAF:img>__item_slug__66.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/733"/>
     <FOAF:family_name>BONNET</FOAF:family_name>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/634"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/117"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li&gt;&#xD;
 		MSc degree from Ecole Nationale des Mines de Nancy in 1978, France&lt;/li&gt;&#xD;
@@ -853,13 +1047,17 @@ Experience: &lt;ul&gt;&#xD;
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/327"/>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/9"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/817"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1428"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/745"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/597"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1323"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43007">
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/2"/>
     <FOAF:family_name>DUGELAY</FOAF:family_name>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/756"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li&gt;&#xD;
 		He received a Ph.D.degree in Computer Science in 1992 from Rennes University.&lt;/li&gt;&#xD;
@@ -869,14 +1067,299 @@ Experience: &lt;ul&gt;&#xD;
 		From 1989 to 1992, he worked for France Telecom Research, Rennes (formerly CCETT) on 3-D Motion Estimation &amp;amp; Stereoscopic Television.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <FOAF:img>../TrackPicker/images/Person/Jean-LucDUGELAY.jpg</FOAF:img>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2542"/>
     <FOAF:firstName>Jean-Luc</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/334"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/848"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1351"/>
+    <FOAF:img>__item_slug__17.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/770"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/600"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/234"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1412"/>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/183"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/832"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:_217 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_26 rdf:resource="http://data.eurecom.fr/people/42968"/>
+    <rdf:_46 rdf:resource="http://data.eurecom.fr/people/44036"/>
+    <rdf:_15 rdf:resource="http://data.eurecom.fr/people/43029"/>
+    <rdf:_232 rdf:resource="http://data.eurecom.fr/people/822"/>
+    <rdf:_25 rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:_40 rdf:resource="http://data.eurecom.fr/people/43089"/>
+    <rdf:_66 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_99 rdf:resource="http://data.eurecom.fr/people/43045"/>
+    <rdf:_75 rdf:resource="http://data.eurecom.fr/people/43013"/>
+    <rdf:_204 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_189 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_114 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_65 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_155 rdf:resource="http://data.eurecom.fr/people/43045"/>
+    <rdf:_226 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_24 rdf:resource="http://data.eurecom.fr/people/43936"/>
+    <rdf:_41 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_258 rdf:resource="http://data.eurecom.fr/people/44339"/>
+    <rdf:_251 rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <rdf:_275 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_86 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_190 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_112 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_126 rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:_78 rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <rdf:_22 rdf:resource="http://data.eurecom.fr/people/42993"/>
+    <rdf:_29 rdf:resource="http://data.eurecom.fr/people/43003"/>
+    <rdf:_270 rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <rdf:_151 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_9 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_265 rdf:resource="http://data.eurecom.fr/people/44343"/>
+    <rdf:_181 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_115 rdf:resource="http://data.eurecom.fr/people/43099"/>
+    <rdf:_178 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_127 rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:_34 rdf:resource="http://data.eurecom.fr/people/42997"/>
+    <rdf:_199 rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:_122 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_98 rdf:resource="http://data.eurecom.fr/people/43013"/>
+    <rdf:_158 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_156 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_254 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_227 rdf:resource="http://data.eurecom.fr/people/822"/>
+    <rdf:_70 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_175 rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:_245 rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:_264 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_20 rdf:resource="http://data.eurecom.fr/people/44207"/>
+    <rdf:_12 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_243 rdf:resource="http://data.eurecom.fr/people/42993"/>
+    <rdf:_45 rdf:resource="http://data.eurecom.fr/people/43126"/>
+    <rdf:_203 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_79 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_64 rdf:resource="http://data.eurecom.fr/people/42997"/>
+    <rdf:_53 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_102 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_32 rdf:resource="http://data.eurecom.fr/people/43708"/>
+    <rdf:_93 rdf:resource="http://data.eurecom.fr/people/42999"/>
+    <rdf:_74 rdf:resource="http://data.eurecom.fr/people/43109"/>
+    <rdf:_260 rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:_37 rdf:resource="http://data.eurecom.fr/people/43128"/>
+    <rdf:_234 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_6 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_58 rdf:resource="http://data.eurecom.fr/people/42968"/>
+    <rdf:_207 rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:_167 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_256 rdf:resource="http://data.eurecom.fr/people/44343"/>
+    <rdf:_236 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_212 rdf:resource="http://data.eurecom.fr/people/822"/>
+    <rdf:_76 rdf:resource="http://data.eurecom.fr/people/42992"/>
+    <rdf:_105 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_4 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_162 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_101 rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:_131 rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:_214 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_153 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_206 rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:_35 rdf:resource="http://data.eurecom.fr/people/42969"/>
+    <rdf:_118 rdf:resource="http://data.eurecom.fr/people/43066"/>
+    <rdf:_152 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_48 rdf:resource="http://data.eurecom.fr/people/43125"/>
+    <rdf:_141 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_52 rdf:resource="http://data.eurecom.fr/people/43123"/>
+    <rdf:_80 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_23 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_221 rdf:resource="http://data.eurecom.fr/people/43041"/>
+    <rdf:_111 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_107 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_50 rdf:resource="http://data.eurecom.fr/people/43752"/>
+    <rdf:_1 rdf:resource="http://data.eurecom.fr/people/822"/>
+    <rdf:_163 rdf:resource="http://data.eurecom.fr/people/42992"/>
+    <rdf:_225 rdf:resource="http://data.eurecom.fr/people/44343"/>
+    <rdf:_62 rdf:resource="http://data.eurecom.fr/people/43045"/>
+    <rdf:_183 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_276 rdf:resource="http://data.eurecom.fr/people/44166"/>
+    <rdf:_177 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_84 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_103 rdf:resource="http://data.eurecom.fr/people/42993"/>
+    <rdf:_263 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_18 rdf:resource="http://data.eurecom.fr/people/43124"/>
+    <rdf:_192 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_133 rdf:resource="http://data.eurecom.fr/people/43013"/>
+    <rdf:_259 rdf:resource="http://data.eurecom.fr/people/44343"/>
+    <rdf:_36 rdf:resource="http://data.eurecom.fr/people/43127"/>
+    <rdf:_253 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_229 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_49 rdf:resource="http://data.eurecom.fr/people/43823"/>
+    <rdf:_274 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_169 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdf:_150 rdf:resource="http://data.eurecom.fr/people/43109"/>
+    <rdf:_250 rdf:resource="http://data.eurecom.fr/people/44207"/>
+    <rdf:_170 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_197 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_268 rdf:resource="http://data.eurecom.fr/people/822"/>
+    <rdf:_2 rdf:resource="http://data.eurecom.fr/people/44166"/>
+    <rdf:_88 rdf:resource="http://data.eurecom.fr/people/42997"/>
+    <rdf:_179 rdf:resource="http://data.eurecom.fr/people/43708"/>
+    <rdf:_222 rdf:resource="http://data.eurecom.fr/people/43708"/>
+    <rdf:_215 rdf:resource="http://data.eurecom.fr/people/42993"/>
+    <rdf:_180 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_109 rdf:resource="http://data.eurecom.fr/people/43045"/>
+    <rdf:_128 rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <rdf:_196 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_56 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_44 rdf:resource="http://data.eurecom.fr/people/43014"/>
+    <rdf:_69 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_249 rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <rdf:_262 rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <rdf:_255 rdf:resource="http://data.eurecom.fr/people/43009"/>
+    <rdf:_92 rdf:resource="http://data.eurecom.fr/people/42968"/>
+    <rdf:_261 rdf:resource="http://data.eurecom.fr/people/42969"/>
+    <rdf:_113 rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:_136 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_147 rdf:resource="http://data.eurecom.fr/people/43045"/>
+    <rdf:_173 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_135 rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:_166 rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <rdf:_85 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_237 rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:_257 rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:_77 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_7 rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:_171 rdf:resource="http://data.eurecom.fr/people/43009"/>
+    <rdf:_144 rdf:resource="http://data.eurecom.fr/people/43109"/>
+    <rdf:_198 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_139 rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <rdf:_120 rdf:resource="http://data.eurecom.fr/people/43009"/>
+    <rdf:_172 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_95 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_57 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_59 rdf:resource="http://data.eurecom.fr/people/43058"/>
+    <rdf:_145 rdf:resource="http://data.eurecom.fr/people/43045"/>
+    <rdf:_61 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_187 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_244 rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:_106 rdf:resource="http://data.eurecom.fr/people/43045"/>
+    <rdf:_3 rdf:resource="http://data.eurecom.fr/people/44339"/>
+    <rdf:_202 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_273 rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <rdf:_241 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_201 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_165 rdf:resource="http://data.eurecom.fr/people/43066"/>
+    <rdf:_124 rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:_231 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_27 rdf:resource="http://data.eurecom.fr/people/44343"/>
+    <rdf:_47 rdf:resource="http://data.eurecom.fr/people/43114"/>
+    <rdf:_5 rdf:resource="http://data.eurecom.fr/people/43066"/>
+    <rdf:_176 rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:_174 rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <rdf:_110 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_184 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_168 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_148 rdf:resource="http://data.eurecom.fr/people/43099"/>
+    <rdf:_117 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_87 rdf:resource="http://data.eurecom.fr/people/42997"/>
+    <rdf:_188 rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:_90 rdf:resource="http://data.eurecom.fr/people/42969"/>
+    <rdf:_19 rdf:resource="http://data.eurecom.fr/people/43938"/>
+    <rdf:_83 rdf:resource="http://data.eurecom.fr/people/43099"/>
+    <rdf:_60 rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <rdf:_235 rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:_272 rdf:resource="http://data.eurecom.fr/people/43708"/>
+    <rdf:_271 rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:_247 rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:_96 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_63 rdf:resource="http://data.eurecom.fr/people/42992"/>
+    <rdf:_224 rdf:resource="http://data.eurecom.fr/people/43041"/>
+    <rdf:_116 rdf:resource="http://data.eurecom.fr/people/43009"/>
+    <rdf:_216 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_239 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_154 rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:_230 rdf:resource="http://data.eurecom.fr/people/42992"/>
+    <rdf:_129 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_205 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_157 rdf:resource="http://data.eurecom.fr/people/43066"/>
+    <rdf:_200 rdf:resource="http://data.eurecom.fr/people/43708"/>
+    <rdf:_82 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_30 rdf:resource="http://data.eurecom.fr/people/43846"/>
+    <rdf:_51 rdf:resource="http://data.eurecom.fr/people/43117"/>
+    <rdf:_91 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_242 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_21 rdf:resource="http://data.eurecom.fr/people/42992"/>
+    <rdf:_142 rdf:resource="http://data.eurecom.fr/people/43089"/>
+    <rdf:_104 rdf:resource="http://data.eurecom.fr/people/42992"/>
+    <rdf:_72 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_119 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_33 rdf:resource="http://data.eurecom.fr/people/43009"/>
+    <rdf:_140 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_182 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_161 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_210 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_43 rdf:resource="http://data.eurecom.fr/people/42988"/>
+    <rdf:_164 rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <rdf:_267 rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:_10 rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:_213 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_149 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_143 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_191 rdf:resource="http://data.eurecom.fr/people/822"/>
+    <rdf:_238 rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:_219 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_81 rdf:resource="http://data.eurecom.fr/people/43013"/>
+    <rdf:_223 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_220 rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:_185 rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:_194 rdf:resource="http://data.eurecom.fr/people/42993"/>
+    <rdf:_14 rdf:resource="http://data.eurecom.fr/people/43066"/>
+    <rdf:_132 rdf:resource="http://data.eurecom.fr/people/43099"/>
+    <rdf:_266 rdf:resource="http://data.eurecom.fr/people/43009"/>
+    <rdf:_94 rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <rdf:_100 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_160 rdf:resource="http://data.eurecom.fr/people/43708"/>
+    <rdf:_97 rdf:resource="http://data.eurecom.fr/people/43066"/>
+    <rdf:_193 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_233 rdf:resource="http://data.eurecom.fr/people/43041"/>
+    <rdf:_16 rdf:resource="http://data.eurecom.fr/people/535"/>
+    <rdf:_186 rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:_31 rdf:resource="http://data.eurecom.fr/people/43012"/>
+    <rdf:_134 rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:_39 rdf:resource="http://data.eurecom.fr/people/43041"/>
+    <rdf:_11 rdf:resource="http://data.eurecom.fr/people/43077"/>
+    <rdf:_137 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_246 rdf:resource="http://data.eurecom.fr/people/43067"/>
+    <rdf:_208 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_248 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_38 rdf:resource="http://data.eurecom.fr/people/43824"/>
+    <rdf:_121 rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:_130 rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:_159 rdf:resource="http://data.eurecom.fr/people/43045"/>
+    <rdf:_42 rdf:resource="http://data.eurecom.fr/people/44464"/>
+    <rdf:_73 rdf:resource="http://data.eurecom.fr/people/43046"/>
+    <rdf:_252 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_228 rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:_89 rdf:resource="http://data.eurecom.fr/people/43109"/>
+    <rdf:_71 rdf:resource="http://data.eurecom.fr/people/42980"/>
+    <rdf:_67 rdf:resource="http://data.eurecom.fr/people/42997"/>
+    <rdf:_108 rdf:resource="http://data.eurecom.fr/people/43009"/>
+    <rdf:_123 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_125 rdf:resource="http://data.eurecom.fr/people/42971"/>
+    <rdf:_28 rdf:resource="http://data.eurecom.fr/people/43006"/>
+    <rdf:_209 rdf:resource="http://data.eurecom.fr/people/43022"/>
+    <rdf:_195 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_68 rdf:resource="http://data.eurecom.fr/people/42997"/>
+    <rdf:_269 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_211 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_55 rdf:resource="http://data.eurecom.fr/people/43091"/>
+    <rdf:_240 rdf:resource="http://data.eurecom.fr/people/43937"/>
+    <rdf:_8 rdf:resource="http://data.eurecom.fr/people/43007"/>
+    <rdf:_218 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_17 rdf:resource="http://data.eurecom.fr/people/43036"/>
+    <rdf:_146 rdf:resource="http://data.eurecom.fr/people/43034"/>
+    <rdf:_138 rdf:resource="http://data.eurecom.fr/people/43011"/>
+    <rdf:_13 rdf:resource="http://data.eurecom.fr/people/43099"/>
+    <rdf:_54 rdf:resource="http://data.eurecom.fr/people/43091"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43021">
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
@@ -911,6 +1394,14 @@ Experience: </rdfs:comment>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44166">
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3175"/>
+    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1442"/>
+    <FOAF:firstName>Thrasyvoulos</FOAF:firstName>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3127"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/12"/>
+    <FOAF:family_name>SPYROPOULOS</FOAF:family_name>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		&lt;strong&gt;Diploma in Electrical and Computer Engineering &lt;/strong&gt;from the National Technical University of Athens, Greece (2000)&lt;/li&gt;&#xD;
@@ -922,20 +1413,28 @@ Experience: &lt;ul&gt;&#xD;
 		He is very actively involved in many collaborative research projects with industry in the area of mobile networks&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3175"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3127"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1442"/>
-    <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/12"/>
-    <FOAF:family_name>SPYROPOULOS</FOAF:family_name>
-    <FOAF:firstName>Thrasyvoulos</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <FOAF:img>spyropoulos-thrasyvoulos.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/857"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43067">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/687"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/802"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/670"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/782"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/589"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/449"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/5"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/177"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/12"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/517"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/787"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2466"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/10"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/161"/>
+    <FOAF:img>__item_slug__22.jpg</FOAF:img>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/348"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/667"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		Refik Molva has a Ph.D. in Computer Science from the Paul Sabatier University in Toulouse (1986) and a B.Sc. in Computer Science (1981) from Joseph Fourier University, Grenoble, France.&lt;/li&gt;&#xD;
@@ -949,14 +1448,22 @@ Experience: &lt;ul&gt;&#xD;
 </rdfs:comment>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/8"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/302"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1439"/>
     <FOAF:family_name>MOLVA</FOAF:family_name>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/616"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/695"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1312"/>
     <FOAF:firstName>Refik</FOAF:firstName>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43077">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/403"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/649"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/870"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/724"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1355"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/592"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1311"/>
     <rdfs:comment></rdfs:comment>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
@@ -965,6 +1472,7 @@ Experience: &lt;ul&gt;&#xD;
     <FOAF:family_name>PACALET</FOAF:family_name>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/4"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2665"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/651"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43117">
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
@@ -986,6 +1494,7 @@ Experience: &lt;ul&gt;&#xD;
 </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2637"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/355"/>
+    <FOAF:img>web/welleken.jpg</FOAF:img>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <FOAF:family_name>WELLEKENS</FOAF:family_name>
     <FOAF:firstName>Christian</FOAF:firstName>
@@ -998,61 +1507,12 @@ Experience: &lt;ul&gt;&#xD;
     <FOAF:firstName>Cédric</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdf:_22 rdf:resource="http://data.eurecom.fr/people/42993"/>
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
-    <rdf:_31 rdf:resource="http://data.eurecom.fr/people/43012"/>
-    <rdf:_24 rdf:resource="http://data.eurecom.fr/people/43936"/>
-    <rdf:_23 rdf:resource="http://data.eurecom.fr/people/43091"/>
-    <rdf:_37 rdf:resource="http://data.eurecom.fr/people/43128"/>
-    <rdf:_40 rdf:resource="http://data.eurecom.fr/people/43089"/>
-    <rdf:_25 rdf:resource="http://data.eurecom.fr/people/42971"/>
-    <rdf:_49 rdf:resource="http://data.eurecom.fr/people/43752"/>
-    <rdf:_50 rdf:resource="http://data.eurecom.fr/people/43117"/>
-    <rdf:_48 rdf:resource="http://data.eurecom.fr/people/43823"/>
-    <rdf:_16 rdf:resource="http://data.eurecom.fr/people/535"/>
-    <rdf:_2 rdf:resource="http://data.eurecom.fr/people/44166"/>
-    <rdf:_34 rdf:resource="http://data.eurecom.fr/people/42997"/>
-    <rdf:_4 rdf:resource="http://data.eurecom.fr/people/42980"/>
-    <rdf:_46 rdf:resource="http://data.eurecom.fr/people/43114"/>
-    <rdf:_38 rdf:resource="http://data.eurecom.fr/people/43824"/>
-    <rdf:_43 rdf:resource="http://data.eurecom.fr/people/43014"/>
-    <rdf:_30 rdf:resource="http://data.eurecom.fr/people/43846"/>
-    <rdf:_41 rdf:resource="http://data.eurecom.fr/people/43937"/>
-    <rdf:_42 rdf:resource="http://data.eurecom.fr/people/42988"/>
-    <rdf:_17 rdf:resource="http://data.eurecom.fr/people/43036"/>
-    <rdf:_15 rdf:resource="http://data.eurecom.fr/people/43029"/>
-    <rdf:_51 rdf:resource="http://data.eurecom.fr/people/43123"/>
-    <rdf:_5 rdf:resource="http://data.eurecom.fr/people/43066"/>
-    <rdf:_7 rdf:resource="http://data.eurecom.fr/people/43022"/>
-    <rdf:_44 rdf:resource="http://data.eurecom.fr/people/43126"/>
-    <rdf:_18 rdf:resource="http://data.eurecom.fr/people/43124"/>
-    <rdf:_28 rdf:resource="http://data.eurecom.fr/people/43006"/>
-    <rdf:_13 rdf:resource="http://data.eurecom.fr/people/43099"/>
-    <rdf:_10 rdf:resource="http://data.eurecom.fr/people/43046"/>
-    <rdf:_14 rdf:resource="http://data.eurecom.fr/people/43066"/>
-    <rdf:_20 rdf:resource="http://data.eurecom.fr/people/44207"/>
-    <rdf:_19 rdf:resource="http://data.eurecom.fr/people/43938"/>
-    <rdf:_6 rdf:resource="http://data.eurecom.fr/people/43067"/>
-    <rdf:_3 rdf:resource="http://data.eurecom.fr/people/44339"/>
-    <rdf:_35 rdf:resource="http://data.eurecom.fr/people/42969"/>
-    <rdf:_11 rdf:resource="http://data.eurecom.fr/people/43077"/>
-    <rdf:_9 rdf:resource="http://data.eurecom.fr/people/43011"/>
-    <rdf:_1 rdf:resource="http://data.eurecom.fr/people/822"/>
-    <rdf:_26 rdf:resource="http://data.eurecom.fr/people/42968"/>
-    <rdf:_33 rdf:resource="http://data.eurecom.fr/people/43009"/>
-    <rdf:_21 rdf:resource="http://data.eurecom.fr/people/42992"/>
-    <rdf:_32 rdf:resource="http://data.eurecom.fr/people/43708"/>
-    <rdf:_39 rdf:resource="http://data.eurecom.fr/people/43041"/>
-    <rdf:_12 rdf:resource="http://data.eurecom.fr/people/43067"/>
-    <rdf:_27 rdf:resource="http://data.eurecom.fr/people/44343"/>
-    <rdf:_8 rdf:resource="http://data.eurecom.fr/people/43007"/>
-    <rdf:_45 rdf:resource="http://data.eurecom.fr/people/44036"/>
-    <rdf:_47 rdf:resource="http://data.eurecom.fr/people/43125"/>
-    <rdf:_29 rdf:resource="http://data.eurecom.fr/people/43003"/>
-    <rdf:_36 rdf:resource="http://data.eurecom.fr/people/43127"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43041">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/808"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/344"/>
+    <FOAF:img>kaltenberger-florian.jpg</FOAF:img>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		In 2007 he obtained a Dr. techn. (Ph.D.) degree in Technical Mathematics from Vienna University of Technology, Austria&lt;/li&gt;&#xD;
@@ -1066,19 +1526,24 @@ Experience: &lt;ul&gt;&#xD;
 		He has also been a partner in several collaborative projects with industry on the topics of receiver design for UMTS HSDPA and LTE.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2445"/>
-    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/344"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/797"/>
+    <FOAF:firstName>Florian</FOAF:firstName>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1317"/>
     <FOAF:family_name>KALTENBERGER</FOAF:family_name>
-    <FOAF:firstName>Florian</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/765"/>
+    <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2445"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/44213">
     <rdfs:comment>Education: Experience: </rdfs:comment>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/320"/>
     <FOAF:family_name>TAVNER</FOAF:family_name>
     <FOAF:firstName>Bastien</FOAF:firstName>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/42999">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/81"/>
+    <FOAF:family_name>DEBBAH</FOAF:family_name>
+    <FOAF:firstName>Merouane</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/822">
@@ -1088,8 +1553,12 @@ Experience: &lt;ul&gt;&#xD;
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1467"/>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1323"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/823"/>
+    <FOAF:img>__item_slug__19.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/698"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/12"/>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/864"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li&gt;&#xD;
 		He received a M.Sc. degree and a Dr. &amp;egrave;s sc. degree in telecommunication from the Swiss Institute of Technology (EPFL), Lausanne, Switzerland in 2002 and 2007 respectively.&lt;/li&gt;&#xD;
@@ -1106,16 +1575,31 @@ Experience: &lt;ul&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
     <FOAF:family_name>HÄRRI</FOAF:family_name>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/818"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2372"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43936">
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/367"/>
+    <FOAF:img></FOAF:img>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1414"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1399"/>
     <FOAF:family_name>CHAIX</FOAF:family_name>
     <FOAF:firstName>Pierre</FOAF:firstName>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.eurecom.fr/people/43045">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/658"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/342"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/63"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/641"/>
+    <FOAF:firstName>Engin</FOAF:firstName>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/274"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/588"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/102"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/333"/>
+    <FOAF:family_name>KIRDA</FOAF:family_name>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43752">
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/363"/>
@@ -1138,21 +1622,30 @@ Experience: &lt;ul&gt;&#xD;
 		Prior to that, he was working on cryptography research and codes benchmarking as an Expert Engineer at INRIA on a project&amp;nbsp;in close cooperation with ST Microelectronics.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
+    <FOAF:img>__item_slug__56.jpg</FOAF:img>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3274"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/3158"/>
-    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
+    <FOAF:family_name>FRANCILLON</FOAF:family_name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/781"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1441"/>
     <REVE:isCoordinatorOf rdf:resource="http://data.eurecom.fr/track/13"/>
-    <FOAF:family_name>FRANCILLON</FOAF:family_name>
+    <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
     <FOAF:firstName>Aurélien</FOAF:firstName>
-    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43012">
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/629"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1359"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/2501"/>
     <FOAF:firstName>Nicholas</FOAF:firstName>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/772"/>
+    <FOAF:img>web/evans.jpg</FOAF:img>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/221"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/833"/>
     <AIISO:responsibleFor rdf:resource="http://data.eurecom.fr/course/1424"/>
     <PART:holder_of rdf:resource="http://data.eurecom.fr/role/337"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/830"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/843"/>
     <rdfs:comment>Education: &lt;ul&gt;&#xD;
 	&lt;li style="text-align: justify"&gt;&#xD;
 		&lt;strong&gt;MEng&lt;/strong&gt; (Honors) &lt;strong&gt;in Electronics and Computing Science&lt;/strong&gt;, University of Wales Swansea, &lt;strong&gt;1999&lt;/strong&gt;&lt;/li&gt;&#xD;
@@ -1166,10 +1659,11 @@ Experience: &lt;ul&gt;&#xD;
 		His current activities in acoustic echo cancellation and speech enhancement are supported by one of the world&amp;rsquo;s leading industrials in embedded mobile solutions.&lt;/li&gt;&#xD;
 &lt;/ul&gt;&#xD;
 </rdfs:comment>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/308"/>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Teacher"/>
-    <FOAF:img>../TrackPicker/images/Person/NicholasEVANS.jpg</FOAF:img>
     <FOAF:family_name>EVANS</FOAF:family_name>
     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <REVE:isSupervisorOf rdf:resource="http://data.eurecom.fr/internship/828"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/people/43073">
     <rdfs:comment>Education: &lt;ul&gt;&#xD;

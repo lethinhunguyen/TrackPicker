@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style/style.css" type="text/css"/>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body onload="queryCourseInformationAddArray(); initCourseTrackArray(); queryCourseDepartment(); getSessionStorageRecommendedPage(); callCheckTrack(); defaultSemesterMark(); callCourseChoseScroll(event); callMakeScheduleOverlappedArray();">
+		<div id="main_container">
+			<header class="header">
+				
+				<img class="logo" src="images/logo.gif" alt="Eurecom Track Picker"/>
+				
+				<div class="title">TRACK PICKER</div>
+				
+			</header>
+			<div class="clear"></div>
+			
+			<div class="middle">
+				<aside class="side_left">
+					<p class="headline_space">The courses in Fall Semester:</p>
+					<span class="italictext_trackCourseChose">Department of teachers: <br/></span>
+					<span class="mulDepartmentCellColor"> </span><span class="italictext">&nbsp; Multimedia Communications</span><br/>
+					<span class="netSecuDepartmentCellColor"> </span><span class="italictext">&nbsp; Network and Security</span><br/>
+					<span class="mobDepartmentCellColor"> </span><span class="italictext">&nbsp; Mobile Communications</span><br/>
+					<span class="otherDepartmentCellColor"> </span><span class="italictext">&nbsp; Other departments</span><br/>
+                    <p>
+                    	<div class="courseType">Technical courses:</div>
+                    	<div id="technicalCourseTeacher"></div>
+                    	<script>queryTechnicalCourseTeacher();
+                    	</script>
+                    </p>
+                    <p>
+                    	<div class="courseType">Non-technical courses:</div>
+                    	<div id="nonTechnicalCourseTeacher"></div>
+                    	<script>queryNonTechnicalCourseTeacher();</script>
+                    </p>
+                    
+				</aside>
+				
+				<section id="content_container" class="container">
+					<section>
+						
+							<div id="courseDetails" class="courseDetails">
+								<div class="div-row-courseDetails">
+									<div id="teacherInformation" class="div-column-courseDetails"></div>
+									<div id="teacherImage" class="div-column-img-courseDetails"><div id="cha"><canvas id="myCanvas" width="78" height="100"></canvas></div></div>								</div>
+							</div>
+						
+					</section>
+					<section>
+						<p class="paragraph_title">The result of recommended track:</p>
+						<p>According to <span onclick="changeDisplayRuleOfEurecom();" class="ruleOfEurecomText">the rule of Eurecom</span> and your choice in the last step, we recommend you the <span id="recommendedTrackText"></span> track.</p>
+						<div id="advice"></div>
+						<div id="ruleOfEurecom" class="ruleOfEurecom">
+							In 3 semesters, you have have to choose <script>document.write(allCredits);</script> credits. Among them, there is at least <script>document.write(technicalCredits);</script> credits of technical courses (include at least <script>document.write(mandatoryCredits);</script> mandatory, <script>document.write(optionalCredits);</script> optional and some free course credits), <script>document.write(nonTechnicalCredits);</script> credits of non-technical courses, <script>document.write(languageCredits);</script> credits of languages courses, and 10 credits for project.
+						</div>
+						
+					</section>
+					<div id="showDetailsClick" onclick="changeDisplayTrackTable();" class="showDetails">Show details of the result</div>				
+					<section>
+						<div id="trackTable" class="trackTable"><br/>
+							<div class="tableTitle">The below table displays the details of statistics according to each track from your choice of courses:</div>
+							<div class="italicSmall"> You can click on the name of each track to see the analysis according to each track.</div>
+							<!--<button class="margin_button" onclick="checkTrack(chooseTrack);">Chose track by method 1</button>-->
+							<!--<button class="margin_button" onclick="checkTrack(chooseTrack_CreditLack);">Chose track by method 2</button>-->
+	
+								<div id="calendar" class="div-table">
+									<div class="div-row">
+										<div class="div-column-table-recommendedTrack-header"></div>
+										<div id="mandatoryCredits" class="div-column-table-recommendedTrack-header">Mandatory credits</div>
+										<div id="optionalCredits" class="div-column-table-recommendedTrack-header">Optional credits</div>
+										<div id="freeCredits" class="div-column-table-recommendedTrack-header">Free credits</div>
+										<div id="mandatoryCourses" class="div-column-table-recommendedTrack-header">Mandatory courses</div>
+										<div id="optionalCourses" class="div-column-table-recommendedTrack-header">Optional courses</div>
+										<div id="freeCourses" class="div-column-table-recommendedTrack-header">Optional courses</div>
+										<!--<div id="lackOf" class="div-column-table-recommendedTrack">Notes</div>-->
+									</div>
+									<div id="MULTIMEDIA" class="div-row">
+										<div id="MULTIMEDIA name" class="div-column-resultTrack" onclick="colorizeChoseList('MULTIMEDIA'); addComments('MULTIMEDIA');">MULTIMEDIA</div>
+										<div id="MUL_MCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="MUL_OCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="MUL_FCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="MUL_MCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="MUL_OCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="MUL_FCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<!--<div id="MULTIMEDIA Notes" class="div-column">											
+										</div>-->
+									</div>
+									<div id="COMMUNICATION SYSTEM SECURITY" class="div-row">
+										<div id="COMMUNICATION SYSTEM SECURITY name" class="div-column-resultTrack" onclick="colorizeChoseList('COMMUNICATION SYSTEM SECURITY'); addComments('COMMUNICATION SYSTEM SECURITY');">COMMUNICATION SYSTEM SECURITY</div>
+										<div id="COM_MCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="COM_OCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="COM_FCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="COM_MCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="COM_OCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="COM_FCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<!--<div id="COMMUNICATION SYSTEM SECURITY Notes" class="div-column">											
+										</div>-->
+									</div>							
+									<div id="TRANSMISSION TECHNOLOGIES" class="div-row">
+										<div id="TRANSMISSION TECHNOLOGIES name" class="div-column-resultTrack" onclick="colorizeChoseList('TRANSMISSION TECHNOLOGIES'); addComments('TRANSMISSION TECHNOLOGIES');">TRANSMISSION TECHNOLOGIES</div>
+										<div id="TRAN_MCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="TRAN_OCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="TRAN_FCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="TRAN_MCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="TRAN_OCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="TRAN_FCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<!--<div id="TRANSMISSION TECHNOLOGIES Notes" class="div-column">											
+										</div>-->	
+									</div>							
+									<div id="WEB ENGINEERING" class="div-row">
+										<div id="WEB ENGINEERING name" class="div-column-resultTrack" onclick="colorizeChoseList('WEB ENGINEERING'); addComments('WEB ENGINEERING');">WEB ENGINEERING</div>
+										<div id="WEB_MCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="WEB_OCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="WEB_FCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="WEB_MCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="WEB_OCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="WEB_FCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<!--<div id="WEB ENGINEERING Notes" class="div-column">											
+										</div>-->
+									</div>	
+									<div id="MOBILE COMMUNICATIONS" class="div-row">
+										<div id="MOBILE COMMUNICATIONS name" class="div-column-resultTrack" onclick="colorizeChoseList('MOBILE COMMUNICATIONS'); addComments('MOBILE COMMUNICATIONS');">MOBILE COMMUNICATIONS</div>
+										<div id="MOB_MCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="MOB_OCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="MOB_FCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="MOB_MCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="MOB_OCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="MOB_FCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<!--<div id="MOBILE COMMUNICATIONS Notes" class="div-column">
+											
+										</div>-->
+									</div>
+									<div id="NETWORKING" class="div-row">
+										<div id="NETWORKING name" class="div-column-resultTrack" onclick="colorizeChoseList('NETWORKING'); addComments('NETWORKING');">NETWORKING</div>
+										<div id="NET_MCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="NET_OCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="NET_FCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="NET_MCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="NET_OCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="NET_FCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<!--<div id="NETWORKING Notes" class="div-column">
+											
+										</div>-->
+									</div>
+									<div id="REAL-TIME AND EMBEDDED SYSTEMS" class="div-row">
+										<div id="REAL-TIME AND EMBEDDED SYSTEMS name" class="div-column-resultTrack" onclick="colorizeChoseList('REAL-TIME AND EMBEDDED SYSTEMS'); addComments('REAL-TIME AND EMBEDDED SYSTEMS');">REAL-TIME AND EMBEDDED SYSTEMS</div>
+										<div id="REAL_MCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="REAL_OCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="REAL_FCredits" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="REAL_MCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="REAL_OCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<div id="REAL_FCourses" class="div-column-table-recommendedTrack">											
+										</div>
+										<!--<div id="REAL-TIME AND EMBEDDED SYSTEMS Notes" class="div-column">											
+										</div>-->
+									</div>	
+								</div>
+								<div id="comment"></div>
+							</div>
+							<div class="showDetails" onclick="setTrackInformationSessionStorage();"><a href="editChoices.html">Edit your choices</a></div>
+							
+						<p>
+							<div id="timeCourse"></div>
+							<div id="test"></div>
+						</p>
+						
+						<section>				
+						<div class="backButton">
+							<span><a href="../TrackPicker/home.html">Back to home   </a></span>&nbsp; &nbsp;&nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;&nbsp;
+							<span><a href="../TrackPicker/semester.html"> Semester  </a></span>&nbsp; &nbsp; &nbsp;&nbsp;
+							 &nbsp; &nbsp;&nbsp;|&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+							<span><a href="../TrackPicker/internship.html">Internship</a></span>
+
+							
+
+						</div>
+						</section>
+								
+					</section>
+				</section>
+				
+				<aside class="side_right">
+					<div class="courseChosedBigBorder">
+						<div id="courseChosedBorder" class="courseChosedBorder">
+							<div id="courseDes" class="courseDes"></div>
+							<p class="headline_space_coursechoosed">The list of courses you chose:</p>
+							<div class="italictext_trackCourseChose">Colorizing according to course's type in <span id="trackNameCourseChose"></span> track.</div>
+								<span class="mandatoryCellColor"> </span><span class="italictext">&nbsp; Mandatory</span><br/>
+								<span class="optionalCellColor"> </span><span class="italictext">&nbsp; Optinal</span><br/>
+								<span class="freeCellColor"> </span><span class="italictext">&nbsp; Free</span><br/>
+							
+							<div id="ChosedCourse" class="div-table-ChosedCourse">
+								<div class="div-row-ChosedCourse">									
+									<div id="ChosedCourse-No" class="div-column-ChosedCourse-No-Header">No.</div>
+									<div id="ChosedCourse-Course" class="div-column-ChosedCourse-Course-Header">Course</div>
+									<div id="ChosedCourse-Credits" class="div-column-ChosedCourse-Credits-Header">Credits</div>									
+								</div>
+								<div class="scrollCourseChoseResultTrack">
+									<div id="CourseCreditTable" class="div-row-ChosedCourse">
+										<div id="CourseCredit"></div>
+									</div>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+				</aside>				
+				<div class="clear"></div>
+			</div>
+			
+			
+			<footer class="footer">
+				&copy; Eurecom - 2013
+				
+			</footer>
+		</div>
+	</body>
+</html>

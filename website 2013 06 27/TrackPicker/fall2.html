@@ -1,0 +1,545 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style/style.css" type="text/css"/>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<!--editAfterDeploy-->
+	<body onload="queryCourseInformationAddArray(); initCourseTrackArray(); queryCourseDepartment(); getSessionStorage(); fall2PageMark(); callCourseChoseScroll(event); callMakeScheduleOverlappedArray();">
+		<div id="main_container">
+			<header class="header">
+				
+				<img class="logo" src="images/logo.gif" alt="Eurecom Track Picker"/>
+				
+				<div class="title">TRACK PICKER</div>
+				
+			</header>
+			<div class="clear"></div>
+			
+			<div class="middle">
+				<aside class="side_left">
+					<p class="headline_space">The courses in Fall Semester:</p>
+						<span class="italictext_trackCourseChose">Department of teachers: <br/></span>
+						<span class="mulDepartmentCellColor"> </span><span class="italictext">&nbsp; Multimedia Communications</span><br/>
+						<span class="netSecuDepartmentCellColor"> </span><span class="italictext">&nbsp; Network and Security</span><br/>
+						<span class="mobDepartmentCellColor"> </span><span class="italictext">&nbsp; Mobile Communications</span><br/>
+						<span class="otherDepartmentCellColor"> </span><span class="italictext">&nbsp; Other departments</span><br/>					
+                    <p>
+                    	<div class="courseType">Technical courses:</div>
+                    	<div id="technicalCourseTeacher"></div>
+                    	<script>queryTechnicalCourseTeacherFall();
+                    	</script>
+                    </p>
+                    <p>
+                    	<div class="courseType">Non-technical courses:</div>
+                    	<div id="nonTechnicalCourseTeacher"></div>
+                    	<script>queryNonTechnicalCourseTeacherFall();</script>
+                    </p>
+                    <!--<p>
+                    	<div class="courseType">Language course:</div>
+                    	<div id="languageCourseTeacher"></div>
+                    	<!--<script>queryLanguageCourseTeacher();</script>
+                    </p>-->
+                    
+				</aside>
+				
+				<section id="content_container" class="container">
+					<section>
+						<p> 
+							<div id="courseDetails" class="courseDetails">
+								<div class="div-row-courseDetails">
+									<div id="teacherInformation" class="div-column-courseDetails"></div>
+									<div id="teacherImage" class="div-column-img-courseDetails"><canvas id="myCanvas" width="78" height="100"></canvas></div>			
+								</div>
+							</div>
+						</p>
+					</section>
+					<section>
+						<p class="paragraph_title">The curriculum regulations of Eurecom:</p>
+						<p>
+							In 3 semesters, you have to study at least <script>document.write(allCredits);</script> credits. Among them, there is at least <script>document.write(technicalCredits);</script> credits of technical courses (include at least <script>document.write(mandatoryCredits);</script> mandatory, <script>document.write(optionalCredits);</script> optional and some free course credits), <script>document.write(nonTechnicalCredits);</script> credits of non-technical courses, <script>document.write(languageCredits);</script> credits of languages courses, and 10 credits for project.
+						</p>
+					</section>
+					<section>
+						<p class="paragraph_title">You are choose courses for FALL 2 semester:</p>
+						<!--editAfterDeploy-->
+						<div class="backButton">
+							<span onclick="setSessionStorage();"><a href="../TrackPicker/fall1.html">Fall 1   </a></span>&nbsp &nbsp; &nbsp;&nbsp &nbsp;|&nbsp &nbsp; &nbsp;&nbsp &nbsp;
+							<span onclick="setSessionStorage();"><a href="../TrackPicker/spring.html"> Spring</a></span>&nbsp &nbsp; &nbsp &nbsp;&nbsp;|&nbsp &nbsp &nbsp;&nbsp; &nbsp;
+							<span onclick="setSessionStorage();"><a href="../TrackPicker/fall2.html">Fall 2</a></span>&nbsp &nbsp; &nbsp &nbsp;&nbsp;|&nbsp &nbsp; &nbsp;&nbsp &nbsp;
+							<span onclick="setSessionStorage();"><a href="../TrackPicker/internship.html">Internship </a></span>
+						</div>
+						<div class="clear"></div>
+						<p class="headline_space_letter">After chossing enough courses, you can check which track is suitable with you.</p>
+						<p class="button_center"><button id="checkTrackButton" disabled="disabled" value="Click Me" onclick="location.href='recommendedTrack.html'; setSessionStorage();">Check track</button></p>
+					</section>
+					<section>
+						<p class="paragraph_title">Credit counting:</p>
+						<p>
+							<!--<div id="container">
+								<div id="test"></div>
+							</div>
+							<div id="message"></div>-->
+							<div class="progress progress-striped">
+								<!--<div id="creditCountProgress" class="bar" style="width: 0%"></div>--><div id="creditFall1CountProgress" class="bar" style="width: 0%;"></div>
+  <div id="creditSpringCountProgress" class="bar bar-spring" style="width: 0%;"></div>
+  <div id="creditFall2CountProgress" class="bar bar-fall2" style="width: 0%;"></div>
+							</div>
+
+							<div id="creditCountAnnouncement"></div>
+							<!--editAfterDeploy-->
+							<div class="italicRedTextSmall" id="commentRuleEurecom"></div>
+							<div class="italicRedTextSmall" id="commentScheduleOverlappedCheck"></div>
+						</p>
+					</section>
+					<!--editAfterDeploy-->
+					<section ondrop="drop(event);" ondragover="allowDrop(event);">
+						
+						<p>
+						<div>
+							<div id="calendar" class="div-table_schedule">
+								<div class="div-row_schedule">
+									<div class="div-column_schedule_header"></div>
+									<div id="monday" class="div-column_schedule_header">Monday</div>
+									<div id="tuesday" class="div-column_schedule_header">Tuesday</div>
+									<div id="wednesday" class="div-column_schedule_header">Wednesday</div>
+									<div id="thursday" class="div-column_schedule_header">Thursday</div>
+									<div id="friday" class="div-column_schedule_header">Friday</div>
+								</div>
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">8:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="fall2_10800" class="div-column-quarter_schedule"></div>
+										<div id="fall2_10815" class="div-column-quarter_schedule"></div>
+										<div id="fall2_10830" class="div-column-quarter_schedule"></div>
+										<div id="fall2_10845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="fall2_20800" class="div-column-quarter_schedule"></div>
+										<div id="fall2_20815" class="div-column-quarter_schedule"></div>
+										<div id="fall2_20830" class="div-column-quarter_schedule"></div>
+										<div id="fall2_20845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="fall2_30800" class="div-column-quarter_schedule"></div>
+										<div id="fall2_30815" class="div-column-quarter_schedule"></div>
+										<div id="fall2_30830" class="div-column-quarter_schedule"></div>
+										<div id="fall2_30845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="fall2_40800" class="div-column-quarter_schedule"></div>
+										<div id="fall2_40815" class="div-column-quarter_schedule"></div>
+										<div id="fall2_40830" class="div-column-quarter_schedule"></div>
+										<div id="fall2_40845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="fall2_50800" class="div-column-quarter_schedule"></div>
+										<div id="fall2_50815" class="div-column-quarter_schedule"></div>
+										<div id="fall2_50830" class="div-column-quarter_schedule"></div>
+										<div id="fall2_50845" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>
+								<div class="div-row">
+									<div class="div-column_schedule">9:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="fall2_10900" class="div-column-quarter_schedule"></div>
+										<div id="fall2_10915" class="div-column-quarter_schedule"></div>
+										<div id="fall2_10930" class="div-column-quarter_schedule"></div>
+										<div id="fall2_10945" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="fall2_20900" class="div-column-quarter_schedule"></div>
+										<div id="fall2_20915" class="div-column-quarter_schedule"></div>
+										<div id="fall2_20930" class="div-column-quarter_schedule"></div>
+										<div id="fall2_20945" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="fall2_30900" class="div-column-quarter_schedule"></div>
+										<div id="fall2_30915" class="div-column-quarter_schedule"></div>
+										<div id="fall2_30930" class="div-column-quarter_schedule"></div>
+										<div id="fall2_30945" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="fall2_40900" class="div-column-quarter_schedule"></div>
+										<div id="fall2_40915" class="div-column-quarter_schedule"></div>
+										<div id="fall2_40930" class="div-column-quarter_schedule"></div>
+										<div id="fall2_40945" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="fall2_50900" class="div-column-quarter_schedule"></div>
+										<div id="fall2_50915" class="div-column-quarter_schedule"></div>
+										<div id="fall2_50930" class="div-column-quarter_schedule"></div>
+										<div id="fall2_50945" class="div-column-quarter_schedule"></div>
+									</div>	
+								</div>							
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">10:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="fall2_11000" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11015" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11030" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11045" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="fall2_21000" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21015" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21030" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21045" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="fall2_31000" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31015" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31030" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31045" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="fall2_41000" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41015" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41030" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41045" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="fall2_51000" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51015" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51030" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51045" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>								
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">11:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="fall2_11100" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11115" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11130" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11145" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="fall2_21100" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21115" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21130" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21145" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="fall2_31100" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31115" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31130" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31145" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="fall2_41100" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41115" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41130" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41145" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="fall2_51100" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51115" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51130" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51145" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>		
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">12:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="fall2_11200" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11215" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11230" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11245" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="fall2_21200" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21215" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21230" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21245" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="fall2_31200" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31215" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31230" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31245" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="fall2_41200" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41215" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41230" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41245" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="fall2_51200" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51215" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51230" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51245" class="div-column-quarter_schedule"></div>
+									</div>	
+								</div>
+								<div class="div-row">
+									<div class="div-column_schedule">13:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="fall2_11300" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11315" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11330" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11345" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="fall2_21300" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21315" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21330" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21345" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="fall2_31300" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31315" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31330" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31345" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="fall2_41300" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41315" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41330" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41345" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="fall2_51300" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51315" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51330" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51345" class="div-column-quarter_schedule"></div>
+									</div>	
+								</div>
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">14:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="fall2_11400" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11415" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11430" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11445" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="fall2_21400" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21415" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21430" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21445" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="fall2_31400" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31415" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31430" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31445" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="fall2_41400" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41415" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41430" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41445" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="fall2_51400" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51415" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51430" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51445" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>	
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">15:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="fall2_11500" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11515" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11530" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11545" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="fall2_21500" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21515" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21530" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21545" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="fall2_31500" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31515" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31530" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31545" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="fall2_41500" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41515" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41530" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41545" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="fall2_51500" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51515" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51530" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51545" class="div-column-quarter_schedule"></div>
+									</div>	
+								</div>
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">16:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="fall2_11600" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11615" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11630" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11645" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="fall2_21600" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21615" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21630" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21645" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="fall2_31600" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31615" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31630" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31645" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="fall2_41600" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41615" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41630" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41645" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="fall2_51600" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51615" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51630" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51645" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>	
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">17:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="fall2_11700" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11715" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11730" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11745" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="fall2_21700" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21715" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21730" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21745" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="fall2_31700" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31715" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31730" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31745" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="fall2_41700" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41715" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41730" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41745" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="fall2_51700" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51715" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51730" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51745" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>	
+								<div class="div-row_schedule">
+									<div class="div-column_schedule">18:00</div>
+									<div id="monday" class="div-column_schedule">
+										<div id="fall2_11800" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11815" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11830" class="div-column-quarter_schedule"></div>
+										<div id="fall2_11845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="tuesday" class="div-column_schedule">
+										<div id="fall2_21800" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21815" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21830" class="div-column-quarter_schedule"></div>
+										<div id="fall2_21845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="wednesday" class="div-column_schedule">
+										<div id="fall2_31800" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31815" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31830" class="div-column-quarter_schedule"></div>
+										<div id="fall2_31845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="thursday" class="div-column_schedule">
+										<div id="fall2_41800" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41815" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41830" class="div-column-quarter_schedule"></div>
+										<div id="fall2_41845" class="div-column-quarter_schedule"></div>
+									</div>
+									<div id="friday" class="div-column_schedule">
+										<div id="fall2_51800" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51815" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51830" class="div-column-quarter_schedule"></div>
+										<div id="fall2_51845" class="div-column-quarter_schedule"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</p>
+						
+						<p>
+							<div id="timeCourse"></div>
+							<div id="test"></div>
+						</p>
+						<!--
+						<p>
+							<div id="layer1" style="position:absolute; left:20px; width:410px; height:10px; visibility:hidden;">
+							<table border="0" cellspacing="0" cellpadding="3">
+							 <tr>
+							  <td class="top">
+							       <a href="javascript:hideIt()" style="text-decoration: none"><font color="#ffffff"><b>X</b></font></a>
+							  </td>
+							 </tr>
+							 <tr>
+							
+							  <td class="bottom">
+							    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+							    ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+							    <br><br>
+							    [<em>You can close the layer by clicking the <strong>X</strong> at the top right of this layer.</em>]
+							  </td>
+							 </tr>
+							</table>
+							</font>
+							
+							</div>
+							
+							<form>
+							  <input type="button" value="Open popup" onClick="showIt()">
+							</form>
+
+						</p>					
+						
+						<p><form><input type="checkbox" onclick="queryCourseCredits('SATT',0); queryCourseTime('SATT',0);"></form></p>
+						-->						
+						<p><a href="../TrackPicker/home.html">Back to home</a></p>
+					</section>
+				</section>
+				
+				<aside class="side_right">
+					<div class="courseChosedBigBorder">
+						<div id="courseChosedBorder" class="courseChosedBorder">
+							<div id="courseDes" class="courseDes"></div>
+							<p class="headline_space_coursechoosed">The list of courses you chose:</p>
+							<div id="ChosedCourse" class="div-table-ChosedCourse">
+								<div class="div-row">									
+									<div id="ChosedCourse-No" class="div-column-ChosedCourse-No-Header">No.</div>
+									<div id="ChosedCourse-Course" class="div-column-ChosedCourse-Course-Header">Course</div>
+									<div id="ChosedCourse-Credits" class="div-column-ChosedCourse-Credits-Header">Credits</div>									
+								</div>
+								<div class="scrollCourseChose">
+									<div id="CourseCreditTable" class="div-row">
+										<div id="CourseCredit">	</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</aside>				
+				<div class="clear"></div>
+			</div>
+			
+			
+			<footer class="footer">
+				&copy; Eurecom - 2013
+				
+			</footer>
+		</div>
+	</body>
+</html>

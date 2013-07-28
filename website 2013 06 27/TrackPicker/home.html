@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style/style.css" type="text/css"/>
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<!--queryCourseInformationAddArray(); initCourseTrackArray();-->
+	<body onload=" queryCourseDepartment(); defaultSemesterMark();"> <!--nullCookie();-->
+		<div id="main_container">
+			<header class="header">
+				
+				<img class="logo" src="images/logo.gif" alt="Eurecom Track Picker"/>
+				
+				<div class="title">TRACK PICKER</div>
+				
+			</header>
+			<div class="clear"></div>
+			
+			<div class="middle">
+				<aside class="side_left">
+					<p class="headline_space">All of courses at Eurecom:</p>
+						<span class="italictext_trackCourseChose">Department of teachers: <br/></span>
+						<span class="mulDepartmentCellColor"> </span><span class="italictext">&nbsp; Multimedia Communications</span><br/>
+						<span class="netSecuDepartmentCellColor"> </span><span class="italictext">&nbsp; Network and Security</span><br/>
+						<span class="mobDepartmentCellColor"> </span><span class="italictext">&nbsp; Mobile Communications</span><br/>
+						<span class="otherDepartmentCellColor"> </span><span class="italictext">&nbsp; Other departments</span><br/>					
+                    <p>
+                    	<div class="courseType">Technical courses:</div>
+                    	<div id="technicalCourseTeacher"></div>
+                    	<script>queryTechnicalCourseTeacher();
+                    	</script>
+                    </p>
+                    <p>
+                    	<div class="courseType">Non-technical courses:</div>
+                    	<div id="nonTechnicalCourseTeacher"></div>
+                    	<script>queryNonTechnicalCourseTeacher();</script>
+                    </p>
+				</aside>
+				
+				<section id="content_container" class="container">
+					<section>
+						<p> 
+							<div id="courseDetails" class="courseDetails">
+								<div class="div-row-courseDetails">
+									<div id="teacherInformation" class="div-column-courseDetails"></div>
+									<div id="teacherImage" class="div-column-img-courseDetails"><div id="cha"><canvas id="myCanvas" width="78" height="100"></canvas></div></div>								</div>
+							</div>
+						</p>
+					</section>
+
+					<section>
+						<p class="track_picker">Track picker:</p>
+						<p class="headline_space">This web application of Eurecom helps you choose the suitable track for you. You use this Track Picker application by choosing all of courses that you want to study such that the list of courses you choose is satisfied the curriculum regulation of Eurecom. </p>
+					</section>
+					<section>
+						<p class="paragraph_title">The curriculum regulations of Eurecom:</p>
+						<p>
+							In 3 semesters, you have to study at least <script>document.write(allCredits);</script> credits. Among them, there is at least <script>document.write(technicalCredits);</script> credits of technical courses (include at least <script>document.write(mandatoryCredits);</script> mandatory, <script>document.write(optionalCredits);</script> optional and some free course credits), <script>document.write(nonTechnicalCredits);</script> credits of non-technical courses, <script>document.write(languageCredits);</script> credits of languages courses, and 10 credits for project.
+							
+						</p>
+					</section>
+					<section>
+						<p class="paragraph_title">You click on each semester to choose courses for each one:</p>
+						<!--editAfterDeploy-->
+						<div class="backButton">
+							<span><a href="../TrackPicker/semester.html"> Begin to choose courses  </a></span>&nbsp &nbsp; &nbsp;&nbsp &nbsp; &nbsp &nbsp; &nbsp;&nbsp &nbsp;
+							&nbsp &nbsp; &nbsp &nbsp;&nbsp;|&nbsp &nbsp; &nbsp;&nbsp &nbsp;
+							<span><a href="../TrackPicker/internship.html">Internship</a></span>
+						</div>
+
+						<!--<p class="button_center">
+						
+							<button class="margin_button"> <a href="../TrackPicker/fall1.html">Fall 1</a></button>
+							<button class="margin_button"><a href="../TrackPicker/spring.html">Spring</a></button>
+							<button class="margin_button"><a href="fall2.html">Fall 2</a></button>
+							<button class="margin_button">Iternship</button>
+							
+						</p>-->
+						<p class="headline_space">After chossing enough courses, you can check which track is suitable with you.</p>
+						<!--<p class="button_center"><button disabled>Check track</button></p>-->
+					</section>
+				</section>
+				
+				<aside class="side_right">
+					<div id="courseDes" class="courseDes"></div>
+					<p style="padding-left:10px">Connect to tracks on Eurecom website:</p>		
+					<ul>
+						<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/web-engineering-0">Web Engineering</a></li>
+						<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks/mobile-communications">Mobile Communications</a>	</li>
+						<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks-0">Multimedia</a></li>
+						<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks-1">Networking</a></li>
+						<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks">Real-time and embedded systems</a></li>
+						<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks/communication-system-security">Communication System Security</a></li>
+						<li><a href="http://www.eurecom.fr/en/teaching/engineering-studies/24-months-curriculum/tracks/transmission-technologies">Transmission technologies</a></li>
+					</ul>
+						
+					
+				</aside>
+				<div class="clear"></div>
+			</div>
+			
+			
+			<footer class="footer">
+				&copy; Eurecom - 2013
+				
+			</footer>
+		</div>
+	</body>
+</html>

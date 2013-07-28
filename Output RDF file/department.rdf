@@ -1,7 +1,9 @@
 <rdf:RDF
     xmlns:REVE="http://data.eurecom.fr/ontology/reve#"
+    xmlns:SKOS="http://www.w3.org/2004/02/skos/core.html#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:FOAF="http://xmlns.com/foaf/0.1/"
+    xmlns:ORG="http://www.w3.org/TR/vocab-org/#"
     xmlns:DC="http://purl.org/dc/terms/"
     xmlns:PART="http://purl.org/vocab/participation/schema#"
     xmlns:TIME="http://www.w3.org/2006/time#"
@@ -13,12 +15,12 @@
     <rdfs:label xml:lang="en">ParisTech Usage</rdfs:label>
     <rdf:type rdf:resource="http://vocab.org/aiiso/schema#Department"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/department/5">
     <rdfs:label xml:lang="en">IT Support</rdfs:label>
     <rdf:type rdf:resource="http://vocab.org/aiiso/schema#Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/department/14">
     <rdfs:label xml:lang="en">ParisTech Soc</rdfs:label>

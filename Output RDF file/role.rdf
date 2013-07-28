@@ -1,7 +1,9 @@
 <rdf:RDF
     xmlns:REVE="http://data.eurecom.fr/ontology/reve#"
+    xmlns:SKOS="http://www.w3.org/2004/02/skos/core.html#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:FOAF="http://xmlns.com/foaf/0.1/"
+    xmlns:ORG="http://www.w3.org/TR/vocab-org/#"
     xmlns:DC="http://purl.org/dc/terms/"
     xmlns:PART="http://purl.org/vocab/participation/schema#"
     xmlns:TIME="http://www.w3.org/2006/time#"
@@ -216,6 +218,9 @@
     <PART:holder rdf:resource="http://data.eurecom.fr/people/44207"/>
     <rdf:type rdf:resource="http://purl.org/vocab/participation/schema#Role"/>
   </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/role/344">
     <PART:holder rdf:resource="http://data.eurecom.fr/people/43041"/>
     <rdf:type rdf:resource="http://purl.org/vocab/participation/schema#Role"/>
@@ -242,7 +247,7 @@
   <rdf:Description rdf:about="http://data.eurecom.fr/role/311">
     <PART:role_at rdf:resource="http://data.eurecom.fr/department/6"/>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Researcher"/>
-    <PART:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-03-31</PART:endDate>
+    <PART:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-05-21</PART:endDate>
     <PART:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-12</PART:startDate>
     <PART:holder rdf:resource="http://data.eurecom.fr/people/43960"/>
     <rdf:type rdf:resource="http://purl.org/vocab/participation/schema#Role"/>
@@ -260,9 +265,6 @@
   <rdf:Description rdf:about="http://data.eurecom.fr/role/358">
     <PART:holder rdf:resource="http://data.eurecom.fr/people/43125"/>
     <rdf:type rdf:resource="http://purl.org/vocab/participation/schema#Role"/>
-  </rdf:Description>
-  <rdf:Description rdf:nodeID="A0">
-    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://data.eurecom.fr/role/323">
     <PART:holder rdf:resource="http://data.eurecom.fr/people/822"/>
@@ -509,7 +511,7 @@
   <rdf:Description rdf:about="http://data.eurecom.fr/role/315">
     <PART:role_at rdf:resource="http://data.eurecom.fr/department/7"/>
     <rdf:type rdf:resource="http://data.eurecom.fr/ontology/reve#Researcher"/>
-    <PART:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-03-14</PART:endDate>
+    <PART:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-09-30</PART:endDate>
     <PART:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-03-15</PART:startDate>
     <PART:holder rdf:resource="http://data.eurecom.fr/people/44032"/>
     <rdf:type rdf:resource="http://purl.org/vocab/participation/schema#Role"/>
